@@ -415,7 +415,7 @@
   - crc32
   - cpuid
   implementer: 0x41
-  name: BCM8237
+  name: BCM2837
   part:
   - 0xd03
   revision: 0x4
