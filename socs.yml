@@ -542,3 +542,19 @@
   revision: 0x4
   variant: 0x0
   vendor: Allwinner
+- features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  implementer: 0x41
+  name: Snapdragon 625
+  part:
+  - 0xd03
+  revision: 0x4
+  variant: 0x0
+  vendor: Qualcomm
