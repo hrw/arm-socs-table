@@ -1,120 +1,264 @@
 aes:
   archv: 8.0
+  feat: FEAT_AES
+  note: v8.0 crypto
+afp:
+  archv: 8.7
+  feat: FEAT_AFP
+  note: v8.7 mandatory
 asimd:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 asimddp:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 asimdfhm:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 asimdhp:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 asimdrdm:
-  archv: 8.0
+  archv: 8.1
+  feat: FEAT_RDM
+  note: v8.1 mandatory
 atomics:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 bf16:
-  archv: 8.0
+  archv: 8.2
+  feat: FEAT_BF16
+  note: v8.2 optional, v8.6 mandatory
 bti:
-  archv: 8.0
+  archv: 8.5
+  feat: FEAT_BTI
+  note: v8.5 mandatory
 cpuid:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 crc32:
-  archv: 8.0
+  archv: 8.1
+  feat: FEAT_CRC32
+  note: v8.0 optional, v8.1 mandatory
 dcpodp:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 dcpop:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 dgh:
   archv: 8.0
+  feat: FEAT_DGH
+  note: v8.0 optional
 dit:
-  archv: 8.0
+  archv: 8.4
+  feat: FEAT_DIT
+  note: v8.4 mandatory
+ebf16:
+  archv: 9.2
+  feat: FEAT_EBF16
+  note: v9.2 optional
+ecv:
+  archv: 8.6
+  feat: FEAT_ECV
+  note: v8.6 mandatory
 evtstrm:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 fcma:
-  archv: 8.0
+  archv: 8.3
+  feat: FEAT_FCMA
+  note: v8.3 mandatory
 flagm:
-  archv: 8.0
+  archv: 8.2
+  feat: FEAT_FlagM
+  note: v8.2 optional, v8.4 mandatory
 flagm2:
-  archv: 8.0
+  archv: 8.5
+  feat: FEAT_FlagM2
+  note: v8.5 mandatory
 fp:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 fphp:
-  archv: 8.0
+  archv: 8.2
+  feat: FEAT_FP16
+  note: v8.2 depends, v8.4 depends
 frint:
-  archv: 8.0
+  archv: 8.5
+  feat: FEAT_FRINTTS
+  note: v8.5 mandatory
 i8mm:
-  archv: 8.0
+  archv: 8.2
+  feat: FEAT_I8MM
+  note: v8.2 optional, v8.6 mandatory
 ilrcpc:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 jscvt:
-  archv: 8.0
+  archv: 8.3
+  feat: FEAT_JSCVT
+  note: v8.3 mandatory
 lrcpc:
-  archv: 8.0
+  archv: 8.3
+  feat: FEAT_LRCPC
+  note: v8.3 mandatory
 mte:
-  archv: 8.0
+  archv: 8.5
+  feat: FEAT_MTE
+  note: v8.5 optional
 mte3:
-  archv: 8.0
+  archv: 8.5
+  feat: FEAT_MTE3
+  note: v8.5 optional, v8.7 mandatory
 paca:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 pacg:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 pmull:
   archv: 8.0
+  feat: FEAT_PMULL
+  note: v8.0 crypto
 rng:
-  archv: 8.0
+  archv: 8.5
+  feat: FEAT_RNG
+  note: v8.5 optional
+rpres:
+  archv: 8.7
+  feat: FEAT_RPRES
+  note: v8.7 optional
 sb:
   archv: 8.0
+  feat: FEAT_SB
+  note: v8.0 optional, v8.5 mandatory
 sha1:
   archv: 8.0
+  feat: FEAT_SHA1
+  note: v8.0 crypto
 sha2:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 sha3:
-  archv: 8.0
+  archv: 8.2
+  feat: FEAT_SHA3
+  note: v8.2 optional
 sha512:
-  archv: 8.0
+  archv: 8.2
+  feat: FEAT_SHA512
+  note: v8.2 optional
 sm3:
-  archv: 8.0
+  archv: 8.2
+  feat: FEAT_SM3
+  note: v8.2 optional
 sm4:
-  archv: 8.0
+  archv: 8.2
+  feat: FEAT_SM4
+  note: v8.2 optional
 sme:
-  archv: 8.0
+  archv: 9.2
+  feat: FEAT_SME
+  note: v9.2 optional
 smeb16f32:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 smef16f32:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 smef32f32:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 smef64f64:
-  archv: 8.0
+  archv: 9.2
+  feat: FEAT_SME_F64F64
+  note: v9.2 optional
 smefa64:
-  archv: 8.0
+  archv: 9.2
+  feat: FEAT_SME_FA64
+  note: v9.2 optional
 smei16i64:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 smei8i32:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 ssbs:
   archv: 8.0
+  feat: FEAT_SSBS
+  note: v8.0 optional
 sve:
-  archv: 8.0
+  archv: 8.2
+  feat: FEAT_SVE
+  note: v8.2 optional
 sve2:
-  archv: 8.0
+  archv: 9.0
+  feat: FEAT_SVE2
+  note: v9.0 optional
 sveaes:
-  archv: 8.0
+  archv: 9.0
+  feat: FEAT_SVE_AES
+  note: v9.0 optional
 svebf16:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 svebitperm:
-  archv: 8.0
+  archv: 9.0
+  feat: FEAT_SVE_BitPerm
+  note: v9.0 optional
+sveebf16:
+  archv: 8.7
+  feat: FEAT_
+  note: " "
 svef32mm:
-  archv: 8.0
+  archv: 8.2
+  feat: FEAT_F32MM
+  note: v8.2 optional
 svef64mm:
-  archv: 8.0
+  archv: 8.2
+  feat: FEAT_F64MM
+  note: v8.2 optional
 svei8mm:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 svepmull:
   archv: 8.0
+  feat: FEAT_
+  note: " "
 svesha3:
-  archv: 8.0
+  archv: 9.0
+  feat: FEAT_SVE_SHA3
+  note: v9.0 optional
 svesm4:
-  archv: 8.0
+  archv: 9.0
+  feat: FEAT_SVE_SM4
+  note: v9.0 optional
 uscat:
-  archv: 8.0
+  archv: 8.2
+  feat: FEAT_LSE2
+  note: v8.2 optional, v8.4 mandatory
+wfxt:
+  archv: 8.7
+  feat: FEAT_WFxT
+  note: v8.7 mandatory
