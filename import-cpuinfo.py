@@ -31,9 +31,17 @@ for line in cpu_data:
 print("{")
 print(f"    \"name\": \"{sys.argv[2]}\",")
 print(f"    \"vendor\": \"FILL ME\",")
-print(f"    \"features\": {features},")
+print(f"    \"features\": [")
+
+for feature in features:
+      print(f"                     \"{feature}\",")
+
+print("],")
 print(f"    \"implementer\": {implementer},")
-print(f"    \"part\": {sorted(part, reverse=True)},")
+print(f"    \"part\": [")
+for core in part:
+    print(f"{core},")
+print("],")
 print(f"    \"revision\": {revision},")
 print(f"    \"variant\": {variant}")
 print("},")
