@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>AArch64 SoC features table</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="AArch64 SoC features table" />
+    <meta name="keywords" content="" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@haerwu" />
+    <meta name="twitter:title" content="Marcin Juszkiewicz"/>
+    <meta name="twitter:description" content="AArch64 SoC features table" />
+    <meta name="twitter:creator" content="@haerwu" />
+    <meta name="twitter:image" content="https://marcin.juszkiewicz.com.pl/files/images/hrw-512.jpg" />
+
+    <meta property="og:title" content="AArch64 SoC features table" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://marcin.juszkiewicz.com.pl/download/tables/syscalls.html" />
+    <meta property="og:description" content="AArch64 SoC features table" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:site_name" content="Marcin Juszkiewicz" />
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.2.3/css/buttons.dataTables.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/colreorder/1.5.6/css/colReorder.dataTables.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedheader/3.2.4/css/fixedHeader.dataTables.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/datatables.mark.js/2.0.0/datatables.mark.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/plug-ins/1.10.13/features/mark.js/datatables.mark.min.css"/>
+
+    <script type="text/javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.3/js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.colVis.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/colreorder/1.5.6/js/dataTables.colReorder.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/fixedheader/3.2.4/js/dataTables.fixedHeader.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/g/mark.js(jquery.mark.min.js)"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/plug-ins/1.12.1/features/mark.js/datatables.mark.js"></script>
+    <script type="text/javascript" id="js">
+            $(document).ready(function() {
+                    $("table").DataTable( {
+                            pageLength  : -1,
+                            fixedHeader : true,
+                            colReorder  : true,
+                            mark        : true,
+                            dom         : 'Bft'
+                    });
+    });
+    </script>
+    <style type="text/css">
+
+table.arm_socs {
+        border: 1px solid #000;
+}
+
+table.arm_socs th {
+        text-align: center;
+        padding: 0.5em;
+        line-height: 2em;
+        color: white;
+}
+
+table.arm_socs thead {
+        border: 1px solid black;
+        background-color: grey;
+}
+
+table.arm_socs td {
+        padding: 0.5em;
+}
+
+table.arm_socs tbody tr.odd td {
+        background-color: lightgrey;
+}
+
+.legacy, table.arm_socs tbody tr.odd td.legacy {
+        background-color: lightpink;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+    </style>
+</head>
+<body>
+
+<h1>AArch64 SoC features table</h1>
+    <p>
+    Table shows which cpu features are present in AArch64 SoCs.
+    </p>
+
+<h2>How to use</h2>
+    <p>There are few features you can use:</p>
+
+    <ul>
+        <li>search field allows to filter table</li>
+        <li>clicking on header entries sorts table</li>
+        <li>columns can be reordered by dragging column header</li>
+    </ul>
+
+<h2>Some notes</h2>
+
+    <ul>
+        <li>table is updated at random moments</li>
+    </ul>
+
+<h2>Author info</h2>
+    <p>
+    Table is maintained by <a href="https://marcin.juszkiewicz.com.pl/">Marcin Juszkiewicz</a> &mdash; AArch64/Arm developer working at Red Hat as Linaro assignee.
+    </p>
+<h2>How to help</h2>
+    <p>
+    Sources used to generate table are available in <a
+    href="https://github.com/hrw/syscalls-table">git repository at github</a>.
+    Patches are always welcomed.
+    </p>
+    <p>
+    If this table helped you in some project then please leave a comment in
+    <a href="https://github.com/hrw/syscalls-table/issues/12">issue on GitHub</a>.
+    </p>
+
+<h2>Build info</h2>
+    <p>Table generated on <strong>{{ generate_time }} UTC</strong>.</p>
+
+<table class="arm_socs">
+    <thead>
+        <tr>
+            <th>SoC name</th>
+            <th>CPU implementer</th>
+            <th>CPU cores</th>
+{% for feature in cpu_features %}
+            <th>{{ feature }}</th>
+{% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+{% for soc in socs %}
+    <tr>
+	<td>{{ soc.name  }}</td>
+	<td class="nowrap">{{ soc.implementer_name }}</td>
+	<td>{% for name in soc.core_names %}{{ name }}{% if not loop.last %}, {% endif %}{% endfor %}</td>
+    {% for feature in cpu_features %}
+        {% if feature in soc['features'] %}
+        <td> YES </td>
+        {% else %}
+        <td class="legacy">NO</td>
+        {% endif %}
+    {% endfor %}
+    </tr>
+{% endfor %}
+    </tbody>
+</table>
+</body>
+</html>
