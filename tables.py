@@ -182,7 +182,7 @@ socs = [
     },
     {
         # Apple Macbook
-        "name": "M1",
+        "name": "M1 Max",
         "vendor": "Apple",
         "features": [
             "fp",
@@ -220,6 +220,47 @@ socs = [
         "implementer": 0x61,
         "variant": 0x2,
         "part": [0x028],
+    },
+    {
+        "name": "M1 Pro",
+        "vendor": "Apple",
+        "features": [
+            "fp",
+            "asimd",
+            "evtstrm",
+            "aes",
+            "pmull",
+            "sha1",
+            "sha2",
+            "crc32",
+            "atomics",
+            "fphp",
+            "asimdhp",
+            "cpuid",
+            "asimdrdm",
+            "jscvt",
+            "fcma",
+            "lrcpc",
+            "dcpop",
+            "sha3",
+            "asimddp",
+            "sha512",
+            "asimdfhm",
+            "dit",
+            "uscat",
+            "ilrcpc",
+            "flagm",
+            "ssbs",
+            "sb",
+            "paca",
+            "pacg",
+            "dcpodp",
+            "flagm2",
+            "frint"
+        ],
+        "implementer": 0x61,
+        "part": [0x024, 0x025],
+        "variant": 0x2
     },
     {
         # Mt.Snow
