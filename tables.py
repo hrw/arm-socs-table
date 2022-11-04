@@ -549,6 +549,25 @@ socs = [
         "part": [0xd08],
         "revision": 3,
     },
+    {
+        # Purism Librem 5
+        "name": "i.MX 8M Quad",
+        "vendor": "NXP",
+        "features": [
+            "fp",
+            "asimd",
+            "evtstrm",
+            "aes",
+            "pmull",
+            "sha1",
+            "sha2",
+            "crc32",
+            "cpuid",
+        ],
+        "implementer": 0x41,
+        "part": [0xd03],
+        "revision": 4,
+    },
 ]
 
 cpu_features = {
