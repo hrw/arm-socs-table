@@ -5,6 +5,11 @@ import sys
 import tables
 import yaml
 
+if len(sys.argv) < 4:
+    print(f"Usage: {os.path.basename(__file__)} "
+          "cpuinfo-file soc-name soc-vendor")
+    sys.exit(-1)
+
 
 def hexint_presenter(dumper, data):
     return dumper.represent_int(hex(data))
