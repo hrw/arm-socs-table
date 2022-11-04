@@ -408,3 +408,16 @@
   - 0xd03
   revision: 0x4
   vendor: NXP
+- features:
+  - fp
+  - asimd
+  - evtstrm
+  - crc32
+  - cpuid
+  implementer: 0x41
+  name: BCM8237
+  part:
+  - 0xd03
+  revision: 0x4
+  variant: 0x0
+  vendor: Broadcom

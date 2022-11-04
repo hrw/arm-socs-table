@@ -1,0 +1,44 @@
+processor       : 0
+model name      : ARMv8 Processor rev 4 (v8l)
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 1
+model name      : ARMv8 Processor rev 4 (v8l)
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 2
+model name      : ARMv8 Processor rev 4 (v8l)
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 3
+model name      : ARMv8 Processor rev 4 (v8l)
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+Hardware        : BCM2835
+Revision        : a02082
+Serial          : 000000002e2fe545
+Model           : Raspberry Pi 3 Model B Rev 1.2
