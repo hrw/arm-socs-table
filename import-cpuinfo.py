@@ -1,47 +1,44 @@
 #!/usr/bin/env python3
 
-import tables
+import os
 import sys
+import tables
+import yaml
+
+
+def hexint_presenter(dumper, data):
+    return dumper.represent_int(hex(data))
+
+
+yaml.add_representer(int, hexint_presenter)
 
 cpu_data = []
 
 with open(sys.argv[1]) as cpuinfo:
     cpu_data = cpuinfo.readlines()
 
-features = ""
-implementer = 0
-variant = 0
-part = []
-revision = 0
+new_soc = {
+    "part": [],
+    "features": [],
+    "name": sys.argv[2],
+    "vendor": sys.argv[3]
+}
 
 for line in cpu_data:
-    if line.startswith("Features") and features == "":
-        features = line.partition(":")[2].strip().split(" ")
-    elif line.startswith("CPU implementer") and not implementer:
-        implementer = line.partition(":")[2].strip()
+    if line.startswith("Features") and not new_soc["features"]:
+        new_soc["features"] = line.partition(":")[2].strip().split(" ")
+    elif line.startswith("CPU implementer"):
+        new_soc["implementer"] = int(line.partition(":")[2].strip(), base=16)
     elif line.startswith("CPU variant"):
-        variant = line.partition(":")[2].strip()
+        new_soc["variant"] = int(line.partition(":")[2].strip(), base=16)
     elif line.startswith("CPU part"):
-        line_part = line.partition(":")[2].strip()
-        if line_part not in part:
-            part.append(line_part)
+        line_part = int(line.partition(":")[2].strip(), base=16)
+        if line_part not in new_soc["part"]:
+            new_soc["part"].append(line_part)
     elif line.startswith("CPU revision"):
-        revision = line.partition(":")[2].strip()
+        new_soc["revision"] = int(line.partition(":")[2].strip(), base=16)
 
-print("{")
-print(f"    \"name\": \"{sys.argv[2]}\",")
-print(f"    \"vendor\": \"FILL ME\",")
-print(f"    \"features\": [")
+tables.socs.append(new_soc)
 
-for feature in features:
-      print(f"                     \"{feature}\",")
-
-print("],")
-print(f"    \"implementer\": {implementer},")
-print(f"    \"part\": [")
-for core in part:
-    print(f"{core},")
-print("],")
-print(f"    \"revision\": {revision},")
-print(f"    \"variant\": {variant}")
-print("},")
+with open("socs.yml", "w") as yml:
+    yaml.dump(tables.socs, yml)
