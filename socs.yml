@@ -525,3 +525,20 @@
   revision: 0x13
   variant: 0x6
   vendor: Qualcomm
+- features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  implementer: 0x41
+  name: H5
+  part:
+  - 0xd03
+  revision: 0x4
+  variant: 0x0
+  vendor: Allwinner
