@@ -7,6 +7,10 @@ import yaml
 
 # taken from util-linux/sys-utils/lscpu-arm.c
 cpu_cores = {
+    0x0: {
+        "name": "QEMU",
+        "0x51": "Max",
+    },
     0x41: {
         "name": "ARM",
         "0x0": "?",
