@@ -126,6 +126,7 @@ socs = [
     {
         # Solidrun Honeycomb
         "name": "LX2160A",
+        "vendor": "NXP",
         "features": [
             "fp",
             "asimd",
@@ -144,6 +145,7 @@ socs = [
     {
         # EspressoBIN
         "name": "Armada 37xx",
+        "vendor": "Marvell",
         "features": [
             "fp",
             "asimd",
@@ -162,6 +164,7 @@ socs = [
     {
         # Rockpro64
         "name": "RK3399",
+        "vendor": "Rockchip",
         "features": [
             "fp",
             "asimd",
@@ -179,7 +182,8 @@ socs = [
     },
     {
         # Apple Macbook
-        "name": "Apple M1",
+        "name": "M1",
+        "vendor": "Apple",
         "features": [
             "fp",
             "asimd",
@@ -219,7 +223,8 @@ socs = [
     },
     {
         # Mt.Snow
-        "name": "Ampere Altra",
+        "name": "Altra",
+        "vendor": "Ampere",
         "features": [
             "fp",
             "asimd",
@@ -247,6 +252,7 @@ socs = [
     {
         # Applied Micro Mustang
         "name": "X-Gene",
+        "vendor": "Applied Micro",
         "features": [
             "fp",
             "asimd",
@@ -260,6 +266,7 @@ socs = [
     {
         # Fujitsu
         "name": "A64FX",
+        "vendor": "Fujitsu",
         "features": [
             "fp",
             "asimd",
@@ -283,6 +290,7 @@ socs = [
     {
         # NVIDIA
         "name": "Jetson Orin",
+        "vendor": "NVIDIA",
         "features": [
             "fp",
             "asimd",
@@ -311,6 +319,7 @@ socs = [
     {
         # HP X2 Chromebook
         "name": "Snapdragon 7 SC7180",
+        "vendor": "Qualcomm",
         "features": [
             "fp",
             "asimd",
@@ -337,6 +346,7 @@ socs = [
     {
         # AWS Graviton3
         "name": "Graviton 3",
+        "vendor": "Amazon",
         "features": [
             "fp",
             "asimd",
@@ -385,6 +395,7 @@ socs = [
     {
         # Huawei P30
         "name": "Kirin 980",
+        "vendor": "Huawei",
         "features": [
             "fp",
             "asimd",

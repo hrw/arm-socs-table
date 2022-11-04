@@ -127,6 +127,7 @@ table.arm_socs tbody tr.odd td {
 <table class="arm_socs">
     <thead>
         <tr>
+            <th>SoC vendor</th>
             <th>SoC name</th>
             <th>CPU implementer</th>
             <th>CPU cores</th>
@@ -138,6 +139,7 @@ table.arm_socs tbody tr.odd td {
     <tbody>
 {% for soc in socs %}
     <tr>
+	<td>{{ soc.vendor  }}</td>
 	<td>{{ soc.name  }}</td>
 	<td class="nowrap">{{ soc.implementer_name }}</td>
 	<td>{% for name in soc.core_names %}{{ name }}{% if not loop.last %}, {% endif %}{% endfor %}</td>
