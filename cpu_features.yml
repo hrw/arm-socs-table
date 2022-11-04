@@ -11,22 +11,22 @@ afp:
 asimd:
   archv: 8.0
   feat: ' '
-  name: ' '
+  name: Advanced SIMD
   note: ' '
 asimddp:
-  archv: 8.0
-  feat: ' '
-  name: ' '
-  note: ' '
+  archv: 8.2
+  feat: FEAT_DotProd
+  name: Advanced SIMD dot product instructions
+  note: v8.2 optional, v8.4 mandatory
 asimdfhm:
-  archv: 8.0
-  feat: ' '
-  name: ' '
-  note: ' '
+  archv: 8.2
+  feat: FEAT_FHM
+  name: Floating-point half-precision multiplication instructions
+  note: v8.2 optional, v8.4 depends
 asimdhp:
-  archv: 8.0
-  feat: ' '
-  name: ' '
+  archv: 8.2
+  feat: FEAT_FP16
+  name: Advanced SIMD with FEAT_FP16
   note: ' '
 asimdrdm:
   archv: 8.1
@@ -34,10 +34,10 @@ asimdrdm:
   name: Advanced SIMD rounding double multiply accumulate instructions
   note: v8.1 mandatory
 atomics:
-  archv: 8.0
-  feat: ' '
-  name: ' '
-  note: ' '
+  archv: 8.1
+  feat: FEAT_LSE
+  name: Large System Extensions
+  note: v8.1 mandatory
 bf16:
   archv: 8.2
   feat: FEAT_BF16
@@ -59,15 +59,15 @@ crc32:
   name: Changes to CRC32 instructions
   note: v8.0 optional, v8.1 mandatory
 dcpodp:
-  archv: 8.0
-  feat: ' '
-  name: ' '
-  note: ' '
+  archv: 8.2
+  feat: FEAT_DPB2
+  name: DC CVADP instruction
+  note: v8.2 optional, v8.5 mandatory
 dcpop:
-  archv: 8.0
-  feat: ' '
-  name: ' '
-  note: ' '
+  archv: 8.2
+  feat: FEAT_DPB
+  name: DC CVAP instruction
+  note: v8.2 mandatory
 dgh:
   archv: 8.0
   feat: FEAT_DGH
@@ -111,7 +111,7 @@ flagm2:
 fp:
   archv: 8.0
   feat: ' '
-  name: ' '
+  name: Floating-point
   note: ' '
 fphp:
   archv: 8.2
@@ -129,10 +129,10 @@ i8mm:
   name: AArch64 Int8 matrix multiplication instructions
   note: v8.2 optional, v8.6 mandatory
 ilrcpc:
-  archv: 8.0
-  feat: ' '
-  name: ' '
-  note: ' '
+  archv: 8.4
+  feat: FEAT_LRCPC2
+  name: Load-Acquire RCpc instructions v2
+  note: v8.2 optional, v8.4 mandatory
 jscvt:
   archv: 8.3
   feat: FEAT_JSCVT
@@ -154,12 +154,12 @@ mte3:
   name: MTE Asymmetric Fault Handling
   note: v8.5 optional, v8.7 mandatory
 paca:
-  archv: 8.0
-  feat: ' '
-  name: ' '
-  note: ' '
+  archv: 8.4
+  feat: FEAT_FPAC
+  name: Faulting on AUT* instructions and combined pointer authentication instructions
+  note: v8.4 optional
 pacg:
-  archv: 8.0
+  archv: 0.0
   feat: ' '
   name: ' '
   note: ' '
@@ -219,20 +219,20 @@ sme:
   name: Scalable Matrix Extension
   note: v9.2 optional
 smeb16f32:
-  archv: 8.0
-  feat: ' '
-  name: ' '
-  note: ' '
+  archv: 9.2
+  feat: FEAT_SME
+  name: Scalable Matrix Extension
+  note: v9.2 optional
 smef16f32:
-  archv: 8.0
-  feat: ' '
-  name: ' '
-  note: ' '
+  archv: 9.2
+  feat: FEAT_SME
+  name: Scalable Matrix Extension
+  note: v9.2 optional
 smef32f32:
-  archv: 8.0
-  feat: ' '
-  name: ' '
-  note: ' '
+  archv: 9.2
+  feat: FEAT_SME
+  name: Scalable Matrix Extension
+  note: v9.2 optional
 smef64f64:
   archv: 9.2
   feat: FEAT_SME_F64F64
@@ -249,10 +249,10 @@ smei16i64:
   name: 16-bit to 64-bit integer widening outer product instructions
   note: v9.2 optional
 smei8i32:
-  archv: 8.0
-  feat: ' '
-  name: ' '
-  note: ' '
+  archv: 9.2
+  feat: FEAT_SME
+  name: Scalable Matrix Extension
+  note: v9.2 optional
 ssbs:
   archv: 8.0
   feat: FEAT_SSBS
@@ -274,20 +274,20 @@ sveaes:
   name: Scalable Vector AES instructions
   note: v9.0 optional
 svebf16:
-  archv: 8.0
-  feat: ' '
-  name: ' '
-  note: ' '
+  archv: 8.2
+  feat: FEAT_BF16
+  name: AArch64 BFloat16 instructions (SVE)
+  note: v8.2 optional, v8.6 mandatory
 svebitperm:
   archv: 9.0
   feat: FEAT_SVE_BitPerm
   name: Scalable Vector Bit Permutes instruction
   note: v9.0 optional
 sveebf16:
-  archv: 8.7
-  feat: ' '
-  name: ' '
-  note: ' '
+  archv: 9.2
+  feat: FEAT_EBF16
+  name: AArch64 Extended BFloat16 instructions (SVE)
+  note: v9.2 optional
 svef32mm:
   archv: 8.2
   feat: FEAT_F32MM
@@ -299,10 +299,10 @@ svef64mm:
   name: Single-precision Matrix Multiplication (SVE)
   note: v8.2 optional
 svei8mm:
-  archv: 8.0
-  feat: ' '
-  name: ' '
-  note: ' '
+  archv: 8.2
+  feat: FEAT_I8MM
+  name: AArch64 Int8 matrix multiplication instructions (SVE)
+  note: v8.2 optional, v8.6 mandatory
 svepmull:
   archv: 9.0
   feat: FEAT_SVE_PMULL128
