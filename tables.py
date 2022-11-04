@@ -252,6 +252,63 @@ cpu_features = {
     "rng": {
         "archv": 8.0,
     },
+    "sve2": {
+        "archv": 8.0,
+    },
+    "sveaes": {
+        "archv": 8.0,
+    },
+    "svepmull": {
+        "archv": 8.0,
+    },
+    "svebitperm": {
+        "archv": 8.0,
+    },
+    "svesha3": {
+        "archv": 8.0,
+    },
+    "svesm4": {
+        "archv": 8.0,
+    },
+    "svef32mm": {
+        "archv": 8.0,
+    },
+    "svef64mm": {
+        "archv": 8.0,
+    },
+    "bti": {
+        "archv": 8.0,
+    },
+    "mte": {
+        "archv": 8.0,
+    },
+    "mte3": {
+        "archv": 8.0,
+    },
+    "sme": {
+        "archv": 8.0,
+    },
+    "smei16i64": {
+        "archv": 8.0,
+    },
+    "smef64f64": {
+        "archv": 8.0,
+    },
+    "smei8i32": {
+        "archv": 8.0,
+    },
+    "smef16f32": {
+        "archv": 8.0,
+    },
+    "smeb16f32": {
+        "archv": 8.0,
+    },
+    "smef32f32": {
+        "archv": 8.0,
+    },
+    "smefa64": {
+        "archv": 8.0,
+    },
 }
 
 with open("socs.yml") as yml:
