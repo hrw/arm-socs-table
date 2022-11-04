@@ -419,6 +419,30 @@ socs = [
         "revision": 0,
         "variant": 0x1,
     },
+    {
+        "name": "MT6893 Dimensity 1200",
+        "vendor": "MediaTek",
+        "features": ['fp',
+                     'asimd',
+                     'evtstrm',
+                     'aes',
+                     'pmull',
+                     'sha1',
+                     'sha2',
+                     'crc32',
+                     'atomics',
+                     'fphp',
+                     'asimdhp',
+                     'cpuid',
+                     'asimdrdm',
+                     'lrcpc',
+                     'dcpop',
+                     'asimddp'],
+        "implementer": 0x41,
+        "part": [0xd41, 0xd05],
+        "revision": 0,
+        "variant": 0x1
+    },
 ]
 
 cpu_features = {
