@@ -1,264 +1,330 @@
 aes:
   archv: 8.0
   feat: FEAT_AES
+  name: AESD and AESE instructions
   note: v8.0 crypto
 afp:
   archv: 8.7
   feat: FEAT_AFP
+  name: Alternate floating-point behavior
   note: v8.7 mandatory
 asimd:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 asimddp:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 asimdfhm:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 asimdhp:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 asimdrdm:
   archv: 8.1
   feat: FEAT_RDM
+  name: Advanced SIMD rounding double multiply accumulate instructions
   note: v8.1 mandatory
 atomics:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 bf16:
   archv: 8.2
   feat: FEAT_BF16
+  name: AArch64 BFloat16 instructions
   note: v8.2 optional, v8.6 mandatory
 bti:
   archv: 8.5
   feat: FEAT_BTI
+  name: Branch Target Identification
   note: v8.5 mandatory
 cpuid:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 crc32:
   archv: 8.1
   feat: FEAT_CRC32
+  name: Changes to CRC32 instructions
   note: v8.0 optional, v8.1 mandatory
 dcpodp:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 dcpop:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 dgh:
   archv: 8.0
   feat: FEAT_DGH
+  name: Data Gathering Hint
   note: v8.0 optional
 dit:
   archv: 8.4
   feat: FEAT_DIT
+  name: Data Independent Timing instructions
   note: v8.4 mandatory
 ebf16:
   archv: 9.2
   feat: FEAT_EBF16
+  name: AArch64 Extended BFloat16 instructions
   note: v9.2 optional
 ecv:
   archv: 8.6
   feat: FEAT_ECV
+  name: Enhanced Counter Virtualization
   note: v8.6 mandatory
 evtstrm:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 fcma:
   archv: 8.3
   feat: FEAT_FCMA
+  name: Floating-point complex number instructions
   note: v8.3 mandatory
 flagm:
   archv: 8.2
   feat: FEAT_FlagM
+  name: Flag manipulation instructions v2
   note: v8.2 optional, v8.4 mandatory
 flagm2:
   archv: 8.5
   feat: FEAT_FlagM2
+  name: Enhancements to flag manipulation instructions
   note: v8.5 mandatory
 fp:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 fphp:
   archv: 8.2
   feat: FEAT_FP16
+  name: Half-precision floating-point data processing
   note: v8.2 depends, v8.4 depends
 frint:
   archv: 8.5
   feat: FEAT_FRINTTS
+  name: Floating-point to integer instructions
   note: v8.5 mandatory
 i8mm:
   archv: 8.2
   feat: FEAT_I8MM
+  name: AArch64 Int8 matrix multiplication instructions
   note: v8.2 optional, v8.6 mandatory
 ilrcpc:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 jscvt:
   archv: 8.3
   feat: FEAT_JSCVT
+  name: JavaScript conversion instructions
   note: v8.3 mandatory
 lrcpc:
   archv: 8.3
   feat: FEAT_LRCPC
+  name: Load-Acquire RCpc instructions
   note: v8.3 mandatory
 mte:
   archv: 8.5
   feat: FEAT_MTE
+  name: Memory Tagging Extension
   note: v8.5 optional
 mte3:
   archv: 8.5
   feat: FEAT_MTE3
+  name: MTE Asymmetric Fault Handling
   note: v8.5 optional, v8.7 mandatory
 paca:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 pacg:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 pmull:
   archv: 8.0
   feat: FEAT_PMULL
+  name: PMULL, PMULL2 instructions.
   note: v8.0 crypto
 rng:
   archv: 8.5
   feat: FEAT_RNG
+  name: Random number generator
   note: v8.5 optional
 rpres:
   archv: 8.7
   feat: FEAT_RPRES
+  name: Increased precision of Reciprocal Estimate and Reciprocal Square Root Estimate
   note: v8.7 optional
 sb:
   archv: 8.0
   feat: FEAT_SB
+  name: Speculation Barrier
   note: v8.0 optional, v8.5 mandatory
 sha1:
   archv: 8.0
   feat: FEAT_SHA1
+  name: SHA1* instructions.
   note: v8.0 crypto
 sha2:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: FEAT_SHA256
+  name: SHA256* instructions.
+  note: v8.0 crypto
 sha3:
   archv: 8.2
   feat: FEAT_SHA3
+  name: Advanced SIMD SHA3 instructions
   note: v8.2 optional
 sha512:
   archv: 8.2
   feat: FEAT_SHA512
+  name: Advanced SIMD SHA512 instructions
   note: v8.2 optional
 sm3:
   archv: 8.2
   feat: FEAT_SM3
+  name: Advanced SIMD SM3 instructions
   note: v8.2 optional
 sm4:
   archv: 8.2
   feat: FEAT_SM4
+  name: Advanced SIMD SM4 instructions
   note: v8.2 optional
 sme:
   archv: 9.2
   feat: FEAT_SME
+  name: Scalable Matrix Extension
   note: v9.2 optional
 smeb16f32:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 smef16f32:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 smef32f32:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 smef64f64:
   archv: 9.2
   feat: FEAT_SME_F64F64
+  name: Double-precision floating-point outer product instructions
   note: v9.2 optional
 smefa64:
   archv: 9.2
   feat: FEAT_SME_FA64
+  name: Full Streaming SVE mode instructions
   note: v9.2 optional
 smei16i64:
-  archv: 8.0
-  feat: FEAT_
-  note: " "
+  archv: 9.0
+  feat: FEAT_SME_I16I64
+  name: 16-bit to 64-bit integer widening outer product instructions
+  note: v9.2 optional
 smei8i32:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 ssbs:
   archv: 8.0
   feat: FEAT_SSBS
+  name: Speculative Store Bypass Safe
   note: v8.0 optional
 sve:
   archv: 8.2
   feat: FEAT_SVE
+  name: Scalable Vector Extension
   note: v8.2 optional
 sve2:
   archv: 9.0
   feat: FEAT_SVE2
+  name: Scalable Vector Extension version 2
   note: v9.0 optional
 sveaes:
   archv: 9.0
   feat: FEAT_SVE_AES
+  name: Scalable Vector AES instructions
   note: v9.0 optional
 svebf16:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 svebitperm:
   archv: 9.0
   feat: FEAT_SVE_BitPerm
+  name: Scalable Vector Bit Permutes instruction
   note: v9.0 optional
 sveebf16:
   archv: 8.7
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 svef32mm:
   archv: 8.2
   feat: FEAT_F32MM
+  name: Single-precision Matrix Multiplication (SVE)
   note: v8.2 optional
 svef64mm:
   archv: 8.2
   feat: FEAT_F64MM
+  name: Single-precision Matrix Multiplication (SVE)
   note: v8.2 optional
 svei8mm:
   archv: 8.0
-  feat: FEAT_
-  note: " "
+  feat: ' '
+  name: ' '
+  note: ' '
 svepmull:
-  archv: 8.0
-  feat: FEAT_
-  note: " "
+  archv: 9.0
+  feat: FEAT_SVE_PMULL128
+  name: Scalable Vector PMULL instructions
+  note: v9.0 optional
 svesha3:
   archv: 9.0
   feat: FEAT_SVE_SHA3
+  name: Scalable Vector SHA3 instructions
   note: v9.0 optional
 svesm4:
   archv: 9.0
   feat: FEAT_SVE_SM4
+  name: alable Vector SM4 instructions
   note: v9.0 optional
 uscat:
   archv: 8.2
   feat: FEAT_LSE2
+  name: Large System Extensions v2
   note: v8.2 optional, v8.4 mandatory
 wfxt:
   archv: 8.7
   feat: FEAT_WFxT
+  name: WFE and WFI instructions with timeout
   note: v8.7 mandatory
