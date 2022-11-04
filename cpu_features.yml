@@ -54,7 +54,7 @@ cpuid:
   name: ' '
   note: ' '
 crc32:
-  archv: 8.1
+  archv: 8.0
   feat: FEAT_CRC32
   name: Changes to CRC32 instructions
   note: v8.0 optional, v8.1 mandatory
@@ -159,7 +159,7 @@ paca:
   name: Faulting on AUT* instructions and combined pointer authentication instructions
   note: v8.4 optional
 pacg:
-  archv: 0.0
+  archv: 8.4
   feat: ' '
   name: ' '
   note: ' '
