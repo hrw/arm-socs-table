@@ -421,3 +421,20 @@
   revision: 0x4
   variant: 0x0
   vendor: Broadcom
+- features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  implementer: 0x51
+  name: Snapdragon 660
+  part:
+  - 0x801
+  - 0x800
+  revision: 0x2
+  variant: 0xa
+  vendor: Qualcomm
