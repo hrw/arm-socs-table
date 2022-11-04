@@ -534,6 +534,21 @@ socs = [
         "revision": 0,
         "variant": 0x3
     },
+    {
+        # Raspberry Pi 4
+        "name": "BCM2711",
+        "vendor": "Broadcom",
+        "features": [
+            "fp",
+            "asimd",
+            "evtstrm",
+            "crc32",
+            "cpuid",
+        ],
+        "implementer": 0x41,
+        "part": [0xd08],
+        "revision": 3,
+    },
 ]
 
 cpu_features = {
