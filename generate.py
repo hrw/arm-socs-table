@@ -39,7 +39,25 @@ def handle_socs():
     return socs
 
 
-def generate_html_file(socs):
+def handle_cpu_features():
+
+    sorted_cpu_features = {}
+
+    for feature in tables.cpu_features:
+        feature_data = tables.cpu_features[feature]
+        if not feature_data['archv'] in sorted_cpu_features:
+            sorted_cpu_features[feature_data['archv']] = []
+        sorted_cpu_features[feature_data['archv']].append(feature)
+
+    cpu_features = {}
+    for archv in sorted(sorted_cpu_features):
+        for feature in sorted_cpu_features[archv]:
+            cpu_features[feature] = tables.cpu_features[feature]
+
+    return cpu_features
+
+
+def generate_html_file(socs, cpu_features):
 
     file_loader = FileSystemLoader("templates")
     env = Environment(loader=file_loader, trim_blocks=True, lstrip_blocks=True)
@@ -49,7 +67,7 @@ def generate_html_file(socs):
     output = template.render(
         generate_time=datetime.strftime(datetime.utcnow(), "%d %B %Y %H:%M"),
         socs=socs,
-        cpu_features=tables.cpu_features,
+        cpu_features=cpu_features,
         minify=True,
     )
     print(output)
@@ -57,4 +75,5 @@ def generate_html_file(socs):
 
 if __name__ == "__main__":
     socs = handle_socs()
-    generate_html_file(socs)
+    cpu_features = handle_cpu_features()
+    generate_html_file(socs, cpu_features)
