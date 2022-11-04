@@ -98,12 +98,14 @@ table.arm_socs tbody tr.odd td {
         <li>search field allows to filter table</li>
         <li>clicking on header entries sorts table</li>
         <li>columns can be reordered by dragging column header</li>
+        <li>hover feature short name to get full name</li>
     </ul>
 
 <h2>Some notes</h2>
 
     <ul>
         <li>table is updated at random moments</li>
+        <li>numbers in header are Arm architecture versions where feature was defined</li>
     </ul>
 
 <h2>Author info</h2>
@@ -127,14 +129,19 @@ table.arm_socs tbody tr.odd td {
 <table class="arm_socs">
     <thead>
         <tr>
-            <th>SoC vendor</th>
-            <th>SoC name</th>
-            <th>CPU implementer</th>
-            <th>CPU cores</th>
+            <th rowspan="2">SoC vendor</th>
+            <th rowspan="2">SoC name</th>
+            <th rowspan="2">CPU implementer</th>
+            <th rowspan="2">CPU cores</th>
 {% for feature in cpu_features %}
-            <th>{{ feature }}</th>
+            <th title="{{ cpu_features[feature].name }}">{{ feature }}</th>
 {% endfor %}
         </tr>
+        <tr>
+{% for feature in cpu_features %}
+            <th>{{ cpu_features[feature].archv }}</th>
+{% endfor %}
+	</tr>
     </thead>
     <tbody>
 {% for soc in socs %}
