@@ -142,7 +142,8 @@ socs = [
         "revision": 3,
     },
     {
-        "name": "EspressoBIN",
+        # EspressoBIN
+        "name": "Armada 37xx",
         "features": [
             "fp",
             "asimd",
