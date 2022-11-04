@@ -505,3 +505,23 @@
   revision: 0x0
   variant: 0x0
   vendor: QEMU
+- features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  implementer: 0x51
+  name: Snapdragon 845
+  part:
+  - 0x803
+  - 0x802
+  revision: 0x13
+  variant: 0x6
+  vendor: Qualcomm
