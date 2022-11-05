@@ -558,3 +558,16 @@
   revision: 0x4
   variant: 0x0
   vendor: Qualcomm
+- features:
+  - fp
+  - asimd
+  - evtstrm
+  - crc32
+  - cpuid
+  implementer: 0x41
+  name: Baikal-M
+  part:
+  - 0xd07
+  revision: 0x3
+  variant: 0x1
+  vendor: Baikal Electronics
