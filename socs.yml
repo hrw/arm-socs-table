@@ -571,28 +571,3 @@
   revision: 0x3
   variant: 0x1
   vendor: Baikal Electronics
-- features:
-  - fp
-  - asimd
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  - ilrcpc
-  - flagm
-  implementer: 0x41
-  name: Snapdragon 8cx Gen 3
-  part:
-  - 0xd4c
-  revision: 0x0
-  variant: 0x0
-  vendor: Qualcomm
