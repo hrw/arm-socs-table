@@ -571,3 +571,20 @@
   revision: 0x3
   variant: 0x1
   vendor: Baikal Electronics
+- features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  implementer: 0x41
+  name: S905X
+  part:
+  - 0xd03
+  revision: 0x4
+  variant: 0x0
+  vendor: Amlogic
