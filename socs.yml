@@ -588,3 +588,20 @@
   revision: 0x4
   variant: 0x0
   vendor: Amlogic
+- features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  implementer: 0x41
+  name: RK3328
+  part:
+  - 0xd03
+  revision: 0x4
+  variant: 0x0
+  vendor: Rockchip
