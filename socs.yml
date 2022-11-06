@@ -605,3 +605,28 @@
   revision: 0x4
   variant: 0x0
   vendor: Rockchip
+- features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  - ssbs
+  implementer: 0x41
+  name: Graviton 2
+  part:
+  - 0xd0c
+  revision: 0x1
+  variant: 0x3
+  vendor: Amazon
