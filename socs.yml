@@ -154,6 +154,7 @@
   - fp
   - asimd
   - evtstrm
+  - cpuid
   implementer: 0x50
   name: X-Gene
   part:
