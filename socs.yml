@@ -630,3 +630,20 @@
   revision: 0x1
   variant: 0x3
   vendor: Amazon
+- features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  implementer: 0x50
+  name: eMAG 8180
+  part:
+  - 0x0
+  revision: 0x2
+  variant: 0x3
+  vendor: Ampere
