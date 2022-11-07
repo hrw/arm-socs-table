@@ -221,17 +221,17 @@ sme:
 smeb16f32:
   archv: 9.2
   feat: FEAT_SME
-  name: Scalable Matrix Extension
+  name: BFloat16 outer product instructions
   note: v9.2 optional
 smef16f32:
   archv: 9.2
   feat: FEAT_SME
-  name: Scalable Matrix Extension
+  name: Half-precision floating-point outer product instructions
   note: v9.2 optional
 smef32f32:
   archv: 9.2
   feat: FEAT_SME
-  name: Scalable Matrix Extension
+  name: Single-precision floating-point outer product instructions
   note: v9.2 optional
 smef64f64:
   archv: 9.2
@@ -244,7 +244,7 @@ smefa64:
   name: Full Streaming SVE mode instructions
   note: v9.2 optional
 smei16i64:
-  archv: 9.0
+  archv: 9.2
   feat: FEAT_SME_I16I64
   name: 16-bit to 64-bit integer widening outer product instructions
   note: v9.2 optional
@@ -316,7 +316,7 @@ svesha3:
 svesm4:
   archv: 9.0
   feat: FEAT_SVE_SM4
-  name: alable Vector SM4 instructions
+  name: Scalable Vector SM4 instructions
   note: v9.0 optional
 uscat:
   archv: 8.2
