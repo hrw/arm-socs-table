@@ -296,7 +296,7 @@ svef32mm:
 svef64mm:
   archv: 8.2
   feat: FEAT_F64MM
-  name: Single-precision Matrix Multiplication (SVE)
+  name: Double-precision Matrix Multiplication (SVE)
   note: v8.2 optional
 svei8mm:
   archv: 8.2
@@ -321,7 +321,7 @@ svesm4:
 uscat:
   archv: 8.2
   feat: FEAT_LSE2
-  name: Large System Extensions v2
+  name: Unaligned single-copy atomicity and atomic functions with a 16-byte address range aligned to 16-bytes are supported
   note: v8.2 optional, v8.4 mandatory
 wfxt:
   archv: 8.7
