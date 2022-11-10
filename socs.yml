@@ -826,14 +826,14 @@
   name: Snapdragon 410
   vendor: Qualcomm
 - cores:
-    - implementer: 0x51
-      part: 0x802
-      revision: 0x13
-      variant: 0x6
-    - implementer: 0x51
-      part: 0x803
-      revision: 0x12
-      variant: 0x7
+  - implementer: 0x51
+    part: 0x802
+    revision: 0x13
+    variant: 0x6
+  - implementer: 0x51
+    part: 0x803
+    revision: 0x12
+    variant: 0x7
   features:
   - fp
   - asimd
@@ -848,3 +848,22 @@
   - asimdhp
   name: Snapdragon 710
   vendor: Qualcomm
+- cores:
+  - implementer: 0x43
+    part: 0xaf
+    revision: 0x1
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - cpuid
+  - asimdrdm
+  name: Thunder X2 CN9980
+  vendor: Cavium/Marvell

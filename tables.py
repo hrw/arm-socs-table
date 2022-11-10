@@ -52,11 +52,11 @@ cpu_cores = {
     },
     0x43: {
         "name": "Cavium",
-        "0x0a0": "ThunderX",
-        "0x0a1": "ThunderX-88XX",
-        "0x0a2": "ThunderX-81XX",
-        "0x0a3": "ThunderX-83XX",
-        "0x0af": "ThunderX2-99xx",
+        "0xa0": "ThunderX",
+        "0xa1": "ThunderX-88XX",
+        "0xa2": "ThunderX-81XX",
+        "0xa3": "ThunderX-83XX",
+        "0xaf": "ThunderX2-99xx",
     },
     0x46: {
         "name": "Fujitsu",

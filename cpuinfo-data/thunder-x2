@@ -1,0 +1,2303 @@
+processor	: 0
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 1
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 2
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 3
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 4
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 5
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 6
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 7
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 8
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 9
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 10
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 11
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 12
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 13
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 14
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 15
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 16
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 17
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 18
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 19
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 20
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 21
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 22
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 23
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 24
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 25
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 26
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 27
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 28
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 29
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 30
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 31
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 32
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 33
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 34
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 35
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 36
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 37
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 38
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 39
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 40
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 41
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 42
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 43
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 44
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 45
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 46
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 47
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 48
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 49
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 50
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 51
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 52
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 53
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 54
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 55
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 56
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 57
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 58
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 59
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 60
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 61
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 62
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 63
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 64
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 65
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 66
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 67
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 68
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 69
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 70
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 71
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 72
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 73
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 74
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 75
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 76
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 77
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 78
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 79
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 80
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 81
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 82
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 83
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 84
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 85
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 86
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 87
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 88
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 89
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 90
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 91
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 92
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 93
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 94
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 95
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 96
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 97
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 98
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 99
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 100
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 101
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 102
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 103
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 104
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 105
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 106
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 107
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 108
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 109
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 110
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 111
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 112
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 113
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 114
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 115
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 116
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 117
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 118
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 119
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 120
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 121
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 122
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 123
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 124
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 125
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 126
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 127
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 128
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 129
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 130
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 131
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 132
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 133
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 134
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 135
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 136
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 137
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 138
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 139
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 140
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 141
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 142
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 143
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 144
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 145
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 146
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 147
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 148
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 149
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 150
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 151
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 152
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 153
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 154
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 155
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 156
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 157
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 158
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 159
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 160
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 161
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 162
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 163
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 164
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 165
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 166
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 167
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 168
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 169
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 170
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 171
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 172
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 173
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 174
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 175
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 176
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 177
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 178
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 179
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 180
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 181
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 182
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 183
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 184
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 185
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 186
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 187
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 188
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 189
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 190
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 191
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 192
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 193
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 194
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 195
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 196
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 197
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 198
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 199
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 200
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 201
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 202
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 203
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 204
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 205
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 206
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 207
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 208
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 209
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 210
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 211
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 212
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 213
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 214
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 215
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 216
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 217
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 218
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 219
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 220
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 221
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 222
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 223
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 224
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 225
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 226
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 227
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 228
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 229
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 230
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 231
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 232
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 233
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 234
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 235
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 236
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 237
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 238
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 239
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 240
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 241
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 242
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 243
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 244
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 245
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 246
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 247
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 248
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 249
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 250
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 251
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 252
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 253
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 254
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
+
+processor	: 255
+BogoMIPS	: 400.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0af
+CPU revision	: 1
