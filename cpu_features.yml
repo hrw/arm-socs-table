@@ -321,7 +321,8 @@ svesm4:
 uscat:
   archv: 8.2
   feat: FEAT_LSE2
-  name: Unaligned single-copy atomicity and atomic functions with a 16-byte address range aligned to 16-bytes are supported
+  name: Unaligned single-copy atomicity and atomic functions with a 16-byte address
+    range aligned to 16-bytes are supported
   note: v8.2 optional, v8.4 mandatory
 wfxt:
   archv: 8.7
