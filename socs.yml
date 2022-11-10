@@ -248,7 +248,7 @@
   - lrcpc
   - dcpop
   - asimddp
-  name: Snapdragon 7 SC7180
+  name: Snapdragon 7c SC7180
   vendor: Qualcomm
 - cores:
   - implementer: 0x41
