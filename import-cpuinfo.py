@@ -23,11 +23,13 @@ with open(sys.argv[1]) as cpuinfo:
     cpu_data = cpuinfo.readlines()
 
 new_soc = {
-    "cores": {},
+    "cores": [],
     "features": [],
     "name": sys.argv[2],
     "vendor": sys.argv[3]
 }
+
+cores = {}
 
 for line in cpu_data:
     if line.startswith("Features") and not new_soc["features"]:
@@ -42,15 +44,18 @@ for line in cpu_data:
         revision = int(line.partition(":")[2].strip(), base=16)
         # "CPU revision" line is last in block so we have all core data
         try:
-            if new_soc['cores'][line_part]:
+            if cores[line_part]:
                 pass
         except KeyError:
-            new_soc["cores"][line_part] = {
+            cores[line_part] = {
                 'part': line_part,
                 'implementer': implementer,
                 'variant': variant,
                 'revision': revision,
             }
+
+for core in cores:
+    new_soc["cores"].append(cores[core])
 
 tables.socs.append(new_soc)
 
