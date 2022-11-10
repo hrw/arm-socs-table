@@ -826,13 +826,11 @@
   name: Snapdragon 410
   vendor: Qualcomm
 - cores:
-    0x802:
-      implementer: 0x51
+    - implementer: 0x51
       part: 0x802
       revision: 0x13
       variant: 0x6
-    0x803:
-      implementer: 0x51
+    - implementer: 0x51
       part: 0x803
       revision: 0x12
       variant: 0x7
