@@ -761,3 +761,16 @@
   revision: 0x2
   variant: 0x0
   vendor: HiSilicon
+- features:
+  - fp
+  - asimd
+  - evtstrm
+  - crc32
+  - cpuid
+  implementer: 0x41
+  name: Snapdragon 410
+  part:
+  - 0xd03
+  revision: 0x0
+  variant: 0x0
+  vendor: Qualcomm
