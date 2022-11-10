@@ -20,7 +20,8 @@ def handle_socs():
             except KeyError:
                 print(
                     f"Missing name for {hex(core['implementer'])} core"
-                    " implementer!"
+                    " implementer!",
+                    file=sys.stderr
                 )
                 sys.exit(-1)
 
@@ -31,7 +32,8 @@ def handle_socs():
             except KeyError:
                 print(
                     f"Missing name for {hex(core['part'])} for "
-                    f"{hex(core['implementer'])}!"
+                    f"{hex(core['implementer'])}!",
+                    file=sys.stderr
                 )
                 sys.exit(-1)
 
