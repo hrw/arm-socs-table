@@ -23,7 +23,7 @@ with open(sys.argv[1]) as cpuinfo:
     cpu_data = cpuinfo.readlines()
 
 new_soc = {
-    "part": [],
+    "cores": {},
     "features": [],
     "name": sys.argv[2],
     "vendor": sys.argv[3]
@@ -33,15 +33,24 @@ for line in cpu_data:
     if line.startswith("Features") and not new_soc["features"]:
         new_soc["features"] = line.partition(":")[2].strip().split(" ")
     elif line.startswith("CPU implementer"):
-        new_soc["implementer"] = int(line.partition(":")[2].strip(), base=16)
+        implementer = int(line.partition(":")[2].strip(), base=16)
     elif line.startswith("CPU variant"):
-        new_soc["variant"] = int(line.partition(":")[2].strip(), base=16)
+        variant = int(line.partition(":")[2].strip(), base=16)
     elif line.startswith("CPU part"):
         line_part = int(line.partition(":")[2].strip(), base=16)
-        if line_part not in new_soc["part"]:
-            new_soc["part"].append(line_part)
     elif line.startswith("CPU revision"):
-        new_soc["revision"] = int(line.partition(":")[2].strip(), base=16)
+        revision = int(line.partition(":")[2].strip(), base=16)
+        # "CPU revision" line is last in block so we have all core data
+        try:
+            if new_soc['cores'][line_part]:
+                pass
+        except KeyError:
+            new_soc["cores"][line_part] = {
+                'part': line_part,
+                'implementer': implementer,
+                'variant': variant,
+                'revision': revision,
+            }
 
 tables.socs.append(new_soc)
 
