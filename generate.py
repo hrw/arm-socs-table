@@ -12,27 +12,26 @@ def handle_socs():
     socs = tables.socs.copy()
 
     for soc in socs:
-        try:
-            soc["implementer_name"] = tables.cpu_cores[soc["implementer"]][
-                "name"
-            ]
-        except KeyError:
-            print(
-                f"Missing name for {hex(soc['implementer'])} core"
-                " implementer!"
-            )
-            sys.exit(-1)
-
         soc["core_names"] = []
-        for core in sorted(soc["part"], reverse=True):
+        for core in soc["cores"]:
+            try:
+                core["implementer_name"] = tables.cpu_cores[
+                    core["implementer"]]["name"]
+            except KeyError:
+                print(
+                    f"Missing name for {hex(core['implementer'])} core"
+                    " implementer!"
+                )
+                sys.exit(-1)
+
             try:
                 soc["core_names"].append(
-                    tables.cpu_cores[soc["implementer"]][hex(core)]
+                    tables.cpu_cores[core["implementer"]][hex(core["part"])]
                 )
             except KeyError:
                 print(
-                    f"Missing name for {hex(core)} for "
-                    f"{hex(soc['implementer'])}!"
+                    f"Missing name for {hex(core['part'])} for "
+                    f"{hex(core['implementer'])}!"
                 )
                 sys.exit(-1)
 

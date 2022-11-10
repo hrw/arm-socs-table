@@ -131,7 +131,7 @@ table.arm_socs tbody tr.odd td {
         <tr>
             <th rowspan="2">SoC vendor</th>
             <th rowspan="2">SoC name</th>
-            <th rowspan="2">CPU implementer</th>
+            <th rowspan="2">CPU implementers</th>
             <th rowspan="2">CPU cores</th>
 {% for feature in cpu_features %}
             <th title="{{ cpu_features[feature].name }}">{{ feature }}</th>
@@ -148,8 +148,8 @@ table.arm_socs tbody tr.odd td {
     <tr>
 	<td>{{ soc.vendor  }}</td>
 	<td>{{ soc.name  }}</td>
-	<td class="nowrap">{{ soc.implementer_name }}</td>
-	<td>{% for name in soc.core_names %}{{ name }}{% if not loop.last %}, {% endif %}{% endfor %}</td>
+  <td class="nowrap">{% for core in soc.cores %}{{ core.implementer_name }}{% if not loop.last %},<br />{% endif %}{% endfor %}</td>
+  <td class="nowrap">{% for name in soc.core_names %}{{ name }}{% if not loop.last %},<br />{% endif %}{% endfor %}</td>
     {% for feature in cpu_features %}
         {% if feature in soc['features'] %}
         <td> YES </td>
