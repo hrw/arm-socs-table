@@ -693,3 +693,28 @@
   revision: 0x0
   variant: 0x1
   vendor: Apple
+- features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  implementer: 0x41
+  name: RK3588
+  part:
+  - 0xd05
+  - 0xd0b
+  revision: 0x0
+  variant: 0x4
+  vendor: Rockchip
