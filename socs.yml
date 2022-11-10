@@ -743,3 +743,21 @@
   revision: 0x0
   variant: 0x1
   vendor: Qualcomm
+- features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  implementer: 0x41
+  name: Kirin 710
+  part:
+  - 0xd03
+  - 0xd09
+  revision: 0x2
+  variant: 0x0
+  vendor: HiSilicon
