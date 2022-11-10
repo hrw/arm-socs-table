@@ -1,4 +1,9 @@
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd08
+    revision: 0x3
+    variant: 0x0
+  features:
   - fp
   - asimd
   - evtstrm
@@ -8,13 +13,14 @@
   - sha2
   - crc32
   - cpuid
-  implementer: 0x41
   name: LX2160A
-  part:
-  - 0xd08
-  revision: 0x3
   vendor: NXP
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
   - fp
   - asimd
   - evtstrm
@@ -24,13 +30,18 @@
   - sha2
   - crc32
   - cpuid
-  implementer: 0x41
   name: Armada 37xx
-  part:
-  - 0xd03
-  revision: 0x4
   vendor: Marvell
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x3
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd08
+    revision: 0x3
+    variant: 0x0
+  features:
   - fp
   - asimd
   - evtstrm
@@ -40,14 +51,14 @@
   - sha2
   - crc32
   - cpuid
-  implementer: 0x41
   name: RK3399
-  part:
-  - 0xd03
-  - 0xd08
-  revision: 0x3
   vendor: Rockchip
-- features:
+- cores:
+  - implementer: 0x61
+    part: 0x28
+    revision: 0x0
+    variant: 0x2
+  features:
   - fp
   - asimd
   - evtstrm
@@ -79,13 +90,18 @@
   - dcpodp
   - flagm2
   - frint
-  implementer: 0x61
   name: M1 Max
-  part:
-  - 0x28
-  variant: 0x2
   vendor: Apple
-- features:
+- cores:
+  - implementer: 0x61
+    part: 0x24
+    revision: 0x0
+    variant: 0x2
+  - implementer: 0x61
+    part: 0x25
+    revision: 0x0
+    variant: 0x2
+  features:
   - fp
   - asimd
   - evtstrm
@@ -118,14 +134,14 @@
   - dcpodp
   - flagm2
   - frint
-  implementer: 0x61
   name: M1 Pro
-  part:
-  - 0x24
-  - 0x25
-  variant: 0x2
   vendor: Apple
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd0c
+    revision: 0x1
+    variant: 0x3
+  features:
   - fp
   - asimd
   - evtstrm
@@ -143,26 +159,26 @@
   - dcpop
   - asimddp
   - ssbs
-  implementer: 0x41
   name: Altra
-  part:
-  - 0xd0c
-  revision: 0x1
-  variant: 0x3
   vendor: Ampere
-- features:
+- cores:
+  - implementer: 0x50
+    part: 0x0
+    revision: 0x1
+    variant: 0x0
+  features:
   - fp
   - asimd
   - evtstrm
   - cpuid
-  implementer: 0x50
   name: X-Gene
-  part:
-  - 0x0
-  revision: 0x1
-  variant: 0x0
   vendor: Applied Micro
-- features:
+- cores:
+  - implementer: 0x46
+    part: 0x1
+    revision: 0x0
+    variant: 0x1
+  features:
   - fp
   - asimd
   - evtstrm
@@ -177,13 +193,14 @@
   - fcma
   - dcpop
   - sve
-  implementer: 0x46
   name: A64FX
-  part:
-  - 0x1
-  variant: 0x1
   vendor: Fujitsu
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd42
+    revision: 0x1
+    variant: 0x0
+  features:
   - fp
   - asimd
   - evtstrm
@@ -203,13 +220,18 @@
   - uscat
   - ilrcpc
   - flagm
-  implementer: 0x41
   name: Jetson Orin
-  part:
-  - 0xd42
-  revision: 0x1
   vendor: NVIDIA
-- features:
+- cores:
+  - implementer: 0x51
+    part: 0x804
+    revision: 0xf
+    variant: 0xf
+  - implementer: 0x51
+    part: 0x805
+    revision: 0xf
+    variant: 0xf
+  features:
   - fp
   - asimd
   - evtstrm
@@ -226,15 +248,14 @@
   - lrcpc
   - dcpop
   - asimddp
-  implementer: 0x51
   name: Snapdragon 7 SC7180
-  part:
-  - 0x804
-  - 0x805
-  revision: 0xf
-  variant: 0xf
   vendor: Qualcomm
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd40
+    revision: 0x1
+    variant: 0x0
+  features:
   - fp
   - asimd
   - evtstrm
@@ -273,14 +294,18 @@
   - bf16
   - dgh
   - rng
-  implementer: 0x41
   name: Graviton 3
-  part:
-  - 0xd40
-  revision: 0x1
-  variant: 0x0
   vendor: Amazon
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd40
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x1
+  features:
   - fp
   - asimd
   - evtstrm
@@ -297,15 +322,18 @@
   - lrcpc
   - dcpop
   - asimddp
-  implementer: 0x41
   name: Kirin 980
-  part:
-  - 0xd40
-  - 0xd05
-  revision: 0x0
-  variant: 0x1
   vendor: HiSilicon
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd41
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x1
+  features:
   - fp
   - asimd
   - evtstrm
@@ -322,15 +350,22 @@
   - lrcpc
   - dcpop
   - asimddp
-  implementer: 0x41
   name: MT6893 Dimensity 1200
-  part:
-  - 0xd41
-  - 0xd05
-  revision: 0x0
-  variant: 0x1
   vendor: MediaTek
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd44
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd41
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x1
+  features:
   - fp
   - asimd
   - evtstrm
@@ -347,16 +382,18 @@
   - lrcpc
   - dcpop
   - asimddp
-  implementer: 0x41
   name: Snapdragon 888 (SM8350)
-  part:
-  - 0xd44
-  - 0xd41
-  - 0xd05
-  revision: 0x0
-  variant: 0x1
   vendor: Qualcomm
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd0b
+    revision: 0x0
+    variant: 0x3
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x3
+  features:
   - fp
   - asimd
   - evtstrm
@@ -373,27 +410,27 @@
   - lrcpc
   - dcpop
   - asimddp
-  implementer: 0x41
   name: Helio G95 (MT6785V)
-  part:
-  - 0xd0b
-  - 0xd05
-  revision: 0x0
-  variant: 0x3
   vendor: MediaTek
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd08
+    revision: 0x3
+    variant: 0x0
+  features:
   - fp
   - asimd
   - evtstrm
   - crc32
   - cpuid
-  implementer: 0x41
   name: BCM2711
-  part:
-  - 0xd08
-  revision: 0x3
   vendor: Broadcom
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
   - fp
   - asimd
   - evtstrm
@@ -403,26 +440,31 @@
   - sha2
   - crc32
   - cpuid
-  implementer: 0x41
   name: i.MX 8M Quad
-  part:
-  - 0xd03
-  revision: 0x4
   vendor: NXP
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
   - fp
   - asimd
   - evtstrm
   - crc32
   - cpuid
-  implementer: 0x41
   name: BCM2837
-  part:
-  - 0xd03
-  revision: 0x4
-  variant: 0x0
   vendor: Broadcom
-- features:
+- cores:
+  - implementer: 0x51
+    part: 0x801
+    revision: 0x2
+    variant: 0xa
+  - implementer: 0x51
+    part: 0x800
+    revision: 0x2
+    variant: 0xa
+  features:
   - fp
   - asimd
   - evtstrm
@@ -431,15 +473,14 @@
   - sha1
   - sha2
   - crc32
-  implementer: 0x51
   name: Snapdragon 660
-  part:
-  - 0x801
-  - 0x800
-  revision: 0x2
-  variant: 0xa
   vendor: Qualcomm
-- features:
+- cores:
+  - implementer: 0x0
+    part: 0x51
+    revision: 0x0
+    variant: 0x0
+  features:
   - fp
   - asimd
   - evtstrm
@@ -499,14 +540,18 @@
   - smeb16f32
   - smef32f32
   - smefa64
-  implementer: 0x0
   name: QEMU Max
-  part:
-  - 0x51
-  revision: 0x0
-  variant: 0x0
   vendor: QEMU
-- features:
+- cores:
+  - implementer: 0x51
+    part: 0x803
+    revision: 0x13
+    variant: 0x6
+  - implementer: 0x51
+    part: 0x802
+    revision: 0x13
+    variant: 0x6
+  features:
   - fp
   - asimd
   - evtstrm
@@ -518,15 +563,14 @@
   - atomics
   - fphp
   - asimdhp
-  implementer: 0x51
   name: Snapdragon 845
-  part:
-  - 0x803
-  - 0x802
-  revision: 0x13
-  variant: 0x6
   vendor: Qualcomm
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
   - fp
   - asimd
   - evtstrm
@@ -536,14 +580,14 @@
   - sha2
   - crc32
   - cpuid
-  implementer: 0x41
   name: H5
-  part:
-  - 0xd03
-  revision: 0x4
-  variant: 0x0
   vendor: Allwinner
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
   - fp
   - asimd
   - evtstrm
@@ -552,27 +596,27 @@
   - sha1
   - sha2
   - crc32
-  implementer: 0x41
   name: Snapdragon 625
-  part:
-  - 0xd03
-  revision: 0x4
-  variant: 0x0
   vendor: Qualcomm
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd07
+    revision: 0x3
+    variant: 0x1
+  features:
   - fp
   - asimd
   - evtstrm
   - crc32
   - cpuid
-  implementer: 0x41
   name: Baikal-M
-  part:
-  - 0xd07
-  revision: 0x3
-  variant: 0x1
   vendor: Baikal Electronics
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
   - fp
   - asimd
   - evtstrm
@@ -582,14 +626,14 @@
   - sha2
   - crc32
   - cpuid
-  implementer: 0x41
   name: S905X
-  part:
-  - 0xd03
-  revision: 0x4
-  variant: 0x0
   vendor: Amlogic
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
   - fp
   - asimd
   - evtstrm
@@ -599,14 +643,14 @@
   - sha2
   - crc32
   - cpuid
-  implementer: 0x41
   name: RK3328
-  part:
-  - 0xd03
-  revision: 0x4
-  variant: 0x0
   vendor: Rockchip
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd0c
+    revision: 0x1
+    variant: 0x3
+  features:
   - fp
   - asimd
   - evtstrm
@@ -624,14 +668,14 @@
   - dcpop
   - asimddp
   - ssbs
-  implementer: 0x41
   name: Graviton 2
-  part:
-  - 0xd0c
-  revision: 0x1
-  variant: 0x3
   vendor: Amazon
-- features:
+- cores:
+  - implementer: 0x50
+    part: 0x0
+    revision: 0x2
+    variant: 0x3
+  features:
   - fp
   - asimd
   - evtstrm
@@ -641,14 +685,18 @@
   - sha2
   - crc32
   - cpuid
-  implementer: 0x50
   name: eMAG 8180
-  part:
-  - 0x0
-  revision: 0x2
-  variant: 0x3
   vendor: Ampere
-- features:
+- cores:
+  - implementer: 0x61
+    part: 0x32
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x61
+    part: 0x33
+    revision: 0x0
+    variant: 0x1
+  features:
   - fp
   - asimd
   - evtstrm
@@ -685,15 +733,18 @@
   - bf16
   - bti
   - ecv
-  implementer: 0x61
   name: M2
-  part:
-  - 0x32
-  - 0x33
-  revision: 0x0
-  variant: 0x1
   vendor: Apple
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x4
+  - implementer: 0x41
+    part: 0xd0b
+    revision: 0x0
+    variant: 0x4
+  features:
   - fp
   - asimd
   - evtstrm
@@ -710,15 +761,18 @@
   - lrcpc
   - dcpop
   - asimddp
-  implementer: 0x41
   name: RK3588
-  part:
-  - 0xd05
-  - 0xd0b
-  revision: 0x0
-  variant: 0x4
   vendor: Rockchip
-- features:
+- cores:
+  - implementer: 0x51
+    part: 0x805
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd0d
+    revision: 0x0
+    variant: 0x1
+  features:
   - fp
   - asimd
   - evtstrm
@@ -735,15 +789,18 @@
   - lrcpc
   - dcpop
   - asimddp
-  implementer: 0x41
   name: Snapdragon 865
-  part:
-  - 0x805
-  - 0xd0d
-  revision: 0x0
-  variant: 0x1
   vendor: Qualcomm
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x2
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd09
+    revision: 0x2
+    variant: 0x0
+  features:
   - fp
   - asimd
   - evtstrm
@@ -753,24 +810,18 @@
   - sha2
   - crc32
   - cpuid
-  implementer: 0x41
   name: Kirin 710
-  part:
-  - 0xd03
-  - 0xd09
-  revision: 0x2
-  variant: 0x0
   vendor: HiSilicon
-- features:
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x0
+    variant: 0x0
+  features:
   - fp
   - asimd
   - evtstrm
   - crc32
   - cpuid
-  implementer: 0x41
   name: Snapdragon 410
-  part:
-  - 0xd03
-  revision: 0x0
-  variant: 0x0
   vendor: Qualcomm
