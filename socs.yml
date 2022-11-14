@@ -1071,3 +1071,20 @@
   - crc32
   name: Helio P60T (MT8173)
   vendor: MediaTek
+- cores:
+  - implementer: 0x41
+    part: 0xd07
+    revision: 0x2
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: Opteron A1100
+  vendor: AMD
