@@ -1030,3 +1030,24 @@
   - asimddp
   name: Helio G90T (MT6785)
   vendor: MediaTek
+- cores:
+  - implementer: 0x51
+    part: 0x211
+    revision: 0x2
+    variant: 0x1
+  - implementer: 0x51
+    part: 0x205
+    revision: 0x2
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: Snapdragon 820
+  vendor: Qualcomm
