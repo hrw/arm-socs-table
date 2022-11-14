@@ -1,0 +1,88 @@
+**Describe the system**
+Lenovo Tab P11 Plus
+Mediatek MT6785 Helio G90T (12 nm)
+Octa-core (2x2.05 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)
+URL to product page: https://www.gsmarena.com/lenovo_tab_p11_plus-10990.php
+
+
+**Paste `/proc/cpuinfo` content**
+```
+C:\adb>adb shell "cat /proc/cpuinfo"
+processor       : 0
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd05
+CPU revision    : 0
+
+processor       : 1
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd05
+CPU revision    : 0
+
+processor       : 2
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd05
+CPU revision    : 0
+
+processor       : 3
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd05
+CPU revision    : 0
+
+processor       : 4
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd05
+CPU revision    : 0
+
+processor       : 5
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd05
+CPU revision    : 0
+
+processor       : 6
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x3
+CPU part        : 0xd0b
+CPU revision    : 0
+
+processor       : 7
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x3
+CPU part        : 0xd0b
+CPU revision    : 0
+
+Hardware        : MT6785
+```
+
+**Additional context**
+Add any other information you want.
+

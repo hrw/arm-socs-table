@@ -1002,3 +1002,31 @@
   - asimddp
   name: Snapdragon 855+ (SM8150_Plus)
   vendor: Qualcomm
+- cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd0b
+    revision: 0x0
+    variant: 0x3
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Helio G90T (MT6785)
+  vendor: MediaTek
