@@ -9,9 +9,9 @@ import sys
 
 def handle_socs():
 
-    socs = tables.socs.copy()
+    socs = {}
 
-    for soc in socs:
+    for soc in tables.socs:
         soc["core_names"] = []
         for core in soc["cores"]:
             try:
@@ -36,8 +36,14 @@ def handle_socs():
                     file=sys.stderr
                 )
                 sys.exit(-1)
+        socs[f"{soc['vendor']}-{soc['name']}"] = soc
 
-    return socs
+    sorted_socs = []
+
+    for key in sorted(socs.keys()):
+        sorted_socs.append(socs[key])
+
+    return sorted_socs
 
 
 def handle_cpu_features():
