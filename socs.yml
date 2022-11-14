@@ -934,3 +934,23 @@
   - crc32
   name: Snapdragon 650 (MSM8956)
   vendor: Qualcomm
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x3
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd07
+    revision: 0x2
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  name: Snapdragon 808 (MSM8992)
+  vendor: Qualcomm
