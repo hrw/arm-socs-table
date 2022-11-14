@@ -1,0 +1,32 @@
+--
+**System name:** ZTE Nubia Z17 Lite (6/64)
+**Vendor name:** Qualcomm
+**SoC name:** Snapdragon 653
+**URL to product page:** https://www.kimovil.com/pl/gdzie-kupic-nubia-z17-lite (probably not the greatest one, but it's already hard to find official page)
+
+
+**Paste `/proc/cpuinfo` content**
+```
+Processor	: AArch64 Processor rev 4 (aarch64)
+processor	: 0
+processor	: 1
+processor	: 2
+processor	: 3
+processor	: 4
+processor	: 5
+processor	: 6
+processor	: 7
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+Hardware	: Qualcomm Technologies, Inc MSM8976SG
+```
+
+**Additional context**
+Unofficial Android 10 (Mokee ROM), rooted.
+
+NOTE: another Android dump to confirm with other device
