@@ -13,3 +13,5 @@ CPU part        : 0xd03
 CPU revision    : 4
 
 Hardware        : Qualcomm Technologies, Inc MSM8956
+
+NOTE: should list both 0xd08 and 0xd03 cores

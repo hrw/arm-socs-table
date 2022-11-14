@@ -916,6 +916,10 @@
   vendor: MediaTek
 - cores:
   - implementer: 0x41
+    part: 0xd08
+    revision: 0x0
+    variant: 0x0
+  - implementer: 0x41
     part: 0xd03
     revision: 0x4
     variant: 0x0
