@@ -1049,7 +1049,7 @@
   - sha2
   - crc32
   - cpuid
-  name: Snapdragon 820
+  name: Snapdragon 820 (MSM8996)
   vendor: Qualcomm
 - cores:
   - implementer: 0x41

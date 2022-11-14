@@ -34,3 +34,5 @@ CPU architecture: 8
 CPU variant     : 0x1
 CPU part        : 0x205
 CPU revision    : 2
+
+Hardware        : Qualcomm Technologies, Inc MSM8996
