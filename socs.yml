@@ -974,3 +974,31 @@
   - crc32
   name: Snapdragon 653 (MSM8976SG)
   vendor: Qualcomm
+- cores:
+  - implementer: 0x51
+    part: 0x805
+    revision: 0x14
+    variant: 0xd
+  - implementer: 0x51
+    part: 0x804
+    revision: 0x14
+    variant: 0xd
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Snapdragon 855+ (SM8150_Plus)
+  vendor: Qualcomm
