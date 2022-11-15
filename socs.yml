@@ -1120,3 +1120,31 @@
   - asimddp
   name: Snapdragon 888+ (SM8350)
   vendor: Qualcomm
+- cores:
+  - implementer: 0x51
+    part: 0x805
+    revision: 0x14
+    variant: 0xd
+  - implementer: 0x51
+    part: 0x804
+    revision: 0x14
+    variant: 0xf
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Snapdragon 765
+  vendor: Qualcomm
