@@ -13,12 +13,14 @@ System name:
 Vendor name:
 SoC name:
 URL to product page:
+Kernel version (if known):
 
 
 **Paste `/proc/cpuinfo` content**
+Please do not submit random dumps from the Internet.
 ```
 (here goes the file)
 ```
 
 **Additional context**
-Add any other information you want.
+Add any other information you feel as relevant.
