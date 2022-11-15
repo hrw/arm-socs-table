@@ -1148,3 +1148,20 @@
   - asimddp
   name: Snapdragon 765
   vendor: Qualcomm
+- cores:
+  - implementer: 0x41
+    part: 0xd07
+    revision: 0x1
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: Tegra X1
+  vendor: NVIDIA
