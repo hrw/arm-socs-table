@@ -1165,3 +1165,20 @@
   - cpuid
   name: Tegra X1
   vendor: NVIDIA
+- cores:
+  - implementer: 0x70
+    part: 0x663
+    revision: 0x3
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: D2000/8
+  vendor: Phytium
