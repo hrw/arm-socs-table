@@ -1340,3 +1340,31 @@
   - cpuid
   name: Armada 8040
   vendor: Marvell
+- cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd0a
+    revision: 0x1
+    variant: 0x3
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Helio G85 (MT6769Z)
+  vendor: MediaTek
