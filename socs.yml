@@ -248,7 +248,7 @@
   - lrcpc
   - dcpop
   - asimddp
-  name: Snapdragon 7c SC7180
+  name: Snapdragon 7c (SC7180)
   vendor: Qualcomm
 - cores:
   - implementer: 0x41
@@ -350,7 +350,7 @@
   - lrcpc
   - dcpop
   - asimddp
-  name: MT6893 Dimensity 1200
+  name: Dimensity 1200 (MT6893)
   vendor: MediaTek
 - cores:
   - implementer: 0x41
@@ -473,7 +473,7 @@
   - sha1
   - sha2
   - crc32
-  name: Snapdragon 660
+  name: Snapdragon 660 (SDM660)
   vendor: Qualcomm
 - cores:
   - implementer: 0x0
@@ -563,7 +563,7 @@
   - atomics
   - fphp
   - asimdhp
-  name: Snapdragon 845
+  name: Snapdragon 845 (SDM845)
   vendor: Qualcomm
 - cores:
   - implementer: 0x41
@@ -596,7 +596,7 @@
   - sha1
   - sha2
   - crc32
-  name: Snapdragon 625
+  name: Snapdragon 625 (MSM8953)
   vendor: Qualcomm
 - cores:
   - implementer: 0x41
@@ -609,7 +609,7 @@
   - evtstrm
   - crc32
   - cpuid
-  name: Baikal-M
+  name: Baikal-M (BE-M1000)
   vendor: Baikal Electronics
 - cores:
   - implementer: 0x41
@@ -789,7 +789,7 @@
   - lrcpc
   - dcpop
   - asimddp
-  name: Snapdragon 865
+  name: Snapdragon 865 (SM8250)
   vendor: Qualcomm
 - cores:
   - implementer: 0x41
@@ -823,7 +823,7 @@
   - evtstrm
   - crc32
   - cpuid
-  name: Snapdragon 410
+  name: Snapdragon 410 (MSM8916)
   vendor: Qualcomm
 - cores:
   - implementer: 0x51
@@ -846,7 +846,7 @@
   - atomics
   - fphp
   - asimdhp
-  name: Snapdragon 710
+  name: Snapdragon 710 (SDM710)
   vendor: Qualcomm
 - cores:
   - implementer: 0x43
@@ -865,7 +865,7 @@
   - atomics
   - cpuid
   - asimdrdm
-  name: Thunder X2 CN9980
+  name: ThunderX2 CN9980
   vendor: Cavium/Marvell
 - cores:
   - implementer: 0x41
@@ -1146,7 +1146,7 @@
   - lrcpc
   - dcpop
   - asimddp
-  name: Snapdragon 765
+  name: Snapdragon 765 (LITO)
   vendor: Qualcomm
 - cores:
   - implementer: 0x41
