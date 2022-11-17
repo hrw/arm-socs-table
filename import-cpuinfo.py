@@ -34,6 +34,18 @@ cores = {}
 for line in cpu_data:
     if line.startswith("Features") and not new_soc["features"]:
         new_soc["features"] = line.partition(":")[2].strip().split(" ")
+
+        # some old Android kernels have both arm32 and aarch64 flags
+        for arm32_flag in ["edsp", "fastmult", "fpa", "half", "idiva", "idivt",
+                           "iwmmxt", "java", "lpae", "neon", "swp", "thumb",
+                           "thumbee", "tls", "vfp", "vfpd32", "vfpv3",
+                           "vfpv3d16", "vfpv4"]:
+            try:
+                new_soc["features"].remove(arm32_flag)
+            except ValueError:
+                # flag is not present
+                pass
+
     elif line.startswith("CPU implementer"):
         implementer = int(line.partition(":")[2].strip(), base=16)
     elif line.startswith("CPU variant"):
