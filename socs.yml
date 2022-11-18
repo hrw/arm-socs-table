@@ -1444,3 +1444,36 @@
   - crc32
   name: Exynos 7870
   vendor: Samsung
+- cores:
+  - implementer: 0x41
+    part: 0xd4b
+    revision: 0x0
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd4c
+    revision: 0x0
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  - uscat
+  - ilrcpc
+  - flagm
+  - paca
+  - pacg
+  name: Snapdragon 8cx Gen 3
+  vendor: Qualcomm
