@@ -1477,3 +1477,65 @@
   - pacg
   name: Snapdragon 8cx Gen 3
   vendor: Qualcomm
+- cores:
+  - implementer: 0x41
+    part: 0xd46
+    revision: 0x2
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd47
+    revision: 0x0
+    variant: 0x2
+  - implementer: 0x41
+    part: 0xd48
+    revision: 0x0
+    variant: 0x2
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - sm3
+  - sm4
+  - asimddp
+  - sha512
+  - sve
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - sve2
+  - sveaes
+  - svepmull
+  - svebitperm
+  - svesha3
+  - svesm4
+  - flagm2
+  - frint
+  - svei8mm
+  - svebf16
+  - i8mm
+  - bf16
+  - bti
+  name: Exynos 2200
+  vendor: Samsung
