@@ -96,7 +96,8 @@ cpu_cores = {
     },
     0x53: {
         "name": "Samsung",
-        "0x01": "exynos-m1",
+        "0x1": "Exynos M1",
+        "0x4": "Exynos M5",
     },
     0x56: {
         "name": "Marvell",
