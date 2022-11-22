@@ -1613,3 +1613,21 @@
   - cpuid
   name: S992X
   vendor: Amlogic
+- cores:
+  - implementer: 0x61
+    part: 0x6
+    revision: 0x1
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  - asimdrdm
+  name: A10 Fusion
+  vendor: Apple
