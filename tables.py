@@ -97,6 +97,10 @@ cpu_cores = {
     0x53: {
         "name": "Samsung",
         "0x1": "Exynos M1",
+        # Exynos M2 is 0x1 with cpu variant == 4
+        # https://github.com/JuliaLang/julia/blob/e5ed5be258b7f31488308f5a6d055fffea556147/src/processor_arm.cpp#L1003
+        "0x2": "Exynos M3",
+        "0x3": "Exynos M4",
         "0x4": "Exynos M5",
     },
     0x56: {
