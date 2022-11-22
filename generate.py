@@ -27,7 +27,8 @@ def handle_socs():
 
             try:
                 soc["core_names"].append(
-                    tables.cpu_cores[core["implementer"]][hex(core["part"])]
+                    tables.cpu_cores[core["implementer"]]["cores"][
+                        hex(core["part"])]["name"]
                 )
             except KeyError:
                 print(
