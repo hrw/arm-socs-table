@@ -107,6 +107,7 @@ cpu_cores = {
     },
     0x61: {
         "name": "Apple",
+        "0x6": "Hurricane",
         "0x20": "Icestorm-A14",
         "0x21": "Firestorm-A14",
         "0x22": "Icestorm-M1",
