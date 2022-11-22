@@ -36,5 +36,5 @@ for soc in tables.socs:
     del soc['variant']
     del soc['revision']
 
-with open("socs.yml", "w") as yml:
+with open("data/socs.yml", "w") as yml:
     yaml.dump(tables.socs, yml)

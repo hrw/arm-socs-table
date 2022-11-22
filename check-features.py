@@ -8,5 +8,5 @@ for soc in tables.socs:
         if feature not in tables.cpu_features:
             tables.cpu_features[feature] = {"archv": 8.0}
 
-with open("cpu_features.yml", "w") as yml:
+with open("data/cpu_features.yml", "w") as yml:
     yaml.dump(tables.cpu_features, yml)

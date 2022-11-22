@@ -134,8 +134,8 @@ cpu_cores = {
     },
 }
 
-with open("socs.yml") as yml:
+with open("data/socs.yml") as yml:
     socs = yaml.safe_load(yml)
 
-with open("cpu_features.yml") as yml:
+with open("data/cpu_features.yml") as yml:
     cpu_features = yaml.safe_load(yml)

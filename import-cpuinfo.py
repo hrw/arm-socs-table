@@ -71,5 +71,5 @@ for core in cores:
 
 tables.socs.append(new_soc)
 
-with open("socs.yml", "w") as yml:
+with open("data/socs.yml", "w") as yml:
     yaml.dump(tables.socs, yml)
