@@ -1631,3 +1631,24 @@
   - asimdrdm
   name: A10 Fusion
   vendor: Apple
+- cores:
+  - implementer: 0x51
+    part: 0x801
+    revision: 0x4
+    variant: 0xa
+  - implementer: 0x51
+    part: 0x800
+    revision: 0x2
+    variant: 0xa
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: Snapdragon 665
+  vendor: Qualcomm
