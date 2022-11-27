@@ -56,7 +56,7 @@ cpuid:
 crc32:
   archv: 8.0
   feat: FEAT_CRC32
-  name: Changes to CRC32 instructions
+  name: CRC32 instructions
   note: v8.0 optional, v8.1 mandatory
 dcpodp:
   archv: 8.2
