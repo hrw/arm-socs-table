@@ -169,25 +169,25 @@
       aarch32: to be set
       name: Kryo
     '0x800':
-      aarch32: to be set
+      aarch32: EL0-EL3?
       name: Falkor-V1/Kryo
     '0x801':
-      aarch32: to be set
+      aarch32: EL0-EL3?
       name: Kryo V2
     '0x802':
-      aarch32: to be set
+      aarch32: EL0-EL3?
       name: Kryo 3xx Gold
     '0x803':
-      aarch32: to be set
+      aarch32: EL0-EL3?
       name: Kryo 3xx Silver
     '0x804':
-      aarch32: to be set
+      aarch32: EL0-EL3?
       name: Kryo Gold
     '0x805':
-      aarch32: to be set
+      aarch32: EL0-EL3?
       name: Kryo Silver
     '0xc00':
-      aarch32: to be set
+      aarch32: false
       name: Falkor
     '0xc01':
       aarch32: to be set
