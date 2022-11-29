@@ -142,7 +142,7 @@
 0x50:
   cores:
     '0x0':
-      aarch32: EL0
+      aarch32: EL0-EL3
       name: X-Gene
   name: APM
 0x51:
