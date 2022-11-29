@@ -223,40 +223,40 @@
 0x61:
   cores:
     '0x20':
-      aarch32: to be set
+      aarch32: false
       name: Icestorm-A14
     '0x21':
-      aarch32: to be set
+      aarch32: false
       name: Firestorm-A14
     '0x22':
-      aarch32: to be set
+      aarch32: false
       name: Icestorm-M1
     '0x23':
-      aarch32: to be set
+      aarch32: false
       name: Firestorm-M1
     '0x24':
-      aarch32: to be set
+      aarch32: false
       name: Icestorm-M1-Pro
     '0x25':
-      aarch32: to be set
+      aarch32: false
       name: Firestorm-M1-Pro
     '0x28':
-      aarch32: to be set
+      aarch32: false
       name: Icestorm-M1-Max
     '0x29':
-      aarch32: to be set
+      aarch32: false
       name: Firestorm-M1-Max
     '0x30':
-      aarch32: to be set
+      aarch32: false
       name: Blizzard-A15
     '0x31':
-      aarch32: to be set
+      aarch32: false
       name: Avalanche-A15
     '0x32':
-      aarch32: to be set
+      aarch32: false
       name: Blizzard-M2
     '0x33':
-      aarch32: to be set
+      aarch32: false
       name: Avalanche-M2
     '0x6':
       aarch32: to be set
