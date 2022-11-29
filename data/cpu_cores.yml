@@ -1,537 +1,288 @@
 0x0:
   cores:
     '0x51':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Max
   name: QEMU
 0x41:
   cores:
     '0xd03':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-A53
     '0xd04':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-A35
     '0xd05':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-A55
     '0xd06':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-A65
     '0xd07':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-A57
     '0xd08':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-A72
     '0xd09':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-A73
     '0xd0a':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-A75
     '0xd0b':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-A76
     '0xd0c':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Neoverse-N1
     '0xd0d':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-A77
     '0xd0e':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-A76AE
     '0xd13':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-R52
     '0xd20':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-M23
     '0xd21':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-M33
     '0xd40':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Neoverse-V1
     '0xd41':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-A78
     '0xd42':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-A78AE
     '0xd43':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-A65AE
     '0xd44':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-X1
     '0xd46':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-A510
     '0xd47':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-A710
     '0xd48':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-X2
     '0xd49':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Neoverse-N2
     '0xd4a':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Neoverse-E1
     '0xd4b':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-A78C
     '0xd4c':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-X1C
     '0xd4d':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-A715
     '0xd4e':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Cortex-X3
   name: ARM
 0x42:
   cores:
     '0x0f':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Brahma-B15
     '0x100':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Brahma-B53
     '0x516':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: ThunderX2
   name: Broadcom
 0x43:
   cores:
     '0xa0':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: ThunderX
     '0xa1':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: ThunderX-88XX
     '0xa2':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: ThunderX-81XX
     '0xa3':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: ThunderX-83XX
     '0xaf':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: ThunderX2-99xx
   name: Cavium
 0x46:
   cores:
     '0x1':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: A64FX
   name: Fujitsu
 0x48:
   cores:
     '0xd01':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Kunpeng-920
   name: HiSilicon
 0x4e:
   cores:
     '0x000':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Denver
     '0x003':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Denver 2
     '0x004':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Carmel
   name: NVIDIA
 0x50:
   cores:
     '0x0':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: X-Gene
   name: APM
 0x51:
   cores:
     '0x00f':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Scorpion
     '0x02d':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Scorpion
     '0x04d':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Krait
     '0x06f':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Krait
     '0x201':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Kryo
     '0x205':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Kryo
     '0x211':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Kryo
     '0x800':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Falkor-V1/Kryo
     '0x801':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Kryo V2
     '0x802':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Kryo 3xx Gold
     '0x803':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Kryo 3xx Silver
     '0x804':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Kryo Gold
     '0x805':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Kryo Silver
     '0xc00':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Falkor
     '0xc01':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Saphira
   name: Qualcomm
 0x53:
   cores:
     '0x1':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Exynos M1
     '0x2':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Exynos M3
     '0x3':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Exynos M4
     '0x4':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Exynos M5
   name: Samsung
 0x56:
   cores:
     '0x131':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Feroceon-88FR131
     '0x581':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: PJ4/PJ4b
     '0x584':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: PJ4B-MP
   name: Marvell
 0x61:
   cores:
     '0x20':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Icestorm-A14
     '0x21':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Firestorm-A14
     '0x22':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Icestorm-M1
     '0x23':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Firestorm-M1
     '0x24':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Icestorm-M1-Pro
     '0x25':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Firestorm-M1-Pro
     '0x28':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Icestorm-M1-Max
     '0x29':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Firestorm-M1-Max
     '0x30':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Blizzard-A15
     '0x31':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Avalanche-A15
     '0x32':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Blizzard-M2
     '0x33':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Avalanche-M2
     '0x6':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: Hurricane
   name: Apple
 0x70:
   cores:
     '0x660':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: FTC660
     '0x661':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: FTC661
     '0x662':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: FTC662
     '0x663':
-      16k: to be set
-      4k: to be set
-      64k: to be set
       aarch32: to be set
       name: FTC663
   name: Phytium
