@@ -42,9 +42,9 @@
     <script type="text/javascript" src="https://cdn.datatables.net/plug-ins/1.12.1/features/mark.js/datatables.mark.js"></script>
     <script type="text/javascript" id="js">
             $(document).ready(function() {
-                    $("table").DataTable( {
+                    $("#arm_socs").DataTable( {
                             pageLength  : -1,
-			    paging:       false,
+                            paging:       false,
                             scrollX:        true,
                             scrollCollapse: true,
                             fixedHeader : true,
@@ -59,26 +59,26 @@
     </script>
     <style type="text/css">
 
-table.arm_socs {
+#arm_socs {
         border: 1px solid #000;
 }
 
-table.arm_socs th {
+#arm_socs th {
         text-align: center;
         padding: 0.5em;
         line-height: 2em;
         color: black;
 }
 
-table.arm_socs thead {
+#arm_socs thead {
         border: 1px solid black;
 }
 
-table.arm_socs td {
+#arm_socs td {
         padding: 0.5em;
 }
 
-table.arm_socs tbody tr.odd td {
+#arm_socs tbody tr.odd td {
         background-color: lightgrey;
 }
 
@@ -87,7 +87,7 @@ table.arm_socs tbody tr.odd td {
 }
 
 .nowrap {
-	white-space: nowrap;
+        white-space: nowrap;
 }
     </style>
 </head>
@@ -133,7 +133,7 @@ table.arm_socs tbody tr.odd td {
 <h2>Build info</h2>
     <p>Table generated on <strong>{{ generate_time }} UTC</strong>.</p>
 
-<table class="arm_socs">
+<table id="arm_socs">
     <thead>
         <tr>
             <th rowspan="2">SoC vendor</th>
@@ -149,13 +149,13 @@ table.arm_socs tbody tr.odd td {
 {% for feature in cpu_features %}
             <th>{{ cpu_features[feature].archv }}</th>
 {% endfor %}
-	</tr>
+        </tr>
     </thead>
     <tbody>
 {% for soc in socs %}
     <tr>
-	<td>{{ soc.vendor  }}</td>
-	<td>{{ soc.name  }}</td>
+        <td>{{ soc.vendor  }}</td>
+        <td>{{ soc.name  }}</td>
   <td class="nowrap">{% for core in soc.cores %}{{ core.implementer_name }}{% if not loop.last %},<br />{% endif %}{% endfor %}</td>
   <td class="nowrap">{% for name in soc.core_names %}{{ name }}{% if not loop.last %},<br />{% endif %}{% endfor %}</td>
   <td>{% for aarch32 in soc.extra_info.aarch32.keys() %}{{ aarch32 }}{% if not loop.last %}<br />{% endif %}{% endfor %}</td>
