@@ -129,13 +129,13 @@
   name: HiSilicon
 0x4e:
   cores:
-    '0x000':
+    '0x0':
       aarch32: to be set
       name: Denver
-    '0x003':
+    '0x3':
       aarch32: to be set
       name: Denver 2
-    '0x004':
+    '0x4':
       aarch32: to be set
       name: Carmel
   name: NVIDIA
