@@ -1699,5 +1699,5 @@
   - sha2
   - crc32
   - cpuid
-  name: i.MX8QXP
+  name: i.MX 8QuadXPlus
   vendor: NXP
