@@ -7,82 +7,82 @@
 0x41:
   cores:
     '0xd03':
-      aarch32: to be set
+      aarch32: EL0-EL3
       name: Cortex-A53
     '0xd04':
-      aarch32: to be set
+      aarch32: EL0-EL3
       name: Cortex-A35
     '0xd05':
-      aarch32: to be set
+      aarch32: EL0-EL3
       name: Cortex-A55
     '0xd06':
-      aarch32: to be set
+      aarch32: false
       name: Cortex-A65
     '0xd07':
-      aarch32: to be set
+      aarch32: EL0-EL3
       name: Cortex-A57
     '0xd08':
-      aarch32: to be set
+      aarch32: EL0-EL3
       name: Cortex-A72
     '0xd09':
-      aarch32: to be set
+      aarch32: EL0-EL3
       name: Cortex-A73
     '0xd0a':
-      aarch32: to be set
+      aarch32: EL0-EL3
       name: Cortex-A75
     '0xd0b':
-      aarch32: to be set
+      aarch32: EL0
       name: Cortex-A76
     '0xd0c':
-      aarch32: to be set
+      aarch32: EL0
       name: Neoverse-N1
     '0xd0d':
-      aarch32: to be set
+      aarch32: EL0
       name: Cortex-A77
     '0xd0e':
-      aarch32: to be set
+      aarch32: EL0
       name: Cortex-A76AE
     '0xd40':
-      aarch32: to be set
+      aarch32: EL0
       name: Neoverse-V1
     '0xd41':
-      aarch32: to be set
+      aarch32: EL0
       name: Cortex-A78
     '0xd42':
-      aarch32: to be set
+      aarch32: EL0
       name: Cortex-A78AE
     '0xd43':
-      aarch32: to be set
+      aarch32: false
       name: Cortex-A65AE
     '0xd44':
-      aarch32: to be set
+      aarch32: EL0
       name: Cortex-X1
     '0xd46':
-      aarch32: to be set
+      aarch32: NO/EL0-EL3
       name: Cortex-A510
     '0xd47':
-      aarch32: to be set
+      aarch32: EL0
       name: Cortex-A710
     '0xd48':
-      aarch32: to be set
+      aarch32: false
       name: Cortex-X2
     '0xd49':
-      aarch32: to be set
+      aarch32: EL0
       name: Neoverse-N2
     '0xd4a':
-      aarch32: to be set
+      aarch32: false
       name: Neoverse-E1
     '0xd4b':
-      aarch32: to be set
+      aarch32: EL0
       name: Cortex-A78C
     '0xd4c':
-      aarch32: to be set
+      aarch32: EL0
       name: Cortex-X1C
     '0xd4d':
-      aarch32: to be set
+      aarch32: false
       name: Cortex-A715
     '0xd4e':
-      aarch32: to be set
+      aarch32: false
       name: Cortex-X3
   name: ARM
 0x42:
@@ -94,25 +94,25 @@
       aarch32: to be set
       name: Brahma-B53
     '0x516':
-      aarch32: to be set
+      aarch32: false
       name: ThunderX2
   name: Broadcom
 0x43:
   cores:
     '0xa0':
-      aarch32: to be set
+      aarch32: false
       name: ThunderX
     '0xa1':
-      aarch32: to be set
+      aarch32: false
       name: ThunderX-88XX
     '0xa2':
-      aarch32: to be set
+      aarch32: false
       name: ThunderX-81XX
     '0xa3':
-      aarch32: to be set
+      aarch32: false
       name: ThunderX-83XX
     '0xaf':
-      aarch32: to be set
+      aarch32: false
       name: ThunderX2-99xx
   name: Cavium
 0x46:
@@ -142,7 +142,7 @@
 0x50:
   cores:
     '0x0':
-      aarch32: to be set
+      aarch32: EL0
       name: X-Gene
   name: APM
 0x51:

@@ -13,6 +13,10 @@ def handle_socs():
 
     for soc in tables.socs:
         soc["core_names"] = []
+        soc["extra_info"] = {"aarch32":{}}
+
+        aarch32 = False
+
         for core in soc["cores"]:
             try:
                 core["implementer_name"] = tables.cpu_cores[
@@ -37,6 +41,18 @@ def handle_socs():
                     file=sys.stderr
                 )
                 sys.exit(-1)
+
+            aarch32 = tables.cpu_cores[
+                core["implementer"]]["cores"][hex(core["part"])]["aarch32"]
+
+            if aarch32 == "to be set":
+                aarch32 = ""
+            elif aarch32 is False:
+                aarch32 = "NO"
+
+            if aarch32:
+                soc["extra_info"]["aarch32"][aarch32] = True
+
         socs[f"{soc['vendor']}-{soc['name']}"] = soc
 
     sorted_socs = []
