@@ -171,7 +171,7 @@
   - asimd
   - evtstrm
   - cpuid
-  name: X-Gene
+  name: X-Gene 1
   vendor: Applied Micro
 - cores:
   - implementer: 0x46
@@ -1723,3 +1723,20 @@
   - dcpop
   name: Tegra Xavier
   vendor: NVIDIA
+- cores:
+  - implementer: 0x50
+    part: 0x0
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: X-Gene 2
+  vendor: Applied Micro
