@@ -297,7 +297,7 @@
   name: Graviton 3
   vendor: Amazon
 - cores:
-  - implementer: 0x41
+  - implementer: 0x48
     part: 0xd40
     revision: 0x0
     variant: 0x1
