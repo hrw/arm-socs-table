@@ -29,21 +29,34 @@ def handle_socs():
                 )
                 sys.exit(-1)
 
+            # try to check core part-revision-variant
+            # (like X-Gene 1/2/3)
+            core_prv = f'{hex(core["part"])}-{core["revision"]}-' \
+                f'{core["variant"]}'
             try:
                 soc["core_names"].append(
                     tables.cpu_cores[core["implementer"]]["cores"][
-                        hex(core["part"])]["name"]
+                        core_prv]["name"]
                 )
+                aarch32 = tables.cpu_cores[
+                    core["implementer"]]["cores"][core_prv]["aarch32"]
             except KeyError:
-                print(
-                    f"Missing name for {hex(core['part'])} for "
-                    f"{hex(core['implementer'])}!",
-                    file=sys.stderr
-                )
-                sys.exit(-1)
+                try:
+                    soc["core_names"].append(
+                        tables.cpu_cores[core["implementer"]]["cores"][
+                            hex(core["part"])]["name"]
+                    )
+                    aarch32 = tables.cpu_cores[
+                        core["implementer"]]["cores"][
+                            hex(core["part"])]["aarch32"]
+                except KeyError:
+                    print(
+                        f"Missing name for {hex(core['part'])} for "
+                        f"{hex(core['implementer'])}!",
+                        file=sys.stderr
+                    )
+                    sys.exit(-1)
 
-            aarch32 = tables.cpu_cores[
-                core["implementer"]]["cores"][hex(core["part"])]["aarch32"]
 
             if aarch32 == "to be set":
                 aarch32 = ""

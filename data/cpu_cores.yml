@@ -147,6 +147,15 @@
     '0x0':
       aarch32: EL0-EL2/3
       name: X-Gene
+    '0x0-1-0':
+      aarch32: EL0-EL2
+      name: X-Gene 1
+    '0x0-0-1':
+      aarch32: EL0-EL2
+      name: X-Gene 2
+    '0x0-2-3':
+      aarch32: EL0-EL3
+      name: X-Gene 3
   name: APM
 0x51:
   cores:
