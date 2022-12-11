@@ -60,6 +60,12 @@
     '0xd46':
       aarch32: NO/EL0-EL3
       name: Cortex-A510
+    '0xd46-0-0':
+      aarch32: false
+      name: Cortex-A510
+    '0xd46-2-0':
+      aarch32: EL0-EL3
+      name: Cortex-A510
     '0xd47':
       aarch32: EL0
       name: Cortex-A710
