@@ -1740,3 +1740,56 @@
   - crc32
   name: RK3308
   vendor: Rockchip
+- cores:
+  - implementer: 0x41
+    part: 0xd0c
+    revision: 0x1
+    variant: 0x3
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  - ssbs
+  name: G6R
+  vendor: Alibaba
+- cores:
+  - implementer: 0x51
+    part: 0x805
+    revision: 0x14
+    variant: 0xd
+  - implementer: 0x51
+    part: 0x804
+    revision: 0x15
+    variant: 0xf
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Snapdragon 720G (SM7125)
+  vendor: Qualcomm
