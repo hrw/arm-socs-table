@@ -57,7 +57,6 @@ def handle_socs():
                     )
                     sys.exit(-1)
 
-
             if aarch32 == "to be set":
                 aarch32 = ""
             elif aarch32 is False:
@@ -94,10 +93,27 @@ def handle_cpu_features():
     return cpu_features
 
 
-def generate_html_file(socs, cpu_features):
+def handle_cpu_cores():
+
+    cpu_cores = {}
+
+    for implementer in tables.cpu_cores:
+
+        cpu_cores[implementer] = {}
+        for core in tables.cpu_cores[implementer]['cores']:
+            try:
+                cpu_cores[implementer][int(core, base=16)] = tables.cpu_cores[implementer]['cores'][core]
+            except ValueError:
+                pass
+
+    return cpu_cores
+
+def generate_html_file(socs, cpu_features, cpu_cores):
 
     file_loader = FileSystemLoader("templates")
-    env = Environment(loader=file_loader, trim_blocks=True, lstrip_blocks=True)
+    env = Environment(loader=file_loader,
+                      trim_blocks=True,
+                      lstrip_blocks=True)
 
     template = env.get_template("arm-socs.html.j2")
 
@@ -105,12 +121,13 @@ def generate_html_file(socs, cpu_features):
         generate_time=datetime.strftime(datetime.utcnow(), "%d %B %Y %H:%M"),
         socs=socs,
         cpu_features=cpu_features,
-        minify=True,
+        cpu_cores=cpu_cores,
     )
     print(output)
 
 
 if __name__ == "__main__":
     socs = handle_socs()
+    cpu_cores = handle_cpu_cores()
     cpu_features = handle_cpu_features()
-    generate_html_file(socs, cpu_features)
+    generate_html_file(socs, cpu_features, cpu_cores)
