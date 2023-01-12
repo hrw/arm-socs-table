@@ -90,6 +90,9 @@
     '0xd4e':
       aarch32: false
       name: Cortex-X3
+    '0xd4f':
+      aarch32:
+      name: Neoverse-V2
   name: ARM
 0x42:
   cores:
