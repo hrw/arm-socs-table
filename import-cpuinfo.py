@@ -29,6 +29,11 @@ new_soc = {
     "vendor": sys.argv[3]
 }
 
+for soc in tables.socs:
+    if new_soc["name"] == soc["name"]:
+        print(f"{new_soc['name']} is already present")
+        sys.exit(-1)
+
 cores = {}
 
 for line in cpu_data:
