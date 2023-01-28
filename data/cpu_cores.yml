@@ -273,25 +273,40 @@
       name: Scorpion
     '0x04d':
       aarch32: to be set
-      name: Krait
+      name: Krait 200
+    '0x04d-2-0':
+      aarch32: to be set
+      name: Krait 300
     '0x06f':
       aarch32: to be set
-      name: Krait
+      name: Krait 200
+    '0x06f-1-0':
+      aarch32: to be set
+      name: Krait 300
+    '0x06f-2-0':
+      aarch32: to be set
+      name: Krait 400
+    '0x06f-2-1':
+      aarch32: to be set
+      name: Krait 400
+    '0x06f-3-1':
+      aarch32: to be set
+      name: Krait 450
     '0x201':
       aarch32: to be set
-      name: Kryo
+      name: Kryo Silver
     '0x205':
       aarch32: to be set
-      name: Kryo
+      name: Kryo Gold
     '0x211':
       aarch32: to be set
-      name: Kryo
+      name: Kryo Silver
     '0x800':
       aarch32: EL0-EL3?
-      name: Falkor-V1/Kryo
+      name: Falkor-V1/Kryo 2xx Gold
     '0x801':
       aarch32: EL0-EL3?
-      name: Kryo V2
+      name: Kryo 2xx Silver
     '0x802':
       aarch32: EL0-EL3?
       name: Kryo 3xx Gold
@@ -300,10 +315,10 @@
       name: Kryo 3xx Silver
     '0x804':
       aarch32: EL0-EL3?
-      name: Kryo Gold
+      name: Kryo 4xx Gold
     '0x805':
       aarch32: EL0-EL3?
-      name: Kryo Silver
+      name: Kryo 4xx Silver
     '0xc00':
       aarch32: false
       name: Falkor
@@ -316,6 +331,9 @@
     '0x1':
       aarch32: to be set
       name: Exynos M1
+    '0x1-4-0':
+      aarch32: to be set
+      name: Exynos M2
     '0x2':
       aarch32: to be set
       name: Exynos M3
