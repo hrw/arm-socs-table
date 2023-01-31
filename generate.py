@@ -102,11 +102,13 @@ def handle_cpu_cores():
         cpu_cores[implementer] = {}
         for core in tables.cpu_cores[implementer]['cores']:
             try:
-                cpu_cores[implementer][int(core, base=16)] = tables.cpu_cores[implementer]['cores'][core]
+                cpu_cores[implementer][int(core, base=16)] = tables.cpu_cores[
+                    implementer]['cores'][core]
             except ValueError:
                 pass
 
     return cpu_cores
+
 
 def generate_html_file(socs, cpu_features, cpu_cores):
 
