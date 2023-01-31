@@ -596,6 +596,74 @@
   - sha1
   - sha2
   - crc32
+  - cpuid
+  name: H6
+  vendor: Allwinner
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: H616
+  vendor: Allwinner
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: H313
+  vendor: Allwinner
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: R329
+  vendor: Allwinner
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
   name: Snapdragon 625 (MSM8953)
   vendor: Qualcomm
 - cores:
