@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
-import os
-import sys
 import tables
 import yaml
+
 
 def hexint_presenter(dumper, data):
     return dumper.represent_int(hex(data))
