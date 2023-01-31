@@ -2227,3 +2227,64 @@
   - asimddp
   name: RK3566
   vendor: Rockchip
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: Surge S1
+  vendor: Xiaomi
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: XCZU9EG
+  vendor: Xilinx
+- cores:
+  - implementer: 0x43
+    part: 0xa1
+    revision: 0x1
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: ThunderX CN8890
+  vendor: Cavium
+- cores:
+  - implementer: 0x50
+    part: 0x0
+    revision: 0x0
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  name: APM883208-X1
+  vendor: Applied Micro
