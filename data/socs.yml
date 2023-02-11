@@ -2153,3 +2153,29 @@
   - bti
   name: Yitian 710
   vendor: Alibaba
+- cores:
+  - implementer: 0x48
+    part: 0xd01
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - dcpop
+  - asimddp
+  - asimdfhm
+  name: Kunpeng 920
+  vendor: HiSilicon
