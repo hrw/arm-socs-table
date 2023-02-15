@@ -58,6 +58,11 @@ crc32:
   feat: FEAT_CRC32
   name: CRC32 instructions
   note: v8.0 optional, v8.1 mandatory
+cssc:
+  archv: 8.9
+  feat: FEAT_CSSC
+  name: Common short sequence compression instructions
+  note: v8.9/9.4
 dcpodp:
   archv: 8.2
   feat: FEAT_DPB2
@@ -178,6 +183,11 @@ rpres:
   feat: FEAT_RPRES
   name: Increased precision of Reciprocal Estimate and Reciprocal Square Root Estimate
   note: v8.7 optional
+rprfm:
+  archv: 8.6
+  feat: FEAT_RPRFM
+  name: Range prefetch hint instruction
+  note: PRFM is v8.6+ so I assume this one too
 sb:
   archv: 8.0
   feat: FEAT_SB
@@ -267,6 +277,11 @@ sve2:
   archv: 9.0
   feat: FEAT_SVE2
   name: Scalable Vector Extension version 2
+  note: v9.0 optional
+sve2p1:
+  archv: 9.0
+  feat: FEAT_SVE2
+  name: Scalable Vector Extension version 2.1
   note: v9.0 optional
 sveaes:
   archv: 9.0
