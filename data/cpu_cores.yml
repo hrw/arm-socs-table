@@ -16,6 +16,7 @@
       aarch32: EL0-EL3
       name: Cortex-A35
       trm: https://developer.arm.com/documentation/100236/
+      isa_level: v8.0
     '0xd05':
       aarch32: EL0-EL3
       name: Cortex-A55
