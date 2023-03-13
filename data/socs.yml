@@ -2154,6 +2154,32 @@
   name: Yitian 710
   vendor: Alibaba
 - cores:
+  - implementer: 0x48
+    part: 0xd01
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - dcpop
+  - asimddp
+  - asimdfhm
+  name: Kunpeng 920
+  vendor: HiSilicon
+- cores:
   - implementer: 0x41
     part: 0xd03
     revision: 0x3
@@ -2277,14 +2303,3 @@
   - cpuid
   name: ThunderX CN8890
   vendor: Cavium
-- cores:
-  - implementer: 0x50
-    part: 0x0
-    revision: 0x0
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  name: APM883208-X1
-  vendor: Applied Micro
