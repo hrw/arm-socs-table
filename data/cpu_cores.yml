@@ -177,32 +177,27 @@
       - 16k
       - 64k
     '0xd46':
-      aarch32: NO/EL0-EL3
+      aarch32: NO/EL0
       name: Cortex-A510
       trm: https://developer.arm.com/documentation/101604/
       isa_level: v9.0
       pa_size: 40
-    '0xd46-0-0':
-      page_size:
-      - 4k
-      - 16k
-      - 64k
-      aarch32: false
-      name: Cortex-A510
-      trm: https://developer.arm.com/documentation/101604/
-      isa_level: v9.0
-      pa_size: 40
-    '0xd46-2-0':
-      aarch32: EL0-EL3
-      name: Cortex-A510
-      trm: https://developer.arm.com/documentation/101604/
-      isa_level: v9.0
-      pa_size: 40
+      va_size: 48
       page_size:
       - 4k
       - 16k
       - 64k
       va_size: 48
+    0xd46-0-0:
+      aarch32: false
+      isa_level: v9.0
+      name: Cortex-A510
+      trm: https://developer.arm.com/documentation/101604/
+      pa_size: 40
+      page_size:
+      - 4k
+      - 16k
+      - 64k
     '0xd47':
       aarch32: EL0
       name: Cortex-A710
