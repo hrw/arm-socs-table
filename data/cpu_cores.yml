@@ -136,6 +136,7 @@
       - 16k
       - 64k
       va_size: 48
+      sve_length: 256
     '0xd41':
       aarch32: EL0
       name: Cortex-A78
@@ -188,6 +189,7 @@
       - 16k
       - 64k
       va_size: 48
+      sve_length: 128
     0xd46-0-0:
       aarch32: false
       isa_level: v9.0
@@ -209,6 +211,7 @@
       - 16k
       - 64k
       va_size: 48
+      sve_length: 128
     '0xd48':
       aarch32: false
       name: Cortex-X2
@@ -220,6 +223,7 @@
       - 16k
       - 64k
       va_size: 48
+      sve_length: 128
     '0xd49':
       aarch32: EL0
       name: Neoverse-N2
@@ -231,6 +235,7 @@
       - 16k
       - 64k
       va_size: 48
+      sve_length: 128
     '0xd4a':
       aarch32: false
       name: Neoverse-E1
@@ -274,6 +279,7 @@
       - 16k
       - 64k
       va_size: 48
+      sve_length: 128
     '0xd4e':
       aarch32: false
       name: Cortex-X3
@@ -285,6 +291,7 @@
       - 16k
       - 64k
       va_size: 48
+      sve_length: 128
     '0xd4f':
       aarch32: false
       name: Neoverse-V2
@@ -296,6 +303,7 @@
       - 16k
       - 64k
       va_size: 48
+      sve_length: 128
   name: ARM
 0x42:
   cores:
