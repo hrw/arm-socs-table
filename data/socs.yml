@@ -2365,3 +2365,60 @@
   - bti
   name: Dimensity 9000
   vendor: MediaTek
+- cores:
+  - implementer: 0x41
+    part: 0xd46
+    revision: 0x1
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd4d
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd47
+    revision: 0x0
+    variant: 0x2
+  - implementer: 0x41
+    part: 0xd4e
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - sm3
+  - sm4
+  - asimddp
+  - sha512
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - flagm2
+  - frint
+  - i8mm
+  - bf16
+  - bti
+  name: Snapdragon 8 Gen 2 (SM8550-AB)
+  vendor: Qualcomm
