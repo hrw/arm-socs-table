@@ -4,7 +4,6 @@ from datetime import datetime
 from jinja2 import Environment, FileSystemLoader
 
 import tables
-import sys
 
 
 def handle_cpu_cores():
