@@ -13,7 +13,6 @@ def handle_socs():
 
     for soc in tables.socs:
         soc["core_names"] = []
-        soc["extra_info"] = {"aarch32": {}}
 
         aarch32 = False
 
@@ -62,8 +61,7 @@ def handle_socs():
             elif aarch32 is False:
                 aarch32 = "NO"
 
-            if aarch32:
-                soc["extra_info"]["aarch32"][aarch32] = True
+            core["aarch32"] = aarch32
 
         socs[f"{soc['vendor']}-{soc['name']}"] = soc
 
