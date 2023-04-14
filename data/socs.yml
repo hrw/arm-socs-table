@@ -58,6 +58,10 @@
     part: 0x28
     revision: 0x0
     variant: 0x2
+  - implementer: 0x61
+    part: 0x29
+    revision: 0x0
+    variant: 0x2
   features:
   - fp
   - asimd
