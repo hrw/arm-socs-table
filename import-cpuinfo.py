@@ -57,6 +57,13 @@ for line in cpu_data:
         variant = int(line.partition(":")[2].strip(), base=16)
     elif line.startswith("CPU part"):
         line_part = int(line.partition(":")[2].strip(), base=16)
+        try:
+            if tables.cpu_cores[implementer]["cores"][hex(line_part)]:
+                pass
+        except KeyError:
+            print(f"Core {hex(line_part)} for "
+                  f"{tables.cpu_cores[implementer]['name']} is missing.")
+            sys.exit(-1)
     elif line.startswith("CPU revision"):
         revision = int(line.partition(":")[2].strip(), base=16)
         # "CPU revision" line is last in block so we have all core data
