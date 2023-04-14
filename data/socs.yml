@@ -2477,3 +2477,47 @@
   - bti
   name: Snapdragon 8 Gen 1 (SM8450)
   vendor: Qualcomm
+- cores:
+  - implementer: 0x61
+    part: 0x22
+    revision: 0x1
+    variant: 0x1
+  - implementer: 0x61
+    part: 0x23
+    revision: 0x1
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - asimddp
+  - sha512
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - flagm2
+  - frint
+  name: M1
+  vendor: Apple
