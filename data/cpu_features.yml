@@ -106,7 +106,7 @@ fcma:
 flagm:
   archv: 8.2
   feat: FEAT_FlagM
-  name: Flag manipulation instructions v2
+  name: Flag manipulation instructions
   note: v8.2 optional, v8.4 mandatory
 flagm2:
   archv: 8.5
