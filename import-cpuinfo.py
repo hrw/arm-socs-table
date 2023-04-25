@@ -42,7 +42,8 @@ for line in cpu_data:
 
         for feature in new_soc["features"]:
             if feature not in tables.cpu_features:
-                print(f"'{feature}' is not present in data/cpu_features.yml file")
+                print(f"'{feature}' is not present in "
+                      f"data/cpu_features.yml file")
                 sys.exit(-1)
 
         # some old Android kernels have both arm32 and aarch64 flags
