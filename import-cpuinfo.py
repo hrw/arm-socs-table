@@ -40,6 +40,11 @@ for line in cpu_data:
     if line.startswith("Features") and not new_soc["features"]:
         new_soc["features"] = line.partition(":")[2].strip().split(" ")
 
+        for feature in new_soc["features"]:
+            if feature not in tables.cpu_features:
+                print(f"'{feature}' is not present in data/cpu_features.yml file")
+                sys.exit(-1)
+
         # some old Android kernels have both arm32 and aarch64 flags
         for arm32_flag in ["edsp", "fastmult", "fpa", "half", "idiva", "idivt",
                            "iwmmxt", "java", "lpae", "neon", "swp", "thumb",
