@@ -31,6 +31,7 @@
       trm: https://developer.arm.com/documentation/100442/
       isa_level: v8.2
       pa_size: 40
+      va_size: 48
       page_size:
       - 4k
       - 16k
@@ -41,6 +42,7 @@
       trm: https://developer.arm.com/documentation/100439/
       isa_level: v8.2
       pa_size: 44
+      va_size: 48
       page_size:
       - 4k
       - 16k
@@ -111,6 +113,7 @@
       trm: https://developer.arm.com/documentation/101111/
       isa_level: v8.2
       pa_size: 40
+      va_size: 48
       page_size:
       - 4k
       - 16k
@@ -121,6 +124,7 @@
       trm: https://developer.arm.com/documentation/101392/
       isa_level: v8.2
       pa_size: 40
+      va_size: 48
       page_size:
       - 4k
       - 16k
@@ -143,6 +147,7 @@
       trm: https://developer.arm.com/documentation/101430/
       isa_level: v8.2
       pa_size: 40
+      va_size: 48
       page_size:
       - 4k
       - 16k
@@ -153,6 +158,7 @@
       trm: https://developer.arm.com/documentation/101779/
       isa_level: v8.2
       pa_size: 48
+      va_size: 48
       page_size:
       - 4k
       - 16k
@@ -163,6 +169,7 @@
       trm: https://developer.arm.com/documentation/101385/
       isa_level: v8.2
       pa_size: 44
+      va_size: 48
       page_size:
       - 4k
       - 16k
@@ -173,6 +180,7 @@
       trm: https://developer.arm.com/documentation/101433/
       isa_level: v8.2
       pa_size: 40
+      va_size: 48
       page_size:
       - 4k
       - 16k
@@ -264,6 +272,7 @@
       trm: https://developer.arm.com/documentation/101968/
       isa_level: v8.2
       pa_size: 40
+      va_size: 48
       page_size:
       - 4k
       - 16k
