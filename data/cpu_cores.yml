@@ -8,15 +8,16 @@
   cores:
     '0xd03':
       aarch32: EL0-EL3
-      name: Cortex-A53
-      trm: https://developer.arm.com/documentation/ddi0500/
       isa_level: v8.0
+      name: Cortex-A53
       pa_size: 40
       page_size:
       - 4k
       - 64k
+      trm: https://developer.arm.com/documentation/ddi0500/
     '0xd04':
       aarch32: EL0-EL3
+      isa_level: v8.0
       name: Cortex-A35
       pa_size: 40
       page_size:
@@ -24,297 +25,295 @@
       - 16k
       - 64k
       trm: https://developer.arm.com/documentation/100236/
-      isa_level: v8.0
     '0xd05':
       aarch32: EL0-EL3
-      name: Cortex-A55
-      trm: https://developer.arm.com/documentation/100442/
       isa_level: v8.2
+      name: Cortex-A55
       pa_size: 40
-      va_size: 48
       page_size:
       - 4k
       - 16k
       - 64k
+      trm: https://developer.arm.com/documentation/100442/
+      va_size: 0x30
     '0xd06':
       aarch32: false
-      name: Cortex-A65
-      trm: https://developer.arm.com/documentation/100439/
       isa_level: v8.2
-      pa_size: 44
-      va_size: 48
+      name: Cortex-A65
+      pa_size: 0x2c
       page_size:
       - 4k
       - 16k
       - 64k
+      trm: https://developer.arm.com/documentation/100439/
+      va_size: 0x30
     '0xd07':
       aarch32: EL0-EL3
-      name: Cortex-A57
-      trm: https://developer.arm.com/documentation/ddi0488/
       isa_level: v8.0
-      pa_size: 44
+      name: Cortex-A57
+      pa_size: 0x2c
       page_size:
       - 4k
       - 64k
+      trm: https://developer.arm.com/documentation/ddi0488/
     '0xd08':
       aarch32: EL0-EL3
-      name: Cortex-A72
-      trm: https://developer.arm.com/documentation/100095/
       isa_level: v8.0
-      pa_size: 44
+      name: Cortex-A72
+      pa_size: 0x2c
       page_size:
       - 4k
       - 64k
+      trm: https://developer.arm.com/documentation/100095/
     '0xd09':
       aarch32: EL0-EL3
-      name: Cortex-A73
-      trm: https://developer.arm.com/documentation/100048/
       isa_level: v8.0
+      name: Cortex-A73
       pa_size: 40
       page_size:
       - 4k
       - 16k
       - 64k
+      trm: https://developer.arm.com/documentation/100048/
     '0xd0a':
       aarch32: EL0-EL3
-      name: Cortex-A75
-      trm: https://developer.arm.com/documentation/100403/
       isa_level: v8.2
-      pa_size: 44
+      name: Cortex-A75
+      pa_size: 0x2c
       page_size:
       - 4k
       - 16k
       - 64k
+      trm: https://developer.arm.com/documentation/100403/
     '0xd0b':
       aarch32: EL0
-      name: Cortex-A76
-      trm: https://developer.arm.com/documentation/100798/
       isa_level: v8.2
+      name: Cortex-A76
       pa_size: 40
       page_size:
       - 4k
       - 16k
       - 64k
-      va_size: 48
+      trm: https://developer.arm.com/documentation/100798/
+      va_size: 0x30
     '0xd0c':
       aarch32: EL0
-      name: Neoverse-N1
-      trm: https://developer.arm.com/documentation/100616/
       isa_level: v8.2
-      pa_size: 48
+      name: Neoverse-N1
+      pa_size: 0x30
       page_size:
       - 4k
       - 16k
       - 64k
-      va_size: 48
+      trm: https://developer.arm.com/documentation/100616/
+      va_size: 0x30
     '0xd0d':
       aarch32: EL0
-      name: Cortex-A77
-      trm: https://developer.arm.com/documentation/101111/
       isa_level: v8.2
+      name: Cortex-A77
       pa_size: 40
-      va_size: 48
       page_size:
       - 4k
       - 16k
       - 64k
+      trm: https://developer.arm.com/documentation/101111/
+      va_size: 0x30
     '0xd0e':
       aarch32: EL0
-      name: Cortex-A76AE
-      trm: https://developer.arm.com/documentation/101392/
       isa_level: v8.2
+      name: Cortex-A76AE
       pa_size: 40
-      va_size: 48
       page_size:
       - 4k
       - 16k
       - 64k
+      trm: https://developer.arm.com/documentation/101392/
+      va_size: 0x30
     '0xd40':
       aarch32: EL0
-      name: Neoverse-V1
-      trm: https://developer.arm.com/documentation/101427/
       isa_level: v8.4
-      pa_size: 48
+      name: Neoverse-V1
+      pa_size: 0x30
       page_size:
       - 4k
       - 16k
       - 64k
-      va_size: 48
-      sve_length: 256
+      sve_length: 0x100
+      trm: https://developer.arm.com/documentation/101427/
+      va_size: 0x30
     '0xd41':
       aarch32: EL0
-      name: Cortex-A78
-      trm: https://developer.arm.com/documentation/101430/
       isa_level: v8.2
+      name: Cortex-A78
       pa_size: 40
-      va_size: 48
       page_size:
       - 4k
       - 16k
       - 64k
+      trm: https://developer.arm.com/documentation/101430/
+      va_size: 0x30
     '0xd42':
       aarch32: EL0
-      name: Cortex-A78AE
-      trm: https://developer.arm.com/documentation/101779/
       isa_level: v8.2
-      pa_size: 48
-      va_size: 48
+      name: Cortex-A78AE
+      pa_size: 0x30
       page_size:
       - 4k
       - 16k
       - 64k
+      trm: https://developer.arm.com/documentation/101779/
+      va_size: 0x30
     '0xd43':
       aarch32: false
-      name: Cortex-A65AE
-      trm: https://developer.arm.com/documentation/101385/
       isa_level: v8.2
-      pa_size: 44
-      va_size: 48
+      name: Cortex-A65AE
+      pa_size: 0x2c
       page_size:
       - 4k
       - 16k
       - 64k
+      trm: https://developer.arm.com/documentation/101385/
+      va_size: 0x30
     '0xd44':
       aarch32: EL0
-      name: Cortex-X1
-      trm: https://developer.arm.com/documentation/101433/
       isa_level: v8.2
+      name: Cortex-X1
       pa_size: 40
-      va_size: 48
       page_size:
       - 4k
       - 16k
       - 64k
+      trm: https://developer.arm.com/documentation/101433/
+      va_size: 0x30
     '0xd46':
       aarch32: NO/EL0
-      name: Cortex-A510
-      trm: https://developer.arm.com/documentation/101604/
       isa_level: v9.0
+      name: Cortex-A510
       pa_size: 40
-      va_size: 48
       page_size:
       - 4k
       - 16k
       - 64k
-      va_size: 48
-      sve_length: 128
+      sve_length: 0x80
+      trm: https://developer.arm.com/documentation/101604/
+      va_size: 0x30
     0xd46-0-0:
       aarch32: false
       isa_level: v9.0
       name: Cortex-A510
-      trm: https://developer.arm.com/documentation/101604/
       pa_size: 40
       page_size:
       - 4k
       - 16k
       - 64k
+      trm: https://developer.arm.com/documentation/101604/
     '0xd47':
       aarch32: EL0
-      name: Cortex-A710
-      trm: https://developer.arm.com/documentation/101800/
       isa_level: v9.0
+      name: Cortex-A710
       pa_size: 40
       page_size:
       - 4k
       - 16k
       - 64k
-      va_size: 48
-      sve_length: 128
+      sve_length: 0x80
+      trm: https://developer.arm.com/documentation/101800/
+      va_size: 0x30
     '0xd48':
       aarch32: false
-      name: Cortex-X2
-      trm: https://developer.arm.com/documentation/101803/
       isa_level: v9.0
+      name: Cortex-X2
       pa_size: 40
       page_size:
       - 4k
       - 16k
       - 64k
-      va_size: 48
-      sve_length: 128
+      sve_length: 0x80
+      trm: https://developer.arm.com/documentation/101803/
+      va_size: 0x30
     '0xd49':
       aarch32: EL0
-      name: Neoverse-N2
-      trm: https://developer.arm.com/documentation/102099/
       isa_level: v9.0
-      pa_size: 48
+      name: Neoverse-N2
+      pa_size: 0x30
       page_size:
       - 4k
       - 16k
       - 64k
-      va_size: 48
-      sve_length: 128
+      sve_length: 0x80
+      trm: https://developer.arm.com/documentation/102099/
+      va_size: 0x30
     '0xd4a':
       aarch32: false
-      name: Neoverse-E1
-      trm: https://developer.arm.com/documentation/101560/
       isa_level: v8.2
-      pa_size: 44
+      name: Neoverse-E1
+      pa_size: 0x2c
       page_size:
       - 4k
       - 16k
       - 64k
-      va_size: 48
+      trm: https://developer.arm.com/documentation/101560/
+      va_size: 0x30
     '0xd4b':
       aarch32: EL0
-      name: Cortex-A78C
-      trm: https://developer.arm.com/documentation/102226/
       isa_level: v8.2
+      name: Cortex-A78C
       pa_size: 40
       page_size:
       - 4k
       - 16k
       - 64k
-      va_size: 48
+      trm: https://developer.arm.com/documentation/102226/
+      va_size: 0x30
     '0xd4c':
       aarch32: EL0
-      name: Cortex-X1C
-      trm: https://developer.arm.com/documentation/101968/
       isa_level: v8.2
+      name: Cortex-X1C
       pa_size: 40
-      va_size: 48
       page_size:
       - 4k
       - 16k
       - 64k
+      trm: https://developer.arm.com/documentation/101968/
+      va_size: 0x30
     '0xd4d':
       aarch32: false
-      name: Cortex-A715
-      trm: https://developer.arm.com/documentation/101590/
       isa_level: v9.0
+      name: Cortex-A715
       pa_size: 40
       page_size:
       - 4k
       - 16k
       - 64k
-      va_size: 48
-      sve_length: 128
+      sve_length: 0x80
+      trm: https://developer.arm.com/documentation/101590/
+      va_size: 0x30
     '0xd4e':
       aarch32: false
-      name: Cortex-X3
-      trm: https://developer.arm.com/documentation/101593/
       isa_level: v9.0
+      name: Cortex-X3
       pa_size: 40
       page_size:
       - 4k
       - 16k
       - 64k
-      va_size: 48
-      sve_length: 128
+      sve_length: 0x80
+      trm: https://developer.arm.com/documentation/101593/
+      va_size: 0x30
     '0xd4f':
       aarch32: false
-      name: Neoverse-V2
-      trm: https://developer.arm.com/documentation/102375/
       isa_level: v9.0
-      pa_size: 48
+      name: Neoverse-V2
+      pa_size: 0x30
       page_size:
       - 4k
       - 16k
       - 64k
-      va_size: 48
-      sve_length: 128
+      sve_length: 0x80
+      trm: https://developer.arm.com/documentation/102375/
+      va_size: 0x30
     '0xd80':
-      aarch32: NO
+      aarch32: 'NO'
       isa_level: v9.2
       name: Cortex-A520
       pa_size: 40
@@ -322,11 +321,11 @@
       - 4k
       - 16k
       - 64k
-      sve_length: "128"
+      sve_length: '128'
       trm: https://developer.arm.com/documentation/102517/
-      va_size: 48
+      va_size: 0x30
     '0xd81':
-      aarch32: NO
+      aarch32: 'NO'
       isa_level: v9.2
       name: Cortex-A720
       pa_size: 40
@@ -334,12 +333,11 @@
       - 4k
       - 16k
       - 64k
-      sve_length: "128"
+      sve_length: '128'
       trm: https://developer.arm.com/documentation/102530/
-      va_size: 48
-    # TODO: fix the number as TRM says that A720 and X4 use 0xd81
+      va_size: 0x30
     '0xd814':
-      aarch32: NO
+      aarch32: 'NO'
       isa_level: v9.2
       name: Cortex-X4
       pa_size: 40
@@ -347,9 +345,9 @@
       - 4k
       - 16k
       - 64k
-      sve_length: "128"
+      sve_length: '128'
       trm: https://developer.arm.com/documentation/102484/
-      va_size: 48
+      va_size: 0x30
   name: ARM
 0x42:
   cores:
@@ -413,13 +411,13 @@
     '0x0':
       aarch32: EL0-EL2/3
       name: X-Gene
-    '0x0-1-0':
-      aarch32: EL0-EL2
-      name: X-Gene 1
-    '0x0-0-1':
+    0x0-0-1:
       aarch32: EL0-EL2
       name: X-Gene 2
-    '0x0-2-3':
+    0x0-1-0:
+      aarch32: EL0-EL2
+      name: X-Gene 1
+    0x0-2-3:
       aarch32: EL0-EL3
       name: X-Gene 3
   name: APM
@@ -434,22 +432,22 @@
     '0x04d':
       aarch32: to be set
       name: Krait 200
-    '0x04d-2-0':
+    0x04d-2-0:
       aarch32: to be set
       name: Krait 300
     '0x06f':
       aarch32: to be set
       name: Krait 200
-    '0x06f-1-0':
+    0x06f-1-0:
       aarch32: to be set
       name: Krait 300
-    '0x06f-2-0':
+    0x06f-2-0:
       aarch32: to be set
       name: Krait 400
-    '0x06f-2-1':
+    0x06f-2-1:
       aarch32: to be set
       name: Krait 400
-    '0x06f-3-1':
+    0x06f-3-1:
       aarch32: to be set
       name: Krait 450
     '0x201':
@@ -491,7 +489,7 @@
     '0x1':
       aarch32: to be set
       name: Exynos M1
-    '0x1-4-0':
+    0x1-4-0:
       aarch32: to be set
       name: Exynos M2
     '0x2':
