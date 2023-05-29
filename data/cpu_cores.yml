@@ -316,6 +316,31 @@
       sve_length: "128"
       trm: https://developer.arm.com/documentation/102517/
       va_size: 48
+    '0xd81':
+      aarch32: NO
+      isa_level: v9.2
+      name: Cortex-A720
+      pa_size: 40
+      page_size:
+      - 4k
+      - 16k
+      - 64k
+      sve_length: "128"
+      trm: https://developer.arm.com/documentation/102530/
+      va_size: 48
+    # TODO: fix the number as TRM says that A720 and X4 use 0xd81
+    '0xd814':
+      aarch32: NO
+      isa_level: v9.2
+      name: Cortex-X4
+      pa_size: 40
+      page_size:
+      - 4k
+      - 16k
+      - 64k
+      sve_length: "128"
+      trm: https://developer.arm.com/documentation/102484/
+      va_size: 48
   name: ARM
 0x42:
   cores:
