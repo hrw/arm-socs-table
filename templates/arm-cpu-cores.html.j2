@@ -156,6 +156,7 @@
         <tr>
             <th>CPU core name</th>
             <th>architecture level</th>
+            <th>ID number</th>
             <th>AArch32 support</th>
             <th>physical memory address size (bits)</th>
             <th>virtual memory address size (bits)</th>
@@ -172,6 +173,7 @@
         <a href="{{ cpu_cores[implementer].cores[core].trm }}">{{ cpu_cores[implementer].cores[core].name }}</a>
         {% endif %}
         <td class="tdc">{{ cpu_cores[implementer].cores[core].isa_level }}</td>
+        <td class="tdc">{{ "0x%0x" | format(core) }}</td>
         <td class="tdc">{{ cpu_cores[implementer].cores[core].aarch32 }}</td>
         <td class="tdc">{{ cpu_cores[implementer].cores[core].pa_size }}</td>
         <td class="tdc">{{ cpu_cores[implementer].cores[core].va_size }}</td>
