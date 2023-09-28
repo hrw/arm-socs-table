@@ -2542,3 +2542,27 @@
   - cpuid
   name: Jetson Nano
   vendor: NVIDIA
+- cores:
+  - implementer: 0x41
+    part: 0xd0b
+    revision: 0x1
+    variant: 0x4
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: BCM2712
+  vendor: Broadcom
