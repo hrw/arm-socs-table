@@ -20,6 +20,11 @@ jobs:
           mkdir -p out
           python3 generate.py > out/arm-socs.html
 
+      - name: Generate Arm cpu cores HTML
+        run: |
+          mkdir -p out
+          python3 generate-cpu-cores-table.py > out/arm-cpu-cores.html
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v3
 
