@@ -12,6 +12,7 @@ assignees: ''
 System name:
 Vendor name:
 SoC name:
+SoC vendor name (ex. Qualcomm, Mediatek):
 URL to product page:
 Kernel version (if known):
 
