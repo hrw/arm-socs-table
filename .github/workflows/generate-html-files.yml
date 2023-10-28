@@ -2,6 +2,11 @@ name: Generate HTML tables
 
 on:
   workflow_dispatch
+  push:
+    branches:
+    - "main"
+    paths:
+    - "data/*"
 
 
 jobs:
