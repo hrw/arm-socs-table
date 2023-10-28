@@ -89,5 +89,6 @@ for core in cores:
 
 tables.socs.append(new_soc)
 
+
 with open("data/socs.yml", "w") as yml:
-    yaml.dump(tables.socs, yml)
+    yaml.dump(sorted(tables.socs, key=lambda d: d['vendor']), yml)
