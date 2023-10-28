@@ -1,46 +1,8 @@
 - cores:
   - implementer: 0x41
-    part: 0xd08
-    revision: 0x3
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: LX2160A
-  vendor: NXP
-- cores:
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x4
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: Armada 37xx
-  vendor: Marvell
-- cores:
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x4
-    variant: 0x0
-  - implementer: 0x41
-    part: 0xd08
+    part: 0xd07
     revision: 0x2
-    variant: 0x0
+    variant: 0x1
   features:
   - fp
   - asimd
@@ -51,96 +13,8 @@
   - sha2
   - crc32
   - cpuid
-  name: RK3399
-  vendor: Rockchip
-- cores:
-  - implementer: 0x61
-    part: 0x28
-    revision: 0x0
-    variant: 0x2
-  - implementer: 0x61
-    part: 0x29
-    revision: 0x0
-    variant: 0x2
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - jscvt
-  - fcma
-  - lrcpc
-  - dcpop
-  - sha3
-  - asimddp
-  - sha512
-  - asimdfhm
-  - dit
-  - uscat
-  - ilrcpc
-  - flagm
-  - ssbs
-  - sb
-  - paca
-  - pacg
-  - dcpodp
-  - flagm2
-  - frint
-  name: M1 Max
-  vendor: Apple
-- cores:
-  - implementer: 0x61
-    part: 0x24
-    revision: 0x0
-    variant: 0x2
-  - implementer: 0x61
-    part: 0x25
-    revision: 0x0
-    variant: 0x2
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - jscvt
-  - fcma
-  - lrcpc
-  - dcpop
-  - sha3
-  - asimddp
-  - sha512
-  - asimdfhm
-  - dit
-  - uscat
-  - ilrcpc
-  - flagm
-  - ssbs
-  - sb
-  - paca
-  - pacg
-  - dcpodp
-  - flagm2
-  - frint
-  name: M1 Pro
-  vendor: Apple
+  name: Opteron A1100
+  vendor: AMD
 - cores:
   - implementer: 0x41
     part: 0xd0c
@@ -164,325 +38,11 @@
   - dcpop
   - asimddp
   - ssbs
-  name: Altra
-  vendor: Ampere
-- cores:
-  - implementer: 0x50
-    part: 0x0
-    revision: 0x1
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - cpuid
-  name: X-Gene 1
-  vendor: Applied Micro
-- cores:
-  - implementer: 0x46
-    part: 0x1
-    revision: 0x0
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - fcma
-  - dcpop
-  - sve
-  name: A64FX
-  vendor: Fujitsu
+  name: G6R
+  vendor: Alibaba
 - cores:
   - implementer: 0x41
-    part: 0xd42
-    revision: 0x1
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  - uscat
-  - ilrcpc
-  - flagm
-  name: Jetson Orin
-  vendor: NVIDIA
-- cores:
-  - implementer: 0x51
-    part: 0x804
-    revision: 0xf
-    variant: 0xf
-  - implementer: 0x51
-    part: 0x805
-    revision: 0xf
-    variant: 0xf
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  name: Snapdragon 7c (SC7180)
-  vendor: Qualcomm
-- cores:
-  - implementer: 0x41
-    part: 0xd40
-    revision: 0x1
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - jscvt
-  - fcma
-  - lrcpc
-  - dcpop
-  - sha3
-  - sm3
-  - sm4
-  - asimddp
-  - sha512
-  - sve
-  - asimdfhm
-  - dit
-  - uscat
-  - ilrcpc
-  - flagm
-  - ssbs
-  - paca
-  - pacg
-  - dcpodp
-  - svei8mm
-  - svebf16
-  - i8mm
-  - bf16
-  - dgh
-  - rng
-  name: Graviton 3
-  vendor: Amazon
-- cores:
-  - implementer: 0x48
-    part: 0xd40
-    revision: 0x0
-    variant: 0x1
-  - implementer: 0x41
-    part: 0xd05
-    revision: 0x0
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  name: Kirin 980
-  vendor: HiSilicon
-- cores:
-  - implementer: 0x41
-    part: 0xd41
-    revision: 0x0
-    variant: 0x1
-  - implementer: 0x41
-    part: 0xd05
-    revision: 0x0
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  name: Dimensity 1200 (MT6893)
-  vendor: MediaTek
-- cores:
-  - implementer: 0x41
-    part: 0xd44
-    revision: 0x0
-    variant: 0x1
-  - implementer: 0x41
-    part: 0xd41
-    revision: 0x0
-    variant: 0x1
-  - implementer: 0x41
-    part: 0xd05
-    revision: 0x0
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  name: Snapdragon 888 (SM8350)
-  vendor: Qualcomm
-- cores:
-  - implementer: 0x41
-    part: 0xd0b
-    revision: 0x0
-    variant: 0x3
-  - implementer: 0x41
-    part: 0xd05
-    revision: 0x0
-    variant: 0x3
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  name: Helio G95 (MT6785V)
-  vendor: MediaTek
-- cores:
-  - implementer: 0x41
-    part: 0xd08
-    revision: 0x3
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - crc32
-  - cpuid
-  name: BCM2711
-  vendor: Broadcom
-- cores:
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x4
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: i.MX 8M Quad
-  vendor: NXP
-- cores:
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x4
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - crc32
-  - cpuid
-  name: BCM2837
-  vendor: Broadcom
-- cores:
-  - implementer: 0x51
-    part: 0x801
-    revision: 0x2
-    variant: 0xa
-  - implementer: 0x51
-    part: 0x800
-    revision: 0x2
-    variant: 0xa
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  name: Snapdragon 660 (SDM660)
-  vendor: Qualcomm
-- cores:
-  - implementer: 0x0
-    part: 0x51
+    part: 0xd49
     revision: 0x0
     variant: 0x0
   features:
@@ -511,12 +71,11 @@
   - sve
   - asimdfhm
   - dit
+  - uscat
   - ilrcpc
   - flagm
   - ssbs
   - sb
-  - paca
-  - pacg
   - dcpodp
   - sve2
   - sveaes
@@ -527,49 +86,13 @@
   - flagm2
   - frint
   - svei8mm
-  - svef32mm
-  - svef64mm
   - svebf16
   - i8mm
   - bf16
   - dgh
-  - rng
   - bti
-  - mte
-  - mte3
-  - sme
-  - smei16i64
-  - smef64f64
-  - smei8i32
-  - smef16f32
-  - smeb16f32
-  - smef32f32
-  - smefa64
-  name: QEMU Max
-  vendor: QEMU
-- cores:
-  - implementer: 0x51
-    part: 0x803
-    revision: 0x13
-    variant: 0x6
-  - implementer: 0x51
-    part: 0x802
-    revision: 0x13
-    variant: 0x6
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  name: Snapdragon 845 (SDM845)
-  vendor: Qualcomm
+  name: Yitian 710
+  vendor: Alibaba
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -657,8 +180,8 @@
   vendor: Allwinner
 - cores:
   - implementer: 0x41
-    part: 0xd03
-    revision: 0x4
+    part: 0xd40
+    revision: 0x1
     variant: 0x0
   features:
   - fp
@@ -669,21 +192,63 @@
   - sha1
   - sha2
   - crc32
-  name: Snapdragon 625 (MSM8953)
-  vendor: Qualcomm
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - sm3
+  - sm4
+  - asimddp
+  - sha512
+  - sve
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - paca
+  - pacg
+  - dcpodp
+  - svei8mm
+  - svebf16
+  - i8mm
+  - bf16
+  - dgh
+  - rng
+  name: Graviton 3
+  vendor: Amazon
 - cores:
   - implementer: 0x41
-    part: 0xd07
-    revision: 0x3
-    variant: 0x1
+    part: 0xd0c
+    revision: 0x1
+    variant: 0x3
   features:
   - fp
   - asimd
   - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
   - crc32
+  - atomics
+  - fphp
+  - asimdhp
   - cpuid
-  name: Baikal-M (BE-M1000)
-  vendor: Baikal Electronics
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  - ssbs
+  name: Graviton 2
+  vendor: Amazon
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -903,6 +468,10 @@
     part: 0xd03
     revision: 0x4
     variant: 0x0
+  - implementer: 0x41
+    part: 0xd09
+    revision: 0x2
+    variant: 0x0
   features:
   - fp
   - asimd
@@ -913,8 +482,50 @@
   - sha2
   - crc32
   - cpuid
-  name: RK3328
-  vendor: Rockchip
+  name: S922X
+  vendor: Amlogic
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd09
+    revision: 0x2
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: A311D
+  vendor: Amlogic
+- cores:
+  - implementer: 0x41
+    part: 0xd09
+    revision: 0x2
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: A311D2
+  vendor: Amlogic
 - cores:
   - implementer: 0x41
     part: 0xd0c
@@ -938,8 +549,8 @@
   - dcpop
   - asimddp
   - ssbs
-  name: Graviton 2
-  vendor: Amazon
+  name: Altra
+  vendor: Ampere
 - cores:
   - implementer: 0x50
     part: 0x0
@@ -957,6 +568,94 @@
   - cpuid
   name: eMAG 8180
   vendor: Ampere
+- cores:
+  - implementer: 0x61
+    part: 0x28
+    revision: 0x0
+    variant: 0x2
+  - implementer: 0x61
+    part: 0x29
+    revision: 0x0
+    variant: 0x2
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - asimddp
+  - sha512
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - flagm2
+  - frint
+  name: M1 Max
+  vendor: Apple
+- cores:
+  - implementer: 0x61
+    part: 0x24
+    revision: 0x0
+    variant: 0x2
+  - implementer: 0x61
+    part: 0x25
+    revision: 0x0
+    variant: 0x2
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - asimddp
+  - sha512
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - flagm2
+  - frint
+  name: M1 Pro
+  vendor: Apple
 - cores:
   - implementer: 0x61
     part: 0x32
@@ -1006,13 +705,163 @@
   name: M2
   vendor: Apple
 - cores:
-  - implementer: 0x41
-    part: 0xd05
+  - implementer: 0x61
+    part: 0x6
+    revision: 0x1
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  - asimdrdm
+  name: A10 Fusion
+  vendor: Apple
+- cores:
+  - implementer: 0x61
+    part: 0x22
+    revision: 0x1
+    variant: 0x1
+  - implementer: 0x61
+    part: 0x23
+    revision: 0x1
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - asimddp
+  - sha512
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - flagm2
+  - frint
+  name: M1
+  vendor: Apple
+- cores:
+  - implementer: 0x50
+    part: 0x0
+    revision: 0x1
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - cpuid
+  name: X-Gene 1
+  vendor: Applied Micro
+- cores:
+  - implementer: 0x50
+    part: 0x0
     revision: 0x0
-    variant: 0x4
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: X-Gene 2
+  vendor: Applied Micro
+- cores:
+  - implementer: 0x41
+    part: 0xd0c
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: N1SDP
+  vendor: Arm
+- cores:
+  - implementer: 0x41
+    part: 0xd07
+    revision: 0x3
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - crc32
+  - cpuid
+  name: Baikal-M (BE-M1000)
+  vendor: Baikal Electronics
+- cores:
+  - implementer: 0x41
+    part: 0xd08
+    revision: 0x3
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - crc32
+  - cpuid
+  name: BCM2711
+  vendor: Broadcom
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - crc32
+  - cpuid
+  name: BCM2837
+  vendor: Broadcom
+- cores:
   - implementer: 0x41
     part: 0xd0b
-    revision: 0x0
+    revision: 0x1
     variant: 0x4
   features:
   - fp
@@ -1031,8 +880,948 @@
   - lrcpc
   - dcpop
   - asimddp
-  name: RK3588
-  vendor: Rockchip
+  name: BCM2712
+  vendor: Broadcom
+- cores:
+  - implementer: 0x43
+    part: 0xa1
+    revision: 0x1
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: ThunderX CN8890
+  vendor: Cavium
+- cores:
+  - implementer: 0x43
+    part: 0xaf
+    revision: 0x1
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - cpuid
+  - asimdrdm
+  name: ThunderX2 CN9980
+  vendor: Cavium/Marvell
+- cores:
+  - implementer: 0x46
+    part: 0x1
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - fcma
+  - dcpop
+  - sve
+  name: A64FX
+  vendor: Fujitsu
+- cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x2
+  - implementer: 0x41
+    part: 0xd0b
+    revision: 0x0
+    variant: 0x4
+  - implementer: 0x41
+    part: 0xd44
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Tensor G1
+  vendor: Google
+- cores:
+  - implementer: 0x41
+    part: 0xd46
+    revision: 0x1
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd4d
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd4e
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - sm3
+  - sm4
+  - asimddp
+  - sha512
+  - sve
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - sve2
+  - sveaes
+  - svepmull
+  - svebitperm
+  - svesha3
+  - svesm4
+  - flagm2
+  - frint
+  - svei8mm
+  - svebf16
+  - i8mm
+  - bti
+  - mte
+  - mte3
+  name: Tensor G3
+  vendor: Google
+- cores:
+  - implementer: 0x48
+    part: 0xd40
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Kirin 980
+  vendor: HiSilicon
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x2
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd09
+    revision: 0x2
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: Kirin 710
+  vendor: HiSilicon
+- cores:
+  - implementer: 0x48
+    part: 0xd01
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - dcpop
+  - asimddp
+  - asimdfhm
+  name: Kunpeng 920
+  vendor: HiSilicon
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: Armada 37xx
+  vendor: Marvell
+- cores:
+  - implementer: 0x41
+    part: 0xd08
+    revision: 0x1
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: Armada 8040
+  vendor: Marvell
+- cores:
+  - implementer: 0x41
+    part: 0xd41
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Dimensity 1200 (MT6893)
+  vendor: MediaTek
+- cores:
+  - implementer: 0x41
+    part: 0xd0b
+    revision: 0x0
+    variant: 0x3
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x3
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Helio G95 (MT6785V)
+  vendor: MediaTek
+- cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd0a
+    revision: 0x1
+    variant: 0x3
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  - asimddp
+  - sha512
+  - ssbs
+  name: Helio G70 (MT6769V/CB)
+  vendor: MediaTek
+- cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd0b
+    revision: 0x0
+    variant: 0x3
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Helio G90T (MT6785)
+  vendor: MediaTek
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x2
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd08
+    revision: 0x0
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  name: Helio P60T (MT8173)
+  vendor: MediaTek
+- cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd0a
+    revision: 0x1
+    variant: 0x3
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Helio G85 (MT6769Z)
+  vendor: MediaTek
+- cores:
+  - implementer: 0x41
+    part: 0xd46
+    revision: 0x2
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd47
+    revision: 0x0
+    variant: 0x2
+  - implementer: 0x41
+    part: 0xd48
+    revision: 0x0
+    variant: 0x2
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - sm3
+  - sm4
+  - asimddp
+  - sha512
+  - sve
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - sve2
+  - sveaes
+  - svepmull
+  - svebitperm
+  - svesha3
+  - svesm4
+  - flagm2
+  - frint
+  - svei8mm
+  - svebf16
+  - i8mm
+  - bf16
+  - bti
+  name: Dimensity 9000
+  vendor: MediaTek
+- cores:
+  - implementer: 0x41
+    part: 0xd42
+    revision: 0x1
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  - uscat
+  - ilrcpc
+  - flagm
+  name: Jetson Orin
+  vendor: NVIDIA
+- cores:
+  - implementer: 0x41
+    part: 0xd07
+    revision: 0x1
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: Tegra X1
+  vendor: NVIDIA
+- cores:
+  - implementer: 0x4e
+    part: 0x4
+    revision: 0x0
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - dcpop
+  name: Tegra Xavier
+  vendor: NVIDIA
+- cores:
+  - implementer: 0x41
+    part: 0xd07
+    revision: 0x1
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: Jetson Nano
+  vendor: NVIDIA
+- cores:
+  - implementer: 0x41
+    part: 0xd08
+    revision: 0x3
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: LX2160A
+  vendor: NXP
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: i.MX 8M Quad
+  vendor: NXP
+- cores:
+  - implementer: 0x41
+    part: 0xd04
+    revision: 0x2
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: i.MX 8QuadXPlus
+  vendor: NXP
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x3
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: S5P6818
+  vendor: Nexell
+- cores:
+  - implementer: 0x70
+    part: 0x663
+    revision: 0x3
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: D2000/8
+  vendor: Phytium
+- cores:
+  - implementer: 0x70
+    part: 0x663
+    revision: 0x3
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: FT-2000/4
+  vendor: Phytium
+- cores:
+  - implementer: 0x0
+    part: 0x51
+    revision: 0x0
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - sm3
+  - sm4
+  - asimddp
+  - sha512
+  - sve
+  - asimdfhm
+  - dit
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - sve2
+  - sveaes
+  - svepmull
+  - svebitperm
+  - svesha3
+  - svesm4
+  - flagm2
+  - frint
+  - svei8mm
+  - svef32mm
+  - svef64mm
+  - svebf16
+  - i8mm
+  - bf16
+  - dgh
+  - rng
+  - bti
+  - mte
+  - mte3
+  - sme
+  - smei16i64
+  - smef64f64
+  - smei8i32
+  - smef16f32
+  - smeb16f32
+  - smef32f32
+  - smefa64
+  name: QEMU Max
+  vendor: QEMU
+- cores:
+  - implementer: 0x41
+    part: 0xd07
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: Cortex-A57
+  vendor: QEMU
+- cores:
+  - implementer: 0x41
+    part: 0xd08
+    revision: 0x3
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: Cortex-A72
+  vendor: QEMU
+- cores:
+  - implementer: 0x41
+    part: 0xd0b
+    revision: 0x1
+    variant: 0x4
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Cortex-A76
+  vendor: QEMU
+- cores:
+  - implementer: 0x41
+    part: 0xd0c
+    revision: 0x1
+    variant: 0x4
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  - ssbs
+  name: Neoverse-N1
+  vendor: QEMU
+- cores:
+  - implementer: 0x51
+    part: 0x804
+    revision: 0xf
+    variant: 0xf
+  - implementer: 0x51
+    part: 0x805
+    revision: 0xf
+    variant: 0xf
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Snapdragon 7c (SC7180)
+  vendor: Qualcomm
+- cores:
+  - implementer: 0x41
+    part: 0xd44
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd41
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Snapdragon 888 (SM8350)
+  vendor: Qualcomm
+- cores:
+  - implementer: 0x51
+    part: 0x801
+    revision: 0x2
+    variant: 0xa
+  - implementer: 0x51
+    part: 0x800
+    revision: 0x2
+    variant: 0xa
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  name: Snapdragon 660 (SDM660)
+  vendor: Qualcomm
+- cores:
+  - implementer: 0x51
+    part: 0x803
+    revision: 0x13
+    variant: 0x6
+  - implementer: 0x51
+    part: 0x802
+    revision: 0x13
+    variant: 0x6
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  name: Snapdragon 845 (SDM845)
+  vendor: Qualcomm
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  name: Snapdragon 625 (MSM8953)
+  vendor: Qualcomm
 - cores:
   - implementer: 0x51
     part: 0x805
@@ -1061,27 +1850,6 @@
   - asimddp
   name: Snapdragon 865 (SM8250)
   vendor: Qualcomm
-- cores:
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x2
-    variant: 0x0
-  - implementer: 0x41
-    part: 0xd09
-    revision: 0x2
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: Kirin 710
-  vendor: HiSilicon
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -1119,25 +1887,6 @@
   name: Snapdragon 710 (SDM710)
   vendor: Qualcomm
 - cores:
-  - implementer: 0x43
-    part: 0xaf
-    revision: 0x1
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - cpuid
-  - asimdrdm
-  name: ThunderX2 CN9980
-  vendor: Cavium/Marvell
-- cores:
   - implementer: 0x41
     part: 0xd03
     revision: 0x4
@@ -1153,37 +1902,6 @@
   - crc32
   name: APQ8017
   vendor: Qualcomm
-- cores:
-  - implementer: 0x41
-    part: 0xd05
-    revision: 0x0
-    variant: 0x1
-  - implementer: 0x41
-    part: 0xd0a
-    revision: 0x1
-    variant: 0x3
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  - asimddp
-  - sha512
-  - ssbs
-  name: Helio G70 (MT6769V/CB)
-  vendor: MediaTek
 - cores:
   - implementer: 0x41
     part: 0xd08
@@ -1273,34 +1991,6 @@
   name: Snapdragon 855+ (SM8150_Plus)
   vendor: Qualcomm
 - cores:
-  - implementer: 0x41
-    part: 0xd05
-    revision: 0x0
-    variant: 0x1
-  - implementer: 0x41
-    part: 0xd0b
-    revision: 0x0
-    variant: 0x3
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  name: Helio G90T (MT6785)
-  vendor: MediaTek
-- cores:
   - implementer: 0x51
     part: 0x211
     revision: 0x2
@@ -1321,43 +2011,6 @@
   - cpuid
   name: Snapdragon 820 (MSM8996)
   vendor: Qualcomm
-- cores:
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x2
-    variant: 0x0
-  - implementer: 0x41
-    part: 0xd08
-    revision: 0x0
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  name: Helio P60T (MT8173)
-  vendor: MediaTek
-- cores:
-  - implementer: 0x41
-    part: 0xd07
-    revision: 0x2
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: Opteron A1100
-  vendor: AMD
 - cores:
   - implementer: 0x41
     part: 0xd05
@@ -1420,288 +2073,6 @@
   vendor: Qualcomm
 - cores:
   - implementer: 0x41
-    part: 0xd07
-    revision: 0x1
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: Tegra X1
-  vendor: NVIDIA
-- cores:
-  - implementer: 0x70
-    part: 0x663
-    revision: 0x3
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: D2000/8
-  vendor: Phytium
-- cores:
-  - implementer: 0x70
-    part: 0x663
-    revision: 0x3
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: FT-2000/4
-  vendor: Phytium
-- cores:
-  - implementer: 0x41
-    part: 0xd0c
-    revision: 0x0
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  name: N1SDP
-  vendor: Arm
-- cores:
-  - implementer: 0x41
-    part: 0xd08
-    revision: 0x0
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: TDA4VM J721E
-  vendor: Texas Instruments
-- cores:
-  - implementer: 0x41
-    part: 0xd07
-    revision: 0x0
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: Cortex-A57
-  vendor: QEMU
-- cores:
-  - implementer: 0x41
-    part: 0xd08
-    revision: 0x3
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: Cortex-A72
-  vendor: QEMU
-- cores:
-  - implementer: 0x41
-    part: 0xd0b
-    revision: 0x1
-    variant: 0x4
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  name: Cortex-A76
-  vendor: QEMU
-- cores:
-  - implementer: 0x41
-    part: 0xd0c
-    revision: 0x1
-    variant: 0x4
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  - ssbs
-  name: Neoverse-N1
-  vendor: QEMU
-- cores:
-  - implementer: 0x41
-    part: 0xd08
-    revision: 0x1
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: Armada 8040
-  vendor: Marvell
-- cores:
-  - implementer: 0x41
-    part: 0xd05
-    revision: 0x0
-    variant: 0x1
-  - implementer: 0x41
-    part: 0xd0a
-    revision: 0x1
-    variant: 0x3
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  name: Helio G85 (MT6769Z)
-  vendor: MediaTek
-- cores:
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x4
-    variant: 0x0
-  - implementer: 0x41
-    part: 0xd09
-    revision: 0x2
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: Exynos 9610
-  vendor: Samsung
-- cores:
-  - implementer: 0x41
-    part: 0xd05
-    revision: 0x0
-    variant: 0x2
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  name: RK3568
-  vendor: Rockchip
-- cores:
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x4
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: SC2A11
-  vendor: Socionext
-- cores:
-  - implementer: 0x41
     part: 0xd4b
     revision: 0x0
     variant: 0x0
@@ -1734,68 +2105,6 @@
   name: Snapdragon 8cx Gen 3
   vendor: Qualcomm
 - cores:
-  - implementer: 0x41
-    part: 0xd46
-    revision: 0x2
-    variant: 0x0
-  - implementer: 0x41
-    part: 0xd47
-    revision: 0x0
-    variant: 0x2
-  - implementer: 0x41
-    part: 0xd48
-    revision: 0x0
-    variant: 0x2
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - jscvt
-  - fcma
-  - lrcpc
-  - dcpop
-  - sha3
-  - sm3
-  - sm4
-  - asimddp
-  - sha512
-  - sve
-  - asimdfhm
-  - dit
-  - uscat
-  - ilrcpc
-  - flagm
-  - ssbs
-  - sb
-  - paca
-  - pacg
-  - dcpodp
-  - sve2
-  - sveaes
-  - svepmull
-  - svebitperm
-  - svesha3
-  - svesm4
-  - flagm2
-  - frint
-  - svei8mm
-  - svebf16
-  - i8mm
-  - bf16
-  - bti
-  name: Exynos 2200
-  vendor: Samsung
-- cores:
   - implementer: 0x51
     part: 0x801
     revision: 0x4
@@ -1817,119 +2126,6 @@
   name: Snapdragon 662 (SM6115)
   vendor: Qualcomm
 - cores:
-  - implementer: 0x41
-    part: 0xd05
-    revision: 0x0
-    variant: 0x2
-  - implementer: 0x41
-    part: 0xd0b
-    revision: 0x1
-    variant: 0x3
-  - implementer: 0x53
-    part: 0x4
-    revision: 0x0
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  name: Exynos 990
-  vendor: Samsung
-- cores:
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x4
-    variant: 0x0
-  - implementer: 0x41
-    part: 0xd09
-    revision: 0x2
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: S922X
-  vendor: Amlogic
-- cores:
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x4
-    variant: 0x0
-  - implementer: 0x41
-    part: 0xd09
-    revision: 0x2
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: A311D
-  vendor: Amlogic
-- cores:
-  - implementer: 0x41
-    part: 0xd09
-    revision: 0x2
-    variant: 0x0
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x4
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: A311D2
-  vendor: Amlogic
-- cores:
-  - implementer: 0x61
-    part: 0x6
-    revision: 0x1
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  - asimdrdm
-  name: A10 Fusion
-  vendor: Apple
-- cores:
   - implementer: 0x51
     part: 0x801
     revision: 0x4
@@ -1950,133 +2146,6 @@
   - cpuid
   name: Snapdragon 665
   vendor: Qualcomm
-- cores:
-  - implementer: 0x41
-    part: 0xd05
-    revision: 0x0
-    variant: 0x2
-  - implementer: 0x41
-    part: 0xd0b
-    revision: 0x0
-    variant: 0x4
-  - implementer: 0x41
-    part: 0xd44
-    revision: 0x0
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  name: Tensor G1
-  vendor: Google
-- cores:
-  - implementer: 0x41
-    part: 0xd04
-    revision: 0x2
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: i.MX 8QuadXPlus
-  vendor: NXP
-- cores:
-  - implementer: 0x4e
-    part: 0x4
-    revision: 0x0
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - dcpop
-  name: Tegra Xavier
-  vendor: NVIDIA
-- cores:
-  - implementer: 0x50
-    part: 0x0
-    revision: 0x0
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: X-Gene 2
-  vendor: Applied Micro
-- cores:
-  - implementer: 0x41
-    part: 0xd04
-    revision: 0x2
-    variant: 0x0
-  features:
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  name: RK3308
-  vendor: Rockchip
-- cores:
-  - implementer: 0x41
-    part: 0xd0c
-    revision: 0x1
-    variant: 0x3
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  - ssbs
-  name: G6R
-  vendor: Alibaba
 - cores:
   - implementer: 0x51
     part: 0x805
@@ -2105,271 +2174,6 @@
   - asimddp
   name: Snapdragon 720G (SM7125)
   vendor: Qualcomm
-- cores:
-  - implementer: 0x41
-    part: 0xd49
-    revision: 0x0
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - jscvt
-  - fcma
-  - lrcpc
-  - dcpop
-  - sha3
-  - sm3
-  - sm4
-  - asimddp
-  - sha512
-  - sve
-  - asimdfhm
-  - dit
-  - uscat
-  - ilrcpc
-  - flagm
-  - ssbs
-  - sb
-  - dcpodp
-  - sve2
-  - sveaes
-  - svepmull
-  - svebitperm
-  - svesha3
-  - svesm4
-  - flagm2
-  - frint
-  - svei8mm
-  - svebf16
-  - i8mm
-  - bf16
-  - dgh
-  - bti
-  name: Yitian 710
-  vendor: Alibaba
-- cores:
-  - implementer: 0x48
-    part: 0xd01
-    revision: 0x0
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - jscvt
-  - fcma
-  - dcpop
-  - asimddp
-  - asimdfhm
-  name: Kunpeng 920
-  vendor: HiSilicon
-- cores:
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x3
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: S5P6818
-  vendor: Nexell
-- cores:
-  - implementer: 0x41
-    part: 0xd04
-    revision: 0x2
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: RK3326
-  vendor: Rockchip
-- cores:
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x4
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: RK3318
-  vendor: Rockchip
-- cores:
-  - implementer: 0x41
-    part: 0xd05
-    revision: 0x0
-    variant: 0x2
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  name: RK3566
-  vendor: Rockchip
-- cores:
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x4
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: Surge S1
-  vendor: Xiaomi
-- cores:
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x4
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: XCZU9EG
-  vendor: Xilinx
-- cores:
-  - implementer: 0x43
-    part: 0xa1
-    revision: 0x1
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: ThunderX CN8890
-  vendor: Cavium
-- cores:
-  - implementer: 0x41
-    part: 0xd46
-    revision: 0x2
-    variant: 0x0
-  - implementer: 0x41
-    part: 0xd47
-    revision: 0x0
-    variant: 0x2
-  - implementer: 0x41
-    part: 0xd48
-    revision: 0x0
-    variant: 0x2
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - jscvt
-  - fcma
-  - lrcpc
-  - dcpop
-  - sha3
-  - sm3
-  - sm4
-  - asimddp
-  - sha512
-  - sve
-  - asimdfhm
-  - dit
-  - uscat
-  - ilrcpc
-  - flagm
-  - ssbs
-  - sb
-  - paca
-  - pacg
-  - dcpodp
-  - sve2
-  - sveaes
-  - svepmull
-  - svebitperm
-  - svesha3
-  - svesm4
-  - flagm2
-  - frint
-  - svei8mm
-  - svebf16
-  - i8mm
-  - bf16
-  - bti
-  name: Dimensity 9000
-  vendor: MediaTek
 - cores:
   - implementer: 0x41
     part: 0xd46
@@ -2482,108 +2286,6 @@
   name: Snapdragon 8 Gen 1 (SM8450)
   vendor: Qualcomm
 - cores:
-  - implementer: 0x61
-    part: 0x22
-    revision: 0x1
-    variant: 0x1
-  - implementer: 0x61
-    part: 0x23
-    revision: 0x1
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - jscvt
-  - fcma
-  - lrcpc
-  - dcpop
-  - sha3
-  - asimddp
-  - sha512
-  - asimdfhm
-  - dit
-  - uscat
-  - ilrcpc
-  - flagm
-  - ssbs
-  - sb
-  - paca
-  - pacg
-  - dcpodp
-  - flagm2
-  - frint
-  name: M1
-  vendor: Apple
-- cores:
-  - implementer: 0x41
-    part: 0xd07
-    revision: 0x1
-    variant: 0x1
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: Jetson Nano
-  vendor: NVIDIA
-- cores:
-  - implementer: 0x41
-    part: 0xd0b
-    revision: 0x1
-    variant: 0x4
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  name: BCM2712
-  vendor: Broadcom
-- cores:
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x4
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - cpuid
-  name: RK3528
-  vendor: Rockchip
-- cores:
   - implementer: 0x41
     part: 0xd80
     revision: 0x1
@@ -2641,17 +2343,217 @@
   vendor: Qualcomm
 - cores:
   - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd08
+    revision: 0x2
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: RK3399
+  vendor: Rockchip
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: RK3328
+  vendor: Rockchip
+- cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x4
+  - implementer: 0x41
+    part: 0xd0b
+    revision: 0x0
+    variant: 0x4
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: RK3588
+  vendor: Rockchip
+- cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x2
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: RK3568
+  vendor: Rockchip
+- cores:
+  - implementer: 0x41
+    part: 0xd04
+    revision: 0x2
+    variant: 0x0
+  features:
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  name: RK3308
+  vendor: Rockchip
+- cores:
+  - implementer: 0x41
+    part: 0xd04
+    revision: 0x2
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: RK3326
+  vendor: Rockchip
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: RK3318
+  vendor: Rockchip
+- cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x2
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: RK3566
+  vendor: Rockchip
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: RK3528
+  vendor: Rockchip
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd09
+    revision: 0x2
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: Exynos 9610
+  vendor: Samsung
+- cores:
+  - implementer: 0x41
     part: 0xd46
-    revision: 0x1
-    variant: 0x1
+    revision: 0x2
+    variant: 0x0
   - implementer: 0x41
-    part: 0xd4d
+    part: 0xd47
     revision: 0x0
-    variant: 0x1
+    variant: 0x2
   - implementer: 0x41
-    part: 0xd4e
+    part: 0xd48
     revision: 0x0
-    variant: 0x1
+    variant: 0x2
   features:
   - fp
   - asimd
@@ -2697,8 +2599,106 @@
   - svei8mm
   - svebf16
   - i8mm
+  - bf16
   - bti
-  - mte
-  - mte3
-  name: Tensor G3
-  vendor: Google
+  name: Exynos 2200
+  vendor: Samsung
+- cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x2
+  - implementer: 0x41
+    part: 0xd0b
+    revision: 0x1
+    variant: 0x3
+  - implementer: 0x53
+    part: 0x4
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Exynos 990
+  vendor: Samsung
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: SC2A11
+  vendor: Socionext
+- cores:
+  - implementer: 0x41
+    part: 0xd08
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: TDA4VM J721E
+  vendor: Texas Instruments
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: Surge S1
+  vendor: Xiaomi
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: XCZU9EG
+  vendor: Xilinx
