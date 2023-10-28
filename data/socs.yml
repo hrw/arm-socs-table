@@ -2639,3 +2639,66 @@
   - afp
   name: Snapdragon 8 Gen 3 (SM8650)
   vendor: Qualcomm
+- cores:
+  - implementer: 0x41
+    part: 0xd46
+    revision: 0x1
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd4d
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd4e
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - sm3
+  - sm4
+  - asimddp
+  - sha512
+  - sve
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - sve2
+  - sveaes
+  - svepmull
+  - svebitperm
+  - svesha3
+  - svesm4
+  - flagm2
+  - frint
+  - svei8mm
+  - svebf16
+  - i8mm
+  - bti
+  - mte
+  - mte3
+  name: Tensor G3
+  vendor: Google
