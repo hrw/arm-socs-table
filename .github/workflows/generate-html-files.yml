@@ -1,0 +1,35 @@
+name: Generate HTML tables
+
+on:
+  workflow_dispatch
+
+
+jobs:
+  generate-and-deploy:
+    permissions:
+      contents: read
+      id-token: write
+      pages: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: master
+      
+      - name: Generate SoC features HTML
+        run: |
+          mkdir -p out
+          python3 generate.py > out/syscalls.html
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: out/
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
