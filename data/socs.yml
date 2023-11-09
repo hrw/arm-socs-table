@@ -2717,6 +2717,23 @@
   - sha2
   - crc32
   - cpuid
+  name: AM625
+  vendor: Texas Instruments
+- cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
   name: Surge S1
   vendor: Xiaomi
 - cores:
