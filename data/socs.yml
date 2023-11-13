@@ -1704,6 +1704,51 @@
   name: Neoverse-N1
   vendor: QEMU
 - cores:
+  - implementer: 0x41
+    part: 0xd40
+    revision: 0x2
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - sm3
+  - sm4
+  - asimddp
+  - sha512
+  - sve
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - paca
+  - pacg
+  - dcpodp
+  - svei8mm
+  - svebf16
+  - i8mm
+  - dgh
+  - rng
+  name: Neoverse-V1
+  vendor: QEMU
+- cores:
   - implementer: 0x51
     part: 0x804
     revision: 0xf
