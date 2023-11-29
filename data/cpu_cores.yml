@@ -558,6 +558,9 @@
   name: Apple
 0x70:
   cores:
+    '0x303':
+      aarch32: to be set
+      name: FTC310
     '0x660':
       aarch32: to be set
       name: FTC660
@@ -570,4 +573,7 @@
     '0x663':
       aarch32: to be set
       name: FTC663
+    '0x664':
+      aarch32: to be set
+      name: FTC664
   name: Phytium
