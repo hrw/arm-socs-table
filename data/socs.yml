@@ -1554,6 +1554,29 @@
   name: FT-2000/4
   vendor: Phytium
 - cores:
+  - implementer: 0x70
+    part: 0x303
+    revision: 0x4
+    variant: 0x0
+  - implementer: 0x70
+    part: 0x664
+    revision: 0x3
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  - sha3
+  - sha512
+  name: E2000Q
+  vendor: Phytium
+- cores:
   - implementer: 0x41
     part: 0xd04
     revision: 0x0

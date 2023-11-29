@@ -1,0 +1,61 @@
+title:	EMB-3551 / Phytium E2000Q
+state:	OPEN
+author:	ThomasKaiser
+labels:	
+comments:	2
+assignees:	
+projects:	
+milestone:	
+number:	104
+--
+**Describe the system**
+(name like "Pine64 RockPro64", "Raspberry/Pi 4", url to vendor if possible, SoC name)
+System name: EMB-3551
+Vendor name: Norco
+SoC name: E2000Q
+SoC vendor name (ex. Qualcomm, Mediatek): Phytium
+
+**Paste `/proc/cpuinfo` content**
+
+```
+processor	: 0
+BogoMIPS	: 100.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid sha3 sha512
+CPU implementer	: 0x70
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0x303
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 100.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid sha3 sha512
+CPU implementer	: 0x70
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0x303
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 100.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid sha3 sha512
+CPU implementer	: 0x70
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x664
+CPU revision	: 3
+
+processor	: 3
+BogoMIPS	: 100.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid sha3 sha512
+CPU implementer	: 0x70
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x664
+CPU revision	: 3
+```
+
+**Additional context**
+
+This is a hybrid SoC, ID `0x303` is other than usual for FTC310 cores (usually with Phytium core name and ID are the same): https://gitee.com/phytium_embedded/phytium-standalone-sdk#33-e2000q
+
