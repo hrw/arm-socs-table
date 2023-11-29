@@ -213,7 +213,7 @@
   {% if cpu_cores[core.implementer][core.part].trm %}<a href="{{ cpu_cores[core.implementer][core.part].trm }}">{% endif %}{{ cpu_cores[core.implementer][core.part].name }}{% if cpu_cores[core.implementer][core.part].trm %}</a>{% endif %}
   {% if not loop.last %},<br />{% endif %}
   {%- endfor %}</td>
-  <td class="nowrap">{% for core in soc.cores %}{{ core.aarch32 }}{% if not loop.last %},<br />{% endif %}{% endfor %}</td>
+  <td class="nowrap">{% for core in soc.cores %}{{ core.aarch32 }}{% if not loop.last and core.aarch32 != "" %},<br />{% endif %}{% endfor %}</td>
     {% for feature in cpu_features %}
         {% if feature in soc['features'] %}
         <td> YES </td>
