@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from datetime import datetime, UTC
+from datetime import datetime
 from jinja2 import Environment, FileSystemLoader
 
 import tables
@@ -118,7 +118,7 @@ def generate_html_file(socs, cpu_features, cpu_cores):
     template = env.get_template("arm-socs.html.j2")
 
     output = template.render(
-        generate_time=datetime.strftime(datetime.now(UTC), "%d %B %Y %H:%M"),
+        generate_time=datetime.strftime(datetime.utcnow(), "%d %B %Y %H:%M"),
         socs=socs,
         cpu_features=cpu_features,
         cpu_cores=cpu_cores,
