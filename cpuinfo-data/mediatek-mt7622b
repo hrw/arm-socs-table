@@ -1,0 +1,32 @@
+**Describe the system**
+System name: Redmi AX6S CN ver / Xiaomi AX3200 Global ver
+Vendor name: Xiaomi/Redmi
+SoC name: MT7622B
+SoC vendor name (ex. Qualcomm, Mediatek): Mediatek
+URL to product page: https://www.mi.com/global/product/xiaomi-router-ax3200/
+Kernel version (if known): 5.10.120
+
+
+**Paste `/proc/cpuinfo` content**
+```
+processor       : 0
+BogoMIPS        : 25.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 1
+BogoMIPS        : 25.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+```
+
+**Additional context**
+Currently using it with openwrt installed (https://openwrt.org/toh/xiaomi/ax3200).
