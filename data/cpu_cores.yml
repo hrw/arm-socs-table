@@ -392,30 +392,37 @@
       name: ThunderX
     '0xa1':
       aarch32: false
+      isa_level: v8.0
       name: ThunderX-88XX
     '0xa2':
       aarch32: false
+      isa_level: v8.0
       name: ThunderX-81XX
     '0xa3':
       aarch32: false
+      isa_level: v8.0
       name: ThunderX-83XX
     '0xaf':
       aarch32: false
+      isa_level: v8.1
       name: ThunderX2-99xx
   name: Cavium
 0x46:
   cores:
     '0x1':
       aarch32: to be set
+      isa_level: v8.2
       name: A64FX
   name: Fujitsu
 0x48:
   cores:
     '0xd01':
       aarch32: to be set
+      isa_level: v8.2
       name: Kunpeng-920
     '0xd40':
       aarch32: EL0?
+      isa_level: v8.2
       name: Cortex-A76 based
   name: HiSilicon
 0x4e:
@@ -428,21 +435,26 @@
       name: Denver 2
     '0x4':
       aarch32: to be set
+      isa_level: v8.2
       name: Carmel
   name: NVIDIA
 0x50:
   cores:
     '0x0':
       aarch32: EL0-EL2/3
+      isa_level: v8.0
       name: X-Gene
     0x0-0-1:
       aarch32: EL0-EL2
+      isa_level: v8.0
       name: X-Gene 2
     0x0-1-0:
       aarch32: EL0-EL2
+      isa_level: v8.0
       name: X-Gene 1
     0x0-2-3:
       aarch32: EL0-EL3
+      isa_level: v8.0
       name: X-Gene 3
   name: APM
 0x51:
@@ -476,30 +488,39 @@
       name: Krait 450
     '0x201':
       aarch32: to be set
+      isa_level: v8.0
       name: Kryo Silver
     '0x205':
       aarch32: to be set
+      isa_level: v8.0
       name: Kryo Gold
     '0x211':
       aarch32: to be set
+      isa_level: v8.0
       name: Kryo Silver
     '0x800':
       aarch32: EL0-EL3?
+      isa_level: v8.0
       name: Falkor-V1/Kryo 2xx Gold
     '0x801':
       aarch32: EL0-EL3?
+      isa_level: v8.0
       name: Kryo 2xx Silver
     '0x802':
       aarch32: EL0-EL3?
+      isa_level: v8.0
       name: Kryo 3xx Gold
     '0x803':
       aarch32: EL0-EL3?
+      isa_level: v8.0
       name: Kryo 3xx Silver
     '0x804':
       aarch32: EL0-EL3?
+      isa_level: v8.2
       name: Kryo 4xx Gold
     '0x805':
       aarch32: EL0-EL3?
+      isa_level: v8.2
       name: Kryo 4xx Silver
     '0xc00':
       aarch32: false
@@ -524,6 +545,7 @@
       name: Exynos M4
     '0x4':
       aarch32: to be set
+      isa_level: v8.2
       name: Exynos M5
   name: Samsung
 0x56:
@@ -548,21 +570,27 @@
       name: Firestorm-A14
     '0x22':
       aarch32: false
+      isa_level: v8.5
       name: Icestorm-M1
     '0x23':
       aarch32: false
+      isa_level: v8.5
       name: Firestorm-M1
     '0x24':
       aarch32: false
+      isa_level: v8.5
       name: Icestorm-M1-Pro
     '0x25':
       aarch32: false
+      isa_level: v8.5
       name: Firestorm-M1-Pro
     '0x28':
       aarch32: false
+      isa_level: v8.5
       name: Icestorm-M1-Max
     '0x29':
       aarch32: false
+      isa_level: v8.5
       name: Firestorm-M1-Max
     '0x30':
       aarch32: false
@@ -572,9 +600,11 @@
       name: Avalanche-A15
     '0x32':
       aarch32: false
+      isa_level: v8.6
       name: Blizzard-M2
     '0x33':
       aarch32: false
+      isa_level: v8.6
       name: Avalanche-M2
     '0x6':
       aarch32: to be set
@@ -584,20 +614,26 @@
   cores:
     '0x303':
       aarch32: to be set
+      isa_level: v8.0
       name: FTC310
     '0x660':
       aarch32: to be set
+      isa_level: v8.0
       name: FTC660
     '0x661':
       aarch32: to be set
+      isa_level: v8.0
       name: FTC661
     '0x662':
       aarch32: to be set
+      isa_level: v8.0
       name: FTC662
     '0x663':
       aarch32: to be set
+      isa_level: v8.0
       name: FTC663
     '0x664':
       aarch32: to be set
+      isa_level: v8.0
       name: FTC664
   name: Phytium
