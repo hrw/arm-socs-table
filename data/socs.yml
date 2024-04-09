@@ -784,6 +784,102 @@
   name: M1
   vendor: Apple
 - cores:
+  - implementer: 0x61
+    part: 0x34
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x61
+    part: 0x35
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - asimddp
+  - sha512
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - flagm2
+  - frint
+  - i8mm
+  - bf16
+  - bti
+  - ecv
+  name: M2 Pro
+  vendor: Apple
+- cores:
+  - implementer: 0x61
+    part: 0x38
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x61
+    part: 0x39
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - asimddp
+  - sha512
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - flagm2
+  - frint
+  - i8mm
+  - bf16
+  - bti
+  - ecv
+  name: M2 Max
+  vendor: Apple
+- cores:
   - implementer: 0x50
     part: 0x0
     revision: 0x1

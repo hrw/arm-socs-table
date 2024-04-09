@@ -606,6 +606,22 @@
       aarch32: false
       isa_level: v8.6
       name: Avalanche-M2
+    '0x34':
+      aarch32: false
+      isa_level: v8.6
+      name: Blizzard-M2-Pro
+    '0x35':
+      aarch32: false
+      isa_level: v8.6
+      name: Avalanche-M2-Pro
+    '0x38':
+      aarch32: false
+      isa_level: v8.6
+      name: Blizzard-M2-Max
+    '0x39':
+      aarch32: false
+      isa_level: v8.6
+      name: Avalanche-M2-Max
     '0x6':
       aarch32: to be set
       name: Hurricane
