@@ -3142,6 +3142,72 @@
   vendor: Samsung
 - cores:
   - implementer: 0x41
+    part: 0xd80
+    revision: 0x1
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd81
+    revision: 0x1
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd82
+    revision: 0x1
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - sm3
+  - sm4
+  - asimddp
+  - sha512
+  - sve
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - sve2
+  - sveaes
+  - svepmull
+  - svebitperm
+  - svesha3
+  - svesm4
+  - flagm2
+  - frint
+  - svei8mm
+  - svebf16
+  - i8mm
+  - bf16
+  - dgh
+  - bti
+  - ecv
+  - afp
+  - wfxt
+  name: Exynos 2400
+  vendor: Samsung
+- cores:
+  - implementer: 0x41
     part: 0xd03
     revision: 0x4
     variant: 0x0
