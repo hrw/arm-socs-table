@@ -360,6 +360,30 @@
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/107734/
       va_size: 0x30
+    '0xd85':
+      aarch32: false
+      isa_level: v9.2
+      name: Cortex-A925
+      pa_size: 40
+      page_size:
+      - 4k
+      - 16k
+      - 64k
+      sve_length: '128'
+      trm: https://developer.arm.com/documentation/102807/
+      va_size: 48
+    '0xd87':
+      aarch32: false
+      isa_level: v9.2
+      name: Cortex-A725
+      pa_size: 40
+      page_size:
+      - 4k
+      - 16k
+      - 64k
+      sve_length: '128'
+      trm: https://developer.arm.com/documentation/107652/
+      va_size: 48
     '0xd8e':
       aarch32: false
       isa_level: v9.2
