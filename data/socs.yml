@@ -2746,6 +2746,21 @@
   vendor: Qualcomm
 - cores:
   - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  name: Snapdragon 425 (MSM8917)
+  vendor: Qualcomm
+- cores:
+  - implementer: 0x41
     part: 0xd05
     revision: 0x0
     variant: 0x2

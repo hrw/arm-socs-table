@@ -1,0 +1,62 @@
+title:	Snapdragon 425 (MSM8917) info
+state:	OPEN
+author:	jimkoutso2008
+labels:	
+comments:	0
+assignees:	
+projects:	
+milestone:	
+number:	107
+--
+**Describe the system**
+(name like "Pine64 RockPro64", "Raspberry/Pi 4", url to vendor if possible, SoC name)
+System name: Samsung Galaxy J6+ 
+Vendor name: Samsung
+SoC name: Snapdragon 425 (MSM8917)
+SoC vendor name (ex. Qualcomm, Mediatek): Qualcomm
+URL to product page:
+Kernel version (if known): 3.18.120-g2aa596d0-dirty 
+
+
+```
+processor       : 0
+BogoMIPS        : 38.40
+Features        : fp asimd aes pmull sha1 sha2 crc32
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 1
+BogoMIPS        : 38.40
+Features        : fp asimd aes pmull sha1 sha2 crc32
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 2
+BogoMIPS        : 38.40
+Features        : fp asimd aes pmull sha1 sha2 crc32
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 3
+BogoMIPS        : 38.40
+Features        : fp asimd aes pmull sha1 sha2 crc32
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+Hardware        : Qualcomm Technologies, Inc MSM8917
+```
+
+**Additional context**
+Running LineageOS android 12 based, the info were ran on a debian 12 chroot
