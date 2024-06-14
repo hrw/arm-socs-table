@@ -1,0 +1,47 @@
+<h2>AArch32 support explained</h2>
+<p>AArch32 support column can be hard to understand so let me list used values and try to provide some descriptions.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>value name</th>
+                        <th>description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>EL0-EL3</td>
+                        <td>AArch32 support on all exception levels</td>
+                    </tr>
+                    <tr>
+                        <td>EL0-EL2</td>
+                        <td>AArch32 support on all exception levels except L3 (X-Gene 1/2)</td>
+                    </tr>
+                    <tr>
+                        <td>EL0-EL2/3</td>
+                        <td>some cpu core revisions lack EL3 (X-Gene 1/2/3)</td>
+                    </tr>
+                    <tr>
+                        <td>NO/EL0-EL3</td>
+                        <td>support level depends on cpu core revision (Cortex-A510)</td>
+                    </tr>
+                    <tr>
+                        <td>EL0-EL3?</td>
+                        <td>AArch32 support on all exception levels but needs to be confirmed (usually cores based on Arm Cortex-A designs)</td>
+                    </tr>
+                    <tr>
+                        <td>EL0</td>
+                        <td>AArch32 support only in userspace</td>
+                    </tr>
+                    <tr>
+                        <td>NO</td>
+                        <td>AArch32 is not supported at all</td>
+                    </tr>
+                    <tr>
+                        <td>(empty field)</td>
+                        <td>AArch32 support needs to be checked with documentation</td>
+                    </tr>
+                </tbody>
+            </table>
+
+<p> You need AArch32 support at EL1 to run 32-bit KVM guest. </p>
+
