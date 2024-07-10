@@ -268,6 +268,59 @@
   vendor: Amazon
 - cores:
   - implementer: 0x41
+    part: 0xd4f
+    revision: 0x1
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - asimddp
+  - sha512
+  - sve
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - sve2
+  - sveaes
+  - svepmull
+  - svebitperm
+  - svesha3
+  - flagm2
+  - frint
+  - svei8mm
+  - svebf16
+  - i8mm
+  - bf16
+  - dgh
+  - rng
+  - bti
+  name: Graviton 4
+  vendor: Amazon
+- cores:
+  - implementer: 0x41
     part: 0xd03
     revision: 0x4
     variant: 0x0
