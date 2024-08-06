@@ -677,3 +677,10 @@
       isa_level: v8.0
       name: FTC664
   name: Phytium
+0xc0:
+  cores:
+    '0xac3':
+      aarch32: to be set
+      isa_level: v8.6
+      name: AmpereOne
+  name: Ampere

@@ -639,6 +639,49 @@
   name: eMAG 8180
   vendor: Ampere
 - cores:
+  - implementer: 0xc0
+    part: 0xac3
+    revision: 0x1
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - asimddp
+  - sha512
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - dcpodp
+  - flagm2
+  - frint
+  - i8mm
+  - bf16
+  - rng
+  - bti
+  - ecv
+  name: AmpereOne
+  vendor: Ampere
+- cores:
   - implementer: 0x61
     part: 0x28
     revision: 0x0
