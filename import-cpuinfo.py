@@ -59,6 +59,12 @@ for line in cpu_data:
 
     elif line.startswith("CPU implementer"):
         implementer = int(line.partition(":")[2].strip(), base=16)
+        try:
+            if tables.cpu_cores[implementer]:
+                pass
+        except KeyError:
+            print(f"Implementer {implementer} is missing.")
+            sys.exit(-1)
     elif line.startswith("CPU variant"):
         variant = int(line.partition(":")[2].strip(), base=16)
     elif line.startswith("CPU part"):
