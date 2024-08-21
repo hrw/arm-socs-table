@@ -2859,6 +2859,54 @@
   name: Snapdragon 425 (MSM8917)
   vendor: Qualcomm
 - cores:
+  - implementer: 0x51
+    part: 0x1
+    revision: 0x1
+    variant: 0x2
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - sm3
+  - sm4
+  - asimddp
+  - sha512
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - flagm2
+  - frint
+  - i8mm
+  - bf16
+  - rng
+  - ecv
+  - afp
+  - rpres
+  name: Snapdragon X Elite
+  vendor: Qualcomm
+- cores:
   - implementer: 0x41
     part: 0xd05
     revision: 0x0

@@ -483,6 +483,9 @@
   name: APM
 0x51:
   cores:
+    '0x1':
+      aarch32: to be set
+      name: Oryon
     '0x00f':
       aarch32: to be set
       name: Scorpion
