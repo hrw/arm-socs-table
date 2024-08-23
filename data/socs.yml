@@ -2490,7 +2490,7 @@
   - lrcpc
   - dcpop
   - asimddp
-  name: Snapdragon 855+ (SM8150_Plus)
+  name: Snapdragon 855+ (SM8150P)
   vendor: Qualcomm
 - cores:
   - implementer: 0x51
@@ -2543,7 +2543,7 @@
   - lrcpc
   - dcpop
   - asimddp
-  name: Snapdragon 888+ (SM8350)
+  name: Snapdragon 888+ (SM8350-AC)
   vendor: Qualcomm
 - cores:
   - implementer: 0x51
@@ -2571,7 +2571,7 @@
   - lrcpc
   - dcpop
   - asimddp
-  name: Snapdragon 765 (LITO)
+  name: Snapdragon 765 (SM7250-AA)
   vendor: Qualcomm
 - cores:
   - implementer: 0x41
@@ -2646,7 +2646,7 @@
   - sha2
   - crc32
   - cpuid
-  name: Snapdragon 665
+  name: Snapdragon 665 (SM6125)
   vendor: Qualcomm
 - cores:
   - implementer: 0x51
