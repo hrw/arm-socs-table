@@ -2604,7 +2604,7 @@
   - flagm
   - paca
   - pacg
-  name: Snapdragon 8cx Gen 3
+  name: Snapdragon 8cx Gen 3 (SC8280XP)
   vendor: Qualcomm
 - cores:
   - implementer: 0x51
