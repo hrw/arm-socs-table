@@ -1,0 +1,101 @@
+title:	Mediatek Dimensity 9300
+state:	OPEN
+author:	replikvlt
+labels:	
+comments:	0
+assignees:	
+projects:	
+milestone:	
+number:	108
+--
+**Describe the system**
+(name like "Pine64 RockPro64", "Raspberry/Pi 4", url to vendor if possible, SoC name)
+System name: Vivo Iqoo Neo9 Pro
+Vendor name: Vivo (or Iqoo)
+SoC name: Mediatek Dimensity 9300
+SoC vendor name: Mediatek
+URL to product page: -
+Kernel version (if known): 6.1.25-android14-11-maybe-dirty
+
+
+**Paste `/proc/cpuinfo` content**
+Please do not submit random dumps from the Internet.
+```
+processor       : 0
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp wfxt
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd81
+CPU revision    : 1
+
+processor       : 1
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp wfxt
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd81
+CPU revision    : 1
+
+processor       : 2
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp wfxt
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd81
+CPU revision    : 1
+
+processor       : 3
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp wfxt
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd81
+CPU revision    : 1
+
+processor       : 4
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp wfxt
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd82
+CPU revision    : 1
+
+processor       : 5
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp wfxt
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd82
+CPU revision    : 1
+
+processor       : 6
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp wfxt
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd82
+CPU revision    : 1
+
+processor       : 7
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp wfxt
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd82
+CPU revision    : 1
+
+```
+
+**Additional context**
+This is an asia market device, global uses snapdragon;
+This SoC is 64bit only
+
