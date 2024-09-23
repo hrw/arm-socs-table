@@ -31,8 +31,11 @@ new_soc = {
 
 for soc in tables.socs:
     if new_soc["name"] == soc["name"]:
-        print(f"{new_soc['name']} is already present")
-        sys.exit(-1)
+        if len(sys.argv) > 4 and sys.argv[4] == '--force':
+            tables.socs.remove(soc)
+        else:
+            print(f"{new_soc['name']} is already present")
+            sys.exit(-1)
 
 cores = {}
 
