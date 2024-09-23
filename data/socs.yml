@@ -2252,6 +2252,8 @@
   - smef32f32
   - smefa64
   - wfxt
+  - ebf16
+  - sveebf16
   - mops
   - hbc
   name: Max
