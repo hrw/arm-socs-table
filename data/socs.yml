@@ -17,31 +17,6 @@
   vendor: AMD
 - cores:
   - implementer: 0x41
-    part: 0xd0c
-    revision: 0x1
-    variant: 0x3
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  - atomics
-  - fphp
-  - asimdhp
-  - cpuid
-  - asimdrdm
-  - lrcpc
-  - dcpop
-  - asimddp
-  - ssbs
-  name: G6R
-  vendor: Alibaba
-- cores:
-  - implementer: 0x41
     part: 0xd49
     revision: 0x0
     variant: 0x0
