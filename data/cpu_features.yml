@@ -98,6 +98,31 @@ evtstrm:
   feat: ' '
   name: ' '
   note: ' '
+f8cvt:
+  archv: 9.2
+  feat: FEAT_FP8
+  name: FP8 convert instructions
+  note:
+f8dp2:
+  archv: 9.2
+  feat: FEAT_FP8DOT2
+  name: FP8 2-way dot product to half-precision instructions
+  note:
+f8dp4:
+  archv: 9.2
+  feat: FEAT_FP8DOT4
+  name: FP8 4-way dot product to single-precision instructions
+  note:
+f8fma:
+  archv: 9.2
+  feat: FEAT_FP8FMA
+  name: FP8 multiply-accumulate to half-precision and single-precision instructions
+  note:
+faminmax:
+  archv: 9.2
+  feat: FEAT_FAMINMAX
+  name: Floating-point maximum and minimum absolute value instructions
+  note:
 fcma:
   archv: 8.3
   feat: FEAT_FCMA
@@ -123,6 +148,11 @@ fphp:
   feat: FEAT_FP16
   name: Half-precision floating-point data processing
   note: v8.2 depends, v8.4 depends
+fpmr:
+  archv: 9.2
+  feat: FEAT_FPMR
+  name: Floating-point Mode Register
+  note:
 frint:
   archv: 8.5
   feat: FEAT_FRINTTS
@@ -153,6 +183,21 @@ lrcpc:
   feat: FEAT_LRCPC
   name: Load-Acquire RCpc instructions
   note: v8.3 mandatory
+lrcpc3:
+  archv: 8.2
+  feat: FEAT_LRCPC3
+  name: Load-Acquire RCpc instructions version 3
+  note:
+lse128:
+  archv: 9.3
+  feat: FEAT_LSE128
+  name: 128-bit Atomics
+  note:
+lut:
+  archv: 9.2
+  feat: FEAT_LUT
+  name: Lookup table instructions with 2-bit and 4-bit indices
+  note:
 mops:
   archv: 8.8
   feat: FEAT_MOPS
@@ -183,6 +228,11 @@ pmull:
   feat: FEAT_PMULL
   name: PMULL, PMULL2 instructions.
   note: v8.0 crypto
+poe:
+  archv: 8.8
+  feat: FEAT_S1POE
+  name: Stage 1 permission overlays
+  note:
 rng:
   archv: 8.5
   feat: FEAT_RNG
@@ -238,11 +288,31 @@ sme:
   feat: FEAT_SME
   name: Scalable Matrix Extension
   note: v9.2 optional
+sme2:
+  archv: 9.2
+  feat: FEAT_SME2
+  name: Scalable Matrix Extension version 2
+  note:
+sme2p1:
+  archv: 9.2
+  feat: FEAT_SME2P1
+  name: Scalable Matrix Extension version 2.1
+  note:
+smeb16b16:
+  archv: 9.2
+  feat: FEAT_SME_B16B16
+  name: Non-widening BFloat16 to BFloat16 SME ZA-targeting arithmetic
+  note:
 smeb16f32:
   archv: 9.2
   feat: FEAT_SME
   name: BFloat16 outer product instructions
   note: v9.2 optional
+smef16f16:
+  archv: 9.2
+  feat: FEAT_SME_F16F16
+  name: Non-widening half-precision FP16 to FP16 arithmetic for SME2
+  note:
 smef16f32:
   archv: 9.2
   feat: FEAT_SME
@@ -258,6 +328,16 @@ smef64f64:
   feat: FEAT_SME_F64F64
   name: Double-precision floating-point outer product instructions
   note: v9.2 optional
+smef8f16:
+  archv: 9.2
+  feat: FEAT_SME_F8F16
+  name: SME2 ZA-targeting FP8 multiply-accumulate, dot product, and outer product to half-precision instructions
+  note:
+smef8f32:
+  archv: 9.2
+  feat: FEAT_SME_F8F32
+  name: SME2 ZA-targeting FP8 multiply-accumulate, dot product, and outer product to single-precision instructions
+  note:
 smefa64:
   archv: 9.2
   feat: FEAT_SME_FA64
@@ -273,6 +353,11 @@ smei8i32:
   feat: FEAT_SME
   name: Scalable Matrix Extension
   note: v9.2 optional
+smelutv2:
+  archv: 9.2
+  feat: FEAT_SME_LUTV2
+  name: Lookup table instructions with 4-bit indices and 8-bit elements
+  note:
 ssbs:
   archv: 8.0
   feat: FEAT_SSBS
@@ -298,6 +383,11 @@ sveaes:
   feat: FEAT_SVE_AES
   name: Scalable Vector AES instructions
   note: v9.0 optional
+sveb16b16:
+  archv: 9.2
+  feat: FEAT_SVE_B16B16
+  name: Non-widening BFloat16 to BFloat16 arithmetic for SVE2 and SME2
+  note:
 svebf16:
   archv: 8.2
   feat: FEAT_BF16
@@ -346,8 +436,7 @@ svesm4:
 uscat:
   archv: 8.2
   feat: FEAT_LSE2
-  name: Unaligned single-copy atomicity and atomic functions with a 16-byte address
-    range aligned to 16-bytes are supported
+  name: Unaligned single-copy atomicity and atomic functions with a 16-byte address range aligned to 16-bytes are supported
   note: v8.2 optional, v8.4 mandatory
 wfxt:
   archv: 8.7
