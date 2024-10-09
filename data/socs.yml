@@ -15,6 +15,8 @@
   - cpuid
   name: Opteron A1100
   vendor: AMD
+  announce:
+    time: 2014.01
 - cores:
   - implementer: 0x41
     part: 0xd49
@@ -68,6 +70,8 @@
   - bti
   name: Yitian 710
   vendor: Alibaba
+  announce:
+    time: "2021.10"
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -85,6 +89,8 @@
   - cpuid
   name: H5
   vendor: Allwinner
+  announce:
+    time: "2016.05"
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -102,6 +108,8 @@
   - cpuid
   name: H6
   vendor: Allwinner
+  announce:
+    time: 2017.06
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -119,6 +127,8 @@
   - cpuid
   name: H616
   vendor: Allwinner
+  announce:
+    time: 2019.12
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -136,6 +146,8 @@
   - cpuid
   name: H313
   vendor: Allwinner
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -153,6 +165,8 @@
   - cpuid
   name: R329
   vendor: Allwinner
+  announce:
+    time: 2020.03
 - cores:
   - implementer: 0x41
     part: 0xd40
@@ -199,6 +213,8 @@
   - rng
   name: Graviton 3
   vendor: Amazon
+  announce:
+    time: 2022.05
 - cores:
   - implementer: 0x41
     part: 0xd0c
@@ -224,6 +240,8 @@
   - ssbs
   name: Graviton 2
   vendor: Amazon
+  announce:
+    time: 2019.12
 - cores:
   - implementer: 0x41
     part: 0xd08
@@ -241,6 +259,8 @@
   - cpuid
   name: Graviton
   vendor: Amazon
+  announce:
+    time: 2018.11
 - cores:
   - implementer: 0x41
     part: 0xd4f
@@ -294,6 +314,8 @@
   - bti
   name: Graviton 4
   vendor: Amazon
+  announce:
+    time: 2023.11
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -307,6 +329,8 @@
   - cpuid
   name: S905
   vendor: Amlogic
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -324,6 +348,8 @@
   - cpuid
   name: S905X
   vendor: Amlogic
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -341,6 +367,8 @@
   - cpuid
   name: S905D
   vendor: Amlogic
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -358,6 +386,8 @@
   - cpuid
   name: S905L2
   vendor: Amlogic
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -375,6 +405,8 @@
   - cpuid
   name: S905W
   vendor: Amlogic
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -392,6 +424,8 @@
   - cpuid
   name: A113X
   vendor: Amlogic
+  announce:
+    time: 2017.09
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -409,6 +443,8 @@
   - cpuid
   name: S805X
   vendor: Amlogic
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -426,6 +462,8 @@
   - cpuid
   name: S912
   vendor: Amlogic
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -443,6 +481,8 @@
   - cpuid
   name: S905Y2
   vendor: Amlogic
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd04
@@ -460,6 +500,8 @@
   - cpuid
   name: S905Y4
   vendor: Amlogic
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd05
@@ -484,6 +526,8 @@
   - asimddp
   name: S905X3
   vendor: Amlogic
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd05
@@ -508,6 +552,8 @@
   - asimddp
   name: S905X4
   vendor: Amlogic
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -529,6 +575,8 @@
   - cpuid
   name: S922X
   vendor: Amlogic
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -550,6 +598,8 @@
   - cpuid
   name: A311D
   vendor: Amlogic
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd09
@@ -571,6 +621,8 @@
   - cpuid
   name: A311D2
   vendor: Amlogic
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd0c
@@ -596,6 +648,8 @@
   - ssbs
   name: Altra
   vendor: Ampere
+  announce:
+    time: 2020.03
 - cores:
   - implementer: 0x50
     part: 0x0
@@ -613,6 +667,8 @@
   - cpuid
   name: eMAG 8180
   vendor: Ampere
+  announce:
+    time: 2018.02
 - cores:
   - implementer: 0xc0
     part: 0xac3
@@ -658,6 +714,8 @@
   - ecv
   name: AmpereOne
   vendor: Ampere
+  announce:
+    time: 2023.05
 - cores:
   - implementer: 0x61
     part: 0x28
@@ -702,6 +760,8 @@
   - frint
   name: M1 Max
   vendor: Apple
+  announce:
+    time: "2021.10"
 - cores:
   - implementer: 0x61
     part: 0x24
@@ -746,6 +806,8 @@
   - frint
   name: M1 Pro
   vendor: Apple
+  announce:
+    time: "2021.10"
 - cores:
   - implementer: 0x61
     part: 0x32
@@ -794,6 +856,8 @@
   - ecv
   name: M2
   vendor: Apple
+  announce:
+    time: 2022.06
 - cores:
   - implementer: 0x61
     part: 0x6
@@ -812,6 +876,8 @@
   - asimdrdm
   name: A10 Fusion
   vendor: Apple
+  announce:
+    time: 2016.07
 - cores:
   - implementer: 0x61
     part: 0x22
@@ -856,6 +922,8 @@
   - frint
   name: M1
   vendor: Apple
+  announce:
+    time: "2020.11"
 - cores:
   - implementer: 0x61
     part: 0x34
@@ -904,6 +972,8 @@
   - ecv
   name: M2 Pro
   vendor: Apple
+  announce:
+    time: 2023.01
 - cores:
   - implementer: 0x61
     part: 0x38
@@ -952,6 +1022,8 @@
   - ecv
   name: M2 Max
   vendor: Apple
+  announce:
+    time: 2023.01
 - cores:
   - implementer: 0x50
     part: 0x0
@@ -964,6 +1036,8 @@
   - cpuid
   name: X-Gene 1
   vendor: Applied Micro
+  announce:
+    time: "2011.10"
 - cores:
   - implementer: 0x50
     part: 0x0
@@ -981,6 +1055,8 @@
   - cpuid
   name: X-Gene 2
   vendor: Applied Micro
+  announce:
+    time: 2014.09
 - cores:
   - implementer: 0x41
     part: 0xd0c
@@ -1005,6 +1081,8 @@
   - asimddp
   name: N1SDP
   vendor: Arm
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd07
@@ -1018,6 +1096,8 @@
   - cpuid
   name: Baikal-M (BE-M1000)
   vendor: Baikal Electronics
+  announce:
+    time: 2014.06
 - cores:
   - implementer: 0x41
     part: 0xd08
@@ -1031,6 +1111,8 @@
   - cpuid
   name: BCM2711
   vendor: Broadcom
+  announce:
+    time: 2019.06
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -1044,6 +1126,8 @@
   - cpuid
   name: BCM2837
   vendor: Broadcom
+  announce:
+    time: 2016.02
 - cores:
   - implementer: 0x41
     part: 0xd0b
@@ -1068,6 +1152,8 @@
   - asimddp
   name: BCM2712
   vendor: Broadcom
+  announce:
+    time: 2024.08
 - cores:
   - implementer: 0x43
     part: 0xa1
@@ -1085,6 +1171,8 @@
   - cpuid
   name: ThunderX CN8890
   vendor: Cavium
+  announce:
+    time: 2014.06
 - cores:
   - implementer: 0x43
     part: 0xaf
@@ -1104,6 +1192,8 @@
   - asimdrdm
   name: ThunderX2 CN9980
   vendor: Cavium/Marvell
+  announce:
+    time: 2016.05
 - cores:
   - implementer: 0x46
     part: 0x1
@@ -1126,6 +1216,8 @@
   - sve
   name: A64FX
   vendor: Fujitsu
+  announce:
+    time: 2018.08
 - cores:
   - implementer: 0x41
     part: 0xd05
@@ -1158,6 +1250,8 @@
   - asimddp
   name: Tensor G1
   vendor: Google
+  announce:
+    time: "2021.10"
 - cores:
   - implementer: 0x41
     part: 0xd46
@@ -1221,6 +1315,8 @@
   - mte3
   name: Tensor G3
   vendor: Google
+  announce:
+    time: "2023.10"
 - cores:
   - implementer: 0x41
     part: 0xd4f
@@ -1276,6 +1372,8 @@
   - bti
   name: Axion
   vendor: Google
+  announce:
+    time: 2024.04
 - cores:
   - implementer: 0x48
     part: 0xd40
@@ -1304,6 +1402,8 @@
   - asimddp
   name: Kirin 980
   vendor: HiSilicon
+  announce:
+    time: 2018.08
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -1325,6 +1425,8 @@
   - cpuid
   name: Kirin 710
   vendor: HiSilicon
+  announce:
+    time:  2018.07
 - cores:
   - implementer: 0x48
     part: 0xd01
@@ -1351,6 +1453,8 @@
   - asimdfhm
   name: Kunpeng 920
   vendor: HiSilicon
+  announce:
+    time: 2019.01
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -1368,6 +1472,8 @@
   - cpuid
   name: Armada 37xx
   vendor: Marvell
+  announce:
+    time: 2016.08
 - cores:
   - implementer: 0x41
     part: 0xd08
@@ -1385,6 +1491,8 @@
   - cpuid
   name: Armada 8040
   vendor: Marvell
+  announce:
+    time: 2016.06
 - cores:
   - implementer: 0x41
     part: 0xd41
@@ -1413,6 +1521,8 @@
   - asimddp
   name: Dimensity 1200 (MT6893)
   vendor: MediaTek
+  announce:
+    time: 2021.01
 - cores:
   - implementer: 0x41
     part: 0xd0b
@@ -1441,6 +1551,8 @@
   - asimddp
   name: Helio G95 (MT6785V)
   vendor: MediaTek
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd05
@@ -1472,6 +1584,8 @@
   - ssbs
   name: Helio G70 (MT6769V/CB)
   vendor: MediaTek
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd05
@@ -1500,6 +1614,8 @@
   - asimddp
   name: Helio G90T (MT6785)
   vendor: MediaTek
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -1520,6 +1636,8 @@
   - crc32
   name: Helio P60T (MT8173)
   vendor: MediaTek
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd05
@@ -1548,6 +1666,8 @@
   - asimddp
   name: Helio G85 (MT6769Z)
   vendor: MediaTek
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd46
@@ -1610,6 +1730,8 @@
   - bti
   name: Dimensity 9000
   vendor: MediaTek
+  announce:
+    time: 2021.11
 - cores:
   - implementer: 0x41
     part: 0xd05
@@ -1638,6 +1760,8 @@
   - asimddp
   name: MT8188JV/A
   vendor: MediaTek
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -1655,6 +1779,8 @@
   - cpuid
   name: MT7622B
   vendor: MediaTek
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd81
@@ -1706,6 +1832,8 @@
   - wfxt
   name: Dimensity 9300
   vendor: MediaTek
+  announce:
+    time: 2023.11
 - cores:
   - implementer: 0x41
     part: 0xd42
@@ -1733,6 +1861,8 @@
   - flagm
   name: Jetson Orin
   vendor: NVIDIA
+  announce:
+    time: 2022.09
 - cores:
   - implementer: 0x41
     part: 0xd07
@@ -1750,6 +1880,8 @@
   - cpuid
   name: Tegra X1
   vendor: NVIDIA
+  announce:
+    time: 2015.03
 - cores:
   - implementer: 0x4e
     part: 0x4
@@ -1772,6 +1904,8 @@
   - dcpop
   name: Tegra Xavier
   vendor: NVIDIA
+  announce:
+    time: 2022.01
 - cores:
   - implementer: 0x41
     part: 0xd07
@@ -1789,6 +1923,8 @@
   - cpuid
   name: Jetson Nano
   vendor: NVIDIA
+  announce:
+    time: 2019.03
 - cores:
   - implementer: 0x41
     part: 0xd4f
@@ -1841,6 +1977,8 @@
   - dgh
   name: Grace
   vendor: NVIDIA
+  announce:
+    time: 2022.03
 - cores:
   - implementer: 0x41
     part: 0xd08
@@ -1858,6 +1996,8 @@
   - cpuid
   name: LX2160A
   vendor: NXP
+  announce:
+    time: "2017.10"
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -1875,6 +2015,8 @@
   - cpuid
   name: i.MX 8M Quad
   vendor: NXP
+  announce:
+    time: 2020.01
 - cores:
   - implementer: 0x41
     part: 0xd04
@@ -1892,6 +2034,8 @@
   - cpuid
   name: i.MX 8QuadXPlus
   vendor: NXP
+  announce:
+    time: 2017.03
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -1908,6 +2052,8 @@
   - cpuid
   name: S5P6818
   vendor: Nexell
+  announce:
+    time:
 - cores:
   - implementer: 0x70
     part: 0x663
@@ -1925,6 +2071,8 @@
   - cpuid
   name: D2000/8
   vendor: Phytium
+  announce:
+    time:
 - cores:
   - implementer: 0x70
     part: 0x663
@@ -1942,6 +2090,8 @@
   - cpuid
   name: FT-2000/4
   vendor: Phytium
+  announce:
+    time:
 - cores:
   - implementer: 0x70
     part: 0x303
@@ -1965,6 +2115,8 @@
   - sha512
   name: E2000Q
   vendor: Phytium
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd04
@@ -1982,6 +2134,8 @@
   - cpuid
   name: Cortex-A35
   vendor: QEMU
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -1999,6 +2153,8 @@
   - cpuid
   name: Cortex-A53
   vendor: QEMU
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd05
@@ -2023,6 +2179,8 @@
   - asimddp
   name: Cortex-A55
   vendor: QEMU
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd07
@@ -2040,6 +2198,8 @@
   - cpuid
   name: Cortex-A57
   vendor: QEMU
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd08
@@ -2057,6 +2217,8 @@
   - cpuid
   name: Cortex-A72
   vendor: QEMU
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd0b
@@ -2081,6 +2243,8 @@
   - asimddp
   name: Cortex-A76
   vendor: QEMU
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd47
@@ -2135,6 +2299,8 @@
   - bti
   name: Cortex-A710
   vendor: QEMU
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd0c
@@ -2160,6 +2326,8 @@
   - ssbs
   name: Neoverse-N1
   vendor: QEMU
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd49
@@ -2216,6 +2384,8 @@
   - bti
   name: Neoverse-N2
   vendor: QEMU
+  announce:
+    time:
 - cores:
   - implementer: 0x0
     part: 0x51
@@ -2288,6 +2458,8 @@
   - hbc
   name: Max
   vendor: QEMU
+  announce:
+    time:
 - cores:
   - implementer: 0x51
     part: 0x804
@@ -2316,6 +2488,8 @@
   - asimddp
   name: Snapdragon 7c (SC7180)
   vendor: Qualcomm
+  announce:
+    time: 2019.12
 - cores:
   - implementer: 0x41
     part: 0xd44
@@ -2348,6 +2522,8 @@
   - asimddp
   name: Snapdragon 888 (SM8350)
   vendor: Qualcomm
+  announce:
+    time: 2020.11
 - cores:
   - implementer: 0x51
     part: 0x801
@@ -2368,6 +2544,8 @@
   - crc32
   name: Snapdragon 660 (SDM660)
   vendor: Qualcomm
+  announce:
+    time: 2017.05
 - cores:
   - implementer: 0x51
     part: 0x803
@@ -2391,6 +2569,8 @@
   - asimdhp
   name: Snapdragon 845 (SDM845)
   vendor: Qualcomm
+  announce:
+    time: 2017.12
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -2407,6 +2587,8 @@
   - crc32
   name: Snapdragon 625 (MSM8953)
   vendor: Qualcomm
+  announce:
+    time: 2016.02
 - cores:
   - implementer: 0x51
     part: 0x805
@@ -2435,6 +2617,8 @@
   - asimddp
   name: Snapdragon 865 (SM8250)
   vendor: Qualcomm
+  announce:
+    time: 2019.12
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -2448,6 +2632,8 @@
   - cpuid
   name: Snapdragon 410 (MSM8916)
   vendor: Qualcomm
+  announce:
+    time: 2013.12
 - cores:
   - implementer: 0x51
     part: 0x802
@@ -2471,6 +2657,8 @@
   - asimdhp
   name: Snapdragon 710 (SDM710)
   vendor: Qualcomm
+  announce:
+    time: 2018.05
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -2487,6 +2675,8 @@
   - crc32
   name: APQ8017
   vendor: Qualcomm
+  announce:
+    time: 2017.06
 - cores:
   - implementer: 0x41
     part: 0xd08
@@ -2507,6 +2697,8 @@
   - crc32
   name: Snapdragon 650 (MSM8956)
   vendor: Qualcomm
+  announce:
+    time: 2015.02
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -2527,6 +2719,8 @@
   - crc32
   name: Snapdragon 808 (MSM8992)
   vendor: Qualcomm
+  announce:
+    time: 2015.12
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -2547,6 +2741,8 @@
   - crc32
   name: Snapdragon 653 (MSM8976SG)
   vendor: Qualcomm
+  announce:
+    time: "2016.10"
 - cores:
   - implementer: 0x51
     part: 0x805
@@ -2575,6 +2771,8 @@
   - asimddp
   name: Snapdragon 855+ (SM8150P)
   vendor: Qualcomm
+  announce:
+    time: 2019.06
 - cores:
   - implementer: 0x51
     part: 0x211
@@ -2596,6 +2794,8 @@
   - cpuid
   name: Snapdragon 820 (MSM8996)
   vendor: Qualcomm
+  announce:
+    time: 2016.01
 - cores:
   - implementer: 0x41
     part: 0xd05
@@ -2628,6 +2828,8 @@
   - asimddp
   name: Snapdragon 888+ (SM8350-AC)
   vendor: Qualcomm
+  announce:
+    time: 2021.06
 - cores:
   - implementer: 0x51
     part: 0x805
@@ -2656,6 +2858,8 @@
   - asimddp
   name: Snapdragon 765 (SM7250-AA)
   vendor: Qualcomm
+  announce:
+    time: 2019.12
 - cores:
   - implementer: 0x41
     part: 0xd4b
@@ -2689,6 +2893,8 @@
   - pacg
   name: Snapdragon 8cx Gen 3 (SC8280XP)
   vendor: Qualcomm
+  announce:
+    time: 2021.12
 - cores:
   - implementer: 0x51
     part: 0x801
@@ -2710,6 +2916,8 @@
   - cpuid
   name: Snapdragon 662 (SM6115)
   vendor: Qualcomm
+  announce:
+    time: 2020.01
 - cores:
   - implementer: 0x51
     part: 0x801
@@ -2731,6 +2939,8 @@
   - cpuid
   name: Snapdragon 665 (SM6125)
   vendor: Qualcomm
+  announce:
+    time: 2019.04
 - cores:
   - implementer: 0x51
     part: 0x805
@@ -2759,6 +2969,8 @@
   - asimddp
   name: Snapdragon 720G (SM7125)
   vendor: Qualcomm
+  announce:
+    time: 2020.01
 - cores:
   - implementer: 0x41
     part: 0xd46
@@ -2816,6 +3028,8 @@
   - bti
   name: Snapdragon 8 Gen 2 (SM8550)
   vendor: Qualcomm
+  announce:
+    time: 2022.11
 - cores:
   - implementer: 0x41
     part: 0xd46
@@ -2870,6 +3084,8 @@
   - bti
   name: Snapdragon 8 Gen 1 (SM8450)
   vendor: Qualcomm
+  announce:
+    time: 2021.11
 - cores:
   - implementer: 0x41
     part: 0xd80
@@ -2926,6 +3142,8 @@
   - afp
   name: Snapdragon 8 Gen 3 (SM8650)
   vendor: Qualcomm
+  announce:
+    time: "2023.10"
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -2941,6 +3159,8 @@
   - crc32
   name: Snapdragon 425 (MSM8917)
   vendor: Qualcomm
+  announce:
+    time: 2016.02
 - cores:
   - implementer: 0x51
     part: 0x1
@@ -2989,6 +3209,8 @@
   - rpres
   name: Snapdragon X Elite
   vendor: Qualcomm
+  announce:
+    time: "2023.10"
 - cores:
   - implementer: 0x41
     part: 0xd05
@@ -3013,6 +3235,8 @@
   - asimddp
   name: RTD1619B
   vendor: Realtek
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -3034,6 +3258,8 @@
   - cpuid
   name: RK3399
   vendor: Rockchip
+  announce:
+    time: 2016.02
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -3051,6 +3277,8 @@
   - cpuid
   name: RK3328
   vendor: Rockchip
+  announce:
+    time: 2016.12
 - cores:
   - implementer: 0x41
     part: 0xd05
@@ -3079,6 +3307,8 @@
   - asimddp
   name: RK3588
   vendor: Rockchip
+  announce:
+    time: 2019.04
 - cores:
   - implementer: 0x41
     part: 0xd05
@@ -3103,6 +3333,8 @@
   - asimddp
   name: RK3568
   vendor: Rockchip
+  announce:
+    time: 2020.11
 - cores:
   - implementer: 0x41
     part: 0xd04
@@ -3117,6 +3349,8 @@
   - crc32
   name: RK3308
   vendor: Rockchip
+  announce:
+    time: 2018.03
 - cores:
   - implementer: 0x41
     part: 0xd04
@@ -3134,6 +3368,8 @@
   - cpuid
   name: RK3326
   vendor: Rockchip
+  announce:
+    time: 2018.04
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -3151,6 +3387,8 @@
   - cpuid
   name: RK3318
   vendor: Rockchip
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd05
@@ -3175,6 +3413,8 @@
   - asimddp
   name: RK3566
   vendor: Rockchip
+  announce:
+    time: 2020.11
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -3192,6 +3432,8 @@
   - cpuid
   name: RK3528
   vendor: Rockchip
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -3213,6 +3455,8 @@
   - cpuid
   name: Exynos 9610
   vendor: Samsung
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd46
@@ -3275,6 +3519,8 @@
   - bti
   name: Exynos 2200
   vendor: Samsung
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd05
@@ -3307,6 +3553,8 @@
   - asimddp
   name: Exynos 990
   vendor: Samsung
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -3323,6 +3571,8 @@
   - crc32
   name: Exynos 7870
   vendor: Samsung
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -3340,6 +3590,8 @@
   - cpuid
   name: Exynos 7570
   vendor: Samsung
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd80
@@ -3406,6 +3658,8 @@
   - wfxt
   name: Exynos 2400
   vendor: Samsung
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -3423,6 +3677,8 @@
   - cpuid
   name: SC2A11
   vendor: Socionext
+  announce:
+    time: 2016.11
 - cores:
   - implementer: 0x41
     part: 0xd08
@@ -3440,6 +3696,8 @@
   - cpuid
   name: TDA4VM J721E
   vendor: Texas Instruments
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -3457,6 +3715,8 @@
   - cpuid
   name: AM625
   vendor: Texas Instruments
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -3474,6 +3734,8 @@
   - cpuid
   name: Surge S1
   vendor: Xiaomi
+  announce:
+    time:
 - cores:
   - implementer: 0x41
     part: 0xd03
@@ -3490,3 +3752,5 @@
   - cpuid
   name: XCZU9EG
   vendor: Xilinx
+  announce:
+    time:

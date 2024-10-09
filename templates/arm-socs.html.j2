@@ -148,6 +148,7 @@
             <th rowspan="2">SoC vendor</th>
             <th rowspan="2">SoC name</th>
             <th rowspan="2">CPU implementers</th>
+            <th rowspan="2">Announced</th>
             <th rowspan="2">CPU cores (ISA level)</th>
             <th rowspan="2">AArch32 support</th>
 {% for feature in cpu_features %}
@@ -166,6 +167,7 @@
         <td>{{ soc.vendor  }}</td>
         <td>{{ soc.name  }}</td>
   <td class="nowrap">{% for core in soc.cores %}{{ core.implementer_name }}{% if not loop.last %},<br />{% endif %}{% endfor %}</td>
+  <td class="nowrap">{{ soc.announce.time }}</td>
   <td class="nowrap">{% for core in soc.cores -%}
   {% if cpu_cores[core.implementer][core.part].trm %}<a href="{{ cpu_cores[core.implementer][core.part].trm }}">{% endif %}{{ cpu_cores[core.implementer][core.part].name }}{% if cpu_cores[core.implementer][core.part].trm %}</a>{% endif %}
   {% if cpu_cores[core.implementer][core.part].isa_level %} ({{ cpu_cores[core.implementer][core.part].isa_level }}){% endif %}

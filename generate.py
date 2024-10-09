@@ -13,6 +13,8 @@ def handle_socs():
 
     for soc in tables.socs:
         soc["core_names"] = []
+        if "announce" not in soc or soc["announce"]["time"] is None:
+            soc["announce"] = {"time": " "}
 
         aarch32 = False
 
