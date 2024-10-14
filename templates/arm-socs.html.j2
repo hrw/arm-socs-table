@@ -22,71 +22,8 @@
     <meta property="og:locale" content="en_GB" />
     <meta property="og:site_name" content="Marcin Juszkiewicz" />
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.3.2/css/buttons.dataTables.min.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/colreorder/1.5.6/css/colReorder.dataTables.min.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedcolumns/4.2.1/css/fixedColumns.dataTables.min.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/datatables.mark.js/2.0.0/datatables.mark.min.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/plug-ins/1.10.13/features/mark.js/datatables.mark.min.css"/>
-
-    <script type="text/javascript" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.3.2/js/dataTables.buttons.min.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.3.2/js/buttons.colVis.min.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/colreorder/1.5.6/js/dataTables.colReorder.min.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/fixedcolumns/4.2.1/js/dataTables.fixedColumns.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/g/mark.js(jquery.mark.min.js)"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/plug-ins/1.12.1/features/mark.js/datatables.mark.js"></script>
-    <script type="text/javascript" id="js">
-            $(document).ready(function() {
-                    $("#arm_socs").DataTable( {
-                            pageLength  : -1,
-                            paging:       false,
-                            scrollX:        false,
-                            scrollCollapse: false,
-                            fixedColumns:   {
-                                left: 2
-                            },
-                            colReorder  : true,
-                            mark        : true,
-                            dom         : 'Bft'
-                    });
-    });
-    </script>
-    <style type="text/css">
-
-#arm_socs {
-        border: 1px solid #000;
-}
-
-#arm_socs th {
-        text-align: center;
-        padding: 0.5em;
-        line-height: 2em;
-        color: black;
-}
-
-#arm_socs thead {
-        border: 1px solid black;
-}
-
-#arm_socs td {
-        padding: 0.5em;
-}
-
-#arm_socs tbody tr.odd td {
-        background-color: lightgrey;
-}
-
-.legacy, #arm_socs tbody tr.odd td.legacy {
-        background-color: lightpink;
-}
-
-.nowrap {
-        white-space: nowrap;
-}
-    </style>
+{% include "common/datatables-js-css.inc.j2" %}
+{% include "common/css.inc.j2" %}
 </head>
 <body>
 
@@ -114,35 +51,9 @@
     </ul>
 
 {% include 'aarch32_support.j2' %}
+{% include "common/author-tables-help.inc.j2" %}
 
-<h2>Author info</h2>
-    <p>
-    Table is maintained by <a href="https://marcin.juszkiewicz.com.pl/">Marcin Juszkiewicz</a> &mdash; AArch64/Arm developer working at Red Hat as Linaro assignee.
-    </p>
-
-<h2>My table pages</h2>
-<ul>
-	<li><a href="https://gpages.juszkiewicz.com.pl/arm-socs-table/arm-socs.html">AArch64 SoC features table</a></li>
-	<li><a href="https://gpages.juszkiewicz.com.pl/arm-socs-table/arm-cpu-cores.html">AArch64 cpu cores information</a></li>
-	<li><a href="https://gpages.juszkiewicz.com.pl/syscalls-table/syscalls.html">Linux kernel system calls for all architectures</a></li>
-	<li><a href="https://marcin.juszkiewicz.com.pl/download/tables/bsa-sbsa.html">Arm BSA/SBSA checklist</a></li>
-</ul>
-
-<h2>How to help</h2>
-    <p>
-    Sources used to generate table are available in <a
-    href="https://github.com/hrw/arm-socs-table">git repository at github</a>.
-    Patches are always welcomed.
-    </p>
-    <p>
-    Please submit missing entries by <a href="https://github.com/hrw/arm-socs-table/issues/new?template=new-arm-soc.md">opening
-    an issue in github project</a>.
-    </p>
-
-<h2>Build info</h2>
-    <p>Table generated on <strong>{{ generate_time }} UTC</strong>.</p>
-
-<table id="arm_socs">
+<table id="infotable" class="display" style="width:100%">
     <thead>
         <tr>
             <th rowspan="2">SoC vendor</th>
@@ -186,4 +97,16 @@
     </tbody>
 </table>
 </body>
+<script>
+    new DataTable('#infotable', {
+            pageLength:         -1,
+            paging:             false,
+            scrollX:            true,
+            scrollCollapse:     false,
+            fixedColumns:       { start: 2 },
+            colReorder:         true,
+            mark:               true,
+            dom:                'Bft'
+    });
+</script>
 </html>

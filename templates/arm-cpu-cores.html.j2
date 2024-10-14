@@ -22,92 +22,18 @@
     <meta property="og:locale" content="en_GB" />
     <meta property="og:site_name" content="Marcin Juszkiewicz" />
 
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css"/>
-
-    <script type="text/javascript" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" id="js">
-            $(document).ready(function() {
-                    $("#arm_cpu_cores").DataTable( {
-                            pageLength  : -1,
-                            paging:       false,
-                            scrollX:        false,
-                            scrollCollapse: false,
-                            order: [[1, 'asc'], [0, 'asc']],
-                    });
-    });
-    </script>
-    <style type="text/css">
-
-#arm_cpu_cores {
-        border: 1px solid #000;
-}
-
-#arm_cpu_cores th {
-        text-align: center;
-        padding: 0.5em;
-        line-height: 2em;
-        color: black;
-}
-
-#arm_cpu_cores thead {
-        border: 1px solid black;
-}
-
-#arm_cpu_cores td {
-        padding: 0.5em;
-}
-
-#arm_cpu_cores tbody tr.odd td {
-        background-color: lightgrey;
-}
-
-.legacy, #arm_cpu_cores tbody tr.odd td.legacy {
-        background-color: lightpink;
-}
-
-.nowrap {
-        white-space: nowrap;
-}
-
-.tdc {
-	text-align: center;
-}
-    </style>
+{% include "common/datatables-js-css.inc.j2" %}
+{% include "common/css.inc.j2" %}
 </head>
 <body>
 
 <h1>AArch64 cpu core information table</h1>
     <p> Table shows some information about cpu cores designed by Arm company (as they provide TRM documentation). </p>
 
-{% include 'aarch32_support.j2' %}
+{% include "aarch32_support.j2" %}
+{% include "common/author-tables-help.inc.j2" %}
 
-<h2>Author info</h2>
-    <p>
-    Table is maintained by <a href="https://marcin.juszkiewicz.com.pl/">Marcin Juszkiewicz</a> &mdash; AArch64/Arm developer working at Red Hat as Linaro assignee.
-    </p>
-
-<h2>My table pages</h2>
-<ul>
-	<li><a href="https://gpages.juszkiewicz.com.pl/arm-socs-table/arm-socs.html">AArch64 SoC features table</a></li>
-	<li><a href="https://gpages.juszkiewicz.com.pl/arm-socs-table/arm-cpu-cores.html">AArch64 cpu cores information</a></li>
-	<li><a href="https://gpages.juszkiewicz.com.pl/syscalls-table/syscalls.html">Linux kernel system calls for all architectures</a></li>
-	<li><a href="https://marcin.juszkiewicz.com.pl/download/tables/bsa-sbsa.html">Arm BSA/SBSA checklist</a></li>
-</ul>
-
-<h2>How to help</h2>
-    <p>
-    Sources used to generate table are available in <a
-    href="https://github.com/hrw/arm-socs-table">git repository at github</a>.
-    Patches are always welcomed.
-    </p>
-
-<h2>Build info</h2>
-    <p>Table generated on <strong>{{ generate_time }} UTC</strong>.</p>
-
-<table id="arm_cpu_cores">
+<table id="infotable" class="display" style="width:100%">
     <thead>
         <tr>
             <th>CPU core name</th>
@@ -149,4 +75,13 @@
     </tbody>
 </table>
 </body>
+<script>
+    new DataTable('#infotable', {
+            pageLength:         -1,
+            paging:             false,
+            scrollX:            false,
+            scrollCollapse:     false,
+            order:              [[1, 'asc'], [0, 'asc']]
+    });
+</script>
 </html>
