@@ -125,6 +125,7 @@ def generate_html_file(socs, cpu_features, cpu_cores):
         socs=socs,
         cpu_features=cpu_features,
         cpu_cores=cpu_cores,
+        git_repo="arm-socs-table",
     )
     print(output)
 

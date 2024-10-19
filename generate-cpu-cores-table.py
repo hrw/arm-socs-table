@@ -45,6 +45,7 @@ def generate_html_file(cpu_cores):
         generate_time=datetime.strftime(datetime.now(timezone.utc),
                                         "%d %B %Y %H:%M"),
         cpu_cores=cpu_cores,
+        git_repo="arm-socs-table",
     )
     print(output)
 
