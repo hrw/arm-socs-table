@@ -712,7 +712,7 @@
   - rng
   - bti
   - ecv
-  name: AmpereOne
+  name: Ampere1
   vendor: Ampere
   announce:
     time: 2023.05
