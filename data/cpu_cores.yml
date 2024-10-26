@@ -686,4 +686,8 @@
       aarch32: to be set
       isa_level: v8.6
       name: AC03
+    '0xac4':
+      aarch32: to be set
+      isa_level: v8.6
+      name: AC04
   name: Ampere
