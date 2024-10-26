@@ -714,9 +714,58 @@
   - ecv
   name: Ampere1
   vendor: Ampere
-  announce:
+- announce:
     time: 2023.05
-- cores:
+  cores:
+  - implementer: 0xc0
+    part: 0xac4
+    revision: 0x0
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - sm3
+  - sm4
+  - asimddp
+  - sha512
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - flagm2
+  - frint
+  - i8mm
+  - bf16
+  - rng
+  - bti
+  - ecv
+  name: Ampere1a
+  vendor: Ampere
+- announce:
+    time: '2021.10'
+  cores:
   - implementer: 0x61
     part: 0x28
     revision: 0x0
