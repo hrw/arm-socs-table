@@ -685,5 +685,5 @@
     '0xac3':
       aarch32: to be set
       isa_level: v8.6
-      name: AmpereOne
+      name: AC03
   name: Ampere
