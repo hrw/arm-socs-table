@@ -363,7 +363,7 @@
     '0xd85':
       aarch32: false
       isa_level: v9.2
-      name: Cortex-A925
+      name: Cortex-X925
       pa_size: 40
       page_size:
       - 4k
