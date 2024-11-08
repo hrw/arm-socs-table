@@ -1,0 +1,104 @@
+title:	SM6150 (Snapdragon 675)
+state:	OPEN
+author:	DCFUKSURMOM
+labels:	
+comments:	0
+assignees:	
+projects:	
+milestone:	
+number:	112
+--
+System name: Moto G Stylus (2021 version)
+Vendor name: Motorola
+SoC name: SM6150 (Snapdragon 675)
+SoC vendor name (ex. Qualcomm, Mediatek): Qualcomm
+URL to product page: Not sure if this wants the device or soc page because I just woke up and my brain isn't working, assuming soc but I will list both:
+https://www.qualcomm.com/media/documents/files/snapdragon-675-mobile-platform-product-brief.pdf
+https://www.motorola-support.com/us-en/?page=device/motorola/moto-g-stylus-2021
+Kernel version (if known): 4.14.190-perf+
+
+**Paste `/proc/cpuinfo` content**
+Please do not submit random dumps from the Internet.
+```
+(here goes the file)
+```
+Processor       : AArch64 Processor rev 14 (aarch64)
+processor       : 0
+BogoMIPS        : 38.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x51
+CPU architecture: 8
+CPU variant     : 0xd
+CPU part        : 0x805
+CPU revision    : 14
+
+processor       : 1
+BogoMIPS        : 38.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x51
+CPU architecture: 8
+CPU variant     : 0xd
+CPU part        : 0x805
+CPU revision    : 14
+
+processor       : 2
+BogoMIPS        : 38.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x51
+CPU architecture: 8
+CPU variant     : 0xd
+CPU part        : 0x805
+CPU revision    : 14
+
+processor       : 3
+BogoMIPS        : 38.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x51
+CPU architecture: 8
+CPU variant     : 0xd
+CPU part        : 0x805
+CPU revision    : 14
+
+processor       : 4
+BogoMIPS        : 38.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x51
+CPU architecture: 8
+CPU variant     : 0xd
+CPU part        : 0x805
+CPU revision    : 14
+
+processor       : 5
+BogoMIPS        : 38.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x51
+CPU architecture: 8
+CPU variant     : 0xd
+CPU part        : 0x805
+CPU revision    : 14
+
+processor       : 6
+BogoMIPS        : 38.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x51
+CPU architecture: 8
+CPU variant     : 0xd
+CPU part        : 0x804
+CPU revision    : 14
+
+processor       : 7
+BogoMIPS        : 38.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x51
+CPU architecture: 8
+CPU variant     : 0xd
+CPU part        : 0x804
+CPU revision    : 14
+
+Hardware        : Qualcomm Technologies, Inc SM6150
+
+**Additional context**
+Add any other information you feel as relevant.
+
+Not sure if needed but kernel source is available (but doesn't seem to build for me): 
+https://github.com/LineageOS/android_kernel_motorola_sm6150
