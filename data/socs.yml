@@ -3260,7 +3260,9 @@
   - rpres
   name: Snapdragon X Elite
   vendor: Qualcomm
-- cores:
+- announce:
+    time: 2018.10
+  cores:
   - implementer: 0x51
     part: 0x805
     revision: 0x14
