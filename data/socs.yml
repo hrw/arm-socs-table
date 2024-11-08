@@ -3261,7 +3261,7 @@
   name: Snapdragon X Elite
   vendor: Qualcomm
 - announce:
-    time: 2018.10
+    time: "2018.10"
   cores:
   - implementer: 0x51
     part: 0x805
