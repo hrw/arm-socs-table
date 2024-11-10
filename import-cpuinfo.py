@@ -23,6 +23,7 @@ with open(sys.argv[1]) as cpuinfo:
     cpu_data = cpuinfo.readlines()
 
 new_soc = {
+    "announce": {"time":""},
     "cores": [],
     "features": [],
     "name": sys.argv[2],
