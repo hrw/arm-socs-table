@@ -1884,6 +1884,66 @@
   name: Dimensity 9300
   vendor: MediaTek
 - announce:
+    time: 2023.02
+  cores:
+  - implementer: 0x41
+    part: 0xd46
+    revision: 0x1
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd4d
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - sm3
+  - sm4
+  - asimddp
+  - sha512
+  - sve
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - sve2
+  - sveaes
+  - svepmull
+  - svebitperm
+  - svesha3
+  - svesm4
+  - flagm2
+  - frint
+  - svei8mm
+  - svebf16
+  - i8mm
+  - bf16
+  - bti
+  name: Dimensity 7200 Pro (MT6886)
+  vendor: MediaTek
+- announce:
     time: 2022.09
   cores:
   - implementer: 0x41
@@ -3261,7 +3321,7 @@
   name: Snapdragon X Elite
   vendor: Qualcomm
 - announce:
-    time: "2018.10"
+    time: '2018.10'
   cores:
   - implementer: 0x51
     part: 0x805
