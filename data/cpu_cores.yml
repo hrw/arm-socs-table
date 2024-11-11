@@ -6,6 +6,16 @@
   name: QEMU
 0x41:
   cores:
+    '0xd02':
+      aarch32: false
+      isa_level: v8.0
+      name: Cortex-A34
+      pa_size: 40
+      page_size:
+      - 4k
+      - 16k
+      - 64k
+      trm: https://developer.arm.com/documentation/100246/
     '0xd03':
       aarch32: EL0-EL3
       isa_level: v8.0
