@@ -1577,6 +1577,147 @@
   name: Kunpeng 920
   vendor: HiSilicon
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Ascend 310
+  vendor: HiSilicon
+- announce:
+    time: ''
+  cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x3
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: Kirin 620
+  vendor: HiSilicon
+- announce:
+    time: ''
+  cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x48
+    part: 0xd40
+    revision: 0x0
+    variant: 0x3
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Kirin 810
+  vendor: HiSilicon
+- announce:
+    time: ''
+  cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd08
+    revision: 0x0
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  name: Kirin 950
+  vendor: HiSilicon
+- announce:
+    time: ''
+  cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd09
+    revision: 0x1
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  name: Kirin 960
+  vendor: HiSilicon
+- announce:
+    time: ''
+  cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd09
+    revision: 0x2
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  name: Kirin 970
+  vendor: HiSilicon
+- announce:
     time: 2016.08
   cores:
   - implementer: 0x41
