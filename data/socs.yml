@@ -3711,6 +3711,28 @@
   name: RTD1619B
   vendor: Realtek
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x2
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: R9A07G043U11
+  vendor: Renesas
+- announce:
     time: 2016.02
   cores:
   - implementer: 0x41
