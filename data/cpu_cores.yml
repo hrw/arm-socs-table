@@ -456,7 +456,7 @@
       name: Kunpeng-920
     '0xd02':
       aarch32: to be set
-      isa_level: v8.2
+      isa_level: v8.5
       name: TaiShan V120 (Big)
     '0xd40':
       aarch32: EL0?
@@ -464,7 +464,7 @@
       name: Cortex-A76 based
     '0xd42':
       aarch32: to be set
-      isa_level: v8.2
+      isa_level: v8.5
       name: TaiShan V120 (Middle)
   name: HiSilicon
 0x4e:
