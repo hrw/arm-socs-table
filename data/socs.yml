@@ -1718,6 +1718,60 @@
   name: Kirin 970
   vendor: HiSilicon
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x41
+    part: 0xd46
+    revision: 0x1
+    variant: 0x1
+  - implementer: 0x48
+    part: 0xd42
+    revision: 0x2
+    variant: 0x2
+  - implementer: 0x48
+    part: 0xd02
+    revision: 0x2
+    variant: 0x2
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - sm3
+  - sm4
+  - asimddp
+  - sha512
+  - sve
+  - asimdfhm
+  - dit
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - pacg
+  - dcpodp
+  - flagm2
+  - frint
+  - svei8mm
+  - i8mm
+  - bti
+  name: Kirin 9000S
+  vendor: HiSilicon
+- announce:
     time: 2016.08
   cores:
   - implementer: 0x41
