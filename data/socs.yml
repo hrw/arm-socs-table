@@ -1223,6 +1223,25 @@
   name: BCM2712
   vendor: Broadcom
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x42
+    part: 0x100
+    revision: 0x0
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: BCM4908
+  vendor: Broadcom
+- announce:
     time: 2014.06
   cores:
   - implementer: 0x43
