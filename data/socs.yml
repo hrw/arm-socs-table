@@ -1424,7 +1424,7 @@
   name: Axion
   vendor: Google
 - announce:
-    time: "2021.10"
+    time: '2021.10'
   cores:
   - implementer: 0x41
     part: 0xd05
@@ -3890,6 +3890,36 @@
   - cpuid
   name: AM625
   vendor: Texas Instruments
+- announce:
+    time: ''
+  cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x2
+  - implementer: 0x41
+    part: 0xd0b
+    revision: 0x0
+    variant: 0x4
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: UMS9620
+  vendor: Unisoc
 - announce:
     time: null
   cores:
