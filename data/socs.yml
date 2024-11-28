@@ -2383,6 +2383,7 @@
   - i8mm
   - bf16
   - dgh
+  - bti
   name: Grace
   vendor: NVIDIA
 - announce:
