@@ -1,0 +1,97 @@
+title:	Snapdragon 8 Elite
+state:	OPEN
+author:	ifarbod
+labels:	
+comments:	0
+assignees:	
+projects:	
+milestone:	
+number:	115
+--
+System name: Samsung Galaxy S25+
+Vendor name: Samsung
+SoC name: SM8750-AB **Snapdragon 8 Elite (3 nm)**
+SoC vendor name (ex. Qualcomm, Mediatek): Qualcomm 
+URL to product page: https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-8-series-mobile-platforms/snapdragon-8-elite-mobile-platform
+Kernel version (if known): 6.x
+
+
+**Paste `/proc/cpuinfo` content**
+Please do not submit random dumps from the Internet.
+```
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb paca pacg dcpodp flagm2 frint i8mm bf16 rng bti ecv afp rpres
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0x4
+CPU part	: 0x001
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb paca pacg dcpodp flagm2 frint i8mm bf16 rng bti ecv afp rpres
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0x4
+CPU part	: 0x001
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb paca pacg dcpodp flagm2 frint i8mm bf16 rng bti ecv afp rpres
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0x4
+CPU part	: 0x001
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb paca pacg dcpodp flagm2 frint i8mm bf16 rng bti ecv afp rpres
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0x4
+CPU part	: 0x001
+CPU revision	: 4
+
+processor	: 4
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb paca pacg dcpodp flagm2 frint i8mm bf16 rng bti ecv afp rpres
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0x4
+CPU part	: 0x001
+CPU revision	: 4
+
+processor	: 5
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb paca pacg dcpodp flagm2 frint i8mm bf16 rng bti ecv afp rpres
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0x4
+CPU part	: 0x001
+CPU revision	: 4
+
+processor	: 6
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb paca pacg dcpodp flagm2 frint i8mm bf16 rng bti ecv afp rpres
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0x3
+CPU part	: 0x001
+CPU revision	: 4
+
+processor	: 7
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb paca pacg dcpodp flagm2 frint i8mm bf16 rng bti ecv afp rpres
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0x3
+CPU part	: 0x001
+CPU revision	: 4
+
+
+```
+
+

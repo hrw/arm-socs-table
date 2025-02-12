@@ -3751,6 +3751,57 @@
   name: Snapdragon 450
   vendor: Qualcomm
 - announce:
+    time: '2024.10'
+  cores:
+  - implementer: 0x51
+    part: 0x1
+    revision: 0x4
+    variant: 0x4
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - sm3
+  - sm4
+  - asimddp
+  - sha512
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - flagm2
+  - frint
+  - i8mm
+  - bf16
+  - rng
+  - bti
+  - ecv
+  - afp
+  - rpres
+  name: Snapdragon 8 Elite (SM8750-AB)
+  vendor: Qualcomm
+- announce:
     time: null
   cores:
   - implementer: 0x41
