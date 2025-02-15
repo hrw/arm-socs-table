@@ -2609,6 +2609,36 @@
   name: E2000Q
   vendor: Phytium
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x70
+    part: 0x862
+    revision: 0x0
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - sha3
+  - sm3
+  - sm4
+  - asimddp
+  - sha512
+  name: D3000
+  vendor: Phytium
+- announce:
     time: null
   cores:
   - implementer: 0x41

@@ -1,0 +1,97 @@
+title:	Phytium D3000 information
+state:	OPEN
+author:	neggles
+labels:	
+comments:	0
+assignees:	
+projects:	
+milestone:	
+number:	116
+--
+System name: Phytium D3000 mATX CRB (doesn't really have a specific name as far as i can tell)
+Vendor name: Phytium
+SoC name: D3000
+SoC vendor: Phytium
+URL to product page: N/A for the board - not public. SoC (chinese) product page is [here](https://www.phytium.com.cn/homepage/production/15/)
+Kernel version (if known): `Linux d3k 6.6.63-arm64-desktop-hwe #23.01.00.41+STE SMP PREEMPT Thu Dec  5 10:45:15 CST 2024 aarch64 GNU/Linux`
+
+`/proc/cpuinfo` content:
+```
+aholmes@d3k:~$ cat /proc/cpuinfo
+processor       : 0
+BogoMIPS        : 100.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop sha3 sm3 sm4 asimddp sha512
+CPU implementer : 0x70
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0x862
+CPU revision    : 0
+
+processor       : 1
+BogoMIPS        : 100.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop sha3 sm3 sm4 asimddp sha512
+CPU implementer : 0x70
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0x862
+CPU revision    : 0
+
+processor       : 2
+BogoMIPS        : 100.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop sha3 sm3 sm4 asimddp sha512
+CPU implementer : 0x70
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0x862
+CPU revision    : 0
+
+processor       : 3
+BogoMIPS        : 100.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop sha3 sm3 sm4 asimddp sha512
+CPU implementer : 0x70
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0x862
+CPU revision    : 0
+
+processor       : 4
+BogoMIPS        : 100.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop sha3 sm3 sm4 asimddp sha512
+CPU implementer : 0x70
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0x862
+CPU revision    : 0
+
+processor       : 5
+BogoMIPS        : 100.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop sha3 sm3 sm4 asimddp sha512
+CPU implementer : 0x70
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0x862
+CPU revision    : 0
+
+processor       : 6
+BogoMIPS        : 100.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop sha3 sm3 sm4 asimddp sha512
+CPU implementer : 0x70
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0x862
+CPU revision    : 0
+
+processor       : 7
+BogoMIPS        : 100.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop sha3 sm3 sm4 asimddp sha512
+CPU implementer : 0x70
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0x862
+CPU revision    : 0
+```
+
+**Additional context**
+Running on Deepin 23 (25 not available for aarch64 yet) - kernel sources are [here for the merged deepin 6.6](https://github.com/deepin-community/kernel) and [here](https://gitee.com/phytium_embedded/phytium-linux-kernel/tree/linux-6.6/) for the vendor downstream
+
+A Windows 11 24H2 ISO will boot but fails to make it to the desktop due to a UEFI bug I can't remember the details of right now - works fine in a KVM VM though!

@@ -697,6 +697,10 @@
       aarch32: to be set
       isa_level: v8.0
       name: FTC664
+    '0x862':
+      aarch32: to be set
+      isa_level: v8.2
+      name: FTC862
   name: Phytium
 0xc0:
   cores:
