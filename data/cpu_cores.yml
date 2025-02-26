@@ -406,6 +406,18 @@
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/107997/
       va_size: 0x30
+    '0xd8f':
+      aarch32: false
+      isa_level: v9.2
+      name: Cortex-A320
+      pa_size: 40
+      page_size:
+      - 4k
+      - 16k
+      - 64k
+      sve_length: 0x80
+      trm: https://developer.arm.com/documentation/109551/
+      va_size: 0x30
   name: ARM
 0x42:
   cores:
