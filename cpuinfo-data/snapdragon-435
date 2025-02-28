@@ -1,0 +1,99 @@
+title:	Snapdragon 435 (MSM8940) / Xiaomi Redmi 4X (santoni)
+state:	OPEN
+author:	Pentium320
+labels:	
+comments:	0
+assignees:	
+projects:	
+milestone:	
+number:	117
+--
+System name: Redmi 4X [santoni]
+Vendor name: Xiaomi
+SoC name: Snapdragon 435
+SoC vendor name (ex. Qualcomm, Mediatek): Qualcomm
+URL to product page: https://wiki.lineageos.org/devices/santoni/ (official doesn't work anymore)
+Kernel version (if known): Linux localhost 4.19.322-perf-ga01fb1e0ee4a #1 SMP PREEMPT Tue Feb 25 09:09:08 UTC 2025 aarch64 Toybox
+
+
+**Paste `/proc/cpuinfo` content**
+Please do not submit random dumps from the Internet.
+```
+Processor       : AArch64 Processor rev 4 (aarch64)
+processor       : 0
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 1
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 2
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 3
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 4
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 5
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 6
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 7
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+Hardware        : Qualcomm Technologies, Inc MSM8940
+```
+
+**Additional context**
+Android 14, LineageOS 21 official.
