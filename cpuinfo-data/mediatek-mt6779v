@@ -1,0 +1,103 @@
+title:	New Arm Soc MT6779V/CV (CPH2205)
+state:	OPEN
+author:	replikvlt
+labels:	
+comments:	0
+assignees:	
+projects:	
+milestone:	
+number:	118
+--
+**Describe the system**
+(name like "Pine64 RockPro64", "Raspberry/Pi 4", url to vendor if possible, SoC name)
+System name: OPPO Reno 5 Lite (CPH2205)
+Vendor name: OPPO
+SoC name: MT6779V/CV
+SoC vendor name (ex. Qualcomm, Mediatek): Mediatek
+URL to product page: https://allegro.pl/oferta/smartfon-oppo-reno-5-lite-8-128gb-dualsim-13903867618?utm_feed=aa34192d-eee2-4419-9a9a-de66b9dfae24&utm_source=google&utm_medium=freelisting&srsltid=AfmBOoob_P9h5C57DRATifNqPIQJeObIYhe4294shdPp0ib8LUlmFb2K3Yk
+Kernel version (if known): 4.19.191+
+
+
+**Paste `/proc/cpuinfo` content**
+Please do not submit random dumps from the Internet.
+```
+processor       : 0
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd05
+CPU revision    : 0
+
+processor       : 1
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd05
+CPU revision    : 0
+
+processor       : 2
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd05
+CPU revision    : 0
+
+processor       : 3
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd05
+CPU revision    : 0
+
+processor       : 4
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd05
+CPU revision    : 0
+
+processor       : 5
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd05
+CPU revision    : 0
+
+processor       : 6
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x3
+CPU part        : 0xd0a
+CPU revision    : 0
+
+processor       : 7
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x3
+CPU part        : 0xd0a
+CPU revision    : 0
+
+Hardware        : MT6779V/CV
+Hardware        : MT6779V/CV
+```
+
+**Additional context**
+Add any other information you feel as relevant.
+IDK whatever OPPO means by this, but there's following additional info - 'Hardware version: CPH2205_11'.    
+CPU is called different things, but I also found it's called 'Mediatek Helio P95'

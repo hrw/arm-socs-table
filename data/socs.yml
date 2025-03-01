@@ -2306,6 +2306,36 @@
   name: Genio 1200
   vendor: MediaTek
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x41
+    part: 0xd0a
+    revision: 0x0
+    variant: 0x3
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Helio P95 (MT6779V/CV)
+  vendor: MediaTek
+- announce:
     time: 2022.09
   cores:
   - implementer: 0x41
