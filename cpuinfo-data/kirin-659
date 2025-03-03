@@ -1,0 +1,100 @@
+title:	Hisilicon Kirin 659
+state:	OPEN
+author:	replikvlt
+labels:	
+comments:	0
+assignees:	
+projects:	
+milestone:	
+number:	120
+--
+**Describe the system**
+(name like "Pine64 RockPro64", "Raspberry/Pi 4", url to vendor if possible, SoC name)
+System name: HUAWEI P20 lite (ANE-LX1)
+Vendor name: HUAWEI
+SoC name: Hisilicon Kirin 659
+SoC vendor name (ex. Qualcomm, Mediatek): Hisilicon
+URL to product page: -
+Kernel version (if known): 4.9.148
+
+
+**Paste `/proc/cpuinfo` content**
+Please do not submit random dumps from the Internet.
+```
+Processor       : AArch64 Processor rev 4 (aarch64)
+processor       : 0
+BogoMIPS        : 3.84
+Features        : fp asimd evtstrm aes pmull crc32
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 1
+BogoMIPS        : 3.84
+Features        : fp asimd evtstrm aes pmull crc32
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 2
+BogoMIPS        : 3.84
+Features        : fp asimd evtstrm aes pmull crc32
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 3
+BogoMIPS        : 3.84
+Features        : fp asimd evtstrm aes pmull crc32
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 4
+BogoMIPS        : 3.84
+Features        : fp asimd evtstrm aes pmull crc32
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 5
+BogoMIPS        : 3.84
+Features        : fp asimd evtstrm aes pmull crc32
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 6
+BogoMIPS        : 3.84
+Features        : fp asimd evtstrm aes pmull crc32
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 7
+BogoMIPS        : 3.84
+Features        : fp asimd evtstrm aes pmull crc32
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+```
+
+**Additional context**
+Add any other information you feel as relevant.
+
