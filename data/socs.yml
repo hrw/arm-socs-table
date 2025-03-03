@@ -4588,6 +4588,36 @@
   name: UMS9620
   vendor: Unisoc
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x2
+  - implementer: 0x41
+    part: 0xd0a
+    revision: 0x1
+    variant: 0x3
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: T7200/T606 (UMS9230)
+  vendor: Unisoc
+- announce:
     time: null
   cores:
   - implementer: 0x41
