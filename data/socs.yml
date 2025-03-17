@@ -4142,6 +4142,29 @@
   name: RK3528
   vendor: Rockchip
 - announce:
+    time: '2023.11'
+  cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd08
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: RK3576
+  vendor: Rockchip
+- announce:
     time: null
   cores:
   - implementer: 0x41
