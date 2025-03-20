@@ -3897,6 +3897,12 @@
   name: Snapdragon 435 (MSM8940)
   vendor: Qualcomm
 - announce:
+    time: ''
+  cores: []
+  features: []
+  name: Snapdragon 695 5G (SM6375)
+  vendor: Qualcomm
+- announce:
     time: null
   cores:
   - implementer: 0x41
