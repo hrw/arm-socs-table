@@ -21,6 +21,9 @@ cpu_data = []
 
 with open(sys.argv[1]) as cpuinfo:
     cpu_data = cpuinfo.readlines()
+    if len(cpu_data) < 8:
+        print("procinfo dump is too short")
+        sys.exit(-1)
 
 new_soc = {
     "announce": {"time": ""},
