@@ -1,0 +1,100 @@
+title:	Snapdragon 695 5G (SM6375) / Motorola Edge 30 Neo (miami)
+state:	OPEN
+author:	lennyhans
+labels:	
+comments:	2
+assignees:	
+projects:	
+milestone:	
+number:	122
+--
+SoC present on Motorola Edge 30 Neo
+
+System name: Edge 30 Neo (miami)
+Vendor name: Motorola
+SoC name: Snapdragon 695 5G
+SoC vendor name (ex. Qualcomm, Mediatek): Qualcomm SM6375
+URL to product page: 
+- (SoC) https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-6-series-mobile-platforms/snapdragon-695-5g-mobile-platform
+- (phone) https://gsmarena.com/motorola_edge_30_neo-11635.php
+Kernel version (if known): Linux 5.4.274-moto-00506-g9693f7259099 (`uname -a`)
+
+Paste /proc/cpuinfo content
+```
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x2
+CPU part	: 0xd05
+CPU revision	: 0
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x2
+CPU part	: 0xd05
+CPU revision	: 0
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x2
+CPU part	: 0xd05
+CPU revision	: 0
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x2
+CPU part	: 0xd05
+CPU revision	: 0
+
+processor	: 4
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x2
+CPU part	: 0xd05
+CPU revision	: 0
+
+processor	: 5
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x2
+CPU part	: 0xd05
+CPU revision	: 0
+
+processor	: 6
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0xd41
+CPU revision	: 1
+
+processor	: 7
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0xd41
+CPU revision	: 1
+
+```
+
+**Additional context**
+Android 14 Stock rom 
+
