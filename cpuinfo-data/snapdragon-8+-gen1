@@ -1,0 +1,97 @@
+title:	Snapdragon 8+ Gen 1 (SM8475) / Nothing Phone 2
+state:	OPEN
+author:	Pentium320
+labels:	
+comments:	0
+assignees:	
+projects:	
+milestone:	
+number:	125
+--
+System name: Nothing Phone 2
+Vendor name: Nothing
+SoC name: Snapdragon 8+ Gen 1 (SM8475)
+SoC vendor name (ex. Qualcomm, Mediatek): Qualcomm
+URL to product page: https://pl.nothing.tech/pages/phone-2
+Kernel version (if known): Linux localhost 5.10.209-android12-9-00019-g4ea09a298bb4-ab12292661 #1 SMP PREEMPT Wed Aug 28 22:16:09 UTC 2024 aarch64 Toybox
+
+
+**Paste `/proc/cpuinfo` content**
+Please do not submit random dumps from the Internet.
+```
+processor       : 0
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb paca pacg dcpodp flagm2 frint i8mm bti
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd46
+CPU revision    : 3
+
+processor       : 1
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb paca pacg dcpodp flagm2 frint i8mm bti
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd46
+CPU revision    : 3
+
+processor       : 2
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb paca pacg dcpodp flagm2 frint i8mm bti
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd46
+CPU revision    : 3
+
+processor       : 3
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb paca pacg dcpodp flagm2 frint i8mm bti
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd46
+CPU revision    : 3
+
+processor       : 4
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb paca pacg dcpodp flagm2 frint i8mm bti
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x2
+CPU part        : 0xd47
+CPU revision    : 0
+
+processor       : 5
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb paca pacg dcpodp flagm2 frint i8mm bti
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x2
+CPU part        : 0xd47
+CPU revision    : 0
+
+processor       : 6
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb paca pacg dcpodp flagm2 frint i8mm bti
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x2
+CPU part        : 0xd47
+CPU revision    : 0
+
+processor       : 7
+BogoMIPS        : 38.40
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm ssbs sb paca pacg dcpodp flagm2 frint i8mm bti
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x2
+CPU part        : 0xd48
+CPU revision    : 0
+```
+
+**Additional context**
+Android 15, official.
+

@@ -3927,6 +3927,60 @@
   name: Snapdragon 695 5G (SM6375)
   vendor: Qualcomm
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x41
+    part: 0xd46
+    revision: 0x3
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd47
+    revision: 0x0
+    variant: 0x2
+  - implementer: 0x41
+    part: 0xd48
+    revision: 0x0
+    variant: 0x2
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - sm3
+  - sm4
+  - asimddp
+  - sha512
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - flagm2
+  - frint
+  - i8mm
+  - bti
+  name: Snapdragon X+ Gen 1 (SM8475)
+  vendor: Qualcomm
+- announce:
     time: null
   cores:
   - implementer: 0x41
