@@ -442,6 +442,18 @@
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/107771/
       va_size: 0x30
+    '0xd90':
+      aarch32: false
+      isa_level: v9.3
+      name: C1-Premium
+      pa_size: 40
+      page_size:
+      - 4k
+      - 16k
+      - 64k
+      sve_length: 0x80
+      trm: https://developer.arm.com/documentation/109416/
+      va_size: 0x30
     '0xd8a':
       aarch32: false
       isa_level: v9.3
