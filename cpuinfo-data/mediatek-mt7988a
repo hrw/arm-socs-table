@@ -1,0 +1,60 @@
+title:	Mediatek MT7988A cpuinfo
+state:	OPEN
+author:	abajk
+labels:	
+comments:	0
+assignees:	
+projects:	
+milestone:	
+number:	129
+--
+**Describe the system**
+(name like "Pine64 RockPro64", "Raspberry/Pi 4", url to vendor if possible, SoC name)
+System name: Banana Pi R4
+Vendor name: Sinovoip
+SoC name: MT7988A
+SoC vendor name (ex. Qualcomm, Mediatek): Mediatek
+URL to product page: https://wiki.banana-pi.org/Banana_Pi_BPI-R4
+Kernel version (if known): 6.12
+
+
+**Paste `/proc/cpuinfo` content**
+Please do not submit random dumps from the Internet.
+```
+processor	: 0
+BogoMIPS	: 26.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0xd09
+CPU revision	: 0
+
+processor	: 1
+BogoMIPS	: 26.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0xd09
+CPU revision	: 0
+
+processor	: 2
+BogoMIPS	: 26.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0xd09
+CPU revision	: 0
+
+processor	: 3
+BogoMIPS	: 26.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0xd09
+CPU revision	: 0
+
+```

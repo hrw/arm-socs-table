@@ -2428,6 +2428,25 @@
   name: Kompanio Ultra 910 (MT8196)
   vendor: MediaTek
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x41
+    part: 0xd09
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: MT7988A
+  vendor: Mediatek
+- announce:
     time: 2022.09
   cores:
   - implementer: 0x41
