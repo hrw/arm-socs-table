@@ -4054,7 +4054,7 @@
   - frint
   - i8mm
   - bti
-  name: Snapdragon X+ Gen 1 (SM8475)
+  name: Snapdragon 8+ Gen 1 (SM8475)
   vendor: Qualcomm
 - announce:
     time: ''
