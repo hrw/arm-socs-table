@@ -1,0 +1,60 @@
+title:	Airoha AN7581 cpuinfo
+state:	OPEN
+author:	abajk
+labels:	
+comments:	1
+assignees:	
+projects:	
+milestone:	
+number:	132
+--
+**Describe the system**
+(name like "Pine64 RockPro64", "Raspberry/Pi 4", url to vendor if possible, SoC name)
+System name: Quantum Fiber
+Vendor name: W1700k
+SoC name: AN7581
+SoC vendor name (ex. Qualcomm, Mediatek): Airoha
+URL to product page: https://www.quantumfiber.com/support/equipment/user-guides/wifi-pods/wifi-7.html
+Kernel version (if known): 6.12.51
+
+
+**Paste `/proc/cpuinfo` content**
+Please do not submit random dumps from the Internet.
+```
+processor	: 0
+BogoMIPS	: 50.00
+Features	: fp asimd evtstrm crc32 cpuid
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 50.00
+Features	: fp asimd evtstrm crc32 cpuid
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 50.00
+Features	: fp asimd evtstrm crc32 cpuid
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 50.00
+Features	: fp asimd evtstrm crc32 cpuid
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+```
+
