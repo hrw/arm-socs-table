@@ -358,6 +358,18 @@
       sve_length: '128'
       trm: https://developer.arm.com/documentation/102484/
       va_size: 0x30
+    '0xd83':
+      aarch32: false
+      isa_level: v9.2
+      name: Neoverse-V3AE
+      pa_size: 0x30
+      page_size:
+      - 4k
+      - 16k
+      - 64k
+      sve_length: 0x80
+      trm: https://developer.arm.com/documentation/101595/
+      va_size: 0x30
     '0xd84':
       aarch32: false
       isa_level: v9.2
