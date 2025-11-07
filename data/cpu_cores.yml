@@ -15,6 +15,11 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x10305106'
+        id_aa64isar0: '0x00011120'
+        id_aa64mmfr0: '0x00101122'
+        id_aa64pfr0: '0x01001111'
       trm: https://developer.arm.com/documentation/100246/
     '0xd03':
       aarch32: EL0-EL3
@@ -24,6 +29,11 @@
       page_size:
       - 4k
       - 64k
+      registers:
+        id_aa64dfr0: '0x10305106'
+        id_aa64isar0: '0x00011120'
+        id_aa64mmfr0: '0x00001122'
+        id_aa64pfr0: '0x01002222'
       trm: https://developer.arm.com/documentation/ddi0500/
     '0xd04':
       aarch32: EL0-EL3
@@ -34,6 +44,11 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x10305106'
+        id_aa64isar0: '0x00011120'
+        id_aa64mmfr0: '0x00101122'
+        id_aa64pfr0: '0x01002222'
       trm: https://developer.arm.com/documentation/100236/
     '0xd05':
       aarch32: EL0-EL3
@@ -44,6 +59,15 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x0000000010305408'
+        id_aa64isar0: '0x0000100010211120'
+        id_aa64isar1: '0x0000000000100001'
+        id_aa64mmfr0: '0x0000000000101122'
+        id_aa64mmfr1: '0x0000000010212122'
+        id_aa64mmfr2: '0x0000000000001011'
+        id_aa64pfr0: '0x0000000011112222'
+        id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/100442/
       va_size: 0x30
     '0xd06':
@@ -55,6 +79,15 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x0000000010305408'
+        id_aa64isar0: '0x0000100010211120'
+        id_aa64isar1: '0x0000000000100001'
+        id_aa64mmfr0: '0x0000000000101124'
+        id_aa64mmfr1: '0x0000000010212122'
+        id_aa64mmfr2: '0x0000000000001011'
+        id_aa64pfr0: '0x0000000011112222'
+        id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/100439/
       va_size: 0x30
     '0xd07':
@@ -65,6 +98,11 @@
       page_size:
       - 4k
       - 64k
+      registers:
+        id_aa64dfr0: '0x10305106'
+        id_aa64isar0: '0x00011120'
+        id_aa64mmfr0: '0x00001124'
+        id_aa64pfr0: '0x00002222'
       trm: https://developer.arm.com/documentation/ddi0488/
     '0xd08':
       aarch32: EL0-EL3
@@ -74,6 +112,11 @@
       page_size:
       - 4k
       - 64k
+      registers:
+        id_aa64dfr0: '0x10305106'
+        id_aa64isar0: '0x00011120'
+        id_aa64mmfr0: '0x00001124'
+        id_aa64pfr0: '0x00002222'
       trm: https://developer.arm.com/documentation/100095/
     '0xd09':
       aarch32: EL0-EL3
@@ -84,6 +127,11 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x10305106'
+        id_aa64isar0: '0x00011120'
+        id_aa64mmfr0: '0x00101122'
+        id_aa64pfr0: '0x1100000001002222'
       trm: https://developer.arm.com/documentation/100048/
     '0xd0a':
       aarch32: EL0-EL3
@@ -94,6 +142,14 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x0000000010305408'
+        id_aa64isar0: '0x0000000010211120'
+        id_aa64isar1: '0x0000000000100001'
+        id_aa64mmfr0: '0x0000000000101124'
+        id_aa64mmfr1: '0x0000000010212122'
+        id_aa64mmfr2: '0x0000000000001011'
+        id_aa64pfr0: '0x1100000011112222'
       trm: https://developer.arm.com/documentation/100403/
     '0xd0b':
       aarch32: EL0
@@ -104,6 +160,15 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x0000000010305408'
+        id_aa64isar0: '0x0000100010211120'
+        id_aa64isar1: '0x0000000000100001'
+        id_aa64mmfr0: '0x0000000000101122'
+        id_aa64mmfr1: '0x0000000010212122'
+        id_aa64mmfr2: '0x0000000000001011'
+        id_aa64pfr0: '0x1100000011111112'
+        id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/100798/
       va_size: 0x30
     '0xd0c':
@@ -115,6 +180,15 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x0000000110305408'
+        id_aa64isar0: '0x0000100010211120'
+        id_aa64isar1: '0x0000000000100001'
+        id_aa64mmfr0: '0x0000000000101125'
+        id_aa64mmfr1: '0x0000000010212122'
+        id_aa64mmfr2: '0x0100000000001011'
+        id_aa64pfr0: '0x1100000013111112'
+        id_aa64pfr1: '0x0000000000000020'
       trm: https://developer.arm.com/documentation/100616/
       va_size: 0x30
     '0xd0d':
@@ -126,6 +200,15 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x0000000010305408'
+        id_aa64isar0: '0x0000100010211120'
+        id_aa64isar1: '0x0000000000100001'
+        id_aa64mmfr0: '0x0000000000101122'
+        id_aa64mmfr1: '0x0000000010212122'
+        id_aa64mmfr2: '0x0000000000001011'
+        id_aa64pfr0: '0x1100000011111112'
+        id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/101111/
       va_size: 0x30
     '0xd0e':
@@ -137,6 +220,15 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x0000000010305408'
+        id_aa64isar0: '0x0000100010211120'
+        id_aa64isar1: '0x0000000000100001'
+        id_aa64mmfr0: '0x0000000000101122'
+        id_aa64mmfr1: '0x0000000010212122'
+        id_aa64mmfr2: '0x0000000000001011'
+        id_aa64pfr0: '0x1100000011111112'
+        id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/101392/
       va_size: 0x30
     '0xd40':
@@ -148,6 +240,15 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x000001F210305408'
+        id_aa64isar0: '0x1011111110212120'
+        id_aa64isar1: '0x0111000001211032'
+        id_aa64mmfr0: '0x0000000000101125'
+        id_aa64mmfr1: '0x0000000010212122'
+        id_aa64mmfr2: '0x0220011102101011'
+        id_aa64pfr0: '0x1101110123111112'
+        id_aa64pfr1: '0x0000000000000020'
       sve_length: 0x100
       trm: https://developer.arm.com/documentation/101427/
       va_size: 0x30
@@ -160,6 +261,15 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x0000000010305408'
+        id_aa64isar0: '0x0000100010211120'
+        id_aa64isar1: '0x0000000000100001'
+        id_aa64mmfr0: '0x0000000000101122'
+        id_aa64mmfr1: '0x0000000010212122'
+        id_aa64mmfr2: '0x0000000000001011'
+        id_aa64pfr0: '0x1100000011111112'
+        id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/101430/
       va_size: 0x30
     '0xd42':
@@ -171,6 +281,15 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x0000000110305408'
+        id_aa64isar0: '0x0010100010211120'
+        id_aa64isar1: '0x0000000001200031'
+        id_aa64mmfr0: '0x0000000000101125'
+        id_aa64mmfr1: '0x0000000010212122'
+        id_aa64mmfr2: '0x0000000100001011'
+        id_aa64pfr0: '0x1100000011111112'
+        id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/101779/
       va_size: 0x30
     '0xd43':
@@ -182,6 +301,15 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x0000000010305408'
+        id_aa64isar0: '0x0000100010211120'
+        id_aa64isar1: '0x0000000000100001'
+        id_aa64mmfr0: '0x0000000000101124'
+        id_aa64mmfr1: '0x0000000010212122'
+        id_aa64mmfr2: '0x0000000000001011'
+        id_aa64pfr0: '0x0000000011112222'
+        id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/101385/
       va_size: 0x30
     '0xd44':
@@ -193,6 +321,15 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x0000000010305408'
+        id_aa64isar0: '0x0000100010211120'
+        id_aa64isar1: '0x0000000000100001'
+        id_aa64mmfr0: '0x0000000000101122'
+        id_aa64mmfr1: '0x0000000010212122'
+        id_aa64mmfr2: '0x0000000000001011'
+        id_aa64pfr0: '0x1100000011111112'
+        id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/101433/
       va_size: 0x30
     '0xd46':
@@ -204,6 +341,16 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x000011f010305619'
+        id_aa64isar0: '0x0221111110212120'
+        id_aa64isar1: '0x0010111101211052'
+        id_aa64mmfr0: '0x0000022200101122'
+        id_aa64mmfr1: '0x1000000011312122'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64pfr0: '0x1201111123111112'
+        id_aa64pfr1: '0x0000000000000321'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/101604/
       va_size: 0x30
@@ -226,6 +373,16 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x000011f010305619'
+        id_aa64isar0: '0x0221111110212120'
+        id_aa64isar1: '0x0010111101211032'
+        id_aa64mmfr0: '0x0000022200101122'
+        id_aa64mmfr1: '0x0000000010212122'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64pfr0: '0x1201111123111112'
+        id_aa64pfr1: '0x0000000000000221'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/101800/
       va_size: 0x30
@@ -238,6 +395,16 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x000011f010305619'
+        id_aa64isar0: '0x0221111110212120'
+        id_aa64isar1: '0x0010111101211032'
+        id_aa64mmfr0: '0x0000022200101122'
+        id_aa64mmfr1: '0x0000000010212122'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64pfr0: '0x1291111123111111'
+        id_aa64pfr1: '0x0000000000000221'
+        id_aa64zfr0: '0x0000110110011021'
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/101803/
       va_size: 0x30
@@ -250,6 +417,16 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x000011f210305619'
+        id_aa64isar0: '0x1221111110212120'
+        id_aa64isar1: '0x0011111101211052'
+        id_aa64mmfr0: '0x0000022200101123'
+        id_aa64mmfr1: '0x0000000010212122'
+        id_aa64mmfr2: '0x1221011112101011'
+        id_aa64pfr0: '0x1201111123111112'
+        id_aa64pfr1: '0x0000000000000221'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/102099/
       va_size: 0x30
@@ -262,6 +439,15 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x0000000010305408'
+        id_aa64isar0: '0x0000100010211120'
+        id_aa64isar1: '0x0000000000100001'
+        id_aa64mmfr0: '0x0000000000101124'
+        id_aa64mmfr1: '0x0000000010212122'
+        id_aa64mmfr2: '0x0000000000001011'
+        id_aa64pfr0: '0x0000000011111111'
+        id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/101560/
       va_size: 0x30
     '0xd4b':
@@ -273,6 +459,15 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x0000000010305408'
+        id_aa64isar0: '0x0010100010211120'
+        id_aa64isar1: '0x0000000001200031'
+        id_aa64mmfr0: '0x0000000000101122'
+        id_aa64mmfr1: '0x0000000010212122'
+        id_aa64mmfr2: '0x0000000100001011'
+        id_aa64pfr0: '0x1100000011111112'
+        id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/102226/
       va_size: 0x30
     '0xd4c':
@@ -284,6 +479,15 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x0000000010305408'
+        id_aa64isar0: '0x0010100010211120'
+        id_aa64isar1: '0x0000000001200031'
+        id_aa64mmfr0: '0x0000000000101122'
+        id_aa64mmfr1: '0x0000000010212122'
+        id_aa64mmfr2: '0x0000000100001011'
+        id_aa64pfr0: '0x1100000011111112'
+        id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/101968/
       va_size: 0x30
     '0xd4d':
@@ -295,6 +499,16 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x000011f210305615'
+        id_aa64isar0: '0x0221111110212120'
+        id_aa64isar1: '0x0010111101211032'
+        id_aa64mmfr0: '0x0000022200101122'
+        id_aa64mmfr1: '0x0001000010312122'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64pfr0: '0x1201111123111111'
+        id_aa64pfr1: '0x0000000000000321'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/101590/
       va_size: 0x30
@@ -307,6 +521,16 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x000011f210305619'
+        id_aa64isar0: '0x0221111110212120'
+        id_aa64isar1: '0x0010111101211032'
+        id_aa64mmfr0: '0x0000022200101122'
+        id_aa64mmfr1: '0x1000000010312122'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64pfr0: '0x1201111123111111'
+        id_aa64pfr1: '0x0000000000000321'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/101593/
       va_size: 0x30
@@ -319,6 +543,16 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x000011f210305619'
+        id_aa64isar0: '0x1221111110212120'
+        id_aa64isar1: '0x0011111101211052'
+        id_aa64mmfr0: '0x0000022200101125'
+        id_aa64mmfr1: '0x1000000010312122'
+        id_aa64mmfr2: '0x1221011112101011'
+        id_aa64pfr0: '0x1201111123111111'
+        id_aa64pfr1: '0x0000000000000321'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/102375/
       va_size: 0x30
@@ -331,6 +565,17 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x100f11f010305719'
+        id_aa64isar0: '0x0221111110212120'
+        id_aa64isar1: '0x0111111100211002'
+        id_aa64isar2: '0x0000000001003102'
+        id_aa64mmfr0: '0x2100022200101122'
+        id_aa64mmfr1: '0x1001111011312122'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64pfr0: '0x1201111123111111'
+        id_aa64pfr1: '0x0000000000010321'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: '128'
       trm: https://developer.arm.com/documentation/102517/
       va_size: 0x30
@@ -343,6 +588,17 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x100f11f310305719'
+        id_aa64isar0: '0x0221111110212120'
+        id_aa64isar1: '0x0111111100211002'
+        id_aa64isar2: '0x0000000001005102'
+        id_aa64mmfr0: '0x2199922200101122'
+        id_aa64mmfr1: '0x1001111010312122'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64pfr0: '0x1201111123111111'
+        id_aa64pfr1: '0x0000000000010321'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: '128'
       trm: https://developer.arm.com/documentation/102530/
       va_size: 0x30
@@ -355,6 +611,17 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x100f11f310305719'
+        id_aa64isar0: '0x0221111110212120'
+        id_aa64isar1: '0x0111111100211002'
+        id_aa64isar2: '0x0000000001005102'
+        id_aa64mmfr0: '0x2100022200101122'
+        id_aa64mmfr1: '0x1001111010312122'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64pfr0: '0x1201111123111111'
+        id_aa64pfr1: '0x0000000000010321'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: '128'
       trm: https://developer.arm.com/documentation/102484/
       va_size: 0x30
@@ -367,6 +634,17 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x101f11f310305719'
+        id_aa64isar0: '0x1221111110212120'
+        id_aa64isar1: '0x3111111100211002'
+        id_aa64isar2: '0x0000000001005102'
+        id_aa64mmfr0: '0x2100022200101125'
+        id_aa64mmfr1: '0x1001111010312122'
+        id_aa64mmfr2: '0x1221011112101011'
+        id_aa64pfr0: '0x1211111123111111'
+        id_aa64pfr1: '0x0000000010010321'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/101595/
       va_size: 0x30
@@ -379,6 +657,17 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x101f11f310305719'
+        id_aa64isar0: '0x1221111110212120'
+        id_aa64isar1: '0x3111111100211002'
+        id_aa64isar2: '0x0000000001005102'
+        id_aa64mmfr0: '0x2100022200101125'
+        id_aa64mmfr1: '0x1001111010312122'
+        id_aa64mmfr2: '0x1221011112101011'
+        id_aa64pfr0: '0x1211111123111111'
+        id_aa64pfr1: '0x0000000010010321'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/107734/
       va_size: 0x30
@@ -391,6 +680,17 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x100f11f310305719'
+        id_aa64isar0: '0x0221111110212120'
+        id_aa64isar1: '0x0111111100211002'
+        id_aa64isar2: '0x1000000001005102'
+        id_aa64mmfr0: '0x2100022200101122'
+        id_aa64mmfr1: '0x1001111010312122'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64pfr0: '0x1201111123111111'
+        id_aa64pfr1: '0x0000000000010321'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: '128'
       trm: https://developer.arm.com/documentation/102807/
       va_size: 48
@@ -403,6 +703,17 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x100f11f310305719'
+        id_aa64isar0: '0x0221111110212120'
+        id_aa64isar1: '0x0111111100211002'
+        id_aa64isar2: '0x0000000001005102'
+        id_aa64mmfr0: '0x2100022200101122'
+        id_aa64mmfr1: '0x1001111010312122'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64pfr0: '0x1201111123111111'
+        id_aa64pfr1: '0x0000000000010321'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: '128'
       trm: https://developer.arm.com/documentation/107652/
       va_size: 48
@@ -415,6 +726,17 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x100f11f310305719'
+        id_aa64isar0: '0x0221111110212120'
+        id_aa64isar1: '0x0111111100211002'
+        id_aa64isar2: '0x0000000001005102'
+        id_aa64mmfr0: '0x2100022200101125'
+        id_aa64mmfr1: '0x1001111010312122'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64pfr0: '0x1201111123111111'
+        id_aa64pfr1: '0x0000000000010321'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: '128'
       trm: https://developer.arm.com/documentation/102828/
       va_size: 0x30
@@ -427,6 +749,18 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x100f11f310305719'
+        id_aa64isar0: '0x1221111110212120'
+        id_aa64isar1: '0x0111111100211002'
+        id_aa64isar2: '0x0000000001005102'
+        id_aa64mmfr0: '0x2100022200101123'
+        id_aa64mmfr1: '0x1001111010312122'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64mmfr3: '0x1000000000000000'
+        id_aa64pfr0: '0x1201111123111111'
+        id_aa64pfr1: '0x0000000010010321'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/107997/
       va_size: 0x30
@@ -439,6 +773,17 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x100f11f010305719'
+        id_aa64isar0: '0x1221111110212120'
+        id_aa64isar1: '0x0111111100211002'
+        id_aa64isar2: '0x0000000001005102'
+        id_aa64mmfr0: '0x2100022200101122'
+        id_aa64mmfr1: '0x1001111011312122'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64pfr0: '0x1201111123111111'
+        id_aa64pfr1: '0x0000000000010321'
+        id_aa64zfr0: '0x0000110110011021'
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/109551/
       va_size: 0x30
@@ -451,6 +796,21 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x100f11f41030581a'
+        id_aa64dfr1: '0x0010000000000000'
+        id_aa64isar0: '0x0221111110212120'
+        id_aa64isar1: '0x0111121100311002'
+        id_aa64isar2: '0x0001000011115102'
+        id_aa64mmfr0: '0x2100022200101122'
+        id_aa64mmfr1: '0x1111112010312123'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64mmfr3: '0x1000000000000001'
+        id_aa64pfr0: '0x1301111123111111'
+        id_aa64pfr1: '0x0000001012010321'
+        id_aa64pfr2: '0x0000000000000001'
+        id_aa64smfr0: '0x010050ff00000000'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/108014/
       va_size: 0x30
@@ -463,6 +823,21 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x100f11f41030581b'
+        id_aa64dfr1: '0x0010000000000000'
+        id_aa64isar0: '0x0221111110212120'
+        id_aa64isar1: '0x0111121100311002'
+        id_aa64isar2: '0x0001000011115102'
+        id_aa64mmfr0: '0x2100022200101122'
+        id_aa64mmfr1: '0x1111112010312123'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64mmfr3: '0x1000000000000001'
+        id_aa64pfr0: '0x1301111123111111'
+        id_aa64pfr1: '0x0000001012010321'
+        id_aa64pfr2: '0x0000000000000001'
+        id_aa64smfr0: '0x010050ff00000000'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/107771/
       va_size: 0x30
@@ -475,6 +850,21 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x100f11f41030581a'
+        id_aa64dfr1: '0x0010000000000000'
+        id_aa64isar0: '0x0221111110212120'
+        id_aa64isar1: '0x0111121100311002'
+        id_aa64isar2: '0x0001000011115102'
+        id_aa64mmfr0: '0x2100022200101122'
+        id_aa64mmfr1: '0x1111112010312123'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64mmfr3: '0x1000000000000001'
+        id_aa64pfr0: '0x1301111123111111'
+        id_aa64pfr1: '0x0000001012010321'
+        id_aa64pfr2: '0x0000000000000001'
+        id_aa64smfr0: '0x010050ff00000000'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/109416/
       va_size: 0x30
@@ -487,6 +877,19 @@
       - 4k
       - 16k
       - 64k
+      registers:
+        id_aa64dfr0: '0x100f11f01030581a'
+        id_aa64isar0: '0x1221111111021212'
+        id_aa64isar1: '0x0111121100311002'
+        id_aa64isar2: '0x0001000011115102'
+        id_aa64mmfr0: '0x2100022200101122'
+        id_aa64mmfr1: '0x1111112011312122'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64mmfr3: '0x1000000000000000'
+        id_aa64pfr0: '0x1301111123111111'
+        id_aa64pfr1: '0x0000001012010321'
+        id_aa64pfr2: '0x0000000000000001'
+        id_aa64zfr0: '0x0000110100110021'
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/107753/
       va_size: 0x30
