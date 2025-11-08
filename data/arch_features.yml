@@ -1628,6 +1628,10 @@ features:
     name: TLBI VMALL for Dirty state
     optional:
     year: 2023
+  FEAT_TME:
+    mandatory:
+    name: Transactional Memory Extension
+    optional:
   FEAT_TRBE:
     mandatory:
     name: Trace Buffer Extension

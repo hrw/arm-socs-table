@@ -2994,6 +2994,7 @@
       - FEAT_XNX
       - FEAT_XS
       - FEAT_nTLBPA
+      - FEAT_TME
       isa_level: v9.3
       name: C1-Pro
       pa_size: 0x28
@@ -3126,6 +3127,7 @@
       - FEAT_XNX
       - FEAT_XS
       - FEAT_nTLBPA
+      - FEAT_TME
       isa_level: v9.3
       name: C1-Ultra
       pa_size: 0x28
@@ -3243,6 +3245,7 @@
       - FEAT_XNX
       - FEAT_XS
       - FEAT_nTLBPA
+      - FEAT_TME
       isa_level: v9.2
       name: Neoverse-N3
       pa_size: 0x30
@@ -3355,6 +3358,7 @@
       - FEAT_XNX
       - FEAT_XS
       - FEAT_nTLBPA
+      - FEAT_TME
       isa_level: v9.2
       name: Cortex-A320
       pa_size: 0x28
@@ -3483,6 +3487,7 @@
       - FEAT_XNX
       - FEAT_XS
       - FEAT_nTLBPA
+      - FEAT_TME
       isa_level: v9.3
       name: C1-Premium
       pa_size: 0x28
