@@ -24,6 +24,12 @@ def handle_cpu_cores():
                 core_data['aarch32'] = ""
             elif not core_data["aarch32"]:
                 core_data['aarch32'] = "NO"
+
+            if "features" in core_data and core_data["features"] is not None:
+                core_data["features"] = sorted(core_data["features"])
+            else:
+                core_data["features"] = ""
+
             cpu_cores[implementer]["cores"][int(core, base=16)] = (
                 core_data)
         except ValueError:
@@ -32,7 +38,7 @@ def handle_cpu_cores():
     return cpu_cores
 
 
-def generate_html_file(cpu_cores):
+def generate_html_file(cpu_cores, arch_features):
 
     file_loader = FileSystemLoader("templates")
     env = Environment(loader=file_loader,
@@ -45,6 +51,7 @@ def generate_html_file(cpu_cores):
         generate_time=datetime.strftime(datetime.now(timezone.utc),
                                         "%d %B %Y %H:%M"),
         cpu_cores=cpu_cores,
+        arch_features=arch_features,
         git_repo="arm-socs-table",
     )
     print(output)
@@ -52,4 +59,4 @@ def generate_html_file(cpu_cores):
 
 if __name__ == "__main__":
     cpu_cores = handle_cpu_cores()
-    generate_html_file(cpu_cores)
+    generate_html_file(cpu_cores, tables.arch_features["features"])

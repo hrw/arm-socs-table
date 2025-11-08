@@ -30,6 +30,12 @@
 <h1>AArch64 cpu core information table</h1>
     <p> Table shows some information about cpu cores designed by Arm company (as they provide TRM documentation). </p>
 
+<h2>Notes</h2>
+<ul>
+<li>The "features" column may be incomplete.
+<li>The "features" column does not show which are optional (usually crypto).
+</ul>
+
 {% include "aarch32_support.j2" %}
 {% include "common/author-tables-help.inc.j2" %}
 
@@ -44,6 +50,7 @@
             <th title="VARange">virtual memory address size (bits)</th>
             <th title="TGran4/16/64">supported page sizes</th>
             <th>SVE vector length</th>
+            <th>features</th>
         </tr>
     </thead>
     <tbody>
@@ -68,6 +75,17 @@
         {% if cpu_cores[implementer].cores[core].sve_length %}
         {{ cpu_cores[implementer].cores[core].sve_length }}
         {% endif %}
+        </td>
+        <td class="tdc">
+        {% for feature in cpu_cores[implementer].cores[core].features %}
+        {% if arch_features[feature] %}
+        <abbr title="{{ arch_features[feature].name }}">
+        {% endif %}
+        {{ feature | replace('FEAT_', '') }}{% if not loop.last %},{% endif %}
+        {% if arch_features[feature] %}
+        </abbr>
+        {% endif %}
+        {% endfor %}
         </td>
     </tr>
     {% endfor %}

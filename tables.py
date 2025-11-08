@@ -15,3 +15,6 @@ with open("data/socs.yml") as yml:
 
 with open("data/cpu_features.yml") as yml:
     cpu_features = yaml.safe_load(yml)
+
+with open("data/arch_features.yml") as yml:
+    arch_features = yaml.safe_load(yml)
