@@ -1,0 +1,1717 @@
+---
+features:
+  FEAT_AA32:
+    mandatory:
+    name: PE supports AArch32.
+    optional:
+  FEAT_AA32BF16:
+    mandatory:
+    name: AArch32 BFloat16 instructions
+    optional:
+  FEAT_AA32EL0:
+    mandatory:
+    name: Support for AArch32 at EL0
+    optional:
+  FEAT_AA32EL1:
+    mandatory:
+    name: Support for AArch32 at EL1
+    optional:
+  FEAT_AA32EL2:
+    mandatory:
+    name: Support for AArch32 at EL2
+    optional:
+  FEAT_AA32EL3:
+    mandatory:
+    name: Support for AArch32 at EL3
+    optional:
+  FEAT_AA32HPD:
+    mandatory:
+    name: AArch32 Hierarchical permission disables
+    optional:
+  FEAT_AA32I8MM:
+    mandatory:
+    name: AArch32 Int8 matrix multiply-accumulate
+    optional:
+  FEAT_AA64:
+    mandatory:
+    name: PE uses AArch64 after last reboot
+    optional:
+  FEAT_AA64EL0:
+    mandatory:
+    name: Support for AArch64 at EL0
+    optional:
+  FEAT_AA64EL1:
+    mandatory:
+    name: Support for AArch64 at EL1
+    optional:
+  FEAT_AA64EL2:
+    mandatory:
+    name: Support for AArch64 at EL2
+    optional:
+  FEAT_AA64EL3:
+    mandatory:
+    name: Support for AArch64 at EL3
+    optional:
+  FEAT_ABLE:
+    mandatory:
+    name: Address Breakpoint Linking Extension
+    optional:
+    year: 2022
+  FEAT_ADERR:
+    mandatory:
+    name: Asynchronous Device Error Exceptions
+    optional:
+    year: 2022
+  FEAT_AES:
+    mandatory:
+    name: Advanced SIMD AES instructions
+    optional:
+  FEAT_AFP:
+    mandatory:
+    name: Alternate floating-point behavior
+    optional:
+    year: 2020
+  FEAT_AIE:
+    mandatory:
+    name: Memory Attribute Index Enhancement
+    optional:
+    year: 2022
+  FEAT_AMU_EXT:
+    mandatory:
+    name: External Activity Monitors
+    optional:
+  FEAT_AMU_EXT32:
+    mandatory:
+    name: AArch32 External Activity Monitors
+    optional:
+  FEAT_AMU_EXT64:
+    mandatory:
+    name: the 64-bit external Activity Monitors extension
+    optional:
+    year: 2022
+  FEAT_AMU_EXTACR:
+    mandatory:
+    name: Activity Monitors External Control Register
+    optional:
+    year: 2024
+  FEAT_AMUv1:
+    mandatory:
+    name: Activity Monitors Extension version 1
+    optional:
+  FEAT_AMUv1p1:
+    mandatory:
+    name: Activity Monitors Extension version 1.1
+    optional:
+  FEAT_ANERR:
+    mandatory:
+    name: Asynchronous Normal Error Exceptions
+    optional:
+    year: 2022
+  FEAT_ASID8:
+    mandatory:
+    name: 8 bit ASID
+    optional:
+  FEAT_ASID16:
+    mandatory:
+    name: 16 bit ASID
+    optional:
+  FEAT_ASID2:
+    mandatory:
+    name: Support for concurrent use of two ASIDs
+    optional:
+    year: 2023
+  FEAT_ASMv8p2:
+    mandatory:
+    name: Armv8.2 changes to the A64 ISA
+    optional:
+  FEAT_ATS1A:
+    mandatory:
+    name: Address Translation operations that ignore stage 1 permissions
+    optional:
+    year: 2022
+  FEAT_AdvSIMD:
+    mandatory:
+    name: Advanced SIMD Extension
+    optional:
+  FEAT_Armv9_Crypto:
+    mandatory:
+    name: Armv9 Cryptographic Extension
+    optional:
+  FEAT_BBM:
+    mandatory:
+    name: Translation table break-before-make levels
+    optional:
+  FEAT_BBML1:
+    mandatory:
+    name: Translation table break-before-make level 1
+    optional:
+  FEAT_BBML2:
+    mandatory:
+    name: Translation table break-before-make level 2
+    optional:
+  FEAT_BBML3:
+    mandatory:
+    name: Translation table break-before-make level 3
+    optional:
+    year: 2025
+  FEAT_BF16:
+    mandatory:
+    name: AArch64 BFloat16 instructions
+    optional:
+  FEAT_BRBE:
+    mandatory:
+    name: Branch Record Buffer Extension
+    optional:
+    year: 2021
+  FEAT_BRBEv1p1:
+    mandatory:
+    name: Branch Record Buffer Extension version 1.1
+    optional:
+    year: 2021
+  FEAT_BTI:
+    mandatory:
+    name: Branch Target Identification
+    optional:
+  FEAT_BWE:
+    mandatory:
+    name: Breakpoint and watchpoint enhancements
+    optional:
+    year: 2022
+  FEAT_BWE2:
+    mandatory:
+    name: Breakpoint and watchpoint enhancements 2
+    optional:
+    year: 2023
+  FEAT_BigEnd:
+    mandatory:
+    name: Support for big-endian at EL1 and above
+    optional:
+  FEAT_BigEndEL0:
+    mandatory:
+    name: Support for big-endian at EL0
+    optional:
+  FEAT_CCIDX:
+    mandatory:
+    name: Extended cache index
+    optional:
+  FEAT_CHK:
+    mandatory:
+    name: Check Feature Status
+    optional:
+    year: 2022
+  FEAT_CLRBHB:
+    mandatory:
+    name: Support for Clear Branch History instruction
+    optional:
+    year: 2022
+  FEAT_CMH:
+    mandatory:
+    name: Contention Management Hints
+    optional:
+    year: 2025
+  FEAT_CMOW:
+    mandatory:
+    name: Control for cache maintenance permission
+    optional:
+    year: 2021
+  FEAT_CMPBR:
+    mandatory:
+    name: Compare and Branch instructions
+    optional:
+    year: 2024
+  FEAT_CNTSC:
+    mandatory:
+    name: Generic Counter Scaling
+    optional:
+  FEAT_CONSTPACFIELD:
+    mandatory:
+    name: PAC algorithm enhancement
+    optional:
+  FEAT_CP15SDISABLE2:
+    mandatory:
+    name: CP15SDISABLE2
+    optional:
+  FEAT_CPA:
+    mandatory:
+    name: Instruction-only Checked Pointer Arithmetic
+    optional:
+    year: 2023
+  FEAT_CPA2:
+    mandatory:
+    name: Checked Pointer Arithmetic
+    optional:
+    year: 2023
+  FEAT_CRC32:
+    mandatory:
+    name: CRC32 instructions
+    optional:
+  FEAT_CSSC:
+    mandatory:
+    name: Common Short Sequence Compression instructions
+    optional:
+    year: 2022
+  FEAT_CSV2:
+    mandatory:
+    name: Cache Speculation Variant 2
+    optional:
+  FEAT_CSV2_1p1:
+    mandatory:
+    name: Cache Speculation Variant 2
+    optional:
+  FEAT_CSV2_1p2:
+    mandatory:
+    name: Cache Speculation Variant 2 version 1.2
+    optional:
+  FEAT_CSV2_2:
+    mandatory:
+    name: Cache Speculation Variant 2 version 2
+    optional:
+  FEAT_CSV2_3:
+    mandatory:
+    name: Cache Speculation Variant 2 version 3
+    optional:
+  FEAT_CSV3:
+    mandatory:
+    name: Cache Speculation Variant 3
+    optional:
+  FEAT_Crypto:
+    mandatory:
+    name: Cryptographic Extension
+    optional:
+  FEAT_D128:
+    mandatory:
+    name: 128-bit Translation Tables, 56 bit PA
+    optional:
+    year: 2022
+  FEAT_DGH:
+    mandatory:
+    name: Data Gathering Hint
+    optional:
+  FEAT_DIT:
+    mandatory:
+    name: Data Independent Timing instructions
+    optional:
+  FEAT_DPB:
+    mandatory:
+    name: DC CVAP instruction
+    optional:
+  FEAT_DPB2:
+    mandatory:
+    name: DC CVADP instruction
+    optional:
+  FEAT_Debugv8:
+    mandatory:
+    name: Debug v8
+    optional:
+  FEAT_Debugv8p1:
+    mandatory:
+    name: Debug v8.1
+    optional:
+  FEAT_Debugv8p2:
+    mandatory:
+    name: Debug v8.2
+    optional:
+  FEAT_Debugv8p4:
+    mandatory:
+    name: Debug v8.4
+    optional:
+  FEAT_Debugv8p8:
+    mandatory:
+    name: Debug v8.8
+    optional:
+    year: 2021
+  FEAT_Debugv8p9:
+    mandatory:
+    name: Debug v8.9
+    optional:
+    year: 2022
+  FEAT_DoPD:
+    mandatory:
+    name: Debug over Powerdown
+    optional:
+  FEAT_DotProd:
+    mandatory:
+    name: Advanced SIMD dot product instructions
+    optional:
+  FEAT_DoubleFault:
+    mandatory:
+    name: Double Fault Extension
+    optional:
+  FEAT_DoubleFault2:
+    mandatory:
+    name: Double Fault Extension v2
+    optional:
+    year: 2022
+  FEAT_DoubleLock:
+    mandatory:
+    name: Double Lock
+    optional:
+  FEAT_E0PD:
+    mandatory:
+    name: Preventing EL0 access to halves of address maps
+    optional:
+  FEAT_E2H0:
+    mandatory:
+    name: Programming of HCR_EL2.E2H
+    optional:
+  FEAT_E3DSE:
+    mandatory:
+    name: Delegated SError exception injection
+    optional:
+    year: 2023
+  FEAT_EAESR:
+    mandatory:
+    name: Enable Abort Exception System Registers
+    optional:
+    year: 2025
+  FEAT_EBEP:
+    mandatory:
+    name: Exception-based Event Profiling
+    optional:
+    year: 2022
+  FEAT_EBF16:
+    mandatory:
+    name: AArch64 Extended BFloat16 behaviors
+    optional:
+    year: 2020
+  FEAT_ECBHB:
+    mandatory:
+    name: Exploitative control using branch history information
+    optional:
+    year: 2022
+  FEAT_ECV:
+    mandatory:
+    name: Enhanced Counter Virtualization
+    optional:
+  FEAT_ECV_POFF:
+    mandatory:
+    name: Enhanced Counter Virtualization Physical Offset
+    optional:
+  FEAT_EDHSR:
+    mandatory:
+    name: Support for EDHSR
+    optional:
+    year: 2022
+  FEAT_EL0:
+    mandatory:
+    name: Support for execution at EL0
+    optional:
+  FEAT_EL1:
+    mandatory:
+    name: Support for execution at EL1
+    optional:
+  FEAT_EL2:
+    mandatory:
+    name: Support for execution at EL2
+    optional:
+  FEAT_EL3:
+    mandatory:
+    name: Support for EL3
+    optional:
+  FEAT_EPAC:
+    mandatory:
+    name: Enhanced pointer authentication
+    optional:
+  FEAT_ETE:
+    mandatory:
+    name: Embedded Trace Extension
+    optional:
+  FEAT_ETEv1p1:
+    mandatory:
+    name: Embedded Trace Extension version 1.1
+    optional:
+    year: 2020
+  FEAT_ETEv1p2:
+    mandatory:
+    name: Embedded Trace Extension version 1.2
+    optional:
+    year: 2021
+  FEAT_ETEv1p3:
+    mandatory:
+    name: Embedded Trace Extension version 1.3
+    optional:
+    year: 2022
+  FEAT_ETMv4:
+    mandatory:
+    name: Embedded Trace Macrocell version 4
+    optional:
+  FEAT_ETS:
+    mandatory:
+    name: Enhanced Translation Synchronization
+    optional:
+  FEAT_ETS2:
+    mandatory:
+    name: Enhanced Translation Synchronization
+    optional:
+  FEAT_ETS3:
+    mandatory:
+    name: Enhanced Translation Synchronization
+    optional:
+    year: 2023
+  FEAT_EVT:
+    mandatory:
+    name: Enhanced Virtualization Traps
+    optional:
+  FEAT_ExS:
+    mandatory:
+    name: Context synchronization and exception handling
+    optional:
+  FEAT_F16F32DOT:
+    mandatory:
+    name: Advanced SIMD half-precision to single-precision dot product
+    optional:
+    year: 2025
+  FEAT_F16F32MM:
+    mandatory:
+    name: Advanced SIMD half-precision to single-precision matrix multiply-accumulate
+    optional:
+    year: 2025
+  FEAT_F16MM:
+    mandatory:
+    name: Half-precision floating-point matrix multiply-accumulate
+    optional:
+    year: 2025
+  FEAT_F32MM:
+    mandatory:
+    name: Single-precision floating-point matrix multiply-accumulate
+    optional:
+  FEAT_F64MM:
+    mandatory:
+    name: Double-precision floating-point matrix multiply-accumulate
+    optional:
+  FEAT_F8F16MM:
+    mandatory:
+    name: 8-bit floating-point matrix multiply-accumulate to half-precision
+    optional:
+    year: 2024
+  FEAT_F8F32MM:
+    mandatory:
+    name: 8-bit floating-point matrix multiply-accumulate to single-precision
+    optional:
+    year: 2024
+  FEAT_FAMINMAX:
+    mandatory:
+    name: Floating-point maximum and minimum absolute value instructions
+    optional:
+    year: 2023
+  FEAT_FCMA:
+    mandatory:
+    name: Floating-point complex number instructions
+    optional:
+  FEAT_FDIT:
+    mandatory:
+    name: Force Data Independent Timing
+    optional:
+    year: 2025
+  FEAT_FGT:
+    mandatory:
+    name: Fine Grain Traps
+    optional:
+  FEAT_FGT2:
+    mandatory:
+    name: Fine-grained traps 2
+    optional:
+    year: 2022
+  FEAT_FGWTE3:
+    mandatory:
+    name: Fine-Grained Write Trap EL3
+    optional:
+    year: 2023
+  FEAT_FHM:
+    mandatory:
+    name: Floating-point half-precision to single-precision multiply-add instructions
+    optional:
+  FEAT_FP:
+    mandatory:
+    name: Floating Point extensions
+    optional:
+  FEAT_FP16:
+    mandatory:
+    name: Half-precision floating-point data processing
+    optional:
+  FEAT_FP8:
+    mandatory:
+    name: FP8 convert instructions
+    optional:
+    year: 2023
+  FEAT_FP8DOT2:
+    mandatory:
+    name: FP8 2-way dot product to half-precision instructions
+    optional:
+    year: 2023
+  FEAT_FP8DOT4:
+    mandatory:
+    name: FP8 4-way dot product to single-precision instructions
+    optional:
+    year: 2023
+  FEAT_FP8FMA:
+    mandatory:
+    name: FP8 multiply-accumulate to half-precision and single-precision instructions
+    optional:
+    year: 2023
+  FEAT_FPAC:
+    mandatory:
+    name: Faulting on AUT* instructions
+    optional:
+  FEAT_FPACCOMBINE:
+    mandatory:
+    name: Faulting on combined pointer authentication instructions
+    optional:
+  FEAT_FPACC_SPEC:
+    mandatory:
+    name: Speculative behavior of pointer authentication instructions
+    optional:
+  FEAT_FPMR:
+    mandatory:
+    name: Floating-point Mode Register
+    optional:
+    year: 2023
+  FEAT_FPRCVT:
+    mandatory:
+    name: Floating-Point to/from Integer in Scalar FP register
+    optional:
+    year: 2024
+  FEAT_FRINTTS:
+    mandatory:
+    name: Floating-point to integer instructions
+    optional:
+  FEAT_FlagM:
+    mandatory:
+    name: Condition flag manipulation instructions
+    optional:
+  FEAT_FlagM2:
+    mandatory:
+    name: Enhancements to flag manipulation instructions
+    optional:
+  FEAT_GCIE:
+    mandatory:
+    name: GICv5 CPU interface extension
+    optional:
+    year: 2025
+  FEAT_GCIE_LEGACY:
+    mandatory:
+    name: GICv5 CPU interface extension to support GICv3.3 VMs
+    optional:
+    year: 2025
+  FEAT_GCS:
+    mandatory:
+    name: Guarded Control Stack Extension
+    optional:
+    year: 2022
+  FEAT_GTG:
+    mandatory:
+    name: Guest translation granule size
+    optional:
+  FEAT_HACDBS:
+    mandatory:
+    name: Hardware accelerator for cleaning Dirty state
+    optional:
+    year: 2023
+  FEAT_HAFDBS:
+    mandatory:
+    name: Hardware management of the Access flag and dirty state
+    optional:
+  FEAT_HAFT:
+    mandatory:
+    name: Hardware managed Access Flag for Table descriptors
+    optional:
+    year: 2022
+  FEAT_HBC:
+    mandatory:
+    name: Hinted conditional branches
+    optional:
+    year: 2021
+  FEAT_HCX:
+    mandatory:
+    name: Support for the HCRX_EL2 register
+    optional:
+    year: 2020
+  FEAT_HDBSS:
+    mandatory:
+    name: Hardware Dirty state tracking structure
+    optional:
+    year: 2023
+  FEAT_HPDS:
+    mandatory:
+    name: Hierarchical permission disables in translations tables
+    optional:
+  FEAT_HPDS2:
+    mandatory:
+    name: Hierarchical permission disables
+    optional:
+  FEAT_HPMN0:
+    mandatory:
+    name: Setting of MDCR_EL2.HPMN to zero
+    optional:
+  FEAT_I8MM:
+    mandatory:
+    name: AArch64 Int8 matrix multiply-accumulate
+    optional:
+  FEAT_IDST:
+    mandatory:
+    name: ID space trap handling
+    optional:
+  FEAT_IDTE3:
+    mandatory:
+    name: Trapping ID register accesses to EL3
+    optional:
+    year: 2024
+  FEAT_IESB:
+    mandatory:
+    name: Implicit Error Synchronization event
+    optional:
+  FEAT_ITE:
+    mandatory:
+    name: Instrumentation Trace Extension
+    optional:
+    year: 2022
+  FEAT_IVIPT:
+    mandatory:
+    name: The IVIPT Extension
+    optional:
+  FEAT_JSCVT:
+    mandatory:
+    name: JavaScript conversion instructions
+    optional:
+  FEAT_LOR:
+    mandatory:
+    name: Limited ordering regions
+    optional:
+  FEAT_LORRL:
+    mandatory:
+    name: Limited Order Regions in Realm PA space
+    optional:
+    year: 2025
+  FEAT_LPA:
+    mandatory:
+    name: Large PA and IPA support
+    optional:
+  FEAT_LPA2:
+    mandatory:
+    name: Larger physical address for 4KB and 16KB translation granules
+    optional:
+    year: 2020
+  FEAT_LRCPC:
+    mandatory:
+    name: Load-Acquire RCpc instructions
+    optional:
+  FEAT_LRCPC2:
+    mandatory:
+    name: Load-Acquire RCpc instructions version 2
+    optional:
+  FEAT_LRCPC3:
+    mandatory:
+    name: Load-Acquire RCpc instructions version 3
+    optional:
+    year: 2022
+  FEAT_LS64:
+    mandatory:
+    name: Support for 64-byte loads and stores without status
+    optional:
+    year: 2020
+  FEAT_LS64WB:
+    mandatory:
+    name: LS64 for Write-back cacheable memory
+    optional:
+    year: 2024
+  FEAT_LS64_ACCDATA:
+    mandatory:
+    name: Support for 64-byte EL0 stores with status
+    optional:
+    year: 2020
+  FEAT_LS64_V:
+    mandatory:
+    name: Support for 64-byte stores with status
+    optional:
+    year: 2020
+  FEAT_LSCP:
+    mandatory:
+    name: Load and Store Consistency Pair instructions
+    optional:
+    year: 2025
+  FEAT_LSE:
+    mandatory:
+    name: Large System Extensions
+    optional:
+  FEAT_LSE128:
+    mandatory:
+    name: 128-bit Atomics
+    optional:
+    year: 2022
+  FEAT_LSE2:
+    mandatory:
+    name: Large System Extensions version 2
+    optional:
+  FEAT_LSFE:
+    mandatory:
+    name: Large System Float Extension
+    optional:
+    year: 2024
+  FEAT_LSMAOC:
+    mandatory:
+    name: AArch32 Load/Store Multiple instruction atomicity and ordering controls
+    optional:
+  FEAT_LSUI:
+    mandatory:
+    name: Unprivileged Load Store
+    optional:
+    year: 2024
+  FEAT_LUT:
+    mandatory:
+    name: Lookup table instructions with 2-bit and 4-bit indices
+    optional:
+    year: 2023
+  FEAT_LVA:
+    mandatory:
+    name: Large VA support
+    optional:
+  FEAT_LVA3:
+    mandatory:
+    name: 56-bit VA
+    optional:
+    year: 2022
+  FEAT_LittleEnd:
+    mandatory:
+    name: Support for little-endian at EL1 and above
+    optional:
+  FEAT_LittleEndEL0:
+    mandatory:
+    name: Support for little-endian at EL0
+    optional:
+  FEAT_MEC:
+    mandatory:
+    name: Memory Encryption Contexts
+    optional:
+    year: 2021
+  FEAT_MOPS:
+    mandatory:
+    name: Standardization of memory operations
+    optional:
+    year: 2021
+  FEAT_MPAM:
+    mandatory:
+    name: Memory System Resource Partitioning and Monitoring Extension
+    optional:
+  FEAT_MPAM_MSC_DCTRL:
+    mandatory:
+    name: MPAM Default Resource Control
+    optional:
+    year: 2024
+  FEAT_MPAM_MSC_DOMAINS:
+    mandatory:
+    name: MPAM Domains Identifier Translation
+    optional:
+    year: 2024
+  FEAT_MPAM_PE_BW_CTRL:
+    mandatory:
+    name: MPAM PE-side Bandwidth Controls
+    optional:
+    year: 2024
+  FEAT_MPAMv0p1:
+    mandatory:
+    name: Memory System Resource Partitioning and Monitoring extension version 0.1
+    optional:
+  FEAT_MPAMv1p0:
+    mandatory:
+    name: Memory Partitioning and Monitoring Extension version 1.0
+    optional:
+  FEAT_MPAMv1p1:
+    mandatory:
+    name: Memory Partitioning and Monitoring extension version 1.1
+    optional:
+  FEAT_MPAMv2:
+    mandatory:
+    name: Memory System Resource Partitioning and Monitoring extension version 2.0
+    optional:
+    year: 2025
+  FEAT_MPAMv2_ALT_ID:
+    mandatory:
+    name: MPAM 2.0 Alternative IDs
+    optional:
+    year: 2025
+  FEAT_MPAMv2_MSC:
+    mandatory:
+    name: MPAM 2.0 Memory System Compnents
+    optional:
+    year: 2025
+  FEAT_MPAMv2_MSC_MON_SEC:
+    mandatory:
+    name: MPAM 2.0 for MSC resource monitors, monitor instance assignment to PA space
+    optional:
+    year: 2025
+  FEAT_MPAMv2_VID:
+    mandatory:
+    name: MPAM 2.0 Configuration Controls for Virtualization
+    optional:
+    year: 2025
+  FEAT_MTE:
+    mandatory:
+    name: Memory Tagging Extension
+    optional:
+  FEAT_MTE2:
+    mandatory:
+    name: Memory Tagging Extension
+    optional:
+  FEAT_MTE3:
+    mandatory:
+    name: MTE Asymmetric Fault Handling
+    optional:
+    year: 2020
+  FEAT_MTE4:
+    mandatory:
+    name: Enhanced Memory Tagging Extension
+    optional:
+    year: 2022
+  FEAT_MTETC:
+    mandatory:
+    name: Tag cache store and zero instructions
+    optional:
+    year: 2025
+  FEAT_MTE_ASYM_FAULT:
+    mandatory:
+    name: Memory tagging asymmetric faults
+    optional:
+    year: 2020
+  FEAT_MTE_ASYNC:
+    mandatory:
+    name: Asynchronous reporting of Tag Check Fault
+    optional:
+    year: 2022
+  FEAT_MTE_CANONICAL_TAGS:
+    mandatory:
+    name: Canonical Tag checking for Untagged memory
+    optional:
+    year: 2022
+  FEAT_MTE_EIRG:
+    mandatory:
+    name: Enhanced Insert Random taG algorithm
+    optional:
+    year: 2025
+  FEAT_MTE_NO_ADDRESS_TAGS:
+    mandatory:
+    name: Memory tagging with Address tagging disabled
+    optional:
+    year: 2022
+  FEAT_MTE_PERM:
+    mandatory:
+    name: Allocation tag access permission
+    optional:
+    year: 2022
+  FEAT_MTE_STORE_ONLY:
+    mandatory:
+    name: Store-only Tag Checking
+    optional:
+    year: 2022
+  FEAT_MTE_TAGGED_FAR:
+    mandatory:
+    name: FAR_ELx on a Tag Check Fault
+    optional:
+    year: 2022
+  FEAT_MTPMU:
+    mandatory:
+    name: Multi-threaded PMU extensions
+    optional:
+  FEAT_MixedEnd:
+    mandatory:
+    name: Mixed-endian support
+    optional:
+  FEAT_MixedEndEL0:
+    mandatory:
+    name: Mixed-endian support at EL0
+    optional:
+  FEAT_NMI:
+    mandatory:
+    name: Non-maskable Interrupts
+    optional:
+    year: 2021
+  FEAT_NV:
+    mandatory:
+    name: Nested Virtualization
+    optional:
+  FEAT_NV2:
+    mandatory:
+    name: Enhanced nested virtualization support
+    optional:
+  FEAT_NV2p1:
+    mandatory:
+    name: Enhanced nested virtualization support
+    optional:
+    year: 2024
+  FEAT_NV3:
+    mandatory:
+    name: Nested guest TGE control
+    optional:
+    year: 2025
+  FEAT_OCCMO:
+    mandatory:
+    name: Outer Cacheable Cache Maintenance Operation
+    optional:
+    year: 2024
+  FEAT_PACIMP:
+    mandatory:
+    name: Pointer authentication - IMPLEMENTATION DEFINED algorithm
+    optional:
+  FEAT_PACQARMA3:
+    mandatory:
+    name: Pointer authentication - QARMA3 algorithm
+    optional:
+  FEAT_PACQARMA5:
+    mandatory:
+    name: Pointer authentication - QARMA5 algorithm
+    optional:
+  FEAT_PAN:
+    mandatory:
+    name: Privileged access never
+    optional:
+  FEAT_PAN2:
+    mandatory:
+    name: AT S1E1R and AT S1E1W instruction variants affected by PSTATE.PAN
+    optional:
+  FEAT_PAN3:
+    mandatory:
+    name: Support for SCTLR_ELx.EPAN
+    optional:
+    year: 2020
+  FEAT_PAuth:
+    mandatory:
+    name: Pointer authentication
+    optional:
+  FEAT_PAuth2:
+    mandatory:
+    name: Enhancements to pointer authentication
+    optional:
+  FEAT_PAuth_EnhCtl:
+    mandatory:
+    name: Enhanced controls for pointer authentication
+    optional:
+    year: 2025
+  FEAT_PAuth_LR:
+    mandatory:
+    name: >-
+      Pointer authentication instructions that allow signing of LR using SP and PC
+      as diversifiers
+    optional:
+    year: 2023
+  FEAT_PCDPHINT:
+    mandatory:
+    name: Producer-Consumer Data Placement Hints
+    optional:
+    year: 2024
+  FEAT_PCSRv8:
+    mandatory:
+    name: PC Sample-based Profiling extension
+    optional:
+  FEAT_PCSRv8p2:
+    mandatory:
+    name: PC Sample-based Profiling Extension
+    optional:
+  FEAT_PCSRv8p9:
+    mandatory:
+    name: Armv8.9 PC Sample-based Profiling Extension
+    optional:
+    year: 2022
+  FEAT_PFAR:
+    mandatory:
+    name: Physical Fault Address Register Extension
+    optional:
+    year: 2022
+  FEAT_PMULL:
+    mandatory:
+    name: Advanced SIMD PMULL instructions
+    optional:
+  FEAT_PMUv3:
+    mandatory:
+    name: PMU extension version 3
+    optional:
+  FEAT_PMUv3_EDGE:
+    mandatory:
+    name: PMU event edge detection
+    optional:
+    year: 2022
+  FEAT_PMUv3_EXT:
+    mandatory:
+    name: External interface to the Performance Monitors
+    optional:
+  FEAT_PMUv3_EXT32:
+    mandatory:
+    name: 32-bit external interface to the Performance Monitors
+    optional:
+  FEAT_PMUv3_EXT64:
+    mandatory:
+    name: 64-bit external interface to the Performance Monitors
+    optional:
+    year: 2021
+  FEAT_PMUv3_EXTPMN:
+    mandatory:
+    name: Reserving PMU event counters for external agents
+    optional:
+    year: 2024
+  FEAT_PMUv3_ICNTR:
+    mandatory:
+    name: Fixed-function instruction counter
+    optional:
+    year: 2022
+  FEAT_PMUv3_SME:
+    mandatory:
+    name: Performance Monitors extensions for SME
+    optional:
+    year: 2023
+  FEAT_PMUv3_SS:
+    mandatory:
+    name: PMU Snapshot extension
+    optional:
+    year: 2022
+  FEAT_PMUv3_TH:
+    mandatory:
+    name: Event counting threshold
+    optional:
+    year: 2021
+  FEAT_PMUv3_TH2:
+    mandatory:
+    name: Performance Monitors event counter linking extension
+    optional:
+    year: 2023
+  FEAT_PMUv3p1:
+    mandatory:
+    name: Armv8.1 PMU extensions
+    optional:
+  FEAT_PMUv3p4:
+    mandatory:
+    name: Arm8.4 PMU extensions
+    optional:
+  FEAT_PMUv3p5:
+    mandatory:
+    name: Arm8.5 PMU extensions
+    optional:
+  FEAT_PMUv3p7:
+    mandatory:
+    name: Armv8.7 PMU extensions
+    optional:
+    year: 2020
+  FEAT_PMUv3p8:
+    mandatory:
+    name: Armv8.8 PMU extensions
+    optional:
+    year: 2021
+  FEAT_PMUv3p9:
+    mandatory:
+    name: Armv8.9 PMU extensions
+    optional:
+    year: 2022
+  FEAT_PRFMSLC:
+    mandatory:
+    name: SLC target support for PRFM and PRFUM instructions
+    optional:
+    year: 2022
+  FEAT_PoPS:
+    mandatory:
+    name: Point of Physical Storage
+    optional:
+    year: 2024
+  FEAT_RAS:
+    mandatory:
+    name: Reliability, Availability and Serviceability (RAS) Extension
+    optional:
+  FEAT_RASSA:
+    mandatory:
+    name: RAS System Architecture
+    optional:
+  FEAT_RASSAv1:
+    mandatory:
+    name: RAS version 1 System Architecture
+    optional:
+  FEAT_RASSAv1p1:
+    mandatory:
+    name: RAS version 1.1 System Architecture
+    optional:
+  FEAT_RASv1p1:
+    mandatory:
+    name: RAS extension v1.1
+    optional:
+  FEAT_RASv2:
+    mandatory:
+    name: RAS Extension v2
+    optional:
+    year: 2022
+  FEAT_RDM:
+    mandatory:
+    name: Advanced SIMD rounding double multiply-accumulate instructions
+    optional:
+  FEAT_RME:
+    mandatory:
+    name: Realm Management Extension
+    optional:
+  FEAT_RME_GDI:
+    mandatory:
+    name: RME Granular Data Isolation extension
+    optional:
+    year: 2024
+  FEAT_RME_GPC2:
+    mandatory:
+    name: RME Granule Protection Check 2 Extension
+    optional:
+    year: 2023
+  FEAT_RME_GPC3:
+    mandatory:
+    name: RME Granule Protection Check 3 Extension
+    optional:
+    year: 2024
+  FEAT_RNG:
+    mandatory:
+    name: Random number generator
+    optional:
+  FEAT_RNG_TRAP:
+    mandatory:
+    name: Trapping support for RNDR/RNDRRS
+    optional:
+  FEAT_RPRES:
+    mandatory:
+    name: Increased precision of FRECPE and FRSQRTE
+    optional:
+    year: 2020
+  FEAT_RPRFM:
+    mandatory:
+    name: Support for Range Prefetch Memory instruction
+    optional:
+    year: 2022
+  FEAT_S1PIE:
+    mandatory:
+    name: Stage 1 permission indirections
+    optional:
+    year: 2022
+  FEAT_S1POE:
+    mandatory:
+    name: Stage 1 permission overlays
+    optional:
+    year: 2022
+  FEAT_S2FWB:
+    mandatory:
+    name: Stage 2 forced Write-Back
+    optional:
+  FEAT_S2PIE:
+    mandatory:
+    name: Stage 2 permission indirections
+    optional:
+    year: 2022
+  FEAT_S2POE:
+    mandatory:
+    name: Stage 2 permission overlays
+    optional:
+    year: 2022
+  FEAT_S2TGran16K:
+    mandatory:
+    name: Support for 16KB memory translation granule size at stage 2
+    optional:
+  FEAT_S2TGran4K:
+    mandatory:
+    name: Support for 4KB memory translation granule size at stage 2
+    optional:
+  FEAT_S2TGran64K:
+    mandatory:
+    name: Support for 64KB memory translation granule size at stage 2
+    optional:
+  FEAT_SB:
+    mandatory:
+    name: Speculation Barrier
+    optional:
+  FEAT_SCR2:
+    mandatory:
+    name: Extension to SCR_EL3
+    optional:
+    year: 2025
+  FEAT_SCTLR2:
+    mandatory:
+    name: Extension to SCTLR_ELx
+    optional:
+    year: 2021
+  FEAT_SEBEP:
+    mandatory:
+    name: Synchronous Exception-based Event Profiling
+    optional:
+    year: 2022
+  FEAT_SEL2:
+    mandatory:
+    name: Secure EL2
+    optional:
+  FEAT_SHA1:
+    mandatory:
+    name: Advanced SIMD SHA1 instructions
+    optional:
+  FEAT_SHA256:
+    mandatory:
+    name: Advanced SIMD SHA256 instructions
+    optional:
+  FEAT_SHA3:
+    mandatory:
+    name: Advanced SIMD SHA3 instructions
+    optional:
+  FEAT_SHA512:
+    mandatory:
+    name: Advanced SIMD SHA512 instructions
+    optional:
+  FEAT_SM3:
+    mandatory:
+    name: Advanced SIMD SM3 instructions
+    optional:
+  FEAT_SM4:
+    mandatory:
+    name: Advanced SIMD SM4 instructions
+    optional:
+  FEAT_SME2:
+    mandatory:
+    name: Scalable Matrix Extensions version 2
+    optional:
+    year: 2021
+  FEAT_SME2p1:
+    mandatory:
+    name: Scalable Matrix Extension version 2.1
+    optional:
+    year: 2022
+  FEAT_SME2p2:
+    mandatory:
+    name: Scalable Matrix Extension version 2.2
+    optional:
+    year: 2024
+  FEAT_SME2p3:
+    mandatory:
+    name: Scalable Matrix Extension version 2.3
+    optional:
+    year: 2025
+  FEAT_SME_B16B16:
+    mandatory:
+    name: Non-widening BFloat16 to BFloat16 SME ZA-targeting arithmetic
+    optional:
+    year: 2022
+  FEAT_SME_F16F16:
+    mandatory:
+    name: Non-widening half-precision FP16 to FP16 arithmetic for SME2
+    optional:
+    year: 2022
+  FEAT_SME_F8F16:
+    mandatory:
+    name: >-
+      SME2 ZA-targeting FP8 multiply-accumulate, dot product, and outer product to
+      half-precision instructions
+    optional:
+    year: 2023
+  FEAT_SME_F8F32:
+    mandatory:
+    name: >-
+      SME2 ZA-targeting FP8 multiply-accumulate, dot product, and outer product to
+      single-precision instructions
+    optional:
+    year: 2023
+  FEAT_SME_LUTv2:
+    mandatory:
+    name: Lookup table instructions with 4-bit indices and 8-bit elements
+    optional:
+    year: 2023
+  FEAT_SME_MOP4:
+    mandatory:
+    name: Quarter-tile outer product instructions
+    optional:
+    year: 2024
+  FEAT_SME_TMOP:
+    mandatory:
+    name: Structured sparsity outer product instructions
+    optional:
+    year: 2024
+  FEAT_SPE:
+    mandatory:
+    name: Statistical Profiling Extension
+    optional:
+  FEAT_SPECRES:
+    mandatory:
+    name: Speculation restriction instructions
+    optional:
+  FEAT_SPECRES2:
+    mandatory:
+    name: Enhanced speculation restriction instructions
+    optional:
+    year: 2022
+  FEAT_SPE_ALTCLK:
+    mandatory:
+    name: Statistical Profiling alternate clock domain extension
+    optional:
+    year: 2023
+  FEAT_SPE_ArchInst:
+    mandatory:
+    name: Statistical Profiling architectural instruction sampling
+    optional:
+  FEAT_SPE_CRR:
+    mandatory:
+    name: Statistical Profiling call return branch records
+    optional:
+    year: 2022
+  FEAT_SPE_DPFZS:
+    mandatory:
+    name: Disable Cycle Counter on SPE Freeze
+    optional:
+    year: 2022
+  FEAT_SPE_EFT:
+    mandatory:
+    name: Statistical Profiling extended filtering by type
+    optional:
+    year: 2023
+  FEAT_SPE_ERnd:
+    mandatory:
+    name: Statistical Profiling random sampling at end of period
+    optional:
+  FEAT_SPE_EXC:
+    mandatory:
+    name: SPE Profiling exception extension
+    optional:
+    year: 2024
+  FEAT_SPE_FDS:
+    mandatory:
+    name: Statistical Profiling data source filtering
+    optional:
+    year: 2022
+  FEAT_SPE_FPF:
+    mandatory:
+    name: Statistical Profiling floating-point and SIMD flag extension
+    optional:
+    year: 2023
+  FEAT_SPE_FnE:
+    mandatory:
+    name: Statistical Profiling inverse event filter
+    optional:
+    year: 2020
+  FEAT_SPE_LDS:
+    mandatory:
+    name: Statistical Profiling data source packet generation
+    optional:
+  FEAT_SPE_PBT:
+    mandatory:
+    name: Statistical Profiling previous branch target
+    optional:
+    year: 2020
+  FEAT_SPE_SME:
+    mandatory:
+    name: Statistical Profiling extensions for SME
+    optional:
+    year: 2023
+  FEAT_SPE_nVM:
+    mandatory:
+    name: Statistical Profiling physical addressing mode extension
+    optional:
+    year: 2024
+  FEAT_SPEv1p1:
+    mandatory:
+    name: Statistical Profiling Extension version 1.1
+    optional:
+  FEAT_SPEv1p2:
+    mandatory:
+    name: Statistical Profiling Extensions version 1.2
+    optional:
+    year: 2020
+  FEAT_SPEv1p3:
+    mandatory:
+    name: Statistical Profiling Extensions version 1.3
+    optional:
+    year: 2021
+  FEAT_SPEv1p4:
+    mandatory:
+    name: Statistical Profiling Extension version 1.4
+    optional:
+    year: 2022
+  FEAT_SPEv1p5:
+    mandatory:
+    name: Statistical Profiling Extension version 1.5
+    optional:
+    year: 2024
+  FEAT_SPMU:
+    mandatory:
+    name: System Performance Monitors Extension
+    optional:
+    year: 2022
+  FEAT_SPMU2:
+    mandatory:
+    name: System Performance Monitors Extension version 2
+    optional:
+    year: 2023
+  FEAT_SRMASK:
+    mandatory:
+    name: Bitwise System Register Write Masks
+    optional:
+    year: 2024
+  FEAT_SRMASK2:
+    mandatory:
+    name: Bitwise Write Masks for Hypervisor Configuration Registers
+    optional:
+    year: 2025
+  FEAT_SSBS:
+    mandatory:
+    name: Speculative Store Bypass Safe
+    optional:
+  FEAT_SSBS2:
+    mandatory:
+    name: MRS and MSR instructions for SSBS version 2
+    optional:
+  FEAT_SSVE_AES:
+    mandatory:
+    name: >-
+      Streaming SVE Mode Advanced Encryption Standard and 128-bit polynomial
+      multiply long instructions
+    optional:
+    year: 2024
+  FEAT_SSVE_BitPerm:
+    mandatory:
+    name: Streaming Scalable Vector Bit Permutes instructions
+    optional:
+    year: 2024
+  FEAT_SSVE_FEXPA:
+    mandatory:
+    name: Streaming FEXPA instruction
+    optional:
+    year: 2024
+  FEAT_SSVE_FP8DOT2:
+    mandatory:
+    name: >-
+      SVE FP8 2-way dot product to half-precision instructions in Streaming SVE
+      mode
+    optional:
+    year: 2023
+  FEAT_SSVE_FP8DOT4:
+    mandatory:
+    name: >-
+      SVE2 FP8 4-way dot product to single-precision instructions in Streaming SVE
+      mode
+    optional:
+    year: 2023
+  FEAT_SSVE_FP8FMA:
+    mandatory:
+    name: >-
+      SVE2 FP8 multiply-accumulate to half-precision and single-precision
+      instructions in Streaming SVE mode
+    optional:
+    year: 2023
+  FEAT_STEP2:
+    mandatory:
+    name: Enhanced Software Step Extension
+    optional:
+    year: 2023
+  FEAT_SVE:
+    mandatory:
+    name: Scalable Vector Extension
+    optional:
+  FEAT_SVE2:
+    mandatory:
+    name: Scalable Vector Extension version 2
+    optional:
+  FEAT_SVE2p1:
+    mandatory:
+    name: Scalable Vector Extensions version 2.1
+    optional:
+    year: 2022
+  FEAT_SVE2p2:
+    mandatory:
+    name: Scalable Vector Extensions version 2.2
+    optional:
+    year: 2024
+  FEAT_SVE2p3:
+    mandatory:
+    name: Scalable Vector Extensions version 2.3
+    optional:
+    year: 2025
+  FEAT_SVE_AES:
+    mandatory:
+    name: Scalable Vector AES instructions
+    optional:
+  FEAT_SVE_AES2:
+    mandatory:
+    name: >-
+      SVE multi-vector Advanced Encryption Standard and 128-bit polynomial
+      multiply long instructions
+    optional:
+    year: 2024
+  FEAT_SVE_B16B16:
+    mandatory:
+    name: Non-widening BFloat16 to BFloat16 arithmetic for SVE2 and SME2
+    optional:
+    year: 2022
+  FEAT_SVE_B16MM:
+    mandatory:
+    name: SVE BFloat16 matrix multiply-accumulate
+    optional:
+    year: 2025
+  FEAT_SVE_BFSCALE:
+    mandatory:
+    name: BFloat16 Floating-Point Adjust Exponent
+    optional:
+    year: 2024
+  FEAT_SVE_BitPerm:
+    mandatory:
+    name: Scalable Vector Bit Permutes instructions
+    optional:
+  FEAT_SVE_F16F32MM:
+    mandatory:
+    name: >-
+      SVE Half-precision floating-point matrix multiply-accumulate to
+      single-precision
+    optional:
+    year: 2024
+  FEAT_SVE_PMULL128:
+    mandatory:
+    name: >-
+      SVE single-vector Advanced Encryption Standard and 128-bit polynomial
+      multiply long instructions
+    optional:
+  FEAT_SVE_SHA3:
+    mandatory:
+    name: Scalable Vector SHA3 instructions
+    optional:
+  FEAT_SVE_SM4:
+    mandatory:
+    name: Scalable Vector SM4 instructions
+    optional:
+  FEAT_SYSINSTR128:
+    mandatory:
+    name: 128-bit System instructions
+    optional:
+    year: 2022
+  FEAT_SYSREG128:
+    mandatory:
+    name: 128-bit System registers
+    optional:
+    year: 2022
+  FEAT_Secure:
+    mandatory:
+    name: Support for Secure state
+    optional:
+  FEAT_SpecSEI:
+    mandatory:
+    name: SError interrupt exceptions from speculative reads of memory
+    optional:
+  FEAT_TCR2:
+    mandatory:
+    name: Support for TCR2_ELx
+    optional:
+    year: 2021
+  FEAT_TGran16K:
+    mandatory:
+    name: Support for 16KB memory translation granule size at stage 1
+    optional:
+  FEAT_TGran4K:
+    mandatory:
+    name: Support for 4KB memory translation granule size at stage 1
+    optional:
+  FEAT_TGran64K:
+    mandatory:
+    name: Support for 64KB memory translation granule size at stage 1
+    optional:
+  FEAT_THE:
+    mandatory:
+    name: Translation Hardening Extension
+    optional:
+    year: 2022
+  FEAT_TIDCP1:
+    mandatory:
+    name: EL0 use of IMPLEMENTATION DEFINED functionality
+    optional:
+    year: 2021
+  FEAT_TLBID:
+    mandatory:
+    name: TLBI Domains
+    optional:
+    year: 2025
+  FEAT_TLBIOS:
+    mandatory:
+    name: TLB invalidate instructions in Outer Shareable domain
+    optional:
+  FEAT_TLBIRANGE:
+    mandatory:
+    name: TLB invalidate range instructions
+    optional:
+  FEAT_TLBIW:
+    mandatory:
+    name: TLBI VMALL for Dirty state
+    optional:
+    year: 2023
+  FEAT_TRBE:
+    mandatory:
+    name: Trace Buffer Extension
+    optional:
+  FEAT_TRBE_EXC:
+    mandatory:
+    name: Trace Buffer Profiling exception extension
+    optional:
+    year: 2024
+  FEAT_TRBE_EXT:
+    mandatory:
+    name: Trace Buffer external mode
+    optional:
+    year: 2022
+  FEAT_TRBE_MPAM:
+    mandatory:
+    name: Trace Buffer MPAM extensions
+    optional:
+    year: 2022
+  FEAT_TRBEv1p1:
+    mandatory:
+    name: Trace Buffer Extension version 1.1
+    optional:
+    year: 2024
+  FEAT_TRC_EXT:
+    mandatory:
+    name: Trace external registers
+    optional:
+  FEAT_TRC_SR:
+    mandatory:
+    name: Trace System registers
+    optional:
+  FEAT_TRF:
+    mandatory:
+    name: Self-hosted Trace extensions
+    optional:
+  FEAT_TTCNP:
+    mandatory:
+    name: Translation table Common not private translations
+    optional:
+  FEAT_TTL:
+    mandatory:
+    name: Translation Table Level
+    optional:
+  FEAT_TTST:
+    mandatory:
+    name: Small translation tables
+    optional:
+  FEAT_TWED:
+    mandatory:
+    name: Delayed Trapping of WFE
+    optional:
+  FEAT_UAO:
+    mandatory:
+    name: Unprivileged Access Override control
+    optional:
+  FEAT_UINJ:
+    mandatory:
+    name: Injection of Undefined Instruction exceptions
+    optional:
+    year: 2024
+  FEAT_VHE:
+    mandatory:
+    name: Virtualization Host Extensions
+    optional:
+  FEAT_VMID16:
+    mandatory:
+    name: 16-bit VMID
+    optional:
+  FEAT_WFxT:
+    mandatory:
+    name: WFE and WFI instructions with timeout
+    optional:
+    year: 2020
+  FEAT_XNX:
+    mandatory:
+    name: Translation table stage 2 Unprivileged Execute-never
+    optional:
+  FEAT_XS:
+    mandatory:
+    name: XS attribute
+    optional:
+    year: 2020
+  FEAT_nTLBPA:
+    mandatory:
+    name: Intermediate caching of translation table walks
+    optional:
