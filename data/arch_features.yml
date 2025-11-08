@@ -1715,3 +1715,751 @@ features:
     mandatory:
     name: Intermediate caching of translation table walks
     optional:
+id_registers:
+  id_aa64dfr0:
+    63:
+      1:
+        - FEAT_HPMN0
+    59:
+      1:
+        - FEAT_TRBE_EXT
+    55:
+      1:
+        - FEAT_BRBE
+      2:
+        - FEAT_BRBEv1p1
+    51:
+      1:
+        - FEAT_MTPMU
+        - FEAT_PMUv3
+    47:
+      1:
+        - FEAT_TRBE
+    43:
+      1:
+        - FEAT_TRF
+    39:
+      0:
+        - FEAT_DoubleLock
+    35:
+      1:
+        - FEAT_SPE
+      2:
+        - FEAT_SPEv1p1
+      3:
+        - FEAT_SPEv1p2
+      4:
+        - FEAT_SPEv1p3
+      5:
+        - FEAT_SPEv1p4
+      6:
+        - FEAT_SPE_SME
+    27:
+      1:
+        - FEAT_SEBEP
+    19:
+      1:
+        - FEAT_PMUv3_SS
+    11:
+      1:
+        - FEAT_PMUv3
+      2:
+        - FEAT_PMUv3p1
+      5:
+        - FEAT_PMUv3p4
+      6:
+        - FEAT_PMUv3p5
+      7:
+        - FEAT_PMUv3p7
+      8:
+        - FEAT_PMUv3p8
+      9:
+        - FEAT_PMUv3p9
+      10:
+        - FEAT_PMUv3_SME
+    3:
+      6:
+        - FEAT_Debugv8
+      7:
+        - FEAT_Debugv8p1
+      8:
+        - FEAT_Debugv8p2
+      9:
+        - FEAT_Debugv8p4
+      10:
+        - FEAT_Debugv8p8
+      11:
+        - FEAT_Debugv8p9
+  id_aa64dfr1:
+    55:
+      1:
+        - FEAT_SPE_DPFZS
+    51:
+      1:
+        - FEAT_EBEP
+    47:
+      1:
+        - FEAT_ITE
+    43:
+      1:
+        - FEAT_ABLE
+    39:
+      1:
+        - FEAT_PMUv3_ICNTR
+    35:
+      1:
+        - FEAT_SPMU
+      2:
+        - FEAT_SPMU2
+  id_aa64pfr0:
+    63:
+      1:
+        - FEAT_CSV3
+    59:
+      1:
+        - FEAT_CSV2
+      2:
+        - FEAT_CSV2_2
+      3:
+        - FEAT_CSV2_3
+    55:
+      1:
+        - FEAT_RME
+      2:
+        - FEAT_RME_GPC2
+    51:
+      1:
+        - FEAT_DIT
+    47:
+      1:
+        - FEAT_AMUv1
+      2:
+        - FEAT_AMUv1p1
+    35:
+      1:
+        - FEAT_SVE
+    31:
+      1:
+        - FEAT_RAS
+      2:
+        - FEAT_RASv1p1
+      3:
+        - FEAT_RASv2
+    23:
+      0:
+        - FEAT_AdvSIMD
+      1:
+        - FEAT_AdvSIMD
+        - FEAT_FP16
+    19:
+      0: 
+        - FEAT_FP
+      1:
+        - FEAT_FP
+        - FEAT_FP16
+    15:
+      1:
+        - FEAT_AA64EL3
+      2: 
+        - FEAT_AA64EL3
+        - FEAT_AA32EL3
+    11:
+      1:
+        - FEAT_AA64EL2
+      2: 
+        - FEAT_AA64EL2
+        - FEAT_AA32EL2
+    7:
+      1:
+        - FEAT_AA64EL1
+      2: 
+        - FEAT_AA64EL1
+        - FEAT_AA32EL1
+    3:
+      1:
+        - FEAT_AA64EL0
+      2: 
+        - FEAT_AA64EL0
+        - FEAT_AA32EL0
+  id_aa64pfr1:
+    63:
+      1:
+        - FEAT_PFAR
+    59:
+      1:
+        - FEAT_DoubleFault2
+    55:
+      1:
+        - FEAT_MTE_NO_ADDRESS_TAGS
+        - FEAT_MTE_CANONICAL_TAGS
+    51:
+      1:
+        - FEAT_THE
+    47:
+      1:
+        - FEAT_GCS
+    43:
+      1:
+        - FEAT_MTE_ASYNC
+    39:
+      1:
+        - FEAT_NMI
+    31:
+      1:
+        - FEAT_RNG_TRAP
+    27:
+      1:
+        - FEAT_SME
+      2:
+        - FEAT_SME2
+    11:
+      1:
+        - FEAT_MTE
+      2:
+        - FEAT_MTE2
+      3:
+        - FEAT_MTE3
+    7:
+      1:
+        - FEAT_SSBS
+      2:
+        - FEAT_SSBS2
+    3:
+      1:
+        - FEAT_BTI
+  id_aa64pfr2:
+    35:
+      1:
+        - FEAT_FPMR
+    11:
+      1:
+        - FEAT_MTE_TAGGED_FAR
+    7:
+      1:
+        - FEAT_MTE_STORE_ONLY
+    3:
+      1:
+        - FEAT_MTE_PERM
+  id_aa64zfr0:
+    59:
+      1:
+        - FEAT_F64MM
+    55:
+      1:
+        - FEAT_F32MM
+    47:
+      1:
+        - FEAT_I8MM
+    43:
+      1:
+        - FEAT_SVE_SM4
+    35:
+      1:
+        - FEAT_SVE_SHA3
+    27:
+      1:
+        - FEAT_SVE_B16B16
+    23:
+      1:
+        - FEAT_BF16
+      2:
+        - FEAT_BF16
+        - FEAT_EBF16
+    19:
+      1:
+        - FEAT_SVE_BitPerm
+    7:
+      1:
+        - FEAT_SVE_AES
+      2:
+        - FEAT_SVE_AES
+        - FEAT_SVE_PMULL128
+    3:
+      1:
+        - FEAT_SVE2
+      2:
+        - FEAT_SVE2p1
+  id_aa64isar0:
+    63:
+      1:
+        - FEAT_RNG
+    59:
+      1:
+        - FEAT_TLBIOS
+      2:
+        - FEAT_TLBIOS
+        - FEAT_TLBIRANGE
+    55:
+      1:
+        - FEAT_FlagM
+      2:
+        - FEAT_FlagM2
+    51:
+      1:
+        - FEAT_FHM
+    47:
+      1:
+        - FEAT_DotProd
+    43:
+      1:
+        - FEAT_SM4
+    39:
+      1:
+        - FEAT_SM3
+    35:
+      1:
+        - FEAT_SHA3
+    31:
+      1:
+        - FEAT_RDM
+    27:
+      1:
+        - FEAT_TME
+    23:
+      2:
+        - FEAT_LSE
+      3:
+        - FEAT_LSE128
+    19:
+      1:
+        - FEAT_CRC32
+    15:
+      1:
+        - FEAT_SHA256
+      2:
+        - FEAT_SHA256
+        - FEAT_SHA512
+    11:
+      1:
+        - FEAT_SHA1
+    7:
+      1:
+        - FEAT_AES
+      2:
+        - FEAT_AES
+        - FEAT_PMULL
+  id_aa64isar1:
+    63:
+      1:
+        - FEAT_LS64
+      2:
+        - FEAT_LS64
+        - FEAT_LS64_V
+      3:
+        - FEAT_LS64
+        - FEAT_LS64_V
+        - FEAT_LS64_ACCDATA
+    59:
+      1:
+        - FEAT_XS
+    55:
+      1:
+        - FEAT_I8MM
+    51:
+      1:
+        - FEAT_DGH
+    47:
+      1:
+        - FEAT_BF16
+      2:
+        - FEAT_BF16
+        - FEAT_EBF16
+    43:
+      1:
+        - FEAT_SPECRES
+      2:
+        - FEAT_SPECRES
+        - FEAT_SPECRES2
+    39:
+      1:
+        - FEAT_SB
+    35:
+      1:
+        - FEAT_FRINTTS
+    31:
+      1:
+        - FEAT_PACIMP
+    27:
+      1:
+        - FEAT_PACQARMA5
+    23:
+      1:
+        - FEAT_LRCPC
+      2:
+        - FEAT_LRCPC
+        - FEAT_LRCPC2
+      3:
+        - FEAT_LRCPC
+        - FEAT_LRCPC2
+        - FEAT_LRCPC3
+    19:
+      1:
+        - FEAT_FCMA
+    15:
+      1:
+        - FEAT_JSCVT
+    11:
+      1:
+        - FEAT_PAuth
+      2:
+        - FEAT_EPAC
+      3:
+        - FEAT_PAuth2
+      4:
+        - FEAT_FPAC
+      5:
+        - FEAT_FPACCOMBINE
+      6:
+        - FEAT_PAuth_LR
+    7:
+      1:
+        - FEAT_PAuth
+      2:
+        - FEAT_EPAC
+      3:
+        - FEAT_PAuth2
+      4:
+        - FEAT_FPAC
+      5:
+        - FEAT_FPACCOMBINE
+      6:
+        - FEAT_PAuth_LR
+    3:
+      1:
+        - FEAT_DPB
+      2:
+        - FEAT_DPB2
+  id_aa64isar2:
+    59:
+      1:
+        - FEAT_LUT
+    55:
+      1:
+        - FEAT_CSSC
+    51:
+      1:
+        - FEAT_RPRFM
+    43:
+      1:
+        - FEAT_PRFMSLC
+    39:
+      1:
+        - FEAT_SYSINSTR128
+    35:
+      1:
+        - FEAT_SYSREG128
+    31:
+      1:
+        - FEAT_CLRBHB
+    27:
+      1:
+        - FEAT_CONSTPACFIELD
+    23:
+      1:
+        - FEAT_HBC
+    19:
+      1:
+        - FEAT_MOPS
+    15:
+      1:
+        - FEAT_PAuth
+      2:
+        - FEAT_EPAC
+      3:
+        - FEAT_PAuth2
+      4:
+        - FEAT_FPAC
+      5:
+        - FEAT_FPACCOMBINE
+      6:
+        - FEAT_PAuth_LR
+    11:
+      1:
+        - FEAT_PACQARMA3
+    7:
+      1:
+        - FEAT_RPRES
+    3:
+      1:
+        - FEAT_WFxT
+  id_aa64isar3:
+    15:
+      1:
+        - FEAT_PAuth_LR
+      2:
+        - FEAT_PAuth_LR
+    11:
+      1:
+        - FEAT_TLBIW
+    7:
+      1:
+        - FEAT_FAMINMAX
+    3:
+      1:
+        - FEAT_CPA
+      2:
+        - FEAT_CPA2
+  id_aa64mmfr0:
+    63:
+      1:
+        - FEAT_ECV
+      2:
+        - FEAT_ECV_POFF
+    59:
+      1:
+        - FEAT_FGT
+      2:
+        - FEAT_FGT2
+    47:
+      1:
+        - FEAT_ExS
+    19:
+      1:
+        - FEAT_MixedEndEL0
+    11:
+      1:
+        - FEAT_MixedEnd
+        - FEAT_MixedEndEL0
+    7:
+      0:
+        - FEAT_ASID8
+      2:
+        - FEAT_ASID16
+  id_aa64mmfr1:
+    63:
+      1:
+        - FEAT_ECBHB
+    59:
+      1:
+        - FEAT_CMOW
+    55:
+      1:
+        - FEAT_TIDCP1
+    51:
+      1:
+        - FEAT_nTLBPA
+    47:
+      1:
+        - FEAT_AFP
+    43:
+      1:
+        - FEAT_HCX
+    39:
+      2:
+        - FEAT_ETS2
+      3:
+        - FEAT_ETS3
+    35:
+      1:
+        - FEAT_TWED
+    31:
+      1:
+        - FEAT_XNX
+    23:
+      1:
+        - FEAT_PAN
+      2:
+        - FEAT_PAN2
+      3:
+        - FEAT_PAN3
+    19:
+      1:
+        - FEAT_LOR
+    15:
+      1:
+        - FEAT_HPDS
+      2:
+        - FEAT_HPDS2
+    11:
+      1:
+        - FEAT_VHE
+    7:
+      2:
+        - FEAT_VMID16
+    3:
+      1:
+        - FEAT_HAFDBS
+      2:
+        - FEAT_HAFDBS
+      3:
+        - FEAT_HAFDBS
+        - FEAT_HAFT
+      4:
+        - FEAT_HAFDBS
+        - FEAT_HAFT
+        - FEAT_HDBSS
+  id_aa64mmfr2:
+    63:
+      1:
+        - FEAT_E0PD
+    59:
+      1:
+        - FEAT_EVT
+      2:
+        - FEAT_EVT
+    55:
+      0:
+        - FEAT_BBM
+      1:
+        - FEAT_BBM
+      2:
+        - FEAT_BBM
+    51:
+      1:
+        - FEAT_TTL
+    43:
+      1:
+        - FEAT_S2FWB
+    39:
+      1:
+        - FEAT_IDST
+    35:
+      1:
+        - FEAT_LSE2
+    31:
+      1:
+        - FEAT_TTST
+    27:
+      1:
+        - FEAT_NV
+      2:
+        - FEAT_NV2
+    23:
+      1:
+        - FEAT_CCIDX
+    19:
+      1:
+        - FEAT_LVA
+      2:
+        - FEAT_LVA3
+    15:
+      1:
+        - FEAT_IESB
+    11:
+      1:
+        - FEAT_LSMAOC
+    7:
+      1:
+        - FEAT_UAO
+    3:
+      1:
+        - FEAT_TTCNP
+  id_aa64mmfr3:
+    59:
+      2:
+        - FEAT_ADERR
+    55:
+      2:
+        - FEAT_ADERR
+    47:
+      2:
+        - FEAT_ANERR
+    43:
+      2:
+        - FEAT_ANERR
+    31:
+      1:
+        - FEAT_MEC
+    27:
+      1:
+        - FEAT_AIE
+    23:
+      1:
+        - FEAT_S2POE
+    19:
+      1:
+        - FEAT_S1POE
+    15:
+      1:
+        - FEAT_S2PIE
+    11:
+      1:
+        - FEAT_S1PIE
+    7:
+      1:
+        - FEAT_SCTLR2
+    3:
+      1:
+        - FEAT_TCR2
+  id_aa64mmfr4:
+    39:
+      1:
+        - FEAT_E3DSE
+    27:
+      0:
+        - FEAT_E2H0
+    19:
+      1:
+        - FEAT_FGWTE3
+    15:
+      1:
+        - FEAT_HACDBS
+    11:
+      1:
+        - FEAT_ASID2
+    7:
+      1:
+        - FEAT_IESB
+      2:
+        - FEAT_IESB
+      15:
+        - FEAT_IESB
+  id_aa64smfr0:
+    63:
+      1:
+        - FEAT_SME_FA64
+    60:
+      1:
+        - FEAT_SME_LUTv2
+    59:
+      0:
+        - FEAT_SME
+      1:
+        - FEAT_SME2
+      2:
+        - FEAT_SME2p1
+    55:
+      1:
+        - FEAT_SME_I16I64
+    48:
+      1:
+        - FEAT_SME_F64F64
+    47:
+      1:
+        - FEAT_SME_I16I32
+    43:
+      1:
+        - FEAT_SME_B16B16
+    42:
+      1:
+        - FEAT_SME_F16F16
+    41:
+      1:
+        - FEAT_SME_F8F16
+    40:
+      1:
+        - FEAT_SME_F8F32
+    39:
+      1:
+        - FEAT_SME_I8I32
+    35:
+      1:
+        - FEAT_SME_F16F32
+    34:
+      1:
+        - FEAT_SME_B16F32
+    33:
+      1:
+        - FEAT_SME_BI32I32
+    32:
+      1:
+        - FEAT_SME_F32F32
+    30:
+      1:
+        - FEAT_SSVE_FP8FMA
+    29:
+      1:
+        - FEAT_SSVE_FP8DOT4
+    28:
+      1:
+        - FEAT_SSVE_FP8DOT2
