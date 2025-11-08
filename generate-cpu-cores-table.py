@@ -20,18 +20,13 @@ def handle_cpu_cores():
     for core in sorted(tables.cpu_cores[implementer]['cores']):
         try:
             core_data = tables.cpu_cores[implementer]['cores'][core].copy()
-            if core_data['aarch32'] == "to be set":
-                core_data['aarch32'] = ""
-            elif not core_data["aarch32"]:
-                core_data['aarch32'] = "NO"
 
             if "features" in core_data and core_data["features"] is not None:
                 core_data["features"] = sorted(core_data["features"])
             else:
                 core_data["features"] = ""
 
-            cpu_cores[implementer]["cores"][int(core, base=16)] = (
-                core_data)
+            cpu_cores[implementer]["cores"][int(core, base=16)] = core_data
         except ValueError:
             pass
 

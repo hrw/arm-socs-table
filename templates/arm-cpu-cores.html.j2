@@ -32,11 +32,12 @@
 
 <h2>Notes</h2>
 <ul>
-<li>The "features" column may be incomplete.
+<li>The "features" column may be incomplete and may have errors. Check TRM if unsure.
 <li>The "features" column does not show which are optional (usually crypto).
+<li>To run 32-bit KVM guest you need AA32EL1 support.
+<li>To run 32-bit Arm binaries on 64-bit Arm system you need AA32EL0 support.
 </ul>
 
-{% include "aarch32_support.j2" %}
 {% include "common/author-tables-help.inc.j2" %}
 
 <table id="infotable" class="display" style="width:100%">
@@ -45,7 +46,6 @@
             <th style="width: 9em">CPU core name</th>
             <th>arch level</th>
             <th title="PartNum">ID</th>
-            <th>AArch32 support</th>
             <th title="PARange">physical memory address size (bits)</th>
             <th title="VARange">virtual memory address size (bits)</th>
             <th title="TGran4/16/64">supported page sizes</th>
@@ -63,7 +63,6 @@
         {% endif %}
         <td class="tdc">{{ cpu_cores[implementer].cores[core].isa_level }}</td>
         <td class="tdc">{{ "0x%0x" | format(core) }}</td>
-        <td class="tdc">{{ cpu_cores[implementer].cores[core].aarch32 }}</td>
         <td class="tdc">{{ cpu_cores[implementer].cores[core].pa_size }}</td>
         <td class="tdc">{{ cpu_cores[implementer].cores[core].va_size }}</td>
         <td class="tdc">
