@@ -8,9 +8,27 @@
   cores:
     '0xd02':
       aarch32: false
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_CRC32
+      - FEAT_Debugv8
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PMULL
+      - FEAT_PMUv3
+      - FEAT_SHA1
+      - FEAT_SHA256
       isa_level: v8.0
       name: Cortex-A34
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -23,9 +41,31 @@
       trm: https://developer.arm.com/documentation/100246/
     '0xd03':
       aarch32: EL0-EL3
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA32EL1
+      - FEAT_AA32EL2
+      - FEAT_AA32EL3
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_CRC32
+      - FEAT_Debugv8
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PMULL
+      - FEAT_PMUv3
+      - FEAT_SHA1
+      - FEAT_SHA256
       isa_level: v8.0
       name: Cortex-A53
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 64k
@@ -37,9 +77,31 @@
       trm: https://developer.arm.com/documentation/ddi0500/
     '0xd04':
       aarch32: EL0-EL3
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA32EL1
+      - FEAT_AA32EL2
+      - FEAT_AA32EL3
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_CRC32
+      - FEAT_Debugv8
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PMULL
+      - FEAT_PMUv3
+      - FEAT_SHA1
+      - FEAT_SHA256
       isa_level: v8.0
       name: Cortex-A35
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -52,9 +114,49 @@
       trm: https://developer.arm.com/documentation/100236/
     '0xd05':
       aarch32: EL0-EL3
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA32EL1
+      - FEAT_AA32EL2
+      - FEAT_AA32EL3
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_CRC32
+      - FEAT_DPB
+      - FEAT_Debugv8p2
+      - FEAT_DotProd
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_IESB
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LSE
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PAN2
+      - FEAT_PMULL
+      - FEAT_RAS
+      - FEAT_RDM
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SSBS
+      - FEAT_TTCNP
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v8.2
       name: Cortex-A55
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -72,6 +174,46 @@
       va_size: 0x30
     '0xd06':
       aarch32: false
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA32EL1
+      - FEAT_AA32EL2
+      - FEAT_AA32EL3
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_CRC32
+      - FEAT_DPB
+      - FEAT_Debugv8p2
+      - FEAT_DotProd
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_IESB
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LSE
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PAN2
+      - FEAT_PMULL
+      - FEAT_RAS
+      - FEAT_RDM
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SSBS
+      - FEAT_TTCNP
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v8.2
       name: Cortex-A65
       pa_size: 0x2c
@@ -92,6 +234,28 @@
       va_size: 0x30
     '0xd07':
       aarch32: EL0-EL3
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA32EL1
+      - FEAT_AA32EL2
+      - FEAT_AA32EL3
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_CRC32
+      - FEAT_Debugv8
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PMULL
+      - FEAT_PMUv3
+      - FEAT_SHA1
+      - FEAT_SHA256
       isa_level: v8.0
       name: Cortex-A57
       pa_size: 0x2c
@@ -106,6 +270,28 @@
       trm: https://developer.arm.com/documentation/ddi0488/
     '0xd08':
       aarch32: EL0-EL3
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA32EL1
+      - FEAT_AA32EL2
+      - FEAT_AA32EL3
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_CRC32
+      - FEAT_Debugv8
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PMULL
+      - FEAT_PMUv3
+      - FEAT_SHA1
+      - FEAT_SHA256
       isa_level: v8.0
       name: Cortex-A72
       pa_size: 0x2c
@@ -120,9 +306,33 @@
       trm: https://developer.arm.com/documentation/100095/
     '0xd09':
       aarch32: EL0-EL3
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA32EL1
+      - FEAT_AA32EL2
+      - FEAT_AA32EL3
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_CRC32
+      - FEAT_CSV2
+      - FEAT_CSV3
+      - FEAT_Debugv8
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PMULL
+      - FEAT_PMUv3
+      - FEAT_SHA1
+      - FEAT_SHA256
       isa_level: v8.0
       name: Cortex-A73
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -135,6 +345,46 @@
       trm: https://developer.arm.com/documentation/100048/
     '0xd0a':
       aarch32: EL0-EL3
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA32EL1
+      - FEAT_AA32EL2
+      - FEAT_AA32EL3
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_CRC32
+      - FEAT_CSV2
+      - FEAT_CSV3
+      - FEAT_DPB
+      - FEAT_Debugv8p2
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_IESB
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LSE
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PAN2
+      - FEAT_PMULL
+      - FEAT_RAS
+      - FEAT_RDM
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_TTCNP
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v8.2
       name: Cortex-A75
       pa_size: 0x2c
@@ -153,9 +403,48 @@
       trm: https://developer.arm.com/documentation/100403/
     '0xd0b':
       aarch32: EL0
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_CRC32
+      - FEAT_CSV2
+      - FEAT_CSV3
+      - FEAT_DPB
+      - FEAT_Debugv8p2
+      - FEAT_DotProd
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_IESB
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LSE
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PAN2
+      - FEAT_PMULL
+      - FEAT_RAS
+      - FEAT_RDM
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SSBS
+      - FEAT_TTCNP
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v8.2
       name: Cortex-A76
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -173,6 +462,47 @@
       va_size: 0x30
     '0xd0c':
       aarch32: EL0
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_CRC32
+      - FEAT_CSV2
+      - FEAT_CSV3
+      - FEAT_DPB
+      - FEAT_Debugv8p2
+      - FEAT_DotProd
+      - FEAT_DoubleLock
+      - FEAT_EVT
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_IESB
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LSE
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PAN2
+      - FEAT_PMULL
+      - FEAT_RAS
+      - FEAT_RDM
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SPE
+      - FEAT_SSBS2
+      - FEAT_TTCNP
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v8.2
       name: Neoverse-N1
       pa_size: 0x30
@@ -193,9 +523,48 @@
       va_size: 0x30
     '0xd0d':
       aarch32: EL0
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_CRC32
+      - FEAT_CSV2
+      - FEAT_CSV3
+      - FEAT_DPB
+      - FEAT_Debugv8p2
+      - FEAT_DotProd
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_IESB
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LSE
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PAN2
+      - FEAT_PMULL
+      - FEAT_RAS
+      - FEAT_RDM
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SSBS
+      - FEAT_TTCNP
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v8.2
       name: Cortex-A77
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -213,9 +582,48 @@
       va_size: 0x30
     '0xd0e':
       aarch32: EL0
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_CRC32
+      - FEAT_CSV2
+      - FEAT_CSV3
+      - FEAT_DPB
+      - FEAT_Debugv8p2
+      - FEAT_DotProd
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_IESB
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LSE
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PAN2
+      - FEAT_PMULL
+      - FEAT_RAS
+      - FEAT_RDM
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SSBS
+      - FEAT_TTCNP
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v8.2
       name: Cortex-A76AE
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -233,6 +641,70 @@
       va_size: 0x30
     '0xd40':
       aarch32: EL0
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_CCIDX
+      - FEAT_CRC32
+      - FEAT_CSV2
+      - FEAT_CSV3
+      - FEAT_DGH
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p2
+      - FEAT_DotProd
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FlagM
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_NV2
+      - FEAT_PACQARMA5
+      - FEAT_PAN2
+      - FEAT_PAuth2
+      - FEAT_PMULL
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_RNG
+      - FEAT_S2FWB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SPEv1p1
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
+      - FEAT_XS
       isa_level: v8.4
       name: Neoverse-V1
       pa_size: 0x30
@@ -254,9 +726,48 @@
       va_size: 0x30
     '0xd41':
       aarch32: EL0
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_CRC32
+      - FEAT_CSV2
+      - FEAT_CSV3
+      - FEAT_DPB
+      - FEAT_Debugv8p2
+      - FEAT_DotProd
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_IESB
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LSE
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PAN2
+      - FEAT_PMULL
+      - FEAT_RAS
+      - FEAT_RDM
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SSBS
+      - FEAT_TTCNP
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v8.2
       name: Cortex-A78
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -274,6 +785,51 @@
       va_size: 0x30
     '0xd42':
       aarch32: EL0
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_CRC32
+      - FEAT_CSV2
+      - FEAT_CSV3
+      - FEAT_DPB
+      - FEAT_Debugv8p2
+      - FEAT_DotProd
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FlagM
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_IESB
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PACQARMA5
+      - FEAT_PAN2
+      - FEAT_PAuth2
+      - FEAT_PMULL
+      - FEAT_RAS
+      - FEAT_RDM
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SPE
+      - FEAT_SSBS
+      - FEAT_TTCNP
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v8.2
       name: Cortex-A78AE
       pa_size: 0x30
@@ -294,6 +850,46 @@
       va_size: 0x30
     '0xd43':
       aarch32: false
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA32EL1
+      - FEAT_AA32EL2
+      - FEAT_AA32EL3
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_CRC32
+      - FEAT_DPB
+      - FEAT_Debugv8p2
+      - FEAT_DotProd
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_IESB
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LSE
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PAN2
+      - FEAT_PMULL
+      - FEAT_RAS
+      - FEAT_RDM
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SSBS
+      - FEAT_TTCNP
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v8.2
       name: Cortex-A65AE
       pa_size: 0x2c
@@ -314,9 +910,48 @@
       va_size: 0x30
     '0xd44':
       aarch32: EL0
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_CRC32
+      - FEAT_CSV2
+      - FEAT_CSV3
+      - FEAT_DPB
+      - FEAT_Debugv8p2
+      - FEAT_DotProd
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_IESB
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LSE
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PAN2
+      - FEAT_PMULL
+      - FEAT_RAS
+      - FEAT_RDM
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SSBS
+      - FEAT_TTCNP
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v8.2
       name: Cortex-X1
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -334,9 +969,88 @@
       va_size: 0x30
     '0xd46':
       aarch32: NO/EL0
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CRC32
+      - FEAT_CSV2_2
+      - FEAT_CSV3
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p4
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_ECBHB
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FPACCOMBINE
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MTE3
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PACQARMA5
+      - FEAT_PAN3
+      - FEAT_PMULL
+      - FEAT_PMUv3p5
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SPECRES
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v9.0
       name: Cortex-A510
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -358,7 +1072,7 @@
       aarch32: false
       isa_level: v9.0
       name: Cortex-A510
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -366,9 +1080,87 @@
       trm: https://developer.arm.com/documentation/101604/
     '0xd47':
       aarch32: EL0
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CRC32
+      - FEAT_CSV2_2
+      - FEAT_CSV3
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p4
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MTE2
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PACQARMA5
+      - FEAT_PAN2
+      - FEAT_PAuth2
+      - FEAT_PMULL
+      - FEAT_PMUv3p5
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SPECRES
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v9.0
       name: Cortex-A710
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -388,9 +1180,86 @@
       va_size: 0x30
     '0xd48':
       aarch32: false
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CRC32
+      - FEAT_CSV2_2
+      - FEAT_CSV3
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p4
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MTE2
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PACQARMA5
+      - FEAT_PAN2
+      - FEAT_PAuth2
+      - FEAT_PMULL
+      - FEAT_PMUv3p5
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SPECRES
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v9.0
       name: Cortex-X2
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -410,6 +1279,88 @@
       va_size: 0x30
     '0xd49':
       aarch32: EL0
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CRC32
+      - FEAT_CSV2_2
+      - FEAT_CSV3
+      - FEAT_DGH
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p4
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FPACCOMBINE
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MTE2
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_NV2
+      - FEAT_PACQARMA5
+      - FEAT_PAN2
+      - FEAT_PMULL
+      - FEAT_PMUv3p5
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_RNG
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SPECRES
+      - FEAT_SPEv1p1
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v9.0
       name: Neoverse-N2
       pa_size: 0x30
@@ -432,6 +1383,42 @@
       va_size: 0x30
     '0xd4a':
       aarch32: false
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_CRC32
+      - FEAT_DPB
+      - FEAT_Debugv8p2
+      - FEAT_DotProd
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_IESB
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LSE
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PAN2
+      - FEAT_PMULL
+      - FEAT_RAS
+      - FEAT_RDM
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SSBS
+      - FEAT_TTCNP
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v8.2
       name: Neoverse-E1
       pa_size: 0x2c
@@ -452,9 +1439,53 @@
       va_size: 0x30
     '0xd4b':
       aarch32: EL0
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_CRC32
+      - FEAT_CSV2
+      - FEAT_CSV3
+      - FEAT_DPB
+      - FEAT_Debugv8p2
+      - FEAT_DotProd
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FlagM
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_IESB
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PACQARMA5
+      - FEAT_PAN2
+      - FEAT_PAuth2
+      - FEAT_PMULL
+      - FEAT_RAS
+      - FEAT_RDM
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SSBS
+      - FEAT_TTCNP
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v8.2
       name: Cortex-A78C
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -472,9 +1503,53 @@
       va_size: 0x30
     '0xd4c':
       aarch32: EL0
+      features:
+      - FEAT_AA32EL0
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_CRC32
+      - FEAT_CSV2
+      - FEAT_CSV3
+      - FEAT_DPB
+      - FEAT_Debugv8p2
+      - FEAT_DotProd
+      - FEAT_DoubleLock
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FlagM
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_IESB
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PACQARMA5
+      - FEAT_PAN2
+      - FEAT_PAuth2
+      - FEAT_PMULL
+      - FEAT_RAS
+      - FEAT_RDM
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SSBS
+      - FEAT_TTCNP
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v8.2
       name: Cortex-X1C
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -492,9 +1567,87 @@
       va_size: 0x30
     '0xd4d':
       aarch32: false
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CRC32
+      - FEAT_CSV2_2
+      - FEAT_CSV3
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MTE3
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PACQARMA5
+      - FEAT_PAN3
+      - FEAT_PAuth2
+      - FEAT_PMULL
+      - FEAT_PMUv3p5
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SPECRES
+      - FEAT_SPEv1p1
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
+      - FEAT_nTLBPA
       isa_level: v9.0
       name: Cortex-A715
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -514,9 +1667,88 @@
       va_size: 0x30
     '0xd4e':
       aarch32: false
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CRC32
+      - FEAT_CSV2_2
+      - FEAT_CSV3
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p4
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_ECBHB
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MTE3
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PACQARMA5
+      - FEAT_PAN3
+      - FEAT_PAuth2
+      - FEAT_PMULL
+      - FEAT_PMUv3p5
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SPECRES
+      - FEAT_SPEv1p1
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v9.0
       name: Cortex-X3
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -536,6 +1768,88 @@
       va_size: 0x30
     '0xd4f':
       aarch32: false
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CRC32
+      - FEAT_CSV2_2
+      - FEAT_CSV3
+      - FEAT_DGH
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p4
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_ECBHB
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FPACCOMBINE
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HPDS2
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MTE3
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_NV2
+      - FEAT_PACQARMA5
+      - FEAT_PAN3
+      - FEAT_PMULL
+      - FEAT_PMUv3p5
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_RNG
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SPECRES
+      - FEAT_SPEv1p1
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
       isa_level: v9.0
       name: Neoverse-V2
       pa_size: 0x30
@@ -558,9 +1872,96 @@
       va_size: 0x30
     '0xd80':
       aarch32: 'NO'
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AFP
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CONSTPACFIELD
+      - FEAT_CRC32
+      - FEAT_CSV2_2
+      - FEAT_CSV3
+      - FEAT_DGH
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p4
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_ECBHB
+      - FEAT_ECV_POFF
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FGT
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HCX
+      - FEAT_HPDS2
+      - FEAT_HPMN0
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MTE3
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PACQARMA3
+      - FEAT_PAN3
+      - FEAT_PAuth2
+      - FEAT_PMULL
+      - FEAT_PMUv3p7
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SPECRES
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
+      - FEAT_XS
+      - FEAT_nTLBPA
       isa_level: v9.2
       name: Cortex-A520
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -581,9 +1982,97 @@
       va_size: 0x30
     '0xd81':
       aarch32: 'NO'
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AFP
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CONSTPACFIELD
+      - FEAT_CRC32
+      - FEAT_CSV2_2
+      - FEAT_CSV3
+      - FEAT_DGH
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p4
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_ECBHB
+      - FEAT_ECV_POFF
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FGT
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FPACCOMBINE
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HCX
+      - FEAT_HPDS2
+      - FEAT_HPMN0
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MTE3
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PACQARMA3
+      - FEAT_PAN3
+      - FEAT_PMULL
+      - FEAT_PMUv3p7
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SPECRES
+      - FEAT_SPEv1p2
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
+      - FEAT_XS
+      - FEAT_nTLBPA
       isa_level: v9.2
       name: Cortex-A720
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -604,9 +2093,97 @@
       va_size: 0x30
     '0xd82':
       aarch32: 'NO'
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AFP
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CONSTPACFIELD
+      - FEAT_CRC32
+      - FEAT_CSV2_2
+      - FEAT_CSV3
+      - FEAT_DGH
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p4
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_ECBHB
+      - FEAT_ECV_POFF
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FGT
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FPACCOMBINE
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HCX
+      - FEAT_HPDS2
+      - FEAT_HPMN0
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MTE3
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PACQARMA3
+      - FEAT_PAN3
+      - FEAT_PMULL
+      - FEAT_PMUv3p7
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SPECRES
+      - FEAT_SPEv1p2
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
+      - FEAT_XS
+      - FEAT_nTLBPA
       isa_level: v9.2
       name: Cortex-X4
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -627,6 +2204,102 @@
       va_size: 0x30
     '0xd83':
       aarch32: false
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AFP
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BRBE
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CONSTPACFIELD
+      - FEAT_CRC32
+      - FEAT_CSV2_2
+      - FEAT_CSV3
+      - FEAT_DGH
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p4
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_ECBHB
+      - FEAT_ECV_POFF
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FGT
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FPACCOMBINE
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HCX
+      - FEAT_HPDS2
+      - FEAT_HPMN0
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LS64
+      - FEAT_LS64_ACCDATA
+      - FEAT_LS64_V
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MTE3
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_NV2
+      - FEAT_PACQARMA3
+      - FEAT_PAN3
+      - FEAT_PMULL
+      - FEAT_PMUv3p7
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_RME
+      - FEAT_RNG
+      - FEAT_RNG_TRAP
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SPECRES
+      - FEAT_SPEv1p2
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
+      - FEAT_XS
+      - FEAT_nTLBPA
       isa_level: v9.2
       name: Neoverse-V3AE
       pa_size: 0x30
@@ -650,6 +2323,102 @@
       va_size: 0x30
     '0xd84':
       aarch32: false
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AFP
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BRBE
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CONSTPACFIELD
+      - FEAT_CRC32
+      - FEAT_CSV2_2
+      - FEAT_CSV3
+      - FEAT_DGH
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p4
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_ECBHB
+      - FEAT_ECV_POFF
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FGT
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FPACCOMBINE
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HCX
+      - FEAT_HPDS2
+      - FEAT_HPMN0
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LS64
+      - FEAT_LS64_ACCDATA
+      - FEAT_LS64_V
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MTE3
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_NV2
+      - FEAT_PACQARMA3
+      - FEAT_PAN3
+      - FEAT_PMULL
+      - FEAT_PMUv3p7
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_RME
+      - FEAT_RNG
+      - FEAT_RNG_TRAP
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SPECRES
+      - FEAT_SPEv1p2
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
+      - FEAT_XS
+      - FEAT_nTLBPA
       isa_level: v9.2
       name: Neoverse-V3
       pa_size: 0x30
@@ -673,9 +2442,97 @@
       va_size: 0x30
     '0xd85':
       aarch32: false
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AFP
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CONSTPACFIELD
+      - FEAT_CRC32
+      - FEAT_CSV2_2
+      - FEAT_CSV3
+      - FEAT_DGH
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p4
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_ECBHB
+      - FEAT_ECV_POFF
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FGT
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FPACCOMBINE
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HCX
+      - FEAT_HPDS2
+      - FEAT_HPMN0
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MTE3
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PACQARMA3
+      - FEAT_PAN3
+      - FEAT_PMULL
+      - FEAT_PMUv3p7
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SPECRES
+      - FEAT_SPEv1p2
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
+      - FEAT_XS
+      - FEAT_nTLBPA
       isa_level: v9.2
       name: Cortex-X925
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -693,12 +2550,100 @@
         id_aa64zfr0: '0x0000110100110021'
       sve_length: '128'
       trm: https://developer.arm.com/documentation/102807/
-      va_size: 48
+      va_size: 0x30
     '0xd87':
       aarch32: false
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AFP
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CONSTPACFIELD
+      - FEAT_CRC32
+      - FEAT_CSV2_2
+      - FEAT_CSV3
+      - FEAT_DGH
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p4
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_ECBHB
+      - FEAT_ECV_POFF
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FGT
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FPACCOMBINE
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HCX
+      - FEAT_HPDS2
+      - FEAT_HPMN0
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MTE3
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PACQARMA3
+      - FEAT_PAN3
+      - FEAT_PMULL
+      - FEAT_PMUv3p7
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SPECRES
+      - FEAT_SPEv1p2
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
+      - FEAT_XS
+      - FEAT_nTLBPA
       isa_level: v9.2
       name: Cortex-A725
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -716,12 +2661,100 @@
         id_aa64zfr0: '0x0000110100110021'
       sve_length: '128'
       trm: https://developer.arm.com/documentation/107652/
-      va_size: 48
+      va_size: 0x30
     '0xd89':
       aarch32: 'NO'
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AFP
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CONSTPACFIELD
+      - FEAT_CRC32
+      - FEAT_CSV2_2
+      - FEAT_CSV3
+      - FEAT_DGH
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p4
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_ECBHB
+      - FEAT_ECV_POFF
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FGT
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FPACCOMBINE
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HCX
+      - FEAT_HPDS2
+      - FEAT_HPMN0
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MTE3
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PACQARMA3
+      - FEAT_PAN3
+      - FEAT_PMULL
+      - FEAT_PMUv3p7
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SPECRES
+      - FEAT_SPEv1p2
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
+      - FEAT_XS
+      - FEAT_nTLBPA
       isa_level: v9.2
       name: Cortex-A720AE
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -740,8 +2773,484 @@
       sve_length: '128'
       trm: https://developer.arm.com/documentation/102828/
       va_size: 0x30
+    '0xd8a':
+      aarch32: false
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AFP
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CLRBHB
+      - FEAT_CMOW
+      - FEAT_CONSTPACFIELD
+      - FEAT_CSV2_3
+      - FEAT_CSV3
+      - FEAT_DGH
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p8
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_ECBHB
+      - FEAT_ECV_POFF
+      - FEAT_ETS2
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FGT
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FPACCOMBINE
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HBC
+      - FEAT_HCX
+      - FEAT_HPDS2
+      - FEAT_HPMN0
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LRCPC3
+      - FEAT_LSE2
+      - FEAT_MOPS
+      - FEAT_MTE3
+      - FEAT_MTE_PERM
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_NMI
+      - FEAT_PACQARMA3
+      - FEAT_PAN3
+      - FEAT_PMUv3p8
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_RNG
+      - FEAT_RNG_TRAP
+      - FEAT_RPRFM
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SME2
+      - FEAT_SPECRES
+      - FEAT_SPECRES2
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TIDCP1
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
+      - FEAT_XS
+      - FEAT_nTLBPA
+      - FEAT_TME
+      isa_level: v9.3
+      name: C1-Nano
+      pa_size: 0x28
+      page_size:
+      - 4k
+      - 16k
+      - 64k
+      registers:
+        id_aa64dfr0: '0x100f11f01030581a'
+        id_aa64isar0: '0x1221111111021212'
+        id_aa64isar1: '0x0111121100311002'
+        id_aa64isar2: '0x0001000011115102'
+        id_aa64mmfr0: '0x2100022200101122'
+        id_aa64mmfr1: '0x1111112011312122'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64mmfr3: '0x1000000000000000'
+        id_aa64pfr0: '0x1301111123111111'
+        id_aa64pfr1: '0x0000001012010321'
+        id_aa64pfr2: '0x0000000000000001'
+        id_aa64zfr0: '0x0000110100110021'
+      sve_length: 0x80
+      trm: https://developer.arm.com/documentation/107753/
+      va_size: 0x30
+    '0xd8b':
+      aarch32: false
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AFP
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CLRBHB
+      - FEAT_CMOW
+      - FEAT_CONSTPACFIELD
+      - FEAT_CRC32
+      - FEAT_CSV2_3
+      - FEAT_CSV3
+      - FEAT_DGH
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p9
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_ECBHB
+      - FEAT_ECV_POFF
+      - FEAT_ETS2
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FGT
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FPACCOMBINE
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HAFT
+      - FEAT_HBC
+      - FEAT_HCX
+      - FEAT_HPDS2
+      - FEAT_HPMN0
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LRCPC3
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MOPS
+      - FEAT_MTE3
+      - FEAT_MTE_PERM
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_NMI
+      - FEAT_PACQARMA3
+      - FEAT_PAN3
+      - FEAT_PMULL
+      - FEAT_PMUv3p8
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_RNG_TRAP
+      - FEAT_RPRFM
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SME2
+      - FEAT_SME_F16F16
+      - FEAT_SPECRES
+      - FEAT_SPECRES2
+      - FEAT_SPE_DPFZS
+      - FEAT_SPEv1p3
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TCR2
+      - FEAT_TIDCP1
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
+      - FEAT_XS
+      - FEAT_nTLBPA
+      isa_level: v9.3
+      name: C1-Pro
+      pa_size: 0x28
+      page_size:
+      - 4k
+      - 16k
+      - 64k
+      registers:
+        id_aa64dfr0: '0x100f11f41030581b'
+        id_aa64dfr1: '0x0010000000000000'
+        id_aa64isar0: '0x0221111110212120'
+        id_aa64isar1: '0x0111121100311002'
+        id_aa64isar2: '0x0001000011115102'
+        id_aa64mmfr0: '0x2100022200101122'
+        id_aa64mmfr1: '0x1111112010312123'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64mmfr3: '0x1000000000000001'
+        id_aa64pfr0: '0x1301111123111111'
+        id_aa64pfr1: '0x0000001012010321'
+        id_aa64pfr2: '0x0000000000000001'
+        id_aa64smfr0: '0x010050ff00000000'
+        id_aa64zfr0: '0x0000110100110021'
+      sve_length: 0x80
+      trm: https://developer.arm.com/documentation/107771/
+      va_size: 0x30
+    '0xd8c':
+      aarch32: false
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AFP
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CLRBHB
+      - FEAT_CMOW
+      - FEAT_CONSTPACFIELD
+      - FEAT_CRC32
+      - FEAT_CSV2_3
+      - FEAT_CSV3
+      - FEAT_DGH
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p8
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_ECBHB
+      - FEAT_ECV_POFF
+      - FEAT_ETS2
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FGT
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FPACCOMBINE
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HAFT
+      - FEAT_HBC
+      - FEAT_HCX
+      - FEAT_HPDS2
+      - FEAT_HPMN0
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LRCPC3
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MOPS
+      - FEAT_MTE3
+      - FEAT_MTE_PERM
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_NMI
+      - FEAT_PACQARMA3
+      - FEAT_PAN3
+      - FEAT_PMULL
+      - FEAT_PMUv3p8
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_RNG_TRAP
+      - FEAT_RPRFM
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SME2
+      - FEAT_SME_F16F16
+      - FEAT_SPECRES
+      - FEAT_SPECRES2
+      - FEAT_SPE_DPFZS
+      - FEAT_SPEv1p3
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TCR2
+      - FEAT_TIDCP1
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
+      - FEAT_XS
+      - FEAT_nTLBPA
+      isa_level: v9.3
+      name: C1-Ultra
+      pa_size: 0x28
+      page_size:
+      - 4k
+      - 16k
+      - 64k
+      registers:
+        id_aa64dfr0: '0x100f11f41030581a'
+        id_aa64dfr1: '0x0010000000000000'
+        id_aa64isar0: '0x0221111110212120'
+        id_aa64isar1: '0x0111121100311002'
+        id_aa64isar2: '0x0001000011115102'
+        id_aa64mmfr0: '0x2100022200101122'
+        id_aa64mmfr1: '0x1111112010312123'
+        id_aa64mmfr2: '0x1221011110101011'
+        id_aa64mmfr3: '0x1000000000000001'
+        id_aa64pfr0: '0x1301111123111111'
+        id_aa64pfr1: '0x0000001012010321'
+        id_aa64pfr2: '0x0000000000000001'
+        id_aa64smfr0: '0x010050ff00000000'
+        id_aa64zfr0: '0x0000110100110021'
+      sve_length: 0x80
+      trm: https://developer.arm.com/documentation/108014/
+      va_size: 0x30
     '0xd8e':
       aarch32: false
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AFP
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CONSTPACFIELD
+      - FEAT_CRC32
+      - FEAT_CSV2_2
+      - FEAT_CSV3
+      - FEAT_DGH
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p4
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_ECBHB
+      - FEAT_ECV_POFF
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FGT
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FPACCOMBINE
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HCX
+      - FEAT_HPDS2
+      - FEAT_HPMN0
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MTE3
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PACQARMA3
+      - FEAT_PAN3
+      - FEAT_PMULL
+      - FEAT_PMUv3p7
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_RNG
+      - FEAT_RNG_TRAP
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SPECRES
+      - FEAT_SPEv1p2
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
+      - FEAT_XS
+      - FEAT_nTLBPA
       isa_level: v9.2
       name: Neoverse-N3
       pa_size: 0x30
@@ -766,9 +3275,97 @@
       va_size: 0x30
     '0xd8f':
       aarch32: false
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AFP
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CONSTPACFIELD
+      - FEAT_CRC32
+      - FEAT_CSV2_2
+      - FEAT_CSV3
+      - FEAT_DGH
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p4
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_ECBHB
+      - FEAT_ECV_POFF
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FGT
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FPACCOMBINE
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HCX
+      - FEAT_HPDS2
+      - FEAT_HPMN0
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MTE3
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_PACQARMA3
+      - FEAT_PAN3
+      - FEAT_PMULL
+      - FEAT_PMUv3p7
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_RNG
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SPECRES
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
+      - FEAT_XS
+      - FEAT_nTLBPA
       isa_level: v9.2
       name: Cortex-A320
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -787,65 +3384,116 @@
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/109551/
       va_size: 0x30
-    '0xd8c':
-      aarch32: false
-      isa_level: v9.3
-      name: C1-Ultra
-      pa_size: 40
-      page_size:
-      - 4k
-      - 16k
-      - 64k
-      registers:
-        id_aa64dfr0: '0x100f11f41030581a'
-        id_aa64dfr1: '0x0010000000000000'
-        id_aa64isar0: '0x0221111110212120'
-        id_aa64isar1: '0x0111121100311002'
-        id_aa64isar2: '0x0001000011115102'
-        id_aa64mmfr0: '0x2100022200101122'
-        id_aa64mmfr1: '0x1111112010312123'
-        id_aa64mmfr2: '0x1221011110101011'
-        id_aa64mmfr3: '0x1000000000000001'
-        id_aa64pfr0: '0x1301111123111111'
-        id_aa64pfr1: '0x0000001012010321'
-        id_aa64pfr2: '0x0000000000000001'
-        id_aa64smfr0: '0x010050ff00000000'
-        id_aa64zfr0: '0x0000110100110021'
-      sve_length: 0x80
-      trm: https://developer.arm.com/documentation/108014/
-      va_size: 0x30
-    '0xd8b':
-      aarch32: false
-      isa_level: v9.3
-      name: C1-Pro
-      pa_size: 40
-      page_size:
-      - 4k
-      - 16k
-      - 64k
-      registers:
-        id_aa64dfr0: '0x100f11f41030581b'
-        id_aa64dfr1: '0x0010000000000000'
-        id_aa64isar0: '0x0221111110212120'
-        id_aa64isar1: '0x0111121100311002'
-        id_aa64isar2: '0x0001000011115102'
-        id_aa64mmfr0: '0x2100022200101122'
-        id_aa64mmfr1: '0x1111112010312123'
-        id_aa64mmfr2: '0x1221011110101011'
-        id_aa64mmfr3: '0x1000000000000001'
-        id_aa64pfr0: '0x1301111123111111'
-        id_aa64pfr1: '0x0000001012010321'
-        id_aa64pfr2: '0x0000000000000001'
-        id_aa64smfr0: '0x010050ff00000000'
-        id_aa64zfr0: '0x0000110100110021'
-      sve_length: 0x80
-      trm: https://developer.arm.com/documentation/107771/
-      va_size: 0x30
     '0xd90':
       aarch32: false
+      features:
+      - FEAT_AA64EL0
+      - FEAT_AA64EL1
+      - FEAT_AA64EL2
+      - FEAT_AA64EL3
+      - FEAT_AES
+      - FEAT_AFP
+      - FEAT_AMUv1
+      - FEAT_ASID16
+      - FEAT_AdvSIMD
+      - FEAT_BBM
+      - FEAT_BF16
+      - FEAT_BTI
+      - FEAT_CCIDX
+      - FEAT_CLRBHB
+      - FEAT_CMOW
+      - FEAT_CONSTPACFIELD
+      - FEAT_CRC32
+      - FEAT_CSV2_3
+      - FEAT_CSV3
+      - FEAT_DGH
+      - FEAT_DIT
+      - FEAT_DPB2
+      - FEAT_Debugv8p8
+      - FEAT_DotProd
+      - FEAT_E0PD
+      - FEAT_ECBHB
+      - FEAT_ECV_POFF
+      - FEAT_ETS2
+      - FEAT_EVT
+      - FEAT_FCMA
+      - FEAT_FGT
+      - FEAT_FHM
+      - FEAT_FP
+      - FEAT_FP16
+      - FEAT_FPACCOMBINE
+      - FEAT_FRINTTS
+      - FEAT_FlagM2
+      - FEAT_HAFDBS
+      - FEAT_HAFT
+      - FEAT_HBC
+      - FEAT_HCX
+      - FEAT_HPDS2
+      - FEAT_HPMN0
+      - FEAT_I8MM
+      - FEAT_IDST
+      - FEAT_IESB
+      - FEAT_JSCVT
+      - FEAT_LOR
+      - FEAT_LRCPC
+      - FEAT_LRCPC2
+      - FEAT_LRCPC3
+      - FEAT_LSE
+      - FEAT_LSE2
+      - FEAT_MOPS
+      - FEAT_MTE3
+      - FEAT_MTE_PERM
+      - FEAT_MixedEnd
+      - FEAT_MixedEndEL0
+      - FEAT_NMI
+      - FEAT_PACQARMA3
+      - FEAT_PAN3
+      - FEAT_PMULL
+      - FEAT_PMUv3p8
+      - FEAT_RASv1p1
+      - FEAT_RDM
+      - FEAT_RNG_TRAP
+      - FEAT_RPRFM
+      - FEAT_S2FWB
+      - FEAT_SB
+      - FEAT_SHA1
+      - FEAT_SHA256
+      - FEAT_SHA3
+      - FEAT_SHA512
+      - FEAT_SM3
+      - FEAT_SM4
+      - FEAT_SME2
+      - FEAT_SME_F16F16
+      - FEAT_SPECRES
+      - FEAT_SPECRES2
+      - FEAT_SPE_DPFZS
+      - FEAT_SPEv1p3
+      - FEAT_SSBS2
+      - FEAT_SVE
+      - FEAT_SVE2
+      - FEAT_SVE_AES
+      - FEAT_SVE_BitPerm
+      - FEAT_SVE_PMULL128
+      - FEAT_SVE_SHA3
+      - FEAT_SVE_SM4
+      - FEAT_TCR2
+      - FEAT_TIDCP1
+      - FEAT_TLBIOS
+      - FEAT_TLBIRANGE
+      - FEAT_TRBE
+      - FEAT_TRF
+      - FEAT_TTCNP
+      - FEAT_TTL
+      - FEAT_TTST
+      - FEAT_UAO
+      - FEAT_VHE
+      - FEAT_VMID16
+      - FEAT_XNX
+      - FEAT_XS
+      - FEAT_nTLBPA
       isa_level: v9.3
       name: C1-Premium
-      pa_size: 40
+      pa_size: 0x28
       page_size:
       - 4k
       - 16k
@@ -867,31 +3515,6 @@
         id_aa64zfr0: '0x0000110100110021'
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/109416/
-      va_size: 0x30
-    '0xd8a':
-      aarch32: false
-      isa_level: v9.3
-      name: C1-Nano
-      pa_size: 40
-      page_size:
-      - 4k
-      - 16k
-      - 64k
-      registers:
-        id_aa64dfr0: '0x100f11f01030581a'
-        id_aa64isar0: '0x1221111111021212'
-        id_aa64isar1: '0x0111121100311002'
-        id_aa64isar2: '0x0001000011115102'
-        id_aa64mmfr0: '0x2100022200101122'
-        id_aa64mmfr1: '0x1111112011312122'
-        id_aa64mmfr2: '0x1221011110101011'
-        id_aa64mmfr3: '0x1000000000000000'
-        id_aa64pfr0: '0x1301111123111111'
-        id_aa64pfr1: '0x0000001012010321'
-        id_aa64pfr2: '0x0000000000000001'
-        id_aa64zfr0: '0x0000110100110021'
-      sve_length: 0x80
-      trm: https://developer.arm.com/documentation/107753/
       va_size: 0x30
   name: ARM
 0x42:
@@ -988,9 +3611,6 @@
   name: APM
 0x51:
   cores:
-    '0x1':
-      aarch32: to be set
-      name: Oryon
     '0x00f':
       aarch32: to be set
       name: Scorpion
@@ -1018,6 +3638,9 @@
     0x06f-3-1:
       aarch32: to be set
       name: Krait 450
+    '0x1':
+      aarch32: to be set
+      name: Oryon
     '0x201':
       aarch32: to be set
       isa_level: v8.0
