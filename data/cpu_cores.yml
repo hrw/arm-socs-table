@@ -175,10 +175,6 @@
     '0xd06':
       aarch32: false
       features:
-      - FEAT_AA32EL0
-      - FEAT_AA32EL1
-      - FEAT_AA32EL2
-      - FEAT_AA32EL3
       - FEAT_AA64EL0
       - FEAT_AA64EL1
       - FEAT_AA64EL2
@@ -228,7 +224,7 @@
         id_aa64mmfr0: '0x0000000000101124'
         id_aa64mmfr1: '0x0000000010212122'
         id_aa64mmfr2: '0x0000000000001011'
-        id_aa64pfr0: '0x0000000011112222'
+        id_aa64pfr0: '0x0000000011111111'
         id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/100439/
       va_size: 0x30
@@ -851,10 +847,6 @@
     '0xd43':
       aarch32: false
       features:
-      - FEAT_AA32EL0
-      - FEAT_AA32EL1
-      - FEAT_AA32EL2
-      - FEAT_AA32EL3
       - FEAT_AA64EL0
       - FEAT_AA64EL1
       - FEAT_AA64EL2
@@ -904,7 +896,7 @@
         id_aa64mmfr0: '0x0000000000101124'
         id_aa64mmfr1: '0x0000000010212122'
         id_aa64mmfr2: '0x0000000000001011'
-        id_aa64pfr0: '0x0000000011112222'
+        id_aa64pfr0: '0x0000000011111111'
         id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/101385/
       va_size: 0x30
