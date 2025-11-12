@@ -26,6 +26,11 @@ def handle_cpu_cores():
             else:
                 core_data["features"] = ""
 
+            # YAML cuts 2014.10 to 2014.1 and I tend to forget about using ""
+            # to make it string instead of number
+            if "year" in core_data and str(core_data["year"]).endswith(".1"):
+                core_data["year"] = f"{str(core_data["year"])}0"
+
             cpu_cores[implementer]["cores"][int(core, base=16)] = core_data
         except ValueError:
             pass

@@ -39,6 +39,7 @@
         id_aa64mmfr0: '0x00101122'
         id_aa64pfr0: '0x01001111'
       trm: https://developer.arm.com/documentation/100246/
+      year: 2016.03
     '0xd03':
       aarch32: EL0-EL3
       features:
@@ -75,6 +76,7 @@
         id_aa64mmfr0: '0x00001122'
         id_aa64pfr0: '0x01002222'
       trm: https://developer.arm.com/documentation/ddi0500/
+      year: 2013.08
     '0xd04':
       aarch32: EL0-EL3
       features:
@@ -112,6 +114,7 @@
         id_aa64mmfr0: '0x00101122'
         id_aa64pfr0: '0x01002222'
       trm: https://developer.arm.com/documentation/100236/
+      year: 2015.12
     '0xd05':
       aarch32: EL0-EL3
       features:
@@ -172,6 +175,7 @@
         id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/100442/
       va_size: 0x30
+      year: 2016.09
     '0xd06':
       aarch32: false
       features:
@@ -228,6 +232,7 @@
         id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/100439/
       va_size: 0x30
+      year: 2018.01
     '0xd07':
       aarch32: EL0-EL3
       features:
@@ -264,6 +269,7 @@
         id_aa64mmfr0: '0x00001124'
         id_aa64pfr0: '0x00002222'
       trm: https://developer.arm.com/documentation/ddi0488/
+      year: 2013.06
     '0xd08':
       aarch32: EL0-EL3
       features:
@@ -300,6 +306,7 @@
         id_aa64mmfr0: '0x00001124'
         id_aa64pfr0: '0x00002222'
       trm: https://developer.arm.com/documentation/100095/
+      year: 2014.10
     '0xd09':
       aarch32: EL0-EL3
       features:
@@ -339,6 +346,7 @@
         id_aa64mmfr0: '0x00101122'
         id_aa64pfr0: '0x1100000001002222'
       trm: https://developer.arm.com/documentation/100048/
+      year: 2015.06
     '0xd0a':
       aarch32: EL0-EL3
       features:
@@ -397,6 +405,7 @@
         id_aa64mmfr2: '0x0000000000001011'
         id_aa64pfr0: '0x1100000011112222'
       trm: https://developer.arm.com/documentation/100403/
+      year: 2016.09
     '0xd0b':
       aarch32: EL0
       features:
@@ -456,6 +465,7 @@
         id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/100798/
       va_size: 0x30
+      year: 2016.12
     '0xd0c':
       aarch32: EL0
       features:
@@ -517,6 +527,7 @@
         id_aa64pfr1: '0x0000000000000020'
       trm: https://developer.arm.com/documentation/100616/
       va_size: 0x30
+      year: 2016.11
     '0xd0d':
       aarch32: EL0
       features:
@@ -576,6 +587,7 @@
         id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/101111/
       va_size: 0x30
+      year: 2018.04
     '0xd0e':
       aarch32: EL0
       features:
@@ -635,6 +647,7 @@
         id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/101392/
       va_size: 0x30
+      year: 2018.10
     '0xd40':
       aarch32: EL0
       features:
@@ -720,6 +733,7 @@
       sve_length: 0x100
       trm: https://developer.arm.com/documentation/101427/
       va_size: 0x30
+      year: 2019.03
     '0xd41':
       aarch32: EL0
       features:
@@ -779,6 +793,7 @@
         id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/101430/
       va_size: 0x30
+      year: 2018.12
     '0xd42':
       aarch32: EL0
       features:
@@ -844,6 +859,7 @@
         id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/101779/
       va_size: 0x30
+      year: 2019.06
     '0xd43':
       aarch32: false
       features:
@@ -900,6 +916,7 @@
         id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/101385/
       va_size: 0x30
+      year: 2018.12
     '0xd44':
       aarch32: EL0
       features:
@@ -959,6 +976,7 @@
         id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/101433/
       va_size: 0x30
+      year: 2018.12
     '0xd46':
       aarch32: NO/EL0
       features:
@@ -1060,6 +1078,7 @@
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/101604/
       va_size: 0x30
+      year: 2019.04
     0xd46-0-0:
       aarch32: false
       isa_level: v9.0
@@ -1170,6 +1189,7 @@
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/101800/
       va_size: 0x30
+      year: 2019.10
     '0xd48':
       aarch32: false
       features:
@@ -1269,6 +1289,7 @@
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/101803/
       va_size: 0x30
+      year: 2019.10
     '0xd49':
       aarch32: EL0
       features:
@@ -1373,6 +1394,7 @@
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/102099/
       va_size: 0x30
+      year: 2020.10
     '0xd4a':
       aarch32: false
       features:
@@ -1429,6 +1451,7 @@
         id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/101560/
       va_size: 0x30
+      year: 2019.02
     '0xd4b':
       aarch32: EL0
       features:
@@ -1493,6 +1516,7 @@
         id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/102226/
       va_size: 0x30
+      year: 2020.11
     '0xd4c':
       aarch32: EL0
       features:
@@ -1557,6 +1581,7 @@
         id_aa64pfr1: '0x0000000000000010'
       trm: https://developer.arm.com/documentation/101968/
       va_size: 0x30
+      year: 2020.01
     '0xd4d':
       aarch32: false
       features:
@@ -1656,6 +1681,7 @@
         id_aa64zfr0: '0x0000110100110021'
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/101590/
+      year: 2020.07
       va_size: 0x30
     '0xd4e':
       aarch32: false
@@ -1758,6 +1784,7 @@
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/101593/
       va_size: 0x30
+      year: 2020.04
     '0xd4f':
       aarch32: false
       features:
@@ -1862,6 +1889,7 @@
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/102375/
       va_size: 0x30
+      year: 2021.10
     '0xd80':
       aarch32: 'NO'
       features:
@@ -1972,6 +2000,7 @@
       sve_length: '128'
       trm: https://developer.arm.com/documentation/102517/
       va_size: 0x30
+      year: 2021.11
     '0xd81':
       aarch32: 'NO'
       features:
@@ -2083,6 +2112,7 @@
       sve_length: '128'
       trm: https://developer.arm.com/documentation/102530/
       va_size: 0x30
+      year: 2021.11
     '0xd82':
       aarch32: 'NO'
       features:
@@ -2194,6 +2224,7 @@
       sve_length: '128'
       trm: https://developer.arm.com/documentation/102484/
       va_size: 0x30
+      year: 2021.11
     '0xd83':
       aarch32: false
       features:
@@ -2313,6 +2344,7 @@
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/101595/
       va_size: 0x30
+      year: 2023.03
     '0xd84':
       aarch32: false
       features:
@@ -2431,6 +2463,7 @@
         id_aa64zfr0: '0x0000110100110021'
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/107734/
+      year: 2023.03
       va_size: 0x30
     '0xd85':
       aarch32: false
@@ -2543,6 +2576,7 @@
       sve_length: '128'
       trm: https://developer.arm.com/documentation/102807/
       va_size: 0x30
+      year: 2023.01
     '0xd87':
       aarch32: false
       features:
@@ -2654,6 +2688,7 @@
       sve_length: '128'
       trm: https://developer.arm.com/documentation/107652/
       va_size: 0x30
+      year: 2022.11
     '0xd89':
       aarch32: 'NO'
       features:
@@ -2765,6 +2800,7 @@
       sve_length: '128'
       trm: https://developer.arm.com/documentation/102828/
       va_size: 0x30
+      year: 2023.11
     '0xd8a':
       aarch32: false
       features:
@@ -2887,6 +2923,7 @@
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/107753/
       va_size: 0x30
+      year: 2023.10
     '0xd8b':
       aarch32: false
       features:
@@ -3020,6 +3057,7 @@
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/107771/
       va_size: 0x30
+      year: 2023.11
     '0xd8c':
       aarch32: false
       features:
@@ -3153,6 +3191,7 @@
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/108014/
       va_size: 0x30
+      year: 2023.12
     '0xd8e':
       aarch32: false
       features:
@@ -3268,6 +3307,7 @@
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/107997/
       va_size: 0x30
+      year: 2023.09
     '0xd8f':
       aarch32: false
       features:
@@ -3380,6 +3420,7 @@
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/109551/
       va_size: 0x30
+      year: 2024.12
     '0xd90':
       aarch32: false
       features:
@@ -3513,6 +3554,7 @@
       sve_length: 0x80
       trm: https://developer.arm.com/documentation/109416/
       va_size: 0x30
+      year: 2023.12
   name: ARM
 0x42:
   cores:

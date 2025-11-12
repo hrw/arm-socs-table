@@ -45,6 +45,7 @@
         <tr>
             <th style="width: 9em">CPU core name</th>
             <th>arch level</th>
+            <th>year</th>
             <th title="PartNum">ID</th>
             <th title="PARange">physical memory address size (bits)</th>
             <th title="VARange">virtual memory address size (bits)</th>
@@ -62,6 +63,7 @@
         <a href="{{ cpu_cores[implementer].cores[core].trm }}">{{ cpu_cores[implementer].cores[core].name }}</a>
         {% endif %}
         <td class="tdc">{{ cpu_cores[implementer].cores[core].isa_level }}</td>
+        <td class="tdc">{{ cpu_cores[implementer].cores[core].year }}</td>
         <td class="tdc">{{ "0x%0x" | format(core) }}</td>
         <td class="tdc">{{ cpu_cores[implementer].cores[core].pa_size }}</td>
         <td class="tdc">{{ cpu_cores[implementer].cores[core].va_size }}</td>
