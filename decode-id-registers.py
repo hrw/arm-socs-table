@@ -1,6 +1,5 @@
 #!/bin/python3
 
-from pprint import pprint
 import tables
 import yaml
 
@@ -39,7 +38,8 @@ for core in tables.cpu_cores[65]['cores']:
 
         for register in core_data['registers']:
             print(f'{register} = {core_data['registers'][register]}')
-            handle_register(register, int(core_data['registers'][register], 16))
+            handle_register(register,
+                            int(core_data['registers'][register], 16))
 
         core_data['features'] = []
         for feature in features:
@@ -50,4 +50,3 @@ for core in tables.cpu_cores[65]['cores']:
 
 with open("data/cpu_cores.yml", "w") as yml:
     yaml.dump(tables.cpu_cores, yml)
-
