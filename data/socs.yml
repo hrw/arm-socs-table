@@ -638,12 +638,12 @@
     time: null
   cores:
   - implementer: 0x41
-    part: 0xd09
-    revision: 0x2
-    variant: 0x0
-  - implementer: 0x41
     part: 0xd03
     revision: 0x4
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd09
+    revision: 0x2
     variant: 0x0
   features:
   - fp
@@ -1300,11 +1300,11 @@
     time: ''
   cores:
   - implementer: 0x41
-    part: 0xd81
+    part: 0xd80
     revision: 0x1
     variant: 0x0
   - implementer: 0x41
-    part: 0xd80
+    part: 0xd81
     revision: 0x1
     variant: 0x0
   features:
@@ -1578,12 +1578,12 @@
 - announce:
     time: 2018.08
   cores:
-  - implementer: 0x48
-    part: 0xd40
-    revision: 0x0
-    variant: 0x1
   - implementer: 0x41
     part: 0xd05
+    revision: 0x0
+    variant: 0x1
+  - implementer: 0x48
+    part: 0xd40
     revision: 0x0
     variant: 0x1
   features:
@@ -1800,18 +1800,18 @@
 - announce:
     time: ''
   cores:
-  - implementer: 0x41
-    part: 0xd46
-    revision: 0x1
-    variant: 0x1
-  - implementer: 0x48
-    part: 0xd42
-    revision: 0x2
-    variant: 0x2
   - implementer: 0x48
     part: 0xd02
     revision: 0x2
     variant: 0x2
+  - implementer: 0x48
+    part: 0xd42
+    revision: 0x2
+    variant: 0x2
+  - implementer: 0x41
+    part: 0xd46
+    revision: 0x1
+    variant: 0x1
   features:
   - fp
   - asimd
@@ -1909,11 +1909,11 @@
     time: 2021.01
   cores:
   - implementer: 0x41
-    part: 0xd41
+    part: 0xd05
     revision: 0x0
     variant: 0x1
   - implementer: 0x41
-    part: 0xd05
+    part: 0xd41
     revision: 0x0
     variant: 0x1
   features:
@@ -1939,11 +1939,11 @@
     time: null
   cores:
   - implementer: 0x41
-    part: 0xd0b
+    part: 0xd05
     revision: 0x0
     variant: 0x3
   - implementer: 0x41
-    part: 0xd05
+    part: 0xd0b
     revision: 0x0
     variant: 0x3
   features:
@@ -2649,11 +2649,11 @@
     time: ''
   cores:
   - implementer: 0x41
-    part: 0xd87
+    part: 0xd85
     revision: 0x1
     variant: 0x0
   - implementer: 0x41
-    part: 0xd85
+    part: 0xd87
     revision: 0x1
     variant: 0x0
   features:
@@ -3272,7 +3272,7 @@
     time: 2020.11
   cores:
   - implementer: 0x41
-    part: 0xd44
+    part: 0xd05
     revision: 0x0
     variant: 0x1
   - implementer: 0x41
@@ -3280,7 +3280,7 @@
     revision: 0x0
     variant: 0x1
   - implementer: 0x41
-    part: 0xd05
+    part: 0xd44
     revision: 0x0
     variant: 0x1
   features:
@@ -3306,11 +3306,11 @@
     time: 2017.05
   cores:
   - implementer: 0x51
-    part: 0x801
+    part: 0x800
     revision: 0x2
     variant: 0xa
   - implementer: 0x51
-    part: 0x800
+    part: 0x801
     revision: 0x2
     variant: 0xa
   features:
@@ -3328,11 +3328,11 @@
     time: 2017.12
   cores:
   - implementer: 0x51
-    part: 0x803
+    part: 0x802
     revision: 0x13
     variant: 0x6
   - implementer: 0x51
-    part: 0x802
+    part: 0x803
     revision: 0x13
     variant: 0x6
   features:
@@ -3459,12 +3459,12 @@
     time: 2015.02
   cores:
   - implementer: 0x41
-    part: 0xd08
-    revision: 0x0
-    variant: 0x0
-  - implementer: 0x41
     part: 0xd03
     revision: 0x4
+    variant: 0x0
+  - implementer: 0x41
+    part: 0xd08
+    revision: 0x0
     variant: 0x0
   features:
   - fp
@@ -3525,11 +3525,11 @@
     time: 2019.06
   cores:
   - implementer: 0x51
-    part: 0x805
+    part: 0x804
     revision: 0x14
     variant: 0xd
   - implementer: 0x51
-    part: 0x804
+    part: 0x805
     revision: 0x14
     variant: 0xd
   features:
@@ -3555,11 +3555,11 @@
     time: 2016.01
   cores:
   - implementer: 0x51
-    part: 0x211
+    part: 0x205
     revision: 0x2
     variant: 0x1
   - implementer: 0x51
-    part: 0x205
+    part: 0x211
     revision: 0x2
     variant: 0x1
   features:
@@ -3612,13 +3612,13 @@
     time: 2019.12
   cores:
   - implementer: 0x51
-    part: 0x805
-    revision: 0x14
-    variant: 0xd
-  - implementer: 0x51
     part: 0x804
     revision: 0x14
     variant: 0xf
+  - implementer: 0x51
+    part: 0x805
+    revision: 0x14
+    variant: 0xd
   features:
   - fp
   - asimd
@@ -3677,12 +3677,12 @@
     time: 2020.01
   cores:
   - implementer: 0x51
-    part: 0x801
-    revision: 0x4
-    variant: 0xa
-  - implementer: 0x51
     part: 0x800
     revision: 0x2
+    variant: 0xa
+  - implementer: 0x51
+    part: 0x801
+    revision: 0x4
     variant: 0xa
   features:
   - fp
@@ -3700,12 +3700,12 @@
     time: 2019.04
   cores:
   - implementer: 0x51
-    part: 0x801
-    revision: 0x4
-    variant: 0xa
-  - implementer: 0x51
     part: 0x800
     revision: 0x2
+    variant: 0xa
+  - implementer: 0x51
+    part: 0x801
+    revision: 0x4
     variant: 0xa
   features:
   - fp
@@ -3723,13 +3723,13 @@
     time: 2020.01
   cores:
   - implementer: 0x51
-    part: 0x805
-    revision: 0x14
-    variant: 0xd
-  - implementer: 0x51
     part: 0x804
     revision: 0x15
     variant: 0xf
+  - implementer: 0x51
+    part: 0x805
+    revision: 0x14
+    variant: 0xd
   features:
   - fp
   - asimd
@@ -3757,13 +3757,13 @@
     revision: 0x1
     variant: 0x1
   - implementer: 0x41
-    part: 0xd4d
-    revision: 0x0
-    variant: 0x1
-  - implementer: 0x41
     part: 0xd47
     revision: 0x0
     variant: 0x2
+  - implementer: 0x41
+    part: 0xd4d
+    revision: 0x0
+    variant: 0x1
   - implementer: 0x41
     part: 0xd4e
     revision: 0x0
@@ -3993,11 +3993,11 @@
     time: '2018.10'
   cores:
   - implementer: 0x51
-    part: 0x805
+    part: 0x804
     revision: 0x14
     variant: 0xd
   - implementer: 0x51
-    part: 0x804
+    part: 0x805
     revision: 0x14
     variant: 0xd
   features:
@@ -4605,6 +4605,10 @@
 - announce:
     time: null
   cores:
+  - implementer: 0x53
+    part: 0x4
+    revision: 0x0
+    variant: 0x1
   - implementer: 0x41
     part: 0xd05
     revision: 0x0
@@ -4613,10 +4617,6 @@
     part: 0xd0b
     revision: 0x1
     variant: 0x3
-  - implementer: 0x53
-    part: 0x4
-    revision: 0x0
-    variant: 0x1
   features:
   - fp
   - asimd
@@ -4766,14 +4766,14 @@
 - announce:
     time: ''
   cores:
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x4
-    variant: 0x0
   - implementer: 0x53
     part: 0x1
     revision: 0x1
     variant: 0x1
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
   features:
   - fp
   - asimd
@@ -4788,14 +4788,14 @@
 - announce:
     time: ''
   cores:
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x4
-    variant: 0x0
   - implementer: 0x53
     part: 0x1
     revision: 0x0
     variant: 0x4
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
   features:
   - fp
   - asimd
@@ -4810,14 +4810,14 @@
 - announce:
     time: ''
   cores:
-  - implementer: 0x41
-    part: 0xd05
-    revision: 0x1
-    variant: 0x0
   - implementer: 0x53
     part: 0x2
     revision: 0x0
     variant: 0x1
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x1
+    variant: 0x0
   features:
   - fp
   - asimd
@@ -4835,6 +4835,10 @@
 - announce:
     time: ''
   cores:
+  - implementer: 0x53
+    part: 0x3
+    revision: 0x0
+    variant: 0x1
   - implementer: 0x41
     part: 0xd05
     revision: 0x0
@@ -4843,10 +4847,6 @@
     part: 0xd0a
     revision: 0x1
     variant: 0x2
-  - implementer: 0x53
-    part: 0x3
-    revision: 0x0
-    variant: 0x1
   features:
   - fp
   - asimd
