@@ -81,7 +81,7 @@
   <td class="nowrap">{{ soc.announce.time }}</td>
   <td class="nowrap">{% for core in soc.cores -%}
   {% if cpu_cores[core.implementer][core.part].trm %}<a href="{{ cpu_cores[core.implementer][core.part].trm }}">{% endif %}{{ cpu_cores[core.implementer][core.part].name }}{% if cpu_cores[core.implementer][core.part].trm %}</a>{% endif %}
-  {% if cpu_cores[core.implementer][core.part].isa_level %} ({{ cpu_cores[core.implementer][core.part].isa_level }}){% endif %}
+  {% if cpu_cores[core.implementer][core.part].isa_level %}&nbsp;({{ cpu_cores[core.implementer][core.part].isa_level }}){% endif %}
   {% if not loop.last %},<br />{% endif %}
   {%- endfor %}</td>
   <td class="nowrap">{% for core in soc.cores %}{{ core.aarch32 }}{% if not loop.last and core.aarch32 != "" %},<br />{% endif %}{% endfor %}</td>
