@@ -2,7 +2,6 @@
 
 from datetime import datetime, timezone
 from jinja2 import Environment, FileSystemLoader
-from operator import attrgetter
 
 import tables
 import sys
@@ -57,7 +56,7 @@ def handle_cpu_features():
         if rva is None:
             rva = " "
             tables.rv_cpu_features[feature]["rva"] = " "
-        if not rva in cpu_features:
+        if rva not in cpu_features:
             cpu_features[rva] = {}
 
         cpu_features[rva][feature] = tables.rv_cpu_features[feature]
@@ -74,8 +73,8 @@ def handle_cpu_cores():
         cpu_cores[implementer] = {}
         for core in tables.rv_cpu_cores[implementer]['cores']:
             try:
-                cpu_cores[implementer][int(core, base=16)] = tables.rv_cpu_cores[
-                    implementer]['cores'][core]
+                cpu_cores[implementer][int(core, base=16)] = (
+                        tables.rv_cpu_cores[implementer]['cores'][core])
             except ValueError:
                 pass
 
