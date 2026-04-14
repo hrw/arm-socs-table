@@ -1,4 +1,28 @@
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x5b7
+    marchid: 0x0
+    mimpid: 0x0
+    mmu: sv39
+  features:
+  - ziccrse
+  - zicntr
+  - zicsr
+  - zifencei
+  - zihpm
+  - zaamo
+  - zalrsc
+  - zfh
+  - zca
+  - zcd
+  - rv64gc
+  name: T-Head TH1520
+  vendor: Alibaba
+  sbc:
+  - Milk-V Meles
+  - Sipeed Lichee 4A
+- announce:
     time: '2024.04'
   cores:
   - implementer: 0x489

@@ -5,6 +5,11 @@
       name: U74
     '0x8000000000000008':
       name: P550
+0x5b7:
+  name: Alibaba
+  cores:
+    '0x0':
+      name: C910
 0x710:
   name: SpacemiT
   cores:

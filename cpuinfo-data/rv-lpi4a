@@ -1,0 +1,40 @@
+lpi4 ~]$ cat /proc/cpuinfo 
+processor	: 0
+hart		: 1
+isa		: rv64imafdc_ziccrse_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zfh_zca_zcd
+mmu		: sv39
+uarch		: thead,c910
+mvendorid	: 0x5b7
+marchid		: 0x0
+mimpid		: 0x0
+hart isa	: rv64imafdc_ziccrse_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zfh_zca_zcd
+
+processor	: 1
+hart		: 0
+isa		: rv64imafdc_ziccrse_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zfh_zca_zcd
+mmu		: sv39
+uarch		: thead,c910
+mvendorid	: 0x5b7
+marchid		: 0x0
+mimpid		: 0x0
+hart isa	: rv64imafdc_ziccrse_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zfh_zca_zcd
+
+processor	: 2
+hart		: 2
+isa		: rv64imafdc_ziccrse_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zfh_zca_zcd
+mmu		: sv39
+uarch		: thead,c910
+mvendorid	: 0x5b7
+marchid		: 0x0
+mimpid		: 0x0
+hart isa	: rv64imafdc_ziccrse_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zfh_zca_zcd
+
+processor	: 3
+hart		: 3
+isa		: rv64imafdc_ziccrse_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zfh_zca_zcd
+mmu		: sv39
+uarch		: thead,c910
+mvendorid	: 0x5b7
+marchid		: 0x0
+mimpid		: 0x0
+hart isa	: rv64imafdc_ziccrse_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zfh_zca_zcd
