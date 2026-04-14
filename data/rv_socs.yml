@@ -21,7 +21,7 @@
   sbc:
   - Milk-V Megrez
   - Pine64 StarPro64
-  - SiFive HiFice Premier P550
+  - SiFive HiFive Premier P550
   vendor: ESWIN
 - announce:
     time: '2024.12'
