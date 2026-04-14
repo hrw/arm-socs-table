@@ -1,0 +1,105 @@
+rv64gc:
+  name: rv64gc
+  rva:
+h:
+  name: Hypervisor Extension
+  rva: RVA22
+v:
+  name: Vector Extension
+  rva: RVA22
+sscofpmf:
+  name: count overflow and mode-based filtering
+  rva:
+sstc:
+  name: supervisor-mode timer interrupts
+  rva: RVA22
+svinval:
+  name: svinval
+  rva:
+svnapot:
+  name: NAPOT Translation Contiguity
+  rva: RVA22
+svpbmt:
+  name: Page-Based Memory Types
+  rva:
+zaamo:
+  name: zaamo
+  rva:
+zalrsc:
+  name: zalrsc
+  rva:
+zba:
+  name: Address computation
+  rva: RVA22
+zbb:
+  name: Basic bit manipulation
+  rva: RVA22
+zbc:
+  name: Scalar carryless multiply
+  rva: RVA23
+zbs:
+  name: Single-bit instructions
+  rva: RVA22
+zca:
+  name:
+  rva:
+zcd:
+  name:
+  rva:
+zfh:
+  name: Half-Precision Floating-Point
+  rva: RVA22
+zfhmin:
+  name: Half-Precision Floating-point transfer and convert
+  rva: RVA22
+zicbom:
+  name: Cache-Block Management Operations
+  rva: RVA22
+zicboz:
+  name: Cache-Block Zero Operations
+  rva: RVA22
+zicntr:
+  name: Basic counters
+  rva: RVA20
+zicond:
+  name: Integer conditional operations
+  rva: RVA23
+zicsr:
+  name: Control and Status Register Access
+  rva:
+zifencei:
+  name: Instruction-fetch fence instruction
+  rva: RVA20
+zihintpause:
+  name: Pause instruction
+  rva: RVA22
+zihpm:
+  name: Hardware performance counters
+  rva: RVA20
+zkt:
+  name: Data-independent execution time
+  rva: RVA22
+zve32f:
+  name: Embedded Vector Computation (32-bit integer, 32-bit FP)
+  rva: RVA22
+zve32x:
+  name: Embedded Vector Computation (32-bit integer)
+  rva: RVA22
+zve64d:
+  name: Embedded Vector Computation (64-bit integer, 64-bit FP)
+  rva: RVA22
+zve64f:
+  name: Embedded Vector Computation (64-bit integer, 32-bit FP)
+  rva: RVA22
+zve64x:
+  name: Embedded Vector Computation (64-bit integer)
+  rva: RVA22
+zvfh:
+  name: Vector Half-Precision Floating-Point
+  rva: RVA23
+zvfhmin:
+  name: Vector Minimal Half-Precision Floating-Point
+  rva: RVA23
+zvkt:
+  name: Vector Data-Independent Execution Latency
+  rva: RVA23

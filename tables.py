@@ -18,3 +18,15 @@ with open("data/cpu_features.yml") as yml:
 
 with open("data/arch_features.yml") as yml:
     arch_features = yaml.safe_load(yml)
+
+with open("data/rv_cpu_cores.yml") as yml:
+    rv_cpu_cores = yaml.safe_load(yml)
+
+with open("data/rv_socs.yml") as yml:
+    rv_socs = yaml.safe_load(yml)
+
+with open("data/rv_arch_features.yml") as yml:
+    rv_arch_features = yaml.safe_load(yml)
+
+with open("data/rv_cpu_features.yml") as yml:
+    rv_cpu_features = yaml.safe_load(yml)

@@ -1,0 +1,103 @@
+- announce:
+    time: '2024.04'
+  cores:
+  - implementer: 0x489
+    marchid: 0x8000000000000008
+    mimpid: 0x6220425
+    mmu: sv48
+  features:
+  - zicsr
+  - zifencei
+  - zaamo
+  - zalrsc
+  - zca
+  - zcd
+  - zba
+  - zbb
+  - sscofpmf
+  - rv64gc
+  - h
+  name: EIC7700X
+  sbc:
+  - Milk-V Megrez
+  - Pine64 StarPro64
+  - SiFive HiFice Premier P550
+  vendor: ESWIN
+- announce:
+    time: '2024.12'
+  cores:
+  - implementer: 0x710
+    marchid: 0x8000000058000001
+    mimpid: 0x1000000049772200
+    mmu: sv39
+  features:
+  - zicbom
+  - zicboz
+  - zicntr
+  - zicond
+  - zicsr
+  - zifencei
+  - zihintpause
+  - zihpm
+  - zaamo
+  - zalrsc
+  - zfh
+  - zfhmin
+  - zca
+  - zcd
+  - zba
+  - zbb
+  - zbc
+  - zbs
+  - zkt
+  - zve32f
+  - zve32x
+  - zve64d
+  - zve64f
+  - zve64x
+  - zvfh
+  - zvfhmin
+  - zvkt
+  - sscofpmf
+  - sstc
+  - svinval
+  - svnapot
+  - svpbmt
+  - rv64gc
+  - v
+  name: K1
+  sbc:
+  - Bit-Brick K1
+  - Banana Pi BPI-F3
+  - Milk-V Jupiter
+  - OrangePi R2S
+  - OrangePi RV2
+  - SpacemiT MusePi Pro
+  vendor: SpacemiT
+- announce:
+    time: '2022.08'
+  cores:
+  - implementer: 0x489
+    marchid: 0x8000000000000007
+    mimpid: 0x4210427
+    mmu: sv39
+  features:
+  - zicntr
+  - zicsr
+  - zifencei
+  - zihpm
+  - zaamo
+  - zalrsc
+  - zca
+  - zcd
+  - zba
+  - zbb
+  - rv64gc
+  name: JH7110
+  sbc:
+  - DeepComputing FML13V01
+  - Milk-V Mars
+  - OrangePi RV
+  - Pine64 Star64
+  - StarFive VisionFive 2
+  vendor: StarFive

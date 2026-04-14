@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>RISC-V SoC features</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="RISC-V SoC features table" />
+    <meta name="keywords" content="risc-v riscv cpuinfo /proc/cpuinfo features flags linux kernel" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@haerwu" />
+    <meta name="twitter:title" content="Marcin Juszkiewicz"/>
+    <meta name="twitter:description" content="RISC-V SoC features table" />
+    <meta name="twitter:creator" content="@haerwu" />
+    <meta name="twitter:image" content="https://marcin.juszkiewicz.com.pl/files/images/hrw-512.jpg" />
+
+    <meta property="og:title" content="RISC-V SoC features table" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://gpages.juszkiewicz.com.pl/arm-socs-table/riscv-socs.html" />
+    <meta property="og:description" content="RISC-V SoC features table" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:site_name" content="Marcin Juszkiewicz" />
+
+{% include "common/datatables-js-css.inc.j2" %}
+{% include "common/css.inc.j2" %}
+</head>
+<body>
+
+<h1>RISC-V SoC features</h1>
+    <p>
+    Table shows which cpu features are present in RISC-V SoCs based on information stored in /proc/cpuinfo file under Linux.
+    </p>
+
+<h2>How to use</h2>
+    <p>There are few features you can use:</p>
+
+    <ul>
+        <li>search field allows to filter table</li>
+        <li>clicking on header entries sorts table</li>
+        <li>columns can be reordered by dragging column header</li>
+        <li>hover feature short name to get full name</li>
+    </ul>
+
+<h2>Some notes</h2>
+
+    <ul>
+        <li>table is updated at random moments</li>
+        <li>feature flags may be assigned to wrong RVA profile</li>
+    </ul>
+
+{% include "common/author-tables-help.inc.j2" %}
+
+<table id="infotable" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th rowspan="2">SoC vendor</th>
+            <th rowspan="2">SoC name</th>
+            <th rowspan="2">CPU implementers</th>
+            <th rowspan="2">Announced</th>
+            <th rowspan="2">CPU cores</th>
+            <th rowspan="2">Virtual Memory</th>
+            <th rowspan="2">SBCs</th>
+{% for rva in cpu_features | sort %}
+    {% for feature in cpu_features[rva] %}
+            <th title="{{ cpu_features[rva][feature].name }}">{{ feature }}</th>
+    {% endfor %}
+{% endfor %}
+        </tr>
+        <tr>
+{% for rva in cpu_features | sort %}
+    {% for feature in cpu_features[rva] %}
+            <th>{{ cpu_features[rva][feature].rva }}</th>
+    {% endfor %}
+{% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+{% for soc in socs %}
+    <tr>
+        <td>{{ soc.vendor  }}</td>
+        <td>{{ soc.name  }}</td>
+  <td class="nowrap">{% for core in soc.cores %}{{ core.implementer_name }}{% if not loop.last %},<br />{% endif %}{% endfor %}</td>
+  <td class="nowrap">{{ soc.announce.time }}</td>
+  <td class="nowrap">{% for core in soc.cores -%}
+  {% if cpu_cores[core.implementer][core.marchid].trm %}<a href="{{ cpu_cores[core.implementer][core.marchid].trm }}">{% endif %}{{ cpu_cores[core.implementer][core.marchid].name }}{% if cpu_cores[core.implementer][core.marchid].trm %}</a>{% endif %}
+  {% if cpu_cores[core.implementer][core.marchid].isa_level %}&nbsp;({{ cpu_cores[core.implementer][core.marchid].isa_level }}){% endif %}
+  {% if not loop.last %},<br />{% endif %}
+  {%- endfor %}</td>
+        <td>{{ soc.cores[0].mmu  }}</td>
+  <td class="nowrap">
+  {% if soc.sbc %}
+    <ul>
+    {% for sbc in soc.sbc %}
+       <li> {{ sbc }} </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+  </td>
+{% for rva in cpu_features | sort %}
+    {% for feature in cpu_features[rva] %}
+        {% if feature in soc['features'] %}
+        <td> YES </td>
+        {% else %}
+        <td class="legacy">NO</td>
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+    </tr>
+{% endfor %}
+    </tbody>
+</table>
+</body>
+<script>
+    new DataTable('#infotable', {
+            pageLength:         -1,
+            paging:             false,
+            scrollX:            true,
+            scrollCollapse:     false,
+            fixedColumns:       { start: 2 },
+            colReorder:         true,
+            mark:               true,
+            dom:                'Bft'
+    });
+</script>
+</html>

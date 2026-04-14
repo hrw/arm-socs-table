@@ -23,7 +23,7 @@ jobs:
         with:
           submodules: true
 
-      - name: Generate SoC features HTML
+      - name: Generate AArch64 SoC features HTML
         run: |
           mkdir -p out
           python3 generate.py > out/arm-socs.html
@@ -32,6 +32,11 @@ jobs:
         run: |
           mkdir -p out
           python3 generate-cpu-cores-table.py > out/arm-cpu-cores.html
+
+      - name: Generate RISC-V SoC features HTML
+        run: |
+          mkdir -p out
+          python3 rv_generate.py > out/riscv-socs.html
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
