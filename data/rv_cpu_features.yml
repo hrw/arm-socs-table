@@ -117,7 +117,7 @@ zvbb:
   rva: RVA23
 zvbc:
   name: Vector carryless multiplication
-  rva: RVA23+
+  rva: RVA23
 zve32f:
   name: Embedded Vector Computation (32-bit integer, 32-bit FP)
   rva: RVA22
