@@ -1,15 +1,16 @@
-# Arm SoC cpu features table
+# AArch64 and RISC-V SoC cpu features tables
 
 ## What and why?
 
-Arm SoC contains some cpu cores and many other blocks. Processors support some
-set of Arm architecture features. And this table is an attempt to show which
-cpus have which features.
+Each SoC contains several CPU cores and numerous other blocks. Processors
+support a specific set of architecture features.
+
+These tables are an attempt to show which chips have which features.
 
 
 ## How to help?
 
-Check table and submit data from your Arm systems. I need:
+Check table and submit data from your AArch64 or RISC-V systems. I need:
 
 - system name ("Pine64 RockPro64")
 - SoC name ("Rockchip RK3399")
@@ -18,4 +19,9 @@ Check table and submit data from your Arm systems. I need:
 
 ## Where to see?
 
-I keep copy at https://marcin.juszkiewicz.com.pl/download/tables/arm-socs.html page.
+- [AArch64 SoC features table](https://gpages.juszkiewicz.com.pl/arm-socs-table/arm-socs.html)
+- [RISC-V SoC features table](https://gpages.juszkiewicz.com.pl/arm-socs-table/riscv-socs.html)
+
+Additionally I provide [AArch64 cpu cores information](https://gpages.juszkiewicz.com.pl/arm-socs-table/arm-cpu-cores.html)
+table where you can check details of Arm-provided CPU cores. With links to their
+Technical Reference Manuals.
