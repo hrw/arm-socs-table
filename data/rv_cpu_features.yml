@@ -1,5 +1,5 @@
 rv64gc:
-  name: rv64gc
+  name:
   rva:
 h:
   name: Hypervisor Extension
@@ -7,6 +7,18 @@ h:
 v:
   name: Vector Extension
   rva: RVA22
+sdtrig:
+  name: Debug triggers
+  rva: RVA23
+smaia:
+  name:
+  rva:
+smstateen:
+  name: State-enable
+  rva:
+ssaia:
+  name:
+  rva:
 sscofpmf:
   name: count overflow and mode-based filtering
   rva:
@@ -14,8 +26,8 @@ sstc:
   name: supervisor-mode timer interrupts
   rva: RVA22
 svinval:
-  name: svinval
-  rva:
+  name: Fine-grained address-translation cache invalidation
+  rva: RVA22
 svnapot:
   name: NAPOT Translation Contiguity
   rva: RVA22
@@ -23,10 +35,13 @@ svpbmt:
   name: Page-Based Memory Types
   rva:
 zaamo:
-  name: zaamo
+  name: Atomic Memory Operations
   rva:
 zalrsc:
-  name: zalrsc
+  name: Load-Reserved/Store-Conditional Instructions
+  rva:
+zawrs:
+  name: Wait-on-reservation-set instructions
   rva:
 zba:
   name: Address computation
@@ -41,10 +56,19 @@ zbs:
   name: Single-bit instructions
   rva: RVA22
 zca:
-  name:
+  name: Integer Compressed Instructions
+  rva:
+zcb:
+  name: Additional compressed instructions
   rva:
 zcd:
-  name:
+  name: Double-Precision Floating-Point Compressed Instructions
+  rva:
+zcmop:
+  name: Compressed may-be-operations
+  rva:
+zfa:
+  name: Additional floating-Point instructions
   rva:
 zfh:
   name: Half-Precision Floating-Point
@@ -55,6 +79,9 @@ zfhmin:
 zicbom:
   name: Cache-Block Management Operations
   rva: RVA22
+zicbop:
+  name: Cache-Block Prefetching
+  rva:
 zicboz:
   name: Cache-Block Zero Operations
   rva: RVA22
@@ -70,15 +97,27 @@ zicsr:
 zifencei:
   name: Instruction-fetch fence instruction
   rva: RVA20
+zihintntl:
+  name: Non-temporal locality hints
+  rva:
 zihintpause:
   name: Pause instruction
   rva: RVA22
 zihpm:
   name: Hardware performance counters
   rva: RVA20
+zimop:
+  name: May-Be-operations
+  rva:
 zkt:
   name: Data-independent execution time
   rva: RVA22
+zvbb:
+  name: Vector basic bit-manipulation instructions
+  rva:
+zvbc:
+  name: Vector carryless multiplication
+  rva:
 zve32f:
   name: Embedded Vector Computation (32-bit integer, 32-bit FP)
   rva: RVA22
@@ -100,6 +139,27 @@ zvfh:
 zvfhmin:
   name: Vector Minimal Half-Precision Floating-Point
   rva: RVA23
+zvkb:
+  name: Vector Cryptography Bit-manipulation
+  rva:
+zvkg:
+  name: Vector GCM/GMAC
+  rva:
+zvkned:
+  name: "NIST Suite: Vector AES Block Cipher"
+  rva:
+zvknha:
+  name: "NIST Suite: Vector SHA-2 Secure Hash"
+  rva:
+zvknhb:
+  name: "NIST Suite: Vector SHA-2 Secure Hash"
+  rva:
+zvksed:
+  name: "ShangMi Suite: SM4 Block Cipher"
+  rva:
+zvksh:
+  name: "ShangMi Suite: SM3 Secure Hash"
+  rva:
 zvkt:
   name: Vector Data-Independent Execution Latency
   rva: RVA23
