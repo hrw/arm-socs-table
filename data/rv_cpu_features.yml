@@ -33,7 +33,7 @@ svnapot:
   rva: RVA22
 svpbmt:
   name: Page-Based Memory Types
-  rva:
+  rva: RVA22
 zaamo:
   name: Atomic Memory Operations
   rva:
@@ -42,7 +42,7 @@ zalrsc:
   rva:
 zawrs:
   name: Wait-on-reservation-set instructions
-  rva:
+  rva: RVA23
 zba:
   name: Address computation
   rva: RVA22
@@ -60,16 +60,16 @@ zca:
   rva:
 zcb:
   name: Additional compressed instructions
-  rva:
+  rva: RVA23
 zcd:
   name: Double-Precision Floating-Point Compressed Instructions
   rva:
 zcmop:
   name: Compressed may-be-operations
-  rva:
+  rva: RVA23
 zfa:
   name: Additional floating-Point instructions
-  rva:
+  rva: RVA23
 zfh:
   name: Half-Precision Floating-Point
   rva: RVA22
@@ -81,7 +81,7 @@ zicbom:
   rva: RVA22
 zicbop:
   name: Cache-Block Prefetching
-  rva:
+  rva: RVA22
 zicboz:
   name: Cache-Block Zero Operations
   rva: RVA22
@@ -93,13 +93,13 @@ zicond:
   rva: RVA23
 zicsr:
   name: Control and Status Register Access
-  rva:
+  rva: RVA20
 zifencei:
   name: Instruction-fetch fence instruction
   rva: RVA20
 zihintntl:
   name: Non-temporal locality hints
-  rva:
+  rva: RVA23
 zihintpause:
   name: Pause instruction
   rva: RVA22
@@ -108,16 +108,16 @@ zihpm:
   rva: RVA20
 zimop:
   name: May-Be-operations
-  rva:
+  rva: RVA23
 zkt:
   name: Data-independent execution time
   rva: RVA22
 zvbb:
   name: Vector basic bit-manipulation instructions
-  rva:
+  rva: RVA23
 zvbc:
   name: Vector carryless multiplication
-  rva:
+  rva: RVA23+
 zve32f:
   name: Embedded Vector Computation (32-bit integer, 32-bit FP)
   rva: RVA22
@@ -147,19 +147,19 @@ zvkg:
   rva:
 zvkned:
   name: "NIST Suite: Vector AES Block Cipher"
-  rva:
+  rva: RVA23
 zvknha:
   name: "NIST Suite: Vector SHA-2 Secure Hash"
-  rva:
+  rva: RVA23
 zvknhb:
   name: "NIST Suite: Vector SHA-2 Secure Hash"
-  rva:
+  rva: RVA23
 zvksed:
   name: "ShangMi Suite: SM4 Block Cipher"
-  rva:
+  rva: RVA23
 zvksh:
   name: "ShangMi Suite: SM3 Secure Hash"
-  rva:
+  rva: RVA23
 zvkt:
   name: Vector Data-Independent Execution Latency
   rva: RVA23
