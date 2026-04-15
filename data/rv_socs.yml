@@ -18,10 +18,10 @@
   - zcd
   - rv64gc
   name: T-Head TH1520
-  vendor: Alibaba
   sbc:
   - Milk-V Meles
   - Sipeed Lichee 4A
+  vendor: Alibaba
 - announce:
     time: '2024.04'
   cores:
@@ -97,6 +97,75 @@
   - OrangePi R2S
   - OrangePi RV2
   - SpacemiT MusePi Pro
+  vendor: SpacemiT
+- announce:
+    time: '2026.01'
+  cores:
+  - implementer: 0x710
+    marchid: 0x8000000058000002
+    mimpid: 0x33d8a600
+    mmu: sv39
+  - implementer: 0x710
+    marchid: 0x8000000041000002
+    mimpid: 0x10000000d5686200
+    mmu: sv39
+  features:
+  - zicbom
+  - zicbop
+  - zicboz
+  - zicntr
+  - zicond
+  - zicsr
+  - zifencei
+  - zihintntl
+  - zihintpause
+  - zihpm
+  - zimop
+  - zaamo
+  - zalrsc
+  - zawrs
+  - zfa
+  - zfh
+  - zfhmin
+  - zca
+  - zcb
+  - zcd
+  - zcmop
+  - zba
+  - zbb
+  - zbc
+  - zbs
+  - zkt
+  - zvbb
+  - zvbc
+  - zve32f
+  - zve32x
+  - zve64d
+  - zve64f
+  - zve64x
+  - zvfh
+  - zvfhmin
+  - zvkb
+  - zvkg
+  - zvkned
+  - zvknha
+  - zvknhb
+  - zvksed
+  - zvksh
+  - zvkt
+  - smaia
+  - smstateen
+  - ssaia
+  - sscofpmf
+  - sstc
+  - svinval
+  - svnapot
+  - svpbmt
+  - sdtrig
+  - rv64gc
+  - v
+  - h
+  name: K3
   vendor: SpacemiT
 - announce:
     time: '2022.08'
