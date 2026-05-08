@@ -3165,7 +3165,7 @@
   name: Neoverse-N2
   vendor: QEMU
 - announce:
-    time: null
+    time: ''
   cores:
   - implementer: 0x0
     part: 0x51
@@ -3204,6 +3204,7 @@
   - sb
   - paca
   - pacg
+  - gcs
   - dcpodp
   - sve2
   - sveaes
@@ -3223,6 +3224,8 @@
   - rng
   - bti
   - ecv
+  - afp
+  - rpres
   - sme
   - smei16i64
   - smef64f64
@@ -3234,8 +3237,18 @@
   - wfxt
   - ebf16
   - sveebf16
+  - cssc
+  - sve2p1
+  - sme2
+  - sme2p1
+  - smei16i32
+  - smebi32i32
+  - smeb16b16
+  - smef16f16
   - mops
   - hbc
+  - sveb16b16
+  - lse128
   name: Max
   vendor: QEMU
 - announce:

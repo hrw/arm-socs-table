@@ -158,6 +158,11 @@ frint:
   feat: FEAT_FRINTTS
   name: Floating-point to integer instructions
   note: v8.5 mandatory
+gcs:
+  archv: 9.3
+  feat: FEAT_GCS
+  name: Guarded Control Stack Extension
+  note: v9.3 optional
 hbc:
   archv: 8.8
   feat: FEAT_HBC
@@ -308,6 +313,11 @@ smeb16f32:
   feat: FEAT_SME
   name: BFloat16 outer product instructions
   note: v9.2 optional
+smebi32i32:
+  archv: 9.2
+  feat: FEAT_SME_BI32I32
+  name: BFloat16 outer product instructions
+  note: v9.2 optional
 smef16f16:
   archv: 9.2
   feat: FEAT_SME_F16F16
@@ -342,6 +352,11 @@ smefa64:
   archv: 9.2
   feat: FEAT_SME_FA64
   name: Full Streaming SVE mode instructions
+  note: v9.2 optional
+smei16i32:
+  archv: 9.2
+  feat: FEAT_SME_I16I32
+  name: 16-bit to 32-bit integer widening outer product instructions
   note: v9.2 optional
 smei16i64:
   archv: 9.2
