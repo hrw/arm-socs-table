@@ -1,0 +1,44 @@
+name: 🆕 Submit a new SoC
+description: Report a new ARM SoC by providing /proc/cpuinfo dump
+title: "[SoC]: "
+labels: ["new-soc"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping grow the AArch64 SoC database! Please provide the details below.
+
+  - type: input
+    id: vendor
+    attributes:
+      label: Vendor
+      description: Company making the chip (e.g. Qualcomm, MediaTek, Apple, Rockchip)
+      placeholder: ""
+    validations:
+      required: true
+
+  - type: input
+    id: soc_name
+    attributes:
+      label: SoC Name
+      description: Market name of the chip (e.g. Snapdragon 632, MT8183)
+      placeholder: ""
+    validations:
+      required: true
+
+  - type: textarea
+    id: cpuinfo
+    attributes:
+      label: /proc/cpuinfo dump
+      description: Paste the full output of `cat /proc/cpuinfo` here.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: extras
+    attributes:
+      label: Any extra information
+      description: Add any other information you feel as relevant.
+    validations:
+      required: false
