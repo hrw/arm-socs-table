@@ -1,0 +1,111 @@
+name: Process New SoC Issue
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  import-cpuinfo-and-pr:
+    # Runs only if the issue has the 'new-soc' label (set by the Issue Form)
+    if: contains(github.event.issue.labels.*.name, 'new-soc')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Parse Issue and Run import-cpuinfo
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          python - <<'EOF'
+          import os
+          import sys
+          import re
+          import subprocess
+
+          body = os.environ.get('ISSUE_BODY', '')
+          if not body:
+              print("No issue body found. Exiting.")
+              sys.exit(1)
+
+          def extract_section(header, text):
+              # Looks for a header starting with ###, then grabs everything
+              # until the next '### ' or the end of the text.
+              pattern = rf"### {header}\s*(.*?)(?=\n### |\Z)"
+              match = re.search(pattern, text, re.DOTALL | re.IGNORECASE)
+              return match.group(1).strip() if match else None
+
+          # Extract fields based on the Issue Form headers
+          vendor = extract_section("Vendor", body)
+          soc = extract_section("SoC Name", body)
+          extra_info = extract_section("Extra info", body)
+          cpuinfo_raw = extract_section("/proc/cpuinfo dump", body)
+
+          if not vendor or not soc or not cpuinfo_raw:
+              print("Failed to parse required fields (Vendor, SoC Name, or cpuinfo dump) from the Issue Form.")
+              sys.exit(1)
+
+          # Strip markdown code block formatting (e.g., ```shell ... ```) if present
+          cpuinfo_clean = cpuinfo_raw
+          code_block_match = re.search(r"```[a-z]*\n(.*?)```", cpuinfo_raw, re.DOTALL)
+          if code_block_match:
+              cpuinfo_clean = code_block_match.group(1).strip()
+
+          print("Extracted data:")
+          print(f"Vendor: {vendor}")
+          print(f"SoC: {soc}")
+          print(f"Extra info: {extra_info if extra_info else 'None'}")
+
+          # Save the raw dump to a temporary file for the import script
+          cpuinfo_file = 'temp_cpuinfo.txt'
+          with open(cpuinfo_file, 'w') as f:
+              f.write(cpuinfo_clean)
+
+          # Run the import-cpuinfo.py script
+          cmd = ['python', 'import-cpuinfo.py', cpuinfo_file, vendor, soc]
+          print(f"Running command: {' '.join(cmd)}")
+
+          result = subprocess.run(cmd, capture_output=True, text=True)
+          if result.returncode != 0:
+              print(f"Error while running import-cpuinfo.py:\n{result.stderr}")
+              sys.exit(1)
+
+          print("Script output:")
+          print(result.stdout)
+
+          # Export variables to GitHub Actions environment for the PR creation step
+          env_file = os.environ.get('GITHUB_ENV')
+          with open(env_file, 'a') as f:
+              f.write(f"SOC_VENDOR={vendor}\n")
+              f.write(f"SOC_NAME={soc}\n")
+
+              # Handle multi-line extra info safely using EOF delimiter
+              if extra_info:
+                  f.write("EXTRA_INFO<<EOF_EXTRA\n")
+                  f.write(f"{extra_info}\n")
+                  f.write("EOF_EXTRA\n")
+          EOF
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          title: "Add ${{ env.SOC_VENDOR }} ${{ env.SOC_NAME }}"
+          body: |
+            Automated CPU data import generated from issue #${{ github.event.issue.number }}.
+
+            **Additional info from the reporter:**
+            ${{ env.EXTRA_INFO || 'No additional info provided.' }}
+
+            Closes #${{ github.event.issue.number }}
+          branch: "add-soc-${{ github.event.issue.number }}"
+          commit-message: "Add ${{ env.SOC_VENDOR }} ${{ env.SOC_NAME }}"
+          delete-branch: true
