@@ -5016,8 +5016,8 @@
   - sha1
   - sha2
   - crc32
-  name: Qualcomm
-  vendor: Snapdragon 617 (MSM8952)
+  name: Snapdragon 617 (MSM8952)
+  vendor: Qualcomm
 - announce:
     time: 2016.11
   cores:
