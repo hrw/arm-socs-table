@@ -4380,6 +4380,71 @@
   name: Snapdragon 730 (SM7150-AA)
   vendor: Qualcomm
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x51
+    part: 0x2
+    revision: 0x1
+    variant: 0x2
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - sm3
+  - sm4
+  - asimddp
+  - sha512
+  - sve
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - sve2
+  - sveaes
+  - svepmull
+  - svesha3
+  - svesm4
+  - flagm2
+  - frint
+  - svei8mm
+  - svebf16
+  - i8mm
+  - bf16
+  - rng
+  - bti
+  - ecv
+  - afp
+  - rpres
+  - sme
+  - smei8i32
+  - smef16f32
+  - smeb16f32
+  - smef32f32
+  - lrcpc3
+  name: Snapdragon 8 Elite Gen 5 (SM8850-1-AD)
+  vendor: Qualcomm
+- announce:
     time: null
   cores:
   - implementer: 0x41
