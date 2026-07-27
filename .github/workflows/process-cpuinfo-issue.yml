@@ -2,7 +2,7 @@ name: Process New SoC Issue
 
 on:
   issues:
-    types: [opened]
+    types: [opened, labeled]
 
 jobs:
   import-cpuinfo-and-pr:
