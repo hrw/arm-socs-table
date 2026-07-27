@@ -13,7 +13,7 @@ body:
     attributes:
       label: Vendor
       description: Company making the chip (e.g. Qualcomm, MediaTek, Apple, Rockchip)
-      placeholder: ""
+      placeholder: "Company name"
     validations:
       required: true
 
@@ -22,7 +22,7 @@ body:
     attributes:
       label: SoC Name
       description: Market name of the chip (e.g. Snapdragon 632, MT8183)
-      placeholder: ""
+      placeholder: "chip name (short name)"
     validations:
       required: true
 
