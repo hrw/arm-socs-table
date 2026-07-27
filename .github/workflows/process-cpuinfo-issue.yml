@@ -82,7 +82,7 @@ jobs:
               f.write(cpuinfo_clean)
 
           # Odpalenie skryptu importu
-          cmd = ['python', 'import-cpuinfo.py', cpuinfo_file, vendor, soc]
+          cmd = ['python', 'import-cpuinfo.py', cpuinfo_file, soc, vendor]
           print(f"Running command: {' '.join(cmd)}")
 
           result = subprocess.run(cmd, capture_output=True, text=True)
