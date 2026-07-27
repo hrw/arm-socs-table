@@ -4332,6 +4332,54 @@
   name: Snapdragon X2 Elite
   vendor: Qualcomm
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x41
+    part: 0xd03
+    revision: 0x4
+    variant: 0x0
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  name: Snapdragon 617 (MSM8952)
+  vendor: Qualcomm
+- announce:
+    time: ''
+  cores:
+  - implementer: 0x51
+    part: 0x805
+    revision: 0x14
+    variant: 0xd
+  - implementer: 0x51
+    part: 0x804
+    revision: 0x14
+    variant: 0xd
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Snapdragon 730 (SM7150-AA)
+  vendor: Qualcomm
+- announce:
     time: null
   cores:
   - implementer: 0x41
@@ -5000,24 +5048,6 @@
   - dcpop
   name: Exynos Auto V9
   vendor: Samsung
-- announce:
-    time: ''
-  cores:
-  - implementer: 0x41
-    part: 0xd03
-    revision: 0x4
-    variant: 0x0
-  features:
-  - fp
-  - asimd
-  - evtstrm
-  - aes
-  - pmull
-  - sha1
-  - sha2
-  - crc32
-  name: Snapdragon 617 (MSM8952)
-  vendor: Qualcomm
 - announce:
     time: 2016.11
   cores:
