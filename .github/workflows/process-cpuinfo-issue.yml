@@ -120,3 +120,4 @@ jobs:
           branch: "add-soc-${{ github.event.issue.number }}"
           commit-message: "Add ${{ env.SOC_VENDOR }} ${{ env.SOC_NAME }}"
           delete-branch: true
+          add-paths: data/
