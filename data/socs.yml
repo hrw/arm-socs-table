@@ -2490,7 +2490,7 @@
   - crc32
   - cpuid
   name: MT7988A
-  vendor: Mediatek
+  vendor: MediaTek
 - announce:
     time: ''
   cores:
@@ -2509,7 +2509,7 @@
   - crc32
   - cpuid
   name: MT7981B
-  vendor: Mediatek
+  vendor: MediaTek
 - announce:
     time: ''
   cores:
@@ -2528,7 +2528,7 @@
   - crc32
   - cpuid
   name: MT7986B
-  vendor: Mediatek
+  vendor: MediaTek
 - announce:
     time: ''
   cores:
@@ -2607,7 +2607,7 @@
   - hbc
   - lrcpc3
   name: Dimensity 9500
-  vendor: Mediatek
+  vendor: MediaTek
 - announce:
     time: ''
   cores:
@@ -2674,7 +2674,7 @@
   - afp
   - wfxt
   name: Dimensity 9400+
-  vendor: Mediatek
+  vendor: MediaTek
 - announce:
     time: 2022.09
   cores:
