@@ -4823,6 +4823,29 @@
   name: Snapdragon 6 Gen 3 (SM6475-AB)
   vendor: Qualcomm
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x51
+    part: 0x801
+    revision: 0x4
+    variant: 0xa
+  - implementer: 0x41
+    part: 0xd09
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: Snapdragon 685 (SM6225-AD)
+  vendor: Qualcomm
+- announce:
     time: null
   cores:
   - implementer: 0x41
