@@ -4704,6 +4704,36 @@
   name: Snapdragon 7s Gen 4
   vendor: Qualcomm
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x2
+  - implementer: 0x41
+    part: 0xd41
+    revision: 0x2
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Snapdragon 6 Gen 3 (SM6475-AB)
+  vendor: Qualcomm
+- announce:
     time: null
   cores:
   - implementer: 0x41
