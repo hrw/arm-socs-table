@@ -1,7 +1,6 @@
 name: 🆕 Submit a new SoC
 description: Report a new ARM SoC by providing /proc/cpuinfo dump
 title: "[SoC]: "
-labels: ["new-soc"]
 body:
   - type: markdown
     attributes:
