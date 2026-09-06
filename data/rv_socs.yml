@@ -194,3 +194,28 @@
   - Pine64 Star64
   - StarFive VisionFive 2
   vendor: StarFive
+- announce:
+    time: '2025.06'
+  cores:
+  - implementer: 0x70a
+    marchid: 0x8000000000413031
+    mimpid: 0x5510000
+    mmu: sv48
+  features:
+  - zicntr
+  - zicsr
+  - zifencei
+  - zihpm
+  - zaamo
+  - zalrsc
+  - zca
+  - zcd
+  - zba
+  - zbb
+  - zbs
+  - rv64gc
+  - h
+  name: DP1000
+  vendor: UltraRISC
+  sbc:
+  - Milk-V Titan

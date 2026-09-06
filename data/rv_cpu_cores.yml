@@ -10,6 +10,11 @@
   cores:
     '0x0':
       name: C910
+0x70a:
+  name: UltraRISC
+  cores:
+    '0x8000000000413031':
+      name: DP1000
 0x710:
   name: SpacemiT
   cores:

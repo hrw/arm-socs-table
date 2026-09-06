@@ -1,0 +1,73 @@
+root@buildhw-riscv-25:~# cat /proc/cpuinfo 
+processor	: 0
+hart		: 1
+isa		: rv64imafdch_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd_zba_zbb_zbs
+mmu		: sv48
+mvendorid	: 0x70a
+marchid		: 0x8000000000413031
+mimpid		: 0x5510000
+hart isa	: rv64imafdch_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd_zba_zbb_zbs
+
+processor	: 1
+hart		: 0
+isa		: rv64imafdch_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd_zba_zbb_zbs
+mmu		: sv48
+mvendorid	: 0x70a
+marchid		: 0x8000000000413031
+mimpid		: 0x5510000
+hart isa	: rv64imafdch_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd_zba_zbb_zbs
+
+processor	: 2
+hart		: 2
+isa		: rv64imafdch_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd_zba_zbb_zbs
+mmu		: sv48
+mvendorid	: 0x70a
+marchid		: 0x8000000000413031
+mimpid		: 0x5510000
+hart isa	: rv64imafdch_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd_zba_zbb_zbs
+
+processor	: 3
+hart		: 3
+isa		: rv64imafdch_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd_zba_zbb_zbs
+mmu		: sv48
+mvendorid	: 0x70a
+marchid		: 0x8000000000413031
+mimpid		: 0x5510000
+hart isa	: rv64imafdch_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd_zba_zbb_zbs
+
+processor	: 4
+hart		: 16
+isa		: rv64imafdch_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd_zba_zbb_zbs
+mmu		: sv48
+mvendorid	: 0x70a
+marchid		: 0x8000000000413031
+mimpid		: 0x5510000
+hart isa	: rv64imafdch_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd_zba_zbb_zbs
+
+processor	: 5
+hart		: 17
+isa		: rv64imafdch_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd_zba_zbb_zbs
+mmu		: sv48
+mvendorid	: 0x70a
+marchid		: 0x8000000000413031
+mimpid		: 0x5510000
+hart isa	: rv64imafdch_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd_zba_zbb_zbs
+
+processor	: 6
+hart		: 18
+isa		: rv64imafdch_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd_zba_zbb_zbs
+mmu		: sv48
+mvendorid	: 0x70a
+marchid		: 0x8000000000413031
+mimpid		: 0x5510000
+hart isa	: rv64imafdch_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd_zba_zbb_zbs
+
+processor	: 7
+hart		: 19
+isa		: rv64imafdch_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd_zba_zbb_zbs
+mmu		: sv48
+mvendorid	: 0x70a
+marchid		: 0x8000000000413031
+mimpid		: 0x5510000
+hart isa	: rv64imafdch_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd_zba_zbb_zbs
+
