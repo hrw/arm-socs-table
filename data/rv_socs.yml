@@ -167,6 +167,12 @@
   - h
   name: K3
   vendor: SpacemiT
+  sbc:
+    - K3 PicoITX
+    - K3-CoM260 SoM
+    - Banana Pi BPI-SM10
+    - DC-ROMA RISC-V Mainboard III
+    - Milk-V Jupiter2
 - announce:
     time: '2022.08'
   cores:
