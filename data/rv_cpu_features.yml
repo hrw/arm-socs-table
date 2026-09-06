@@ -11,19 +11,19 @@ sdtrig:
   name: Debug triggers
   rva: RVA23
 smaia:
-  name:
-  rva:
+  name: Machine-level Advanced Interrupt Architecture
+  rva: RVA23
 smstateen:
   name: State-enable
-  rva:
+  rva: RVA23
 ssaia:
-  name:
-  rva:
+  name: Supervisor-level Advanced Interrupt Architecture
+  rva: RVA23
 sscofpmf:
-  name: count overflow and mode-based filtering
-  rva:
+  name: Count overflow and mode-based filtering
+  rva: RVA22
 sstc:
-  name: supervisor-mode timer interrupts
+  name: Supervisor-mode timer interrupts
   rva: RVA22
 svinval:
   name: Fine-grained address-translation cache invalidation
@@ -36,10 +36,10 @@ svpbmt:
   rva: RVA22
 zaamo:
   name: Atomic Memory Operations
-  rva:
+  rva: RVA20
 zalrsc:
   name: Load-Reserved/Store-Conditional Instructions
-  rva:
+  rva: RVA20
 zawrs:
   name: Wait-on-reservation-set instructions
   rva: RVA23
@@ -57,13 +57,13 @@ zbs:
   rva: RVA22
 zca:
   name: Integer Compressed Instructions
-  rva:
+  rva: RVA20
 zcb:
   name: Additional compressed instructions
   rva: RVA23
 zcd:
   name: Double-Precision Floating-Point Compressed Instructions
-  rva:
+  rva: RVA20
 zcmop:
   name: Compressed may-be-operations
   rva: RVA23
@@ -74,7 +74,7 @@ zfh:
   name: Half-Precision Floating-Point
   rva: RVA22
 zfhmin:
-  name: Half-Precision Floating-point transfer and convert
+  name: Half-Precision Floating-Point transfer and convert
   rva: RVA22
 zicbom:
   name: Cache-Block Management Operations
@@ -141,18 +141,18 @@ zvfhmin:
   rva: RVA23
 zvkb:
   name: Vector Cryptography Bit-manipulation
-  rva:
+  rva: RVA23
 zvkg:
   name: Vector GCM/GMAC
-  rva:
+  rva: RVA23
 zvkned:
   name: "NIST Suite: Vector AES Block Cipher"
   rva: RVA23
 zvknha:
-  name: "NIST Suite: Vector SHA-2 Secure Hash"
+  name: "NIST Suite: Vector SHA-256 (SHA-224 and SHA-256)"
   rva: RVA23
 zvknhb:
-  name: "NIST Suite: Vector SHA-2 Secure Hash"
+  name: "NIST Suite: Vector SHA-512 (SHA-224, SHA-256, SHA-384, and SHA-512)"
   rva: RVA23
 zvksed:
   name: "ShangMi Suite: SM4 Block Cipher"
