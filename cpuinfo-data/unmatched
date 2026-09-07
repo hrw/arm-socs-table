@@ -1,0 +1,43 @@
+csadmin@riscv:~$ uname -a
+Linux riscv.cs.uwlax.edu 6.19.8-200.0.riscv64.fc43.riscv64 #1 SMP PREEMPT_DYNAMIC Sat Mar 14 12:40:58 EDT 2026 riscv64 GNU/Linux
+csadmin@riscv:~$ cat /proc/cpuinfo 
+processor	: 0
+hart		: 1
+isa		: rv64imafdc_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd
+mmu		: sv39
+uarch		: sifive,bullet0
+mvendorid	: 0x489
+marchid		: 0x8000000000000007
+mimpid		: 0x20181004
+hart isa	: rv64imafdc_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd
+
+processor	: 1
+hart		: 2
+isa		: rv64imafdc_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd
+mmu		: sv39
+uarch		: sifive,bullet0
+mvendorid	: 0x489
+marchid		: 0x8000000000000007
+mimpid		: 0x20181004
+hart isa	: rv64imafdc_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd
+
+processor	: 2
+hart		: 3
+isa		: rv64imafdc_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd
+mmu		: sv39
+uarch		: sifive,bullet0
+mvendorid	: 0x489
+marchid		: 0x8000000000000007
+mimpid		: 0x20181004
+hart isa	: rv64imafdc_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd
+
+processor	: 3
+hart		: 4
+isa		: rv64imafdc_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd
+mmu		: sv39
+uarch		: sifive,bullet0
+mvendorid	: 0x489
+marchid		: 0x8000000000000007
+mimpid		: 0x20181004
+hart isa	: rv64imafdc_zicntr_zicsr_zifencei_zihpm_zaamo_zalrsc_zca_zcd
+

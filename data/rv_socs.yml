@@ -48,6 +48,27 @@
   - SiFive HiFive Premier P550
   vendor: ESWIN
 - announce:
+    time: '2020.09'
+  cores:
+  - implementer: 0x489
+    marchid: 0x8000000000000007
+    mimpid: 0x20181004
+    mmu: sv39
+  features:
+  - zicntr
+  - zicsr
+  - zifencei
+  - zihpm
+  - zaamo
+  - zalrsc
+  - zca
+  - zcd
+  - rv64gc
+  name: FU740
+  vendor: SiFive
+  sbc:
+    - HiFive Unmatched
+- announce:
     time: '2024.12'
   cores:
   - implementer: 0x710
@@ -166,13 +187,13 @@
   - v
   - h
   name: K3
-  vendor: SpacemiT
   sbc:
-    - K3 PicoITX
-    - K3-CoM260 SoM
-    - Banana Pi BPI-SM10
-    - DC-ROMA RISC-V Mainboard III
-    - Milk-V Jupiter2
+  - K3 PicoITX
+  - K3-CoM260 SoM
+  - Banana Pi BPI-SM10
+  - DC-ROMA RISC-V Mainboard III
+  - Milk-V Jupiter2
+  vendor: SpacemiT
 - announce:
     time: '2022.08'
   cores:
@@ -222,6 +243,6 @@
   - rv64gc
   - h
   name: DP1000
-  vendor: UltraRISC
   sbc:
   - Milk-V Titan
+  vendor: UltraRISC
