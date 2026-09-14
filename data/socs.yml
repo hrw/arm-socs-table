@@ -202,6 +202,36 @@
   name: A64
   vendor: Allwinner
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x41
+    part: 0xd05
+    revision: 0x0
+    variant: 0x2
+  - implementer: 0x41
+    part: 0xd0b
+    revision: 0x1
+    variant: 0x4
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - lrcpc
+  - dcpop
+  - asimddp
+  name: Agilex 5 E-Series (A5ED065BB32AE4S)
+  vendor: Altera
+- announce:
     time: 2022.05
   cores:
   - implementer: 0x41
