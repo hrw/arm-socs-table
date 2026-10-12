@@ -5393,6 +5393,29 @@
   name: Snapdragon 7s Gen 3 (SM7635)
   vendor: Qualcomm
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x51
+    part: 0x801
+    revision: 0x4
+    variant: 0xa
+  - implementer: 0x41
+    part: 0xd09
+    revision: 0x0
+    variant: 0x1
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - cpuid
+  name: Snapdragon 6s 4G Gen 2 (SM6225-AF)
+  vendor: Qualcomm
+- announce:
     time: '2022.11'
   cores:
   - implementer: 0x41
