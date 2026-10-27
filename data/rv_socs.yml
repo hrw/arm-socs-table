@@ -310,6 +310,7 @@
     mmu: sv39
   features:
   - zicbom
+  - zicbop
   - zicboz
   - zicntr
   - zicond
