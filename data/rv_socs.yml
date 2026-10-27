@@ -143,7 +143,7 @@
   - rv64gc
   - v
   - h
-  name: Maximum
+  name: max
   vendor: QEMU
 - announce:
     time: '2020.09'
