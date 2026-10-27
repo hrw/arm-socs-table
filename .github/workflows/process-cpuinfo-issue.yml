@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      issues: write
       pull-requests: write
 
     steps:
@@ -27,83 +28,9 @@ jobs:
 
 
       - name: Parse Issue and Run import-cpuinfo
-        run: |
-          python - <<'EOF'
-          import os
-          import sys
-          import re
-          import json
-          import subprocess
-
-          # Odczytujemy payload bezpośrednio z pliku, co omija wszelkie problemy z formatowaniem
-          event_path = os.environ.get('GITHUB_EVENT_PATH')
-          if not event_path or not os.path.exists(event_path):
-              print("Nie znaleziono GITHUB_EVENT_PATH.")
-              sys.exit(1)
-
-          with open(event_path, 'r', encoding='utf-8') as f:
-              event_data = json.load(f)
-
-          # Wyciągamy treść zgłoszenia
-          body = event_data.get('issue', {}).get('body', '')
-          if not body:
-              print("No issue body found in the event JSON. Exiting.")
-              sys.exit(1)
-
-          def extract_section(header, text):
-              pattern = rf"### {header}\s*(.*?)(?=\n### |\Z)"
-              match = re.search(pattern, text, re.DOTALL | re.IGNORECASE)
-              return match.group(1).strip() if match else None
-
-          # Wyciąganie pól
-          vendor = extract_section("Vendor", body)
-          soc = extract_section("SoC Name", body)
-          extra_info = extract_section("Extra info", body)
-          cpuinfo_raw = extract_section("/proc/cpuinfo dump", body)
-
-          if not vendor or not soc or not cpuinfo_raw:
-              print("Failed to parse required fields (Vendor, SoC Name, or cpuinfo dump) from the Issue Form.")
-              sys.exit(1)
-
-          # Czyszczenie bloków kodu
-          cpuinfo_clean = cpuinfo_raw
-          code_block_match = re.search(r"```[a-z]*\n(.*?)```", cpuinfo_raw, re.DOTALL)
-          if code_block_match:
-              cpuinfo_clean = code_block_match.group(1).strip()
-
-          print("Extracted data:")
-          print(f"Vendor: {vendor}")
-          print(f"SoC: {soc}")
-          print(f"Extra info: {extra_info if extra_info else 'None'}")
-
-          # Zapis zrzutu
-          cpuinfo_file = 'temp_cpuinfo.txt'
-          with open(cpuinfo_file, 'w') as f:
-              f.write(cpuinfo_clean)
-
-          # Odpalenie skryptu importu
-          cmd = ['python', 'import-cpuinfo.py', cpuinfo_file, soc, vendor]
-          print(f"Running command: {' '.join(cmd)}")
-
-          result = subprocess.run(cmd, capture_output=True, text=True)
-          if result.returncode != 0:
-              print(f"Error while running import-cpuinfo.py:\n{result.stderr}")
-              sys.exit(1)
-
-          print("Script output:")
-          print(result.stdout)
-
-          # Eksport zmiennych do następnego kroku GH Actions
-          env_file = os.environ.get('GITHUB_ENV')
-          with open(env_file, 'a') as f:
-              f.write(f"SOC_VENDOR={vendor}\n")
-              f.write(f"SOC_NAME={soc}\n")
-
-              if extra_info:
-                  f.write("EXTRA_INFO<<EOF_EXTRA\n")
-                  f.write(f"{extra_info}\n")
-                  f.write("EOF_EXTRA\n")
-          EOF
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python .github/workflows/process-cpuinfo-issue.py
 
 
       - name: Create Pull Request
