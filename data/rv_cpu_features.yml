@@ -1,17 +1,29 @@
-rv64gc:
-  name:
-  rva:
 h:
   name: Hypervisor Extension
   rva: RVA22
-v:
-  name: Vector Extension
-  rva: RVA22
+rv64gc:
+  name: General-purpose base ISA
+  rva: RVA20
 sdtrig:
   name: Debug triggers
   rva: RVA23
 smaia:
   name: Machine-level Advanced Interrupt Architecture
+  rva: RVA23
+smcdeleg:
+  name: Counter delegation
+  rva: RVA23
+smcntrpmf:
+  name: Cycle and Instret Privilege Mode Filtering
+  rva: RVA23
+smcsrind:
+  name: Machine Counter/Timer CSR indirect access
+  rva: RVA23
+smmpm:
+  name: Machine-mode pointer masking for memory access
+  rva: RVA23
+smnpm:
+  name: Machine-mode native pointer masking
   rva: RVA23
 smstateen:
   name: State-enable
@@ -19,12 +31,28 @@ smstateen:
 ssaia:
   name: Supervisor-level Advanced Interrupt Architecture
   rva: RVA23
+ssccfg:
+  name: Counter configuration
+  rva: RVA23
 sscofpmf:
   name: Count overflow and mode-based filtering
   rva: RVA22
+sscsrind:
+  name: Supervisor Counter/Timer CSR indirect access
+  rva: RVA23
+ssnpm:
+  name: Supervisor-mode pointer masking
+  rva: RVA23
 sstc:
   name: Supervisor-mode timer interrupts
   rva: RVA22
+svade:
+  name: Page-fault exceptions are raised when a page is accessed when A bit is clear,
+    or written when D bit is clear.
+  rva: RVA20
+svadu:
+  name: Hardware Updating of A/D Bits
+  rva: RVA23
 svinval:
   name: Fine-grained address-translation cache invalidation
   rva: RVA22
@@ -34,9 +62,31 @@ svnapot:
 svpbmt:
   name: Page-Based Memory Types
   rva: RVA22
+svrsw60t59b:
+  name: Reserved Writes with 60-bit tag and 59-bit body
+  rva: null
+svvptc:
+  name: Transitions from invalid to valid PTEs will be visible in bounded time without
+    an explicit memory-management fence
+  rva: RVA23
+v:
+  name: Vector Extension
+  rva: RVA22
+za64rs:
+  name: Reservation sets are contiguous, naturally aligned, and a maximum of 64 bytes.
+  rva: RVA22
 zaamo:
   name: Atomic Memory Operations
   rva: RVA20
+zabha:
+  name: Byte and halfword atomic memory operations
+  rva: RVA23
+zacas:
+  name: Compare-and-Swap instructions
+  rva: RVA23
+zalasr:
+  name: Load-Acquire, Store-Release
+  rva: null
 zalrsc:
   name: Load-Reserved/Store-Conditional Instructions
   rva: RVA20
@@ -52,6 +102,15 @@ zbb:
 zbc:
   name: Scalar carryless multiply
   rva: RVA23
+zbkb:
+  name: Extension for Bit Manipulation for Cryptography
+  rva: RVA22
+zbkc:
+  name: Extension for Carryless Multiplication for Cryptography
+  rva: RVA22
+zbkx:
+  name: Crossbar Permutation Extension
+  rva: RVA22
 zbs:
   name: Single-bit instructions
   rva: RVA22
@@ -70,6 +129,9 @@ zcmop:
 zfa:
   name: Additional floating-Point instructions
   rva: RVA23
+zfbfmin:
+  name: Scalar BF16 converts
+  rva: RVA23
 zfh:
   name: Half-Precision Floating-Point
   rva: RVA22
@@ -85,6 +147,29 @@ zicbop:
 zicboz:
   name: Cache-Block Zero Operations
   rva: RVA22
+ziccamoa:
+  name: Main memory regions with both the cacheability and coherence PMAs must support
+    AMOArithmetic.
+  rva: RVA20
+ziccif:
+  name: Main memory regions with both the cacheability and coherence PMAs must support
+    instruction fetch, and any instruction fetches of naturally aligned power-of-2
+    sizes up to min(ILEN,XLEN) (i.e., 32 bits for RVA23) are atomic.
+  rva: RVA20
+zicclsm:
+  name: Misaligned loads and stores to main memory regions with both the cacheability
+    and coherence PMAs must be supported.
+  rva: RVA20
+ziccrse:
+  name: Main memory regions with both the cacheability and coherence PMAs must support
+    RsrvEventual.
+  rva: RVA20
+zicfilp:
+  name: Landing Pads
+  rva: RVA23
+zicfiss:
+  name: Shadow Stack
+  rva: RVA23
 zicntr:
   name: Basic counters
   rva: RVA20
@@ -109,9 +194,39 @@ zihpm:
 zimop:
   name: May-Be-operations
   rva: RVA23
+zk:
+  name: Standard Scalar Cryptography Extension
+  rva: RVA22
+zkn:
+  name: NIST Cryptography Extension
+  rva: RVA22
+zknd:
+  name: AES Decryption Extension
+  rva: RVA22
+zkne:
+  name: AES Encryption Extension
+  rva: RVA22
+zknh:
+  name: SHA2 Hashing Extension
+  rva: RVA22
+zkr:
+  name: Entropy Source Extension
+  rva: RVA22
+zks:
+  name: ShangMi Cryptography Extension
+  rva: RVA22
+zksed:
+  name: SM4 Block Cypher Extension
+  rva: RVA22
+zksh:
+  name: SM3 Hashing Extension
+  rva: RVA22
 zkt:
   name: Data-independent execution time
   rva: RVA22
+ztso:
+  name: Total Store Ordering memory consistency model
+  rva: null
 zvbb:
   name: Vector basic bit-manipulation instructions
   rva: RVA23
@@ -133,6 +248,12 @@ zve64f:
 zve64x:
   name: Embedded Vector Computation (64-bit integer)
   rva: RVA22
+zvfbfmin:
+  name: Vector BF16 converts
+  rva: RVA23
+zvfbfwma:
+  name: Vector BF16 widening mul-add
+  rva: RVA23
 zvfh:
   name: Vector Half-Precision Floating-Point
   rva: RVA23
@@ -146,19 +267,25 @@ zvkg:
   name: Vector GCM/GMAC
   rva: RVA23
 zvkned:
-  name: "NIST Suite: Vector AES Block Cipher"
+  name: 'NIST Suite: Vector AES Block Cipher'
+  rva: RVA23
+zvkng:
+  name: NIST Algorithm Suite with GCM
   rva: RVA23
 zvknha:
-  name: "NIST Suite: Vector SHA-256 (SHA-224 and SHA-256)"
+  name: 'NIST Suite: Vector SHA-256 (SHA-224 and SHA-256)'
   rva: RVA23
 zvknhb:
-  name: "NIST Suite: Vector SHA-512 (SHA-224, SHA-256, SHA-384, and SHA-512)"
+  name: 'NIST Suite: Vector SHA-512 (SHA-224, SHA-256, SHA-384, and SHA-512)'
   rva: RVA23
 zvksed:
-  name: "ShangMi Suite: SM4 Block Cipher"
+  name: 'ShangMi Suite: SM4 Block Cipher'
+  rva: RVA23
+zvksg:
+  name: Vector crypto ShangMi algorithms with GCM
   rva: RVA23
 zvksh:
-  name: "ShangMi Suite: SM3 Secure Hash"
+  name: 'ShangMi Suite: SM3 Secure Hash'
   rva: RVA23
 zvkt:
   name: Vector Data-Independent Execution Latency
