@@ -85,7 +85,7 @@ zacas:
   name: Compare-and-Swap instructions
   rva: RVA23
 zalasr:
-  name: Load-Acquire, Store-Release
+  name: Atomic Load-Acquire, Store-Release
   rva: null
 zalrsc:
   name: Load-Reserved/Store-Conditional Instructions
