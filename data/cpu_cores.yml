@@ -3611,10 +3611,18 @@
       aarch32: to be set
       isa_level: v8.5
       name: TaiShan V121 (Big)
+    '0xd06':
+      aarch32: to be set
+      isa_level: v8.5
+      name: TaiShan V124 (Big)
     '0xd23':
       aarch32: to be set
       isa_level: v8.5
       name: TaiShan V121 (Little)
+    '0xd24':
+      aarch32: to be set
+      isa_level: v8.5
+      name: TaiShan V124 (Little)
     '0xd40':
       aarch32: EL0?
       isa_level: v8.2
@@ -3627,6 +3635,10 @@
       aarch32: to be set
       isa_level: v8.5
       name: TaiShan V121 (Middle)
+    '0xd47':
+      aarch32: to be set
+      isa_level: v8.5
+      name: TaiShan V124 (Middle)
   name: HiSilicon
 0x4e:
   cores:
