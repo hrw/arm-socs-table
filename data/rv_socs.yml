@@ -48,6 +48,104 @@
   - SiFive HiFive Premier P550
   vendor: ESWIN
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x0
+    marchid: 0x2a
+    mimpid: 0x0
+    mmu: sv57
+  features:
+  - zicbom
+  - zicbop
+  - zicboz
+  - ziccamoa
+  - ziccif
+  - zicclsm
+  - ziccrse
+  - zicfilp
+  - zicfiss
+  - zicntr
+  - zicond
+  - zicsr
+  - zifencei
+  - zihintntl
+  - zihintpause
+  - zihpm
+  - zimop
+  - za64rs
+  - zaamo
+  - zabha
+  - zacas
+  - zalasr
+  - zalrsc
+  - zawrs
+  - zfa
+  - zfbfmin
+  - zfh
+  - zfhmin
+  - zca
+  - zcb
+  - zcd
+  - zcmop
+  - zba
+  - zbb
+  - zbc
+  - zbkb
+  - zbkc
+  - zbkx
+  - zbs
+  - zknd
+  - zkne
+  - zknh
+  - zkr
+  - zkt
+  - zksed
+  - zksh
+  - ztso
+  - zvbb
+  - zvbc
+  - zve32f
+  - zve32x
+  - zve64d
+  - zve64f
+  - zve64x
+  - zvfbfmin
+  - zvfbfwma
+  - zvfh
+  - zvfhmin
+  - zvkb
+  - zvkg
+  - zvkned
+  - zvknha
+  - zvknhb
+  - zvksed
+  - zvksh
+  - zvkt
+  - smaia
+  - smcdeleg
+  - smcntrpmf
+  - smcsrind
+  - smmpm
+  - smnpm
+  - smstateen
+  - ssaia
+  - ssccfg
+  - sscofpmf
+  - sscsrind
+  - ssnpm
+  - sstc
+  - svadu
+  - svinval
+  - svnapot
+  - svpbmt
+  - svrsw60t59b
+  - svvptc
+  - rv64gc
+  - v
+  - h
+  name: Maximum
+  vendor: QEMU
+- announce:
     time: '2020.09'
   cores:
   - implementer: 0x489
