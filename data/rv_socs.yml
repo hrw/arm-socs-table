@@ -146,6 +146,102 @@
   name: max
   vendor: QEMU
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x0
+    marchid: 0x2a
+    mimpid: 0x0
+    mmu: sv39
+  features:
+  - zicbom
+  - zicbop
+  - zicboz
+  - ziccamoa
+  - ziccif
+  - zicclsm
+  - ziccrse
+  - zicntr
+  - zicond
+  - zicsr
+  - zifencei
+  - zihintntl
+  - zihintpause
+  - zihpm
+  - zimop
+  - za64rs
+  - zaamo
+  - zalrsc
+  - zawrs
+  - zfa
+  - zfhmin
+  - zca
+  - zcb
+  - zcd
+  - zcmop
+  - zba
+  - zbb
+  - zbs
+  - zkt
+  - zvbb
+  - zve32f
+  - zve32x
+  - zve64d
+  - zve64f
+  - zve64x
+  - zvfhmin
+  - zvkb
+  - zvkt
+  - smnpm
+  - smstateen
+  - sscofpmf
+  - ssnpm
+  - sstc
+  - svade
+  - svinval
+  - svnapot
+  - svpbmt
+  - rv64gc
+  - v
+  - h
+  name: rva23s64
+  vendor: QEMU
+- announce:
+    time: ''
+  cores:
+  - implementer: 0x0
+    marchid: 0x2a
+    mimpid: 0x0
+    mmu: sv39
+  features:
+  - zicbom
+  - zicbop
+  - zicboz
+  - ziccamoa
+  - ziccif
+  - zicclsm
+  - ziccrse
+  - zicntr
+  - zicsr
+  - zifencei
+  - zihintpause
+  - zihpm
+  - za64rs
+  - zaamo
+  - zalrsc
+  - zfhmin
+  - zca
+  - zcd
+  - zba
+  - zbb
+  - zbs
+  - zkt
+  - svade
+  - svinval
+  - svpbmt
+  - rv64gc
+  name: rva22s64
+  vendor: QEMU
+- announce:
     time: '2020.09'
   cores:
   - implementer: 0x489
