@@ -1944,6 +1944,76 @@
   name: Kiron 9020
   vendor: HiSilicon
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x48
+    part: 0xd24
+    revision: 0x0
+    variant: 0x2
+  - implementer: 0x48
+    part: 0xd47
+    revision: 0x0
+    variant: 0x2
+  - implementer: 0x48
+    part: 0xd06
+    revision: 0x0
+    variant: 0x2
+  features:
+  - fp
+  - asimd
+  - evtstrm
+  - aes
+  - pmull
+  - sha1
+  - sha2
+  - crc32
+  - atomics
+  - fphp
+  - asimdhp
+  - cpuid
+  - asimdrdm
+  - jscvt
+  - fcma
+  - lrcpc
+  - dcpop
+  - sha3
+  - sm3
+  - sm4
+  - asimddp
+  - sha512
+  - sve
+  - asimdfhm
+  - dit
+  - uscat
+  - ilrcpc
+  - flagm
+  - ssbs
+  - sb
+  - paca
+  - pacg
+  - dcpodp
+  - sve2
+  - sveaes
+  - svepmull
+  - svebitperm
+  - svesha3
+  - svesm4
+  - flagm2
+  - frint
+  - svei8mm
+  - svebf16
+  - i8mm
+  - bf16
+  - dgh
+  - bti
+  - ecv
+  - afp
+  - rpres
+  - wfxt
+  - hbc
+  name: Kirin 9030S
+  vendor: HiSilicon
+- announce:
     time: '2017.03'
   cores:
   - implementer: 0x41
