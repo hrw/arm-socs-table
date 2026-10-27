@@ -365,9 +365,14 @@
     mimpid: 0x10000000d5686200
     mmu: sv39
   features:
+  - zic64b
   - zicbom
   - zicbop
   - zicboz
+  - ziccamoa
+  - ziccif
+  - zicclsm
+  - ziccrse
   - zicntr
   - zicond
   - zicsr
@@ -376,10 +381,12 @@
   - zihintpause
   - zihpm
   - zimop
+  - za64rs
   - zaamo
   - zalrsc
   - zawrs
   - zfa
+  - zfbfmin
   - zfh
   - zfhmin
   - zca
@@ -398,6 +405,8 @@
   - zve64d
   - zve64f
   - zve64x
+  - zvfbfmin
+  - zvfbfwma
   - zvfh
   - zvfhmin
   - zvkb
@@ -412,7 +421,9 @@
   - smstateen
   - ssaia
   - sscofpmf
+  - ssnpm
   - sstc
+  - svade
   - svinval
   - svnapot
   - svpbmt
