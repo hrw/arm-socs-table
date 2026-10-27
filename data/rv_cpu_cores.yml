@@ -2,7 +2,7 @@
   name: QEMU
   cores:
     '0x2a':
-      name: maximum
+      name: QEMU
 0x489:
   name: SiFive
   cores:
