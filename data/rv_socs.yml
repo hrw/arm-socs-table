@@ -327,17 +327,28 @@
     mimpid: 0x5510000
     mmu: sv48
   features:
+  - zicbom
+  - zicbop
+  - zicboz
+  - ziccamoa
+  - ziccif
+  - ziccrse
   - zicntr
   - zicsr
   - zifencei
   - zihpm
+  - za64rs
   - zaamo
   - zalrsc
   - zca
   - zcd
   - zba
   - zbb
+  - zbc
   - zbs
+  - zkt
+  - svade
+  - svvptc
   - rv64gc
   - h
   name: DP1000
