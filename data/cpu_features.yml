@@ -8,6 +8,11 @@ afp:
   feat: FEAT_AFP
   name: Alternate floating-point behavior
   note: v8.7 mandatory
+amu:
+  archv: 8.4
+  feat: FEAT_AMUv1
+  name: Activity Monitors Extension
+  note: v8.4 mandatory
 asimd:
   archv: 8.0
   feat: ' '
@@ -48,6 +53,11 @@ bti:
   feat: FEAT_BTI
   name: Branch Target Identification
   note: v8.5 mandatory
+cmpbr:
+  archv: 9.5
+  feat: FEAT_CMPBR
+  name: Compare and branch instructions
+  note:
 cpuid:
   archv: 8.0
   feat: ' '
@@ -98,6 +108,21 @@ evtstrm:
   feat: ' '
   name: ' '
   note: ' '
+f16f32dot:
+  archv: 9.5
+  feat: FEAT_F16F32DOT
+  name: FP16-to-FP32 dot product instructions
+  note:
+f16f32mm:
+  archv: 9.5
+  feat: FEAT_F16F32MM
+  name: FP16-to-FP32 matrix multiply instructions
+  note:
+f16mm:
+  archv: 9.5
+  feat: FEAT_F16MM
+  name: FP16 matrix multiply instructions
+  note:
 f8cvt:
   archv: 9.2
   feat: FEAT_FP8
@@ -117,6 +142,16 @@ f8fma:
   archv: 9.2
   feat: FEAT_FP8FMA
   name: FP8 multiply-accumulate to half-precision and single-precision instructions
+  note:
+f8mm4:
+  archv: 9.2
+  feat: FEAT_F8MM4
+  name: FP8 4-way matrix multiply instructions
+  note:
+f8mm8:
+  archv: 9.2
+  feat: FEAT_F8MM8
+  name: FP8 8-way matrix multiply instructions
   note:
 faminmax:
   archv: 9.2
@@ -152,6 +187,11 @@ fpmr:
   archv: 9.2
   feat: FEAT_FPMR
   name: Floating-point Mode Register
+  note:
+fprcvt:
+  archv: 9.5
+  feat: FEAT_FPRCVT
+  name: Floating-point round and convert instructions
   note:
 frint:
   archv: 8.5
@@ -193,10 +233,20 @@ lrcpc3:
   feat: FEAT_LRCPC3
   name: Load-Acquire RCpc instructions version 3
   note:
+ls64:
+  archv: 8.7
+  feat: FEAT_LS64
+  name: 64-byte loads and stores
+  note: v8.7 optional
 lse128:
   archv: 9.3
   feat: FEAT_LSE128
   name: 128-bit Atomics
+  note:
+lsfe:
+  archv: 9.5
+  feat: FEAT_LSFE
+  name: Load/Store Fault Extensions
   note:
 lut:
   archv: 9.2
@@ -218,6 +268,16 @@ mte3:
   feat: FEAT_MTE3
   name: MTE Asymmetric Fault Handling
   note: v8.5 optional, v8.7 mandatory
+mtefar:
+  archv: 8.8
+  feat: FEAT_MTE_TAGGED_FAR
+  name: MTE tagged FAR
+  note:
+mtestoreonly:
+  archv: 8.8
+  feat: FEAT_MTE_STORE_ONLY
+  name: MTE store-only tag checking
+  note:
 paca:
   archv: 8.4
   feat: FEAT_FPAC
@@ -303,6 +363,21 @@ sme2p1:
   feat: FEAT_SME2P1
   name: Scalable Matrix Extension version 2.1
   note:
+sme2p2:
+  archv: 9.5
+  feat: FEAT_SME2p2
+  name: Scalable Matrix Extension version 2.2
+  note:
+sme2p3:
+  archv: 9.6
+  feat: FEAT_SME2p3
+  name: Scalable Matrix Extension version 2.3
+  note:
+smeaes:
+  archv: 9.5
+  feat: FEAT_SME_AES
+  name: SME AES instructions
+  note:
 smeb16b16:
   archv: 9.2
   feat: FEAT_SME_B16B16
@@ -368,10 +443,35 @@ smei8i32:
   feat: FEAT_SME
   name: Scalable Matrix Extension
   note: v9.2 optional
+smelut6:
+  archv: 9.5
+  feat: FEAT_SME_LUT6
+  name: SME lookup table with 6-bit indices
+  note:
 smelutv2:
   archv: 9.2
   feat: FEAT_SME_LUTV2
   name: Lookup table instructions with 4-bit indices and 8-bit elements
+  note:
+smesbitperm:
+  archv: 9.5
+  feat: FEAT_SME_SBitPerm
+  name: SME scalar bit permute instructions
+  note:
+smesfexpa:
+  archv: 9.5
+  feat: FEAT_SME_SFEXPA
+  name: SME floating-point exponential approximation
+  note:
+smesmop4:
+  archv: 9.5
+  feat: FEAT_SME_SMOP4
+  name: SME quarter-tile outer product instructions
+  note:
+smestmop:
+  archv: 9.5
+  feat: FEAT_SME_STMOP
+  name: SME streaming mode outer product instructions
   note:
 ssbs:
   archv: 8.0
@@ -393,21 +493,46 @@ sve2p1:
   feat: FEAT_SVE2
   name: Scalable Vector Extension version 2.1
   note: v9.0 optional
+sve2p2:
+  archv: 9.5
+  feat: FEAT_SVE2p2
+  name: Scalable Vector Extension version 2.2
+  note:
+sve2p3:
+  archv: 9.6
+  feat: FEAT_SVE2p3
+  name: Scalable Vector Extension version 2.3
+  note:
 sveaes:
   archv: 9.0
   feat: FEAT_SVE_AES
   name: Scalable Vector AES instructions
   note: v9.0 optional
+sveaes2:
+  archv: 9.5
+  feat: FEAT_SVE_AES2
+  name: Scalable Vector wider AES instructions
+  note:
 sveb16b16:
   archv: 9.2
   feat: FEAT_SVE_B16B16
   name: Non-widening BFloat16 to BFloat16 arithmetic for SVE2 and SME2
+  note:
+sveb16mm:
+  archv: 9.5
+  feat: FEAT_SVE_B16B16
+  name: SVE BFloat16 matrix multiply instructions
   note:
 svebf16:
   archv: 8.2
   feat: FEAT_BF16
   name: AArch64 BFloat16 instructions (SVE)
   note: v8.2 optional, v8.6 mandatory
+svebfscale:
+  archv: 9.5
+  feat: FEAT_SVE_BFSCALE
+  name: SVE BFloat16 scaling instructions
+  note:
 svebitperm:
   archv: 9.0
   feat: FEAT_SVE_BitPerm
@@ -418,6 +543,16 @@ sveebf16:
   feat: FEAT_EBF16
   name: AArch64 Extended BFloat16 instructions (SVE)
   note: v9.2 optional
+sveeltperm:
+  archv: 9.5
+  feat: FEAT_SVE_EltPerm
+  name: SVE element permute instructions
+  note:
+svef16mm:
+  archv: 9.5
+  feat: FEAT_SVE_F16MM
+  name: SVE FP16 matrix multiply instructions
+  note:
 svef32mm:
   archv: 8.2
   feat: FEAT_F32MM
@@ -433,6 +568,11 @@ svei8mm:
   feat: FEAT_I8MM
   name: AArch64 Int8 matrix multiplication instructions (SVE)
   note: v8.2 optional, v8.6 mandatory
+svelut6:
+  archv: 9.5
+  feat: FEAT_SVE_LUT6
+  name: SVE lookup table with 6-bit indices
+  note:
 svepmull:
   archv: 9.0
   feat: FEAT_SVE_PMULL128
@@ -458,3 +598,38 @@ wfxt:
   feat: FEAT_WFxT
   name: WFE and WFI instructions with timeout
   note: v8.7 mandatory
+f8e4m3:
+  archv: 8.99
+  feat: FEAT_F8E4M3
+  name:
+  note:
+f8e5m2:
+  archv: 8.99
+  feat: FEAT_F8E5M2
+  name:
+  note:
+smebi32i32:
+  archv: 8.99
+  feat: FEAT_SME_BI32I32
+  name:
+  note:
+smei16i32:
+  archv: 8.99
+  feat: FEAT_SME_I16I32
+  name:
+  note:
+smesf8dp2:
+  archv: 8.99
+  feat: FEAT_SME_SF8DP2
+  name:
+  note:
+smesf8dp4:
+  archv: 8.99
+  feat: FEAT_SME_SF8DP4
+  name:
+  note:
+smesf8fma:
+  archv: 8.99
+  feat: FEAT_SME_SF8FMA
+  name:
+  note:
