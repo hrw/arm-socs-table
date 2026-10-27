@@ -163,9 +163,9 @@
   - zcd
   - rv64gc
   name: FU740
-  vendor: SiFive
   sbc:
-    - HiFive Unmatched
+  - HiFive Unmatched
+  vendor: SiFive
 - announce:
     time: '2024.12'
   cores:
