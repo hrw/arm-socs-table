@@ -242,6 +242,45 @@
   name: rva22s64
   vendor: QEMU
 - announce:
+    time: ''
+  cores:
+  - implementer: 0x0
+    marchid: 0x2a
+    mimpid: 0x0
+    mmu: sv57
+  features:
+  - zicbom
+  - zicbop
+  - zicboz
+  - ziccamoa
+  - ziccif
+  - zicclsm
+  - ziccrse
+  - zicntr
+  - zicsr
+  - zifencei
+  - zihintntl
+  - zihintpause
+  - zihpm
+  - za64rs
+  - zaamo
+  - zalrsc
+  - zawrs
+  - zfa
+  - zca
+  - zcd
+  - zba
+  - zbb
+  - zbc
+  - zbs
+  - sstc
+  - svadu
+  - svvptc
+  - rv64gc
+  - h
+  name: rv64
+  vendor: QEMU
+- announce:
     time: '2020.09'
   cores:
   - implementer: 0x489
