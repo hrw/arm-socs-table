@@ -3610,7 +3610,7 @@
     '0xd05':
       aarch32: to be set
       isa_level: v8.5
-      name: TaiShan V121 (Big)
+      name: TaiShan V123 (Big)
     '0xd06':
       aarch32: to be set
       isa_level: v8.5
